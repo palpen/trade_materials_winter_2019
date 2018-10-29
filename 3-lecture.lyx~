@@ -1,0 +1,5037 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+%Beamer theme and color theme
+\usetheme{Frankfurt}
+\usecolortheme{beaver}
+\setbeamertemplate{mini frames}{}
+
+% set color of elements (e.g. bullet points, theorems, definitions, etc)
+\setbeamercolor{structure}{fg=red!60!white}
+
+% header showing only current section and subsection
+\useoutertheme{infolines}
+
+\usepackage{amsmath,amssymb}
+
+%Expectation symbol
+\DeclareMathOperator{\E}{\mathbb{E}}
+
+\usepackage{booktabs,caption,fixltx2e}
+\usepackage[flushleft]{threeparttable}
+\usepackage{indentfirst}
+\usepackage{amsfonts}
+\usepackage{changepage}
+
+%Set slide number
+\setbeamertemplate{footline}[frame number]
+
+%remove navigation
+\beamertemplatenavigationsymbolsempty
+
+
+
+\definecolor{blue}{RGB}{0,0,120}
+
+\usepackage{hyperref}
+
+\usepackage{array}
+
+\usepackage[section]{placeins}
+
+\usepackage{graphicx}
+\end_preamble
+\options handouts
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+ECO364: International Trade Theory
+\end_layout
+
+\begin_layout Subtitle
+Lecture 3
+\end_layout
+
+\begin_layout Institute
+University of Toronto, Department of Economics
+\end_layout
+
+\begin_layout Author
+Palermo Penano
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+References: 
+\end_layout
+
+\begin_layout Plain Layout
+Lecture 3 (for Stolper Samuelson)
+\end_layout
+
+\begin_layout Plain Layout
+Lecture 4 (All)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Outline for Today
+\end_layout
+
+\begin_layout Subsection
+Outline
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Last Class
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Heckscher-Ohlin Model - Intro
+\end_layout
+
+\begin_layout Itemize
+FF Curve (Relates factor prices to factor demand)
+\end_layout
+
+\begin_layout Itemize
+SS Curve (Relates good prices to factor prices)
+\end_layout
+
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Today
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Review of last lecture (FF and SS curve)
+\end_layout
+
+\begin_layout Itemize
+Putting the FF and SS curve together
+\end_layout
+
+\begin_layout Itemize
+Stolper-Samuelson Theorem
+\end_layout
+
+\begin_layout Itemize
+Rybczynski Theorem (Edgeworth Box and PPF)
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Bonus if anyone not polish can pronounce this 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Heckscher-Ohlin Theorem
+\end_layout
+
+\begin_deeper
+\begin_layout Pause
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Readings
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+None!
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+FF + SS Curves
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Last Lecture...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Derived the FF curve
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Relates relative factor prices to relative input demands (
+\begin_inset Formula $K/L$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+The position of the curves relative to each other depends on the relative
+ input intensity of each good (see FF curve derivation with numbers)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Derived the SS curve
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Relates relative good prices with relative factor prices
+\end_layout
+
+\begin_layout Itemize
+Started with the Lerner Diagram
+\end_layout
+
+\begin_layout Itemize
+Thought experiment
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+FF and SS Curves Together
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.125]{"figures/l3/ffss 1"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+FF and SS Curves Together
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Suppose 
+\begin_inset Formula $P_{T}$
+\end_inset
+
+ increases and 
+\begin_inset Formula $P_{C}$
+\end_inset
+
+ stays constant
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Remember the thought experiment in lecture 2b?
+\end_layout
+
+\begin_layout Itemize
+New firms enter textile because of short-term positive profits
+\end_layout
+
+\begin_layout Itemize
+Capital and labour flows into textiles
+\end_layout
+
+\begin_layout Itemize
+Since textile is labour-intensive, increase in demand for labour increases
+ wages
+\end_layout
+
+\begin_layout Itemize
+But for each unit of labour moving from computers to textiles, more capital
+ is being released
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+this is because computers are relatively capital intensive
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+New, unemployed capital causes a decrease in 
+\begin_inset Formula $r$
+\end_inset
+
+ (the return to capital)
+\end_layout
+
+\begin_layout Itemize
+Therefore, 
+\begin_inset Formula $w/r$
+\end_inset
+
+ increases
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+FF and SS Curves Together
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Because labour is now more expensive relative to capital, firms in both
+ sectors reoptimize to include more capital in their production (this reduces
+ their cost)
+\end_layout
+
+\begin_layout Itemize
+Thus, 
+\begin_inset Formula $K/L$
+\end_inset
+
+ rises in both sectors
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This mapping between relative factor prices and the capital-labour ratio
+ is characterized by the FF curve 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+EXERCISE: Suppose 
+\begin_inset Formula $P_{T}$
+\end_inset
+
+ decreases and 
+\begin_inset Formula $P_{C}$
+\end_inset
+
+ stays constant
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Section
+Three Theorems in the HO Model
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Three Theorems in the HO Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What happens to the returns to factors when the price of goods changes?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Stolper-Samuelson Theorem
+\end_layout
+
+\begin_layout Itemize
+Trade shocks through goods prices could result in welfare losses
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+What happens to the structure of production when the distribution of factor
+ endowments changes?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Rybczynski Theorem
+\end_layout
+
+\begin_layout Itemize
+Allows predictions for how migration might affect industrial structure
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+In what goods do countries specialize in given their factor endowments following
+ trade liberalization?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Heckscher-Ohlin Theorem
+\end_layout
+
+\begin_layout Itemize
+Makes predictions on how factor endowment might affect the goods in which
+ countries might specialize in
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Subsection
+Stolper-Samuelson
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+LARGE 
+\backslash
+textbf{Stolper-Samuelson Theorem}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Stolper-Samuelson Theorem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What happens to the returns to factors when the price of goods changes?
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Pg.
+ 15 in Feenstra and Hanson
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We got a preview of the answer to this question in our study of the FF and
+ SS curves
+\end_layout
+
+\begin_layout Itemize
+We'll add to these results by looking at real returns
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Stolper-Samuelson Theorem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Theorem
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Stolper-Samuelson
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+A rise in the relative price of a good will lead to a rise in the return
+ to the factor used most intensively in the production of that good.
+ There will also be a fall in the return to the other factor
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+If the price of textiles increases, the model predicts that wage increases
+ whereas the return to capital decreases
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Wages increases because labour is the input used most intensively in textiles
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+What about 
+\emph on
+real
+\emph default
+ returns?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What we care about is the purchasing power of our workers
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Which means we must look at real returns: 
+\begin_inset Formula $w/p$
+\end_inset
+
+ and 
+\begin_inset Formula $r/p$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Note, when a person buys both computers and textiles, her real return is
+ wages 
+\begin_inset Formula $w$
+\end_inset
+
+ normalized by a price index 
+\begin_inset Formula $\boldsymbol{P}$
+\end_inset
+
+ (i.e.
+ 
+\begin_inset Formula $w/\boldsymbol{P}$
+\end_inset
+
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\boldsymbol{P}$
+\end_inset
+
+ is a function of the price of both textiles and computers
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Real returns to capital
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Suppose the price of textiles rises while the price of computers stays the
+ same
+\end_layout
+
+\begin_layout Itemize
+We demonstrated that 
+\begin_inset Formula $w$
+\end_inset
+
+ rises and 
+\begin_inset Formula $r$
+\end_inset
+
+ falls
+\end_layout
+
+\begin_layout Itemize
+Since 
+\begin_inset Formula $P_{T}$
+\end_inset
+
+ increased and 
+\begin_inset Formula $P_{C}$
+\end_inset
+
+ did not change, 
+\begin_inset Formula $r/P_{C}$
+\end_inset
+
+ and 
+\begin_inset Formula $r/P_{T}$
+\end_inset
+
+ both decrease
+\end_layout
+
+\begin_layout Itemize
+Therefore, the overall real return to capital falls
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Real returns to labour
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Since the price of computer did not change, 
+\begin_inset Formula $w/P_{C}$
+\end_inset
+
+ increases
+\end_layout
+
+\begin_layout Itemize
+But it is not clear if 
+\begin_inset Formula $w/P_{T}$
+\end_inset
+
+ increased since both 
+\begin_inset Formula $w$
+\end_inset
+
+ and 
+\begin_inset Formula $P_{T}$
+\end_inset
+
+ increased
+\end_layout
+
+\begin_layout Itemize
+From the FF-SS Curves, a rise in 
+\begin_inset Formula $w/r$
+\end_inset
+
+ results in a rise of 
+\begin_inset Formula $K/L$
+\end_inset
+
+ in both industries
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This can be interpreted as firms substituting towards the more inexpensive
+ factor, capital
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Real returns to labour
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.125]{"figures/l3/ffss 2"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Real returns to labour
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The increase in 
+\begin_inset Formula $K/L$
+\end_inset
+
+ raises the marginal product of labour
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each worker is working with more capital, so their individual output increases
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+From perfect competition, 
+\begin_inset Formula $w/P_{T}=MPL_{T}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $MPL_{T}=\frac{\partial F_{T}(K,L)}{\partial L}$
+\end_inset
+
+, marginal product of labour
+\end_layout
+
+\begin_layout Itemize
+e.g.
+ 
+\begin_inset Formula $F_{T}(K,L)=K^{1/3}L^{2/3}\implies MPL_{T}=\frac{2}{3}\left(\frac{K}{L}\right)^{1/3}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The increase in the marginal product of labour increases 
+\begin_inset Formula $w/P_{T}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Argument applies to returns to capital
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each unit of capital is now working with less labour, thus the marginal
+ product of capital falls which means the purchasing power of 
+\begin_inset Formula $r$
+\end_inset
+
+ in terms of both goods fall
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $r/P_{T}=MPK_{T}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Subsection
+Rybczynski
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+LARGE 
+\backslash
+textbf{Rybczynski Theorem}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Rybczynski Theorem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What happens to structure of production when the distribution of factor
+ endowments changes?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Changes in stock of capital and labour: 
+\begin_inset Formula $\bar{K}$
+\end_inset
+
+ and 
+\begin_inset Formula $\bar{L}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Can also give insight on how factor endowments determine a country's industrial
+ composition
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Dutch Disease
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Commodity booms (such as the discovery of oil) tend to cause industrial
+ restructuring, most of the time the type that is harmful to the long-term
+ development of the country
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+The Economist coined the term in 1977 to describe the woes of the Dutch
+ economy.
+ Large gas reserves had been discovered in 1959.
+ Dutch exports soared.
+ But, we noticed, there was a contrast between "external health and internal
+ ailments".
+ From 1970 to 1977 unemployment increased from 1.1% to 5.1%.
+ Corporate investment was tumbling.
+ We explained the puzzle by pointing to the high value of the guilder, then
+ the Dutch currency.
+ Gas exports had led to an influx of foreign currency, which increased demand
+ for the guilder and thus made it stronger.
+ That made other parts of the economy less competitive in international
+ markets.
+ That was not the only problem.
+ Gas extraction was (and is) a relatively capital-intensive business, which
+ generated few jobs.
+ And in an attempt to stop the guilder from appreciating too fast, the Dutch
+ kept interest rates low.
+ That prompted investment to rush out of the country, crimping future economic
+ potential.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+http://www.economist.com/blogs/economist-explains/2014/11/economist-explains-2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Rybczynski Theorem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Given a set of goods prices, the SS curve give the corresponding relative
+ factor price
+\end_layout
+
+\begin_layout Itemize
+Given this relative factor price, the FF curves gives us the capital-labour
+ ratio in each sector
+\end_layout
+
+\begin_layout Itemize
+Along with the resource constraint, we can use this information to solve
+ for factor allocation within this country
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+These factor allocations are 
+\begin_inset Formula $K_{C}$
+\end_inset
+
+, 
+\begin_inset Formula $K_{T}$
+\end_inset
+
+, 
+\begin_inset Formula $L_{C}$
+\end_inset
+
+, 
+\begin_inset Formula $L_{T}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Let's go back to the numerical example from Lecture 2b
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+Q_{C}=K_{C}^{2/3}L_{C}^{1/3} &  & Q_{T}=K_{T}^{1/3}L_{T}^{2/3}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+These production functions implied the following FF curves
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{aligned}\frac{w}{r}=2\frac{K_{T}}{L_{T}} &  & \frac{w}{r}=\frac{1}{2}\frac{K_{C}}{L_{C}}\end{aligned}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{aligned}\frac{w}{r}=2\frac{K_{T}}{L_{T}} &  & \frac{w}{r}=\frac{1}{2}\frac{K_{C}}{L_{C}}\end{aligned}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now suppose relative prices are such that the SS curves gives us 
+\begin_inset Formula $\frac{w}{r}=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Thus, 
+\begin_inset Formula 
+\begin{eqnarray}
+2K_{T} & = & L_{T}\label{eq:1}\\
+K_{C} & = & 2L_{C}\label{eq:2}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In optimum, all resources in a country will be employed
+\end_layout
+
+\begin_layout Itemize
+This gives us the following equations
+\begin_inset Formula 
+\begin{eqnarray}
+K_{T}+K_{C} & = & \bar{K}\\
+L_{T}+L_{C} & = & \bar{L}\label{eq:4}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $K$
+\end_inset
+
+ and 
+\begin_inset Formula $L$
+\end_inset
+
+ with no subscripts are the stock of capital and labour
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Equations 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:1"
+
+\end_inset
+
+-
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:4"
+
+\end_inset
+
+ gives us four equations and four unknowns
+\end_layout
+
+\begin_layout Itemize
+Thus, we can solve for optimal capital and labour in each industry: 
+\begin_inset Formula $K_{C}^{*}$
+\end_inset
+
+, 
+\begin_inset Formula $K_{T}^{*}$
+\end_inset
+
+, 
+\begin_inset Formula $L_{C}^{*}$
+\end_inset
+
+, 
+\begin_inset Formula $L_{T}^{*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Note that the solutions will be a function of the parameters of the optimization
+ problem
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In particular, 
+\begin_inset Formula $K_{C}^{*}$
+\end_inset
+
+, 
+\begin_inset Formula $K_{T}^{*}$
+\end_inset
+
+, 
+\begin_inset Formula $L_{C}^{*}$
+\end_inset
+
+, 
+\begin_inset Formula $L_{T}^{*}$
+\end_inset
+
+ will change as the stock of capital 
+\begin_inset Formula $\bar{K}$
+\end_inset
+
+ and labour 
+\begin_inset Formula $\bar{L}$
+\end_inset
+
+ changes
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Edgeworth Box
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Let's see how this can be done using the Edgeworth Box
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Allows us to visualize how changes in endowment affect input use in each
+ industry and, subsequently, their level of output
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Edgeworth Box
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.125]{"figures/l3/eb 1"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Stock of Labour
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.125]{"figures/l3/eb 2"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Stock of Capital
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.125]{"figures/l3/eb 3"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Large Textile Industry
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.125]{"figures/l3/eb 4"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Large Computer Industry
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.125]{"figures/l3/eb 5"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ray from Origin
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+From the FF-SS curves, we are give the capital-labour ratio for a given
+ relative goods prices and relative factor prices
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+These capital-labour ratios tells us how relatively capital intensive an
+ industry will be for a given relative goods price, 
+\begin_inset Formula $P_{T}/P_{C}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.125]{"figures/l3/ffss 1"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Output Expansion Path
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The prevailing capital-labour ratios for a given set of prices is the slope
+ of the ray from the origin in the Edgeworth box
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+These rays from the origins are also called the Output Expansion Path
+\end_layout
+
+\begin_layout Itemize
+We saw this in our study of the Lerner diagram in lecture 2b
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+By our assumption that the computer industry is more capital intensive than
+ textiles, this line will be steeper for computers
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We can see that this is the case by comparing each industry's FF curves
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.125]{"figures/l3/eb 6"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.125]{"figures/l3/eb 7"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+The resulting factor allocation equilibrium values of capital and labour
+ in each industry is the point where the Output Expansion Paths cross
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.12]{"figures/l3/eb 8"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Not an Equilibrium
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.125]{"figures/l3/eb 9"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Change in Factor Endowment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now we can ask How do production patterns change if we increase the stock
+ of one of the endowments?
+\end_layout
+
+\begin_layout Itemize
+Suppose the stock of labour, 
+\begin_inset Formula $\bar{L}$
+\end_inset
+
+, were to increase but relative good prices and, as a result, relative factor
+ prices stayed the same
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Relative factor intensity in each industry have not changed
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bar{L}$
+\end_inset
+
+
+\begin_inset Formula $\uparrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.125]{"figures/l3/eb 11"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bar{L}$
+\end_inset
+
+
+\begin_inset Formula $\uparrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.125]{"figures/l3/eb 12"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Output Expansion Path Slope
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Because relative good and factor prices did not change, the relative factor
+ intensity in each industry does not change
+\end_layout
+
+\begin_layout Itemize
+Therefore, slope of Output Expansion Path (rays from origin) does not change
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bar{L}$
+\end_inset
+
+
+\begin_inset Formula $\uparrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.125]{"figures/l3/eb 13"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bar{L}$
+\end_inset
+
+
+\begin_inset Formula $\uparrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.125]{"figures/l3/eb 14"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+What Happened?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $K_{T}$
+\end_inset
+
+, 
+\begin_inset Formula $L_{T}$
+\end_inset
+
+ increases 
+\begin_inset Formula $\implies Q_{T}$
+\end_inset
+
+ increases
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $K_{C}$
+\end_inset
+
+, 
+\begin_inset Formula $L_{C}$
+\end_inset
+
+ falls 
+\begin_inset Formula $\implies Q_{C}$
+\end_inset
+
+ falls
+\end_layout
+
+\begin_layout Itemize
+These results summarizes the prediction made by the Rybczynski theorem
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Rybczynski Theorem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Theorem
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Rybczynski Theorem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+An increase in a factor endowment will increase the output of the industry
+ using it intensively, and a decrease in the output of the other industry
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Rybczynski Theorem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Theorem
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Rybczynski Theorem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+An increase in a factor endowment will increase the output of the industry
+ using it intensively, and a decrease in the output of the other industry
+\end_layout
+
+\begin_layout Itemize
+Labour is used more intensively in textiles than in computers
+\end_layout
+
+\begin_layout Itemize
+Therefore, an increase in the stock of labour increased output in textiles
+\end_layout
+
+\begin_layout Itemize
+and decreased output in computers
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Rybczynski Theorem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Theorem
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Rybczynski Theorem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+An increase in a factor endowment will increase the output of the industry
+ using it intensively, and a decrease in the output of the other industry
+\end_layout
+
+\begin_layout Itemize
+An alternative interpretation is that countries will produce more of the
+ good that intensively uses its more abundant factor
+\end_layout
+
+\begin_layout Itemize
+E.g.
+ Mexico will produce more textiles than computers relative to Canada because:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+it has relatively more labour than capital compared with Canada
+\end_layout
+
+\begin_layout Enumerate
+textiles is more labour intensive than computers
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+This can be shown in each countries relative supply curve
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Supply Curve
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.10]{"figures/l3/rsrd 1a"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Supply Curve
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For a given relative goods price, South---the labour abundant country----produce
+s more textiles relative to computers than North---the capital abundant
+ country
+\end_layout
+
+\begin_layout Itemize
+What underlie the difference in these two supply curve is the fact that
+ we have assumed that goods and factor prices remain constant when we changed
+ the labour stock in the Edgeworth Box
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This is why the slopes of the Output Expansion Paths did not change as the
+ stock of labour endowments increased
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Supply Curve
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+So for each 
+\begin_inset Formula $P_{T}/P_{C}$
+\end_inset
+
+, the difference in 
+\begin_inset Formula $Q_{T}/Q_{C}$
+\end_inset
+
+ in the relative supply curves between the two countries are just the result
+ of changes in labour endowment as seen in the Edgeworth Box
+\end_layout
+
+\begin_layout Itemize
+We can also derive these relative supply curves using PPFs
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Rybczynski and PPF
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+PPFs in the HO Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Unlike the Ricardian Model, the PPF in the HO model are bowed out
+\end_layout
+
+\begin_layout Itemize
+This is because of the diminishing marginal returns assumption we made on
+ the production function, 
+\begin_inset Formula $Q_{j}=F_{j}(K,L)$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Increasing the production of good 
+\begin_inset Formula $j$
+\end_inset
+
+ entails increasing usage of both capital and labour
+\end_layout
+
+\begin_layout Itemize
+But as we use more and more of these inputs, the marginal output we get
+ is decreasing
+\end_layout
+
+\begin_layout Itemize
+This results in a bowed out PPF curve
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+PPFs in the HO Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.08]{"figures/l3/ppf 1"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Isovalue Line
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Optimum output can be attained by maximizing the value of output
+\begin_inset Formula 
+\begin{eqnarray*}
+V & = & P_{C}Q_{C}+P_{T}Q_{T}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Rewrite this as
+\begin_inset Formula 
+\[
+Q_{T}=\frac{V}{P_{T}}-\frac{P_{C}}{P_{T}}Q_{C}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This gives us all the combination of 
+\begin_inset Formula $Q_{T}$
+\end_inset
+
+ and 
+\begin_inset Formula $Q_{C}$
+\end_inset
+
+ that attains the value of output 
+\begin_inset Formula $V$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Call this line the 
+\series bold
+isovalue line
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This is not the same as the 
+\series bold
+isovalue curve
+\series default
+ in the Lerner Diagram
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Isovalue Line
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.10]{"figures/l3/ppf 2"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Isovalue Line and changes in Prices
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+As prices change, firms reoptimize and a new tangency point is attained
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.09]{"figures/l3/ppf 4"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Supply Curves
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+The sequence of optimum output as prices change map out the relative supply
+ curves
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.085]{"figures/l3/ppf 5"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Supply Curves
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Note the ratio of prices in the y-axis
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.085]{"figures/l3/ppf 5"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Supply Curves
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The shape of the PPF curves depend on the labour and capital endowment in
+ each country
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $Q_{T}=h(\bar{Q}_{C},\bar{K},\bar{L})$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Consider South, is relatively more abundant in labour
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For a given 
+\begin_inset Formula $Q_{C}$
+\end_inset
+
+, South can create more textiles than North
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+North, on the other hand, is relatively more abundant in capital
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For a given 
+\begin_inset Formula $Q_{T}$
+\end_inset
+
+, North can create more computers than South
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Country PPF
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.10]{"figures/l3/ppf 7"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Country PPF
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.10]{"figures/l3/ppf 6"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Country PPF: North and South
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For a given price, North is able to produce more computers, while South
+ is able to produce more textile
+\end_layout
+
+\begin_layout Itemize
+In other words, for the price 
+\begin_inset Formula $P_{C}/P_{T}$
+\end_inset
+
+ in the diagram, 
+\begin_inset Formula $Q_{T}/Q_{C}$
+\end_inset
+
+ is higher for South
+\end_layout
+
+\begin_layout Itemize
+This means that North's relative supply curve is to the left of South's
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Country PPF: North and South
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.10]{"figures/l3/rsrd 1"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Subsection
+Heckscher-Ohlin
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Free Trade
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Let's now study what happens when we allow countries to trade
+\end_layout
+
+\begin_layout Itemize
+Recall, preference is homothetic and identical across the two countries
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Countries face the same relative demand (RD) curve
+\end_layout
+
+\begin_layout Itemize
+Relative demand curve derived from the utility maximization condition
+\begin_inset Formula 
+\[
+\frac{P_{T}}{P_{C}}=\frac{MU_{T}}{MU_{C}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+It is downward sloping
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Free Trade
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Relative supply curve derived from the tangency points between the PPF and
+ isovalue line
+\end_layout
+
+\begin_layout Itemize
+The points where each country's relative supply curve cross the relative
+ demand curve is their autarky equilibrium
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Autarky Equilibrium
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.10]{"figures/l3/rsrd 1"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Autarky Equilibrium: PPF
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+For both countries, equilibrium quantities is located where PPF is tangent
+ to indifference curve.
+ Consumption also equal production in autarky
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.083]{"figures/l3/ppf 9"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trade Equilibrium
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+With free trade, goods are now free to flow across countries
+\end_layout
+
+\begin_layout Itemize
+Differences in price for a good across countries can be arbitraged away
+\end_layout
+
+\begin_layout Itemize
+This causes a convergence in the relative price of goods 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A decrease in relative goods prices for North
+\end_layout
+
+\begin_layout Itemize
+An increase in relative goods prices for South
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trade Equilibrium
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.10]{"figures/l3/rsrd 2"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trade Equilibrium
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.10]{"figures/l3/rsrd 3"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trade Equilibrium
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+At the new trade equilibrium relative good prices, production no longer
+ equals consumption
+\end_layout
+
+\begin_layout Itemize
+We can see how output changes within a country and the gains from trade
+ from the PPF curve
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade: South
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.10]{"figures/l3/ppf 10"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade: South
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In autarky, South had to produce its own computers
+\end_layout
+
+\begin_layout Itemize
+When countries are allowed to trade, prices converge and South goes from
+ facing its autarky price 
+\begin_inset Formula $\left(\frac{P_{T}}{P_{C}}\right)_{S}^{AUT}$
+\end_inset
+
+ to a higher global market price 
+\begin_inset Formula $\left(\frac{P_{T}}{P_{C}}\right)^{TRADE}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Note in the PPF diagram, this is a decrease in 
+\begin_inset Formula $\frac{P_{C}}{P_{T}}$
+\end_inset
+
+---which is a flatter isovalue line
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+We see that following this change in relative price, South produces less
+ computers and more textiles
+\end_layout
+
+\begin_layout Itemize
+By importing the extra computers they need and exporting their surplus of
+ textiles, they achieve a higher indifference curve
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade: South
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.10]{"figures/l3/ppf 11"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade: North
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.10]{"figures/l3/ppf 12"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade: North
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Under autarky, North had to produce relatively more textiles to satisfy
+ demand
+\end_layout
+
+\begin_layout Itemize
+Trade caused a decrease of relative goods prices from autarky, 
+\begin_inset Formula $\left(\frac{P_{T}}{P_{C}}\right)_{N}^{AUT}$
+\end_inset
+
+ ,to global market price, 
+\begin_inset Formula $\left(\frac{P_{T}}{P_{C}}\right)^{TRADE}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This is an increase in the inverse, 
+\begin_inset Formula $P_{C}/P_{T}$
+\end_inset
+
+, resulting in a steeper isovalue line
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+North can now specialize in computers by producing more of it relative to
+ textiles
+\end_layout
+
+\begin_layout Itemize
+By importing the extra textiles they need and exporting their surplus of
+ computers, they achieve a higher indifference curve
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Heckscher-Ohlin Theorem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This trading pattern is summarized by the Heckscher-Ohlin Theorem
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Heckscher-Ohlin Theorem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Theorem
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Heckscher-Ohlin Theorem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+Each country will export the good that uses its abundant factor intensively
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Heckscher-Ohlin Theorem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Theorem
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Heckscher-Ohlin Theorem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+Each country will export the good that uses its abundant factor intensively
+\end_layout
+
+\begin_layout Itemize
+South is abundant in labour
+\end_layout
+
+\begin_layout Itemize
+Textile is labour intensive
+\end_layout
+
+\begin_layout Itemize
+South will export textile under free trade
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Implications on Income Distribution
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $P_{T}/P_{C}$
+\end_inset
+
+ rose for South and fell for North
+\end_layout
+
+\begin_layout Itemize
+By the Stolper-Samuelson theorem
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Labourers in the South real returns increase; capital owners real returns
+ decrease
+\end_layout
+
+\begin_layout Itemize
+Labourers in the North real returns decrease; capital owners real returns
+ increase
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Abundant factors win while scarce factors lose
+\end_layout
+
+\begin_layout Itemize
+But, countries as a whole achieve a higher indifference curve
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Those who gained outnumber those who lost welfare
+\end_layout
+
+\begin_layout Itemize
+Perhaps some sort of transfer mechanism could be implemented to share some
+ of the gains with scarce factors
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Section
+Size and Gains from Trade
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Size and Gains from Trade
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+From the PPF curves, we saw that the more different a country's autarky
+ price is form the global market price, the greater the gain
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Size and Gains from Trade
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.10]{"figures/l3/ppf 10"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Size and Gains from Trade
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Under what case will a country experience a drastic change in its relative
+ goods price when going from autarky to free trade?
+\end_layout
+
+\begin_layout Itemize
+A country will experience the most drastic change in its relative goods
+ price the more 
+\emph on
+different 
+\emph default
+it is from the integrated world (post-trade world)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Different in terms of its stock of factors
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The country that is most different from the integrated world are the smaller
+ countries
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Size and Gains from Trade
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consider the following example
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Country Size by Stock of Capital} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{ccccccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+ & 
+\backslash
+multicolumn{3}{c}{Large Canada} & 
+\backslash
+multicolumn{3}{c}{Large China} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		   &    $
+\backslash
+bar{K}$    & $
+\backslash
+bar{L}$  &  $
+\backslash
+bar{K/L}$ & $
+\backslash
+bar{K}$    & $
+\backslash
+bar{L}$  &  $
+\backslash
+bar{K/L}$
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline         
+\end_layout
+
+\begin_layout Plain Layout
+
+Canada    &   200 &  100  &   2   &  20 &  10  &   2    
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+China    &      5 &   20 &  0.25  &  50 &   200 &  0.25    
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+World    &    205 &  120  &   1.71 &   70 &  210  &   0.33    
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Large Canada
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Country Size by Stock of Capital} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{ccccccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+ & 
+\backslash
+multicolumn{3}{c}{Large Canada} & 
+\backslash
+multicolumn{3}{c}{Large China} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		   &    $
+\backslash
+bar{K}$    & $
+\backslash
+bar{L}$  &  $
+\backslash
+bar{K/L}$    &   $
+\backslash
+bar{K}$    & $
+\backslash
+bar{L}$  &  $
+\backslash
+bar{K/L}$ 
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline         
+\end_layout
+
+\begin_layout Plain Layout
+
+Canada    &   200 &  100  &   2   &  20 &  10  &   2    
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+China    &      5 &   20 &  0.25  &  50 &   200 &  0.25    
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+World    &    205 &  120  &   1.71 &   70 &  210  &   0.33    
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Canada more closely resembles the world
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Canada's 
+\begin_inset Formula $K/L=2$
+\end_inset
+
+; World's 
+\begin_inset Formula $K/L=1.71$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Thus, Canada's autarky price is close to world trade equilibrium price
+\end_layout
+
+\begin_layout Itemize
+China will experience a more drastic change in the isovalue line, which
+ means greater gains
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Large Canada
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.135]{"figures/l3/ffss 3"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Large China
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Country Size by Stock of Capital} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{ccccccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+ & 
+\backslash
+multicolumn{3}{c}{Large Canada} & 
+\backslash
+multicolumn{3}{c}{Large China} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		   &    $
+\backslash
+bar{K}$    & $
+\backslash
+bar{L}$  &  $
+\backslash
+bar{K/L}$    &   $
+\backslash
+bar{K}$    & $
+\backslash
+bar{L}$  &  $
+\backslash
+bar{K/L}$ 
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline         
+\end_layout
+
+\begin_layout Plain Layout
+
+Canada    &   200 &  100  &   2   &  20 &  10  &   2    
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+China    &      5 &   20 &  0.25  &  50 &   200 &  0.25    
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+World    &    205 &  120  &   1.71 &   70 &  210  &   0.33    
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+China more closely resembles the world
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+China's 
+\begin_inset Formula $K/L=0.25$
+\end_inset
+
+; World's 
+\begin_inset Formula $K/L=0.33$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Thus, China's autarky price is close to world trade equilibrium price
+\end_layout
+
+\begin_layout Itemize
+Canada will experience a more drastic change in the isovalue line, which
+ means greater gains
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Large China
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.135]{"figures/l3/ffss 4"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We have covered the three major results in the Heckscher-Ohlin Model
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Stolper-Samuelson Theorem
+\end_layout
+
+\begin_layout Itemize
+Rybczynski Theorem
+\end_layout
+
+\begin_layout Itemize
+Heckscher-Ohlin Theorem
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Together, they allowed us to answer
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How changes in goods prices affect the return to factors
+\end_layout
+
+\begin_layout Itemize
+How changes in the stock of factors affect industrial composition
+\end_layout
+
+\begin_layout Itemize
+and how the stock of factors determine the goods countries will trade
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Next class
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Trade allow prices to converge, which causes factor prices to also converge
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why does this happen?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+How well does the HO model hold in the data?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\end_body
+\end_document

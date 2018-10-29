@@ -1,0 +1,4507 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+%Beamer theme and color theme
+\usetheme{Frankfurt}
+\usecolortheme{beaver}
+
+% no dots/buttons along the top
+\setbeamertemplate{mini frames}{}
+
+\usepackage{amsmath,amssymb}
+
+%Expectation symbol
+\DeclareMathOperator{\E}{\mathbb{E}}
+
+\usepackage{booktabs,caption,fixltx2e}
+\usepackage[flushleft]{threeparttable}
+\usepackage{indentfirst}
+\usepackage{amsfonts}
+\usepackage{changepage}
+
+%Set slide number
+\setbeamertemplate{footline}[frame number]
+
+%remove navigation
+\beamertemplatenavigationsymbolsempty
+
+
+
+\definecolor{blue}{RGB}{0,0,120}
+
+\usepackage{hyperref}
+
+\usepackage{array}
+
+\usepackage[section]{placeins}
+\end_preamble
+\options handouts
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+ECO364: International Trade Theory
+\end_layout
+
+\begin_layout Subtitle
+Lecture 1
+\end_layout
+
+\begin_layout Institute
+University of Toronto
+\end_layout
+
+\begin_layout Author
+Palermo Penano
+\end_layout
+
+\begin_layout Section
+Welcome
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Short course introduction
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Hello
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Course Scheduling
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+When? Tuesday 6-9pm
+\end_layout
+
+\begin_layout Itemize
+Where? SS2135
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Hello
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Palermo Penano
+\end_layout
+
+\begin_layout Itemize
+Data scientist at Scotiabank
+\end_layout
+
+\begin_layout Itemize
+Email: palermo.penano@mail.utoronto.ca
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Administration
+\end_layout
+
+\begin_layout Subsection
+Books
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Textbook
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+”International Economics: Theory and Policy” 
+\series default
+by Paul R.
+ Krugman, Marc J.
+ Melitz, and Maurice Obstfeld.
+\end_layout
+
+\begin_layout Itemize
+10th Edition — older edition is fine
+\end_layout
+
+\begin_layout Itemize
+Recommended but not required
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+TA and Website
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Course Website and TAs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+!!! INSERT COURSE WEBSITE HERE !!!
+\end_layout
+
+\begin_layout Itemize
+TAs: 
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Rachapalli, Swapnika Reddy
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Email: s.rachapalli@mail.utoronto.ca
+\end_layout
+
+\begin_layout Itemize
+Office hours: TBA
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Gorgulu, Nazli Billur
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Email: billur.gorgulu@mail.utoronto.ca
+\end_layout
+
+\begin_layout Itemize
+Office hours: TBA
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Office hours 
+\begin_inset Formula $\succ$
+\end_inset
+
+ Email
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Evaluation
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Grading
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+See syllabus for dates and deadlines
+\end_layout
+
+\begin_layout Itemize
+Four problem sets each worth 5%
+\end_layout
+
+\begin_layout Itemize
+In-class Midterm Exam: 30%
+\end_layout
+
+\begin_layout Itemize
+Final Exam: 50%
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Course Objectives
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Understand the reason for why countries trade using economic modelling 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+example of models: maps.
+ Our model will be characterized by mathematical equations
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Review some of the empirical litrature testing these models
+\end_layout
+
+\begin_layout Itemize
+Recommended reading: 
+\emph on
+Two Cheers for Formalism
+\emph default
+ by Paul Krugman 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+READ THIS !!!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Outline for the Course
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Ricardian Model
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How does differences in productivity drive specialization?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Heckscher-Ohlin Model
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How does differences in the abundance of factors drive specialization?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Specific-Factors Model 
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How does differences in the abundance of factors drive specialization in
+ the case where one of the factors is immobile?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Midterm
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Outline for the Course
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+!!! REVIEW SCOTTS MATERIALS FOR INTRODUCTION !!!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Trade Policy
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Instruments
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tariffs, quotas, export subsidies, voluntary export restraints
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Politics
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why limit (encourage) trade?
+\end_layout
+
+\begin_layout Itemize
+Why do we have the WTO?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Trade with increasing returns and imperfect competition
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+External versus internal economies of scale
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Does trade encourage cost savings through economies of scale?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Market power and trade
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Does trade limit (increase) market power? 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Firm heterogeneity and trade
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Do more productive firms benefit from trade liberalization?
+\end_layout
+
+\begin_layout Itemize
+Does trade encourage firms to invest in productivity?
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Outline for Today
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why is trade important?
+\end_layout
+
+\begin_layout Itemize
+Trade facts for Canada, China, Mexico, and the U.S.
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Trade over time
+\end_layout
+
+\begin_layout Itemize
+Trade by commodity
+\end_layout
+
+\begin_layout Itemize
+Trade by partner country
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Outline for Semester
+\end_layout
+
+\begin_layout Itemize
+Ricardian Model
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Trade Facts
+\end_layout
+
+\begin_layout Subsection
+facts
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trade Over Time
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.42]{figures/l1/Slide1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trade Over Time
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Trade, as a share of GDP, has grown since the 1970s, with rapid increases
+ beginning in the 1980s
+\end_layout
+
+\begin_layout Itemize
+This is true for both advanced and developing countries
+\end_layout
+
+\begin_layout Itemize
+In this course, we will offer suggestions for why this is happening
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trade by Commodity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{Exports by Commodities (
+\backslash
+%) (1980)}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-7.0mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{small} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{ccccccccc} 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+ Type of Goods & & Canada & &   China         &  & Mexico &  & United States
+ 
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline             &            &            &            &            &
+            &            &            &            
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       Cars and Airplanes &   &      13.8 &    &  0.3          &     & 1.5
+ &    &    11.6 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       Chemicals & &      3.0 &      &       2.7     &     & 2.2 &    &   
+ 4.0 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       Food &  &      10.2 &    &   14.5         &     & 9.6 &   &      13.2
+ 
+\backslash
+
+\backslash
+        Textiles &  &      0.3 &    &   9.3         &      & 1.5 &   &    
+ 0.6 
+\backslash
+
+\backslash
+                    &            &            &            &           
+ &            &            &            &            
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{ 9}{l}{Source: Robert Feenstra, ``World Trade Flows"} 
+\backslash
+end{tabular}   
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{small} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trade by Commodity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{Exports by Commodities (
+\backslash
+%) (1990)}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-7.0mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{small} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{ccccccccc} 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+ Type of Goods & & Canada & &   China         &  & Mexico &  & United States
+ 
+\backslash
+
+\backslash
+  
+\backslash
+hline             &            &            &            &            &
+            &            &            &            
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       Cars and Airplanes &   &      23.5 &    &  0.9          &     & 11.0
+ &    &    15.2 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       Chemicals & &      2.2 &      &       2.0     &     & 2.5 &    &   
+ 3.7 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       Food &  &      6.8 &    &   7.7         &     & 6.9 &   &      8.1 
+\backslash
+
+\backslash
+        Textiles &  &      0.2 &    &   18.8         &      & 1.8 &   &   
+  0.6 
+\backslash
+
+\backslash
+                    &            &            &            &           
+ &            &            &            &            
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{ 9}{l}{Source: Robert Feenstra, ``World Trade Flows"} 
+\backslash
+end{tabular}   
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{small} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trade by Commodity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{Exports by Commodities (
+\backslash
+%) (2000)}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-7.0mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{small} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{ccccccccc} 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+ Type of Goods & & Canada & &   China         &  & Mexico &  & United States
+ 
+\backslash
+
+\backslash
+  
+\backslash
+hline             &            &            &            &            &
+            &            &            &            
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       Cars and Airplanes &   &      23.6 &    &  1.6          &     & 18.8
+ &    &    12.4 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       Chemicals & &      1.5 &      &       1.5     &     & 1.0 &    &   
+ 3.4 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+       Food &  &      5.5 &    &   3.5         &     & 3.5 &   &      4.7 
+\backslash
+
+\backslash
+        Textiles &  &      0.7 &    &   13.6         &      & 5.6 &   &   
+  0.6 
+\backslash
+
+\backslash
+                    &            &            &            &           
+ &            &            &            &            
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{ 9}{l}{Source: Robert Feenstra, ``World Trade Flows"} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}   
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{small} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trade by Commodity: Evidence of Specialization?
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Developed countries produce more cars, airplanes, and chemicals
+\end_layout
+
+\begin_layout Itemize
+Developing countries produce more textiles and food
+\end_layout
+
+\begin_layout Itemize
+Countries appear to be specializing depending on their level of development
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trade by Partners
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{Canada}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-7.0mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table} 
+\backslash
+begin{center} 
+\backslash
+begin{small} 
+\backslash
+begin{tabular}{cccccc} 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+ Export Share (1970) & & 
+\backslash
+% & &   Export Share (1995) & 
+\backslash
+%      
+\backslash
+
+\backslash
+  
+\backslash
+hline                     &            &            &            &     
+      &         
+\backslash
+
+\backslash
+         United States    &           &   65.3
+\backslash
+%          &            &   United States   &   75.0
+\backslash
+%     
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+United Kingdom      &  & 9.4
+\backslash
+%      &    & Japan    & 5.5
+\backslash
+% 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Japan & &  5.5
+\backslash
+%   &     &   Germany      &  1.9
+\backslash
+%  
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+(West) Germany &  &  2.9
+\backslash
+%     &    &   United Kingdom        &  1.9
+\backslash
+% 
+\backslash
+
+\backslash
+ Italy &  & 1.3
+\backslash
+%  &    &   China       &  1.4
+\backslash
+%   
+\backslash
+
+\backslash
+                    &            &            &            &           &
+         
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline 
+\backslash
+multicolumn{ 6}{l}{Source: Robert Feenstra, ``World Trade Flows"} 
+\backslash
+end{tabular}   
+\backslash
+end{small} 
+\backslash
+end{center} 
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trade by Partners
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{China}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-7.0mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table} 
+\backslash
+begin{center} 
+\backslash
+begin{small} 
+\backslash
+begin{tabular}{cccccc} 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+ Export Share (1970) & & 
+\backslash
+% & &   Export Share (1995) & 
+\backslash
+%      
+\backslash
+
+\backslash
+  
+\backslash
+hline                     &            &            &            &     
+      &         
+\backslash
+
+\backslash
+         Hong Kong    &           &   28.0
+\backslash
+%          &            &   Hong Kong    &    30.0
+\backslash
+%    
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Japan      &  & 15.2
+\backslash
+%      &    &  United States    & 20.9
+\backslash
+%  
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Singapore & &  7.6
+\backslash
+%     &   &     Japan    &   15.5
+\backslash
+%  
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+(West) Germany &  &  4.6
+\backslash
+%     &    &    Germany       & 4.8
+\backslash
+%  
+\backslash
+
+\backslash
+ Malaysia &  & 4.5
+\backslash
+%  &    &   South Korea      &  3.2
+\backslash
+% 
+\backslash
+
+\backslash
+                    &            &            &            &           
+ &            
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline 
+\backslash
+multicolumn{6}{l}{Source: Robert Feenstra, ``World Trade Flows"} 
+\backslash
+end{tabular} 
+\backslash
+end{small} 
+\backslash
+end{center} 
+\backslash
+end{table}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trade by Partners
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{U.S.A}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-7.0mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table} 
+\backslash
+begin{center} 
+\backslash
+begin{small} 
+\backslash
+begin{tabular}{cccccc} 
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+ Export Share (1970) & & 
+\backslash
+% & &   Export Share (1995) & 
+\backslash
+%      
+\backslash
+
+\backslash
+  
+\backslash
+hline                     &            &            &            &     
+       &            
+\backslash
+
+\backslash
+         Canada    &           &   20.6
+\backslash
+%          &            &   Canada    &  17.5
+\backslash
+%      
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Japan     &  & 12.1
+\backslash
+%      &    & Japan     & 12.0
+\backslash
+%  
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+West Germany & & 6.6
+\backslash
+%     &     &   Mexico      &  8.5
+\backslash
+%  
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+United Kingdom &  &  6.0
+\backslash
+%     &    &  United Kingdom         &   5.1
+\backslash
+% 
+\backslash
+
+\backslash
+ France &  & 4.1
+\backslash
+%.
+  &    &    Germany      &  5.0
+\backslash
+% 
+\backslash
+
+\backslash
+                    &            &            &            &           
+ &            
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+hline 
+\backslash
+multicolumn{ 6}{l}{Source: Robert Feenstra, ``World Trade Flows"} 
+\backslash
+end{tabular} 
+\backslash
+end{small} 
+\backslash
+end{center} 
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Take Away
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Trade flows appear to be greatest between countries that are large and countries
+ that are physically close
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Larger economies produce more goods and services: more things to sell in
+ the export market
+\end_layout
+
+\begin_layout Itemize
+Larger economies generate more income from goods and services sold: they
+ can buy more imports
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Thus, large countries are more likely to trade with each other
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Take Away
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We can model this observation by borrowing the model that describes a fundamenta
+l law in physics: large and close bodies generate greater gravitational
+ force
+\end_layout
+
+\begin_layout Itemize
+This law is repurposed by economists to describe international trade
+\end_layout
+
+\begin_layout Itemize
+It is called the Gravity Model of Trade:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+countries 
+\begin_inset Formula $i$
+\end_inset
+
+ and 
+\begin_inset Formula $j$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Y$
+\end_inset
+
+ is GDP, 
+\begin_inset Formula $D$
+\end_inset
+
+ is distance, 
+\begin_inset Formula $A$
+\end_inset
+
+ is a constant
+\begin_inset Formula 
+\[
+\text{Trade Flows}_{ij}=A\frac{Y_{i}^{a}Y_{j}^{b}}{D_{ij}^{c}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The superscripts 
+\begin_inset Formula $a,b,c$
+\end_inset
+
+ amplify the importance of each term to bilateral trade flows
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Limitations of the Gravity Model
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Limitations of the gravity model:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Does not account what goods each country produces
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Trade flow of simply a function of GDP and distance
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Does not account for factor prices (e.g.
+ wages and return on capital)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Factor cost has significant implications on production output
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Cannot make predictions on whether trade has been beneficial or harmful
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+When is trade beneficial? When is it harmful?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+We will develop economic models in this course addressing these limitations
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+RM-Intro
+\end_layout
+
+\begin_layout Subsection
+Examples
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+LARGE 
+\backslash
+textbf{Ricardian Model}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Comparative Advantage / Absolute Advantage
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why do countries trade?
+\end_layout
+
+\begin_layout Itemize
+Why might it be beneficial for the U.S.
+ to trade with Canada?
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+One could argue that the U.S.
+ is technologically superior to Canada
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Benefit?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Need to distinguish 
+\series bold
+Comparative Advantage
+\series default
+ from 
+\series bold
+Absolute Advantage
+\series default
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To understand the distinction, we must first introduce what's called an
+ 
+\series bold
+Opportunity Cost
+\series default
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Your advantage in completing a task is not based on wether you are technically
+ better than the other person in doing the task, but what you had to give
+ up by doing the task
+\end_layout
+
+\begin_layout Itemize
+If the value of what you have to give up exceeds the value of what the other
+ person had to give up, then it would be better if the other person did
+ that task
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Definition: Opportunity Cost
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Definition: 
+\emph on
+The value of what you gave up when one alternative is chosen
+\end_layout
+
+\begin_layout Itemize
+You went to university which entailed going to classes, studying, writing
+ exams, solving problem sets, etc.
+ all of which, as you may be fondly aware, take a lot of time
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+You gave up the wage you would have earned had you, instead, decided to
+ work right after high school
+\end_layout
+
+\begin_layout Itemize
+This wage is the opportunity cost of your university education
+\end_layout
+
+\begin_layout Itemize
+You hope that it is worth it (it is! the data supports it)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pyrrhic Victory
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Win at all cost
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Greek general Pyrrhus whose army suffered significant lost in defeating
+ the Romans during a war some time around 300 BC
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Comparative Advantage
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What does it mean for a person/country to have a 
+\series bold
+comparative advantage
+\series default
+ over another person/country in undertaking a task?
+\end_layout
+
+\begin_layout Itemize
+In completing a task, person A has a comparative advantage over person B
+ if her 
+\series bold
+opportunity cost
+\series default
+ in doing that task is lower than the 
+\series bold
+opportunity cost
+\series default
+ of B for doing the same task
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The key idea here is to ask What is the value of the thing that A had to
+ give up in order to complete the task
+\end_layout
+
+\begin_layout Itemize
+Compare this value to the value of what B had to give up to do the same
+ task
+\end_layout
+
+\begin_layout Itemize
+If it is lower for A, then A should do the task
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+For countries, instead of tasks, consider their choice on what goods to
+ produce and measure the value of what they had to give up in terms of the
+ number of outputs
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Comparative Advantage: Example
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This is a general principle that applies broadly to life
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Lawyers are probably more efficient than their legal secretaries in everything
+ related to their practice.
+ But, the lawyer's time is better spent practicing law and delegating the
+ more mundane part of their practice to their legal secretary.
+ Both parties benefit
+\end_layout
+
+\begin_layout Itemize
+You always have that one person who knows everything when working as a group
+ on a problem set.
+ But because there's a deadline, it would be advantageous for that person
+ to have their peers work on some of the questions
+\end_layout
+
+\begin_layout Itemize
+Parents are faster at doing the dishes (or any chore for that matter), but
+ they have their kids do it (perhaps for a small wage)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Absolute Advantage
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Absolute advantage, on the other hand, makes raw comparisons of ability
+\end_layout
+
+\begin_layout Itemize
+We say that person A has an 
+\series bold
+absolute advantage
+\series default
+ over person B in a given task if A can do it faster, more efficiently,
+ and with greater proficiency than B
+\end_layout
+
+\begin_layout Itemize
+E.g.
+ the U.S.
+ probably has an absolute advantage over most developing countries when
+ it comes to producing most goods
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+It has a more advanced manufacturing system, for example
+\end_layout
+
+\begin_layout Itemize
+But, in spite of this, it can only have a comparative advantage for some
+ goods
+\end_layout
+
+\begin_layout Itemize
+To produce textiles, it must give up producing some computers!
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Math Model
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Formal Model 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Let's show this analytically with a formal model
+\end_layout
+
+\begin_layout Itemize
+Allows us to focus on how differences in technology can be the reason why
+ it is mutually beneficial for countries to trade
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Model World
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Two countries: Canada (North: N) and Mexico (South: S)
+\end_layout
+
+\begin_layout Enumerate
+Two goods: Computers, C and Textiles, T (e.g.
+ clothing)
+\end_layout
+
+\begin_layout Enumerate
+One factor in production: labour, L
+\end_layout
+
+\begin_layout Enumerate
+Labour is stuck in each country, but they can move across industries within
+ a country
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+implication for wages
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Perfect competition (price = marginal cost)
+\end_layout
+
+\begin_layout Enumerate
+Homothetic preferences
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+e.g.
+ Whether a rich or a poor country: 40% Computers, 60% Textile
+\end_layout
+
+\begin_layout Itemize
+Believe this for now...
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Definitions 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Unit Labour Requirement
+\series default
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+...labour for one unit requirement...
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+the amount of labour needed to create one unit of a good
+\end_layout
+
+\begin_layout Itemize
+e.g.
+ 3hrs of labour for one computer
+\end_layout
+
+\begin_layout Itemize
+Denoted by 
+\begin_inset Formula $a_{j}^{i}$
+\end_inset
+
+: country 
+\begin_inset Formula $i$
+\end_inset
+
+ (N or S) and type of good 
+\begin_inset Formula $j$
+\end_inset
+
+ (C or T)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Marginal Product of Labour
+\series default
+ (
+\begin_inset Formula $MPL$
+\end_inset
+
+)
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+With one unit of labour, how many units of a good can we create
+\end_layout
+
+\begin_layout Itemize
+e.g.
+ If 3 hrs of labour creates one computer, then working for an hour creates
+ 
+\begin_inset Formula $1/3$
+\end_inset
+
+ of a computer (!)
+\end_layout
+
+\begin_layout Itemize
+So if labour is used up in 1hr increments, the marginal product of labour
+ for computers is 
+\series bold
+
+\begin_inset Formula $1/3$
+\end_inset
+
+
+\series default
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $a_{C}^{i}=3$
+\end_inset
+
+, 
+\begin_inset Formula $MPL_{C}^{i}=\frac{1}{a_{C}^{i}}=\frac{1}{3}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Example 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Canada: 
+\begin_inset Formula $a_{C}^{N}=5$
+\end_inset
+
+, 
+\begin_inset Formula $a_{T}^{N}=5$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Mexico: 
+\begin_inset Formula $a_{C}^{S}=10$
+\end_inset
+
+, 
+\begin_inset Formula $a_{T}^{S}=5$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Unit Labour Requirements} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{ccccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Country & & Computers & &   Textiles        
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline         
+\end_layout
+
+\begin_layout Plain Layout
+
+Canada    &            &     5      &          &           5     
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+        Mexico          &         &       10        &            &    5
+      
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Unit Labour Requirements} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{ccccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Country & & Computers & &   Textiles        
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline         
+\end_layout
+
+\begin_layout Plain Layout
+
+Canada    &            &     5      &          &           5     
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+        Mexico          &         &       10        &            &    5
+      
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table} 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Canada has an absolute advantage over Mexico
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+5 hours only to produce either Computer or Textiles
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Takes Mexico 10 hours of labour to produce a Computer
+\end_layout
+
+\begin_layout Itemize
+So should Canada take over production of all goods?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Unit Labour Requirements} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{ccccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Country & & Computers & &   Textiles        
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline         
+\end_layout
+
+\begin_layout Plain Layout
+
+Canada    &            &     5      &          &           5     
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+        Mexico          &         &       10        &            &    5
+      
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table} 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+With 5 hours of labour, Canada can create 1 Textile
+\end_layout
+
+\begin_layout Itemize
+But they can also use this 5 hours of labour to create 1 Computer
+\end_layout
+
+\begin_layout Itemize
+To create 1 Textile in Canada, they had to give up 1 Computer 
+\end_layout
+
+\begin_layout Itemize
+i.e.
+ In Canada, Opportunity Cost of 1 Textile is 1 Computer
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Unit Labour Requirements} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{ccccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Country & & Computers & &   Textiles        
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline         
+\end_layout
+
+\begin_layout Plain Layout
+
+Canada    &            &     5      &          &           5     
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+        Mexico          &         &       10        &            &    5
+      
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table} 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For Mexico, 1 Textile requires 5 hours of labour
+\end_layout
+
+\begin_layout Itemize
+But 5 hours of labour creates 1/2 a Computer (!)
+\end_layout
+
+\begin_layout Itemize
+To create 1 Textile in Mexico, they had to give up 1/2 a Computer
+\end_layout
+
+\begin_layout Itemize
+In Mexico, Opportunity Cost of 1 Textile is 1/2 a Computer
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Example 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Unit Labour Requirements} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{ccccc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Country & & Computers & &   Textiles        
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline         
+\end_layout
+
+\begin_layout Plain Layout
+
+Canada    &            &     5      &          &           5     
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+        Mexico          &         &       10        &            &    5
+      
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table} 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Canada has an Absolute Advantage over Mexico in producing both goods
+\end_layout
+
+\begin_layout Itemize
+But Mexico gives up fewer Computers to produce 1 Textile, which means that
+ it has a comparative advantage in this good over Canada
+\end_layout
+
+\begin_layout Itemize
+Thus, aggregate output can increase if Canada focuses it's production in
+ Computers
+\end_layout
+
+\begin_layout Itemize
+and if Mexico focuses its production in Textiles
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Unit Labour Requirements
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We're going to be working a lot using Unit Labour Requirements
+\end_layout
+
+\begin_layout Itemize
+Here's one way to confirm that Mexico has a Comparative Advantage over Canada
+ in producing Textiles
+\end_layout
+
+\begin_layout Itemize
+With 
+\emph on
+1 hour of labour
+\emph default
+, Mexico has a Comparative Advantage in the production of Textile if
+\begin_inset Formula 
+\[
+\frac{\text{Textiles made}}{\text{Computers given up }}_{N}<\frac{\text{Textiles made}}{\text{Computers given up}}_{S}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{\frac{1}{a_{T}^{N}}}{\frac{1}{a_{C}^{N}}}=\frac{a_{C}^{N}}{a_{T}^{N}}=1<2=\frac{a_{C}^{S}}{a_{T}^{S}}=\frac{\frac{1}{a_{T}^{S}}}{\frac{1}{a_{C}^{S}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If in 1 hour you had to give up a lot of computers (very low left hand side)
+ for one incremental production of textile, you should just produce computers
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Unit Labour Requirements
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Using Unit Labour Requirements, we can see that Canada has a Comparative
+ Advantage over Mexico in the production of Computers
+\end_layout
+
+\begin_layout Itemize
+With 1 hour of labour, Canada produces 1/5 of a Computer and gives up 1/5
+ of a Textile
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+1 Computer per Textile
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Mexico, on the other hand, produces 1/10 of a Computer and gives up 1/5
+ of a Textile
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+1/2 a Computer per Textile
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Both gives up the same amount of Textile to produce Computers, but Canada
+ was able to create more with their 1 hour of labour
+\end_layout
+
+\begin_layout Itemize
+Therefore, Canada has a Comparative Advantage in the production of Computers
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Unit Labour Requirements
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+No Comparative Advantage if
+\begin_inset Formula 
+\[
+\frac{\frac{1}{a_{T}^{N}}}{\frac{1}{a_{C}^{N}}}=\frac{a_{C}^{N}}{a_{T}^{N}}\boldsymbol{=}\frac{a_{C}^{S}}{a_{T}^{S}}=\frac{\frac{1}{a_{T}^{S}}}{\frac{1}{a_{C}^{S}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+RM-Main
+\end_layout
+
+\begin_layout Subsection
+Actual Model
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Autarky and PPF
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Autarky
+\series default
+: a state in which a country does not trade with any other countries
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Production Possibility Frontier (PPF)
+\series default
+: the set of outputs across all goods such that all the country's resources
+ (labour) is being used 
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Canada: 
+\begin_inset Formula $a_{C}^{N}Q_{C}^{N}+a_{T}^{N}Q_{T}^{N}\leq L^{N}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Mexico: 
+\begin_inset Formula $a_{C}^{S}Q_{C}^{S}+a_{T}^{S}Q_{T}^{S}\leq L^{S}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $L^{N}$
+\end_inset
+
+ is the maximum number of hours of labour available in Canada 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $L^{S}$
+\end_inset
+
+ is the maximum number of hours of labour available in Mexico
+\end_layout
+
+\begin_layout Itemize
+The Unit Labour Requirements and Labour Endowments are 
+\emph on
+given
+\end_layout
+
+\begin_layout Itemize
+Thus, the PPF equations can be draw in the the output space
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+the PPF curve does not need to be linear
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Canada's PPF Curve
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.075]{figures/l1/1-1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Mexico's PPF Curve
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.075]{figures/l1/1-2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Budget Constraint
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now consider Canada as a consumer with the budget constraint:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{C}^{N}Q_{C}^{N}+P_{T}^{N}Q_{T}^{N}\leq w^{N}L^{N}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Under Autarky, consumption is equal to production
+\end_layout
+
+\begin_layout Itemize
+Labour is free to move across industries (hence, one wage for whole country)
+\end_layout
+
+\begin_layout Itemize
+We can also represent the budget constraint in the output space
+\end_layout
+
+\begin_layout Itemize
+But before we do that, because of perfect competition, unit revenue = unit
+ cost
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{C}^{N}=w^{N}a_{C}^{N}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{T}^{N}=w^{N}a_{T}^{N}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Budget Constraint overlaps PPF
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Substitute into budget constraint to see that it overlaps the PPF curve
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.19]{figures/l1/1-3}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Budget Constraint overlaps PPF
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+From the perfect competition assumption we can see that the slopes of the
+ budget constraint and PPF are equal
+\begin_inset Formula 
+\[
+\frac{P_{C}^{N}}{P_{T}^{N}}=\frac{a_{C}^{N}}{a_{T}^{N}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This is also true for the southern country, Mexico
+\begin_inset Formula 
+\[
+\frac{P_{C}^{S}}{P_{T}^{S}}=\frac{a_{C}^{S}}{a_{T}^{S}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We need to make some assumptions about preferences before we can calculate
+ the optimal level of production of each good
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Preferences
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Homothetic preferences imply that we can consider the whole country as one
+ consumer
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each consumer will consume the same share of each good, they only differ
+ in their level of income
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+One type of utility function that characterizes homothetic preferences is
+ the Cobb-Douglas
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+U=Q_{C}^{0.5}Q_{T}^{0.5}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Consumer Maximization
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The consumer's problem is to choose the level of 
+\series bold
+
+\begin_inset Formula $Q_{C}$
+\end_inset
+
+ 
+\series default
+and 
+\begin_inset Formula $Q_{T}$
+\end_inset
+
+ that solves
+\begin_inset Formula 
+\[
+max\ U=Q_{C}^{0.5}Q_{T}^{0.5}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s.t.\ P_{C}^{N}Q_{C}^{N}+P_{T}^{N}Q_{T}^{N}\leq w^{N}L^{N}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+P_{C}^{N}=w^{N}a_{C}^{N},\ P_{T}^{N}=w^{N}a_{T}^{N}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Consumer Maximization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.21]{figures/l1/1-4}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

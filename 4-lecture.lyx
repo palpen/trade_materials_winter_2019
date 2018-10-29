@@ -1,0 +1,2120 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+%Beamer theme and color theme
+\usetheme{Frankfurt}
+\usecolortheme{beaver}
+\setbeamertemplate{mini frames}{}
+
+% set color of elements (e.g. bullet points, theorems, definitions, etc)
+\setbeamercolor{structure}{fg=red!60!white}
+
+% header showing only current section and subsection
+\useoutertheme{infolines}
+
+\usepackage{amsmath,amssymb}
+
+%Expectation symbol
+\DeclareMathOperator{\E}{\mathbb{E}}
+
+\usepackage{booktabs,caption,fixltx2e}
+\usepackage[flushleft]{threeparttable}
+\usepackage{indentfirst}
+\usepackage{amsfonts}
+\usepackage{changepage}
+
+%Set slide number
+\setbeamertemplate{footline}[frame number]
+
+%remove navigation
+\beamertemplatenavigationsymbolsempty
+
+
+
+\definecolor{blue}{RGB}{0,0,120}
+
+\usepackage{hyperref}
+
+\usepackage{array}
+
+\usepackage[section]{placeins}
+
+\usepackage{graphicx}
+\end_preamble
+\options handouts
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+ECO364: International Trade Theory
+\end_layout
+
+\begin_layout Subtitle
+Lecture 4
+\end_layout
+
+\begin_layout Institute
+University of Toronto, Department of Economics
+\end_layout
+
+\begin_layout Author
+Palermo Penano
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+References: 
+\end_layout
+
+\begin_layout Plain Layout
+Lecture 3 (for Stolper Samuelson)
+\end_layout
+
+\begin_layout Plain Layout
+Lecture 4 (All)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Outline for Today
+\end_layout
+
+\begin_layout Subsection
+Outline
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Last Class
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Three theorems in the HO model
+\end_layout
+
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Today
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Factor Price Equalization
+\end_layout
+
+\begin_layout Itemize
+Factor Content of Trade
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Readings
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+None!
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+Factor Price Equalization
+\end_layout
+
+\begin_layout Subsection
+FPE happens
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+HO Model and Factor Price Equalization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Based on a country's factor endowments we were able to predict
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+that capital abundant countries export capital intensive goods and import
+ labour intensive goods
+\end_layout
+
+\begin_layout Itemize
+that the return to capital owners in this country increases while the return
+ to labour owners decreases
+\end_layout
+
+\begin_layout Itemize
+that the opposite result arises in the labour abundant country
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+return to capital owners decreases and return to labour owners increases
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+HO Model and Factor Price Equalization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+When countries are allowed to trade, there appears to be a convergence in
+ factor prices
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Factor Price Equalization (FPE)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+To see this more clearly
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+RS-RD in Autarky
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Recall that the autarky relative price in each country is determined by
+ the RS-RD graph
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.085]{"figures/l3/rsrd 1"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+FPE
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Under free trade, the two countries' relative good prices converge as cross-coun
+try differences in prices of goods is arbitraged away
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.085]{"figures/l3/rsrd 2"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+FPE
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Since the two countries share the same SS curve, the convergence in their
+ relative goods prices results in a convergence in their relative factor
+ prices
+\end_layout
+
+\begin_layout Itemize
+If we had skilled and low-skilled labour as the two factors in our production,
+ this result suggests that if skilled workers make double the pay of low-skilled
+ workers in Canada, then with free trade, skilled workers will also get
+ paid double the wage of low-skilled workers in Mexico
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+FPE
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why is this happening?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We assumed that factors cannot move across countries
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The goods that countries trade embody the factors used in the production
+ of those goods
+\end_layout
+
+\begin_layout Itemize
+Because of this, trade in final goods is similar to trade in the factors
+ used in the production of those goods
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+FPE
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For example, a capital abundant country exports capital-intensive goods
+ and imports labour intensive goods
+\end_layout
+
+\begin_layout Itemize
+One could interpret this as exporting capital and importing labour
+\end_layout
+
+\begin_layout Itemize
+Empirical studies of the HO model is also called 
+\series bold
+factor content studies
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Section
+Factor Content of Trade
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Factor Content Studies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Looks at how much trade in factors is implied by trade in goods
+\end_layout
+
+\begin_layout Itemize
+Start with the volume of exports and imports
+\end_layout
+
+\begin_layout Itemize
+Using unit labour requirements, calculate how much labour does net (net)
+ imports embody
+\end_layout
+
+\begin_layout Itemize
+For now we will focus on just two factors: skilled and unskilled labour
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+But researchers in practice include as many factors as possible in their
+ study
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Definitions and Notations
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Suppose there are two factors (skilled and unskilled labour)
+\end_layout
+
+\begin_layout Itemize
+There are only two goods: computers and textiles
+\end_layout
+
+\begin_layout Itemize
+Suppose the North exports computers and the South exports textiles
+\end_layout
+
+\begin_layout Itemize
+Let
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $X_{C}^{N}$
+\end_inset
+
+: Northern exports of computers to the South
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $X_{T}^{S}$
+\end_inset
+
+: Southern exports of textiles to the North
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $S_{i}^{j}$
+\end_inset
+
+: Skilled labour employment in sector 
+\begin_inset Formula $i$
+\end_inset
+
+ in country 
+\begin_inset Formula $j$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $U_{i}^{j}$
+\end_inset
+
+: Unskilled labour employment in sector 
+\begin_inset Formula $i$
+\end_inset
+
+ in country 
+\begin_inset Formula $j$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Unit Labour Requirements
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $a_{S,C}^{N}$
+\end_inset
+
+: unit skilled labour requirement for computers in the North
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $a_{U,C}^{N}$
+\end_inset
+
+: unit unskilled labour requirement for computers in the North
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Q_{C}^{N}=\frac{1}{a_{S,C}^{N}}S_{C}^{N}\implies a_{S,C}^{N}=\frac{S_{C}^{N}}{Q_{C}^{N}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Q_{C}^{N}=\frac{1}{a_{U,C}^{N}}U_{C}^{N}\implies a_{U,C}^{N}=\frac{U_{C}^{N}}{Q_{C}^{N}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+These are just the number of skilled/unskilled labour used per unit of computers
+ in the North
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Unit Labour Requirements
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $a_{S,T}^{S}$
+\end_inset
+
+: unit skilled labour requirement for textiles in the South
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $a_{U,T}^{S}$
+\end_inset
+
+: unit unskilled labour requirement for textiles in the South
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Q_{T}^{S}=\frac{1}{a_{S,T}^{S}}S_{T}^{S}\implies a_{S,T}^{S}=\frac{S_{T}^{S}}{Q_{T}^{S}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Q_{T}^{S}=\frac{1}{a_{U,T}^{S}}U_{T}^{S}\implies a_{U,T}^{S}=\frac{U_{T}^{S}}{Q_{T}^{S}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+These are just the number of skilled/unskilled labour used per unit of textiles
+ in the South
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Unit Labour Requirements
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Notice that the right hand side of these unit labour requirements are variables
+ that we can observe from the data
+\end_layout
+
+\begin_layout Itemize
+A few more definitions and we're read to make some calculations
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Skilled and Unskilled Labour in Exports
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Define 
+\begin_inset Formula $S_{Trade}^{j}$
+\end_inset
+
+ and 
+\begin_inset Formula $U_{Trade}^{j}$
+\end_inset
+
+ as the skilled and unskilled labour that is embodied in the exports of
+ country 
+\begin_inset Formula $j$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{alignat*}{2}
+S_{Trade}^{N}=a_{S,C}^{N}X_{C}^{N}+a_{S,T}^{N}X_{T}^{N} & \ \ \  & S_{Trade}^{S}=a_{S,C}^{S}X_{C}^{S}+a_{S,T}^{S}X_{T}^{S}
+\end{alignat*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\begin{alignat*}{2}
+U_{Trade}^{N}=a_{U,C}^{N}X_{C}^{N}+a_{U,T}^{N}X_{T}^{N} & \ \ \  & U_{Trade}^{S}=a_{U,C}^{S}X_{C}^{S}+a_{U,T}^{S}X_{T}^{S}
+\end{alignat*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Change in Endowment Stock due to Trade
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+When the two countries are trading, the amount of skilled and unskilled
+ labour in their country that will change because of trade is defined as
+\begin_inset Formula 
+\begin{alignat*}{2}
+\tilde{S}^{N}=S^{N}-S_{Trade}^{N}+S_{Trade}^{S} & \ \ \  & \tilde{S}^{S}=S^{S}-S_{Trade}^{S}+S_{Trade}^{N}
+\end{alignat*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\begin{alignat*}{2}
+\tilde{U}^{N}=U^{N}-U_{Trade}^{N}+U_{Trade}^{S} & \ \ \ \ \ \  & \tilde{U}^{S}=U^{S}-U_{Trade}^{S}+U_{Trade}^{N}
+\end{alignat*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $S^{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $U^{i}$
+\end_inset
+
+ is the total stock of skilled and unskilled labour in country 
+\begin_inset Formula $i$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Suppose 
+\begin_inset Formula $S^{N}=200$
+\end_inset
+
+, 
+\begin_inset Formula $U^{N}=100$
+\end_inset
+
+, 
+\begin_inset Formula $S^{S}=100$
+\end_inset
+
+, and 
+\begin_inset Formula $U^{S}=200$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Suppose North exports 10 computers and South exports 10 units of textiles
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+All other trade are zero
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Assume that the unit labour requirements are
+\begin_inset Formula 
+\begin{alignat*}{2}
+a_{S,C}^{N}=1/5 & \ \ \  & a_{S,T}^{S}=1/10
+\end{alignat*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{alignat*}{2}
+a_{U,C}^{N}=1/10 & \ \ \  & a_{U,T}^{S}=1/5
+\end{alignat*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Recall North is an exporter of computer and South is an exporter of textiles
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Given these values North will end up importing 1 unit of unskilled labour
+ and exporting one unit of skilled labour
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+EXERCISE
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+This leads to 
+\begin_inset Formula $\tilde{S}^{N}=199$
+\end_inset
+
+, 
+\begin_inset Formula $\tilde{U}^{N}=101$
+\end_inset
+
+, 
+\begin_inset Formula $\tilde{S}^{S}=101$
+\end_inset
+
+, 
+\begin_inset Formula $\tilde{U}^{S}=199$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The larger the factor content of trade, the greater the extent to which
+ factor prices will converge between the two country
+\end_layout
+
+\begin_layout Itemize
+Unfortunately, the prediction of the theory does not fit the data well
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Subsection
+Test using data
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Factor Content Studies and Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+U.S.
+ is one of the most advanced country in the world
+\end_layout
+
+\begin_layout Itemize
+This technological superiority imply that more capital is being used per
+ person in production compared to other countries
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+One worker operating many machines to make a car
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+According to our theory, the U.S.
+ should be a net exporter of capital-intensive goods and a net importer
+ of labour-intensive goods
+\end_layout
+
+\begin_layout Itemize
+In a study done in 1953, economist Wassily Leontief found that U.S.
+ exports were less capital-intensive than U.S.
+ imports
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This inconsistency with the theory is named the Leontief Paradox
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leontief Paradox
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+textbf{Factor Content of U.S.
+ Exports and Imports for 1962} 
+\backslash
+vskip .5in 
+\backslash
+begin{tabular}{lcc} 
+\backslash
+hline 
+\backslash
+hline                                                &Imports &Exports
+\backslash
+
+\backslash
+ 
+\backslash
+hline Capital (million 
+\backslash
+$)                  &2.132    &1.876
+\backslash
+
+\backslash
+ Labor (person-years)               &119     &131
+\backslash
+
+\backslash
+ Capital-labor ratio (
+\backslash
+$/person)&17,916&14,321
+\backslash
+
+\backslash
+ Average years of education per worker&9.9&10.1
+\backslash
+
+\backslash
+ Proportion of engineers and scientists in work force&0.0189&0.0255
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+end{tabular} 
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leontief Paradox
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+textbf{Factor Content of U.S.
+ Exports and Imports for 1962} 
+\backslash
+vskip .5in 
+\backslash
+begin{tabular}{lcc} 
+\backslash
+hline 
+\backslash
+hline                                                &Imports &Exports
+\backslash
+
+\backslash
+ 
+\backslash
+hline Capital (million 
+\backslash
+$)                  &2.132    &1.876
+\backslash
+
+\backslash
+ Labor (person-years)               &119     &131
+\backslash
+
+\backslash
+ Capital-labor ratio (
+\backslash
+$/person)&17,916&14,321
+\backslash
+
+\backslash
+ Average years of education per worker&9.9&10.1
+\backslash
+
+\backslash
+ Proportion of engineers and scientists in work force&0.0189&0.0255
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+end{tabular} 
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+U.S.
+ exported goods that embodied more labour than its imports
+\end_layout
+
+\begin_layout Itemize
+Imported more capital than it exported
+\end_layout
+
+\begin_layout Itemize
+Other data shows the prediction consistent with the theory
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Exports are more technology-intensive than imports
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leontief Paradox
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why did this happen?
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leontief Paradox
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Leontief only looked at labour and capital
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Land is an important factor of production in the U.S.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Leontief used U.S.
+ technology to impute the factor content of U.S.
+ imports
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Perhaps guided by assumption that technology is the same across countries
+ in the HO model
+\end_layout
+
+\begin_layout Itemize
+Skilled labour and innovative entrepreneurship (low capital) v.s.
+ large scale manufacturing (high capital)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Leontief treated labour used in the U.S.
+ exports and imports to be the same
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+No distinction made between skilled and unskilled labour
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Test on Global Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Since the U.S.
+ might be a special case, researchers have undertaken this study for other
+ countries
+\end_layout
+
+\begin_layout Itemize
+Instead of measuring relative factor endowment within a country, compute
+ the country's share of a factor endowment in the whole world
+\end_layout
+
+\begin_layout Itemize
+If the share of that factor is greater than the country's share of world
+ GDP, that country must be abundant in that factor
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In 2008, China had 7% of world income but roughly 20% of the world's workers
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+According to the HO model, the country should be an exporter of the factor
+ for which the share of the global supply of that factor exceeds the country's
+ share of world GDP
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Test on Global Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The country should be an importer of the factor for which their share of
+ the global supply of that factor is less than their share of world GDP
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Test on Global Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Each country's share of global supply of each factor
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.59]{figures/l4/HO_1a}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Test on Global Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+For 2/3 of the factors of production, trade ran in the direction predicted
+ by the HO theory less than 70% of the time
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.6]{figures/l4/HO_1b}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Test on Global Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Results suggests that the HO theory based on standard assumptions have failed
+\end_layout
+
+\begin_layout Itemize
+Confirms the Leontief Paradox at a more global level
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Subsection
+Case of Missing Trade
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The Case of the Missing Trade
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Large differences in technology across countries might explain why the HO
+ model is inconsistent with what is observed in the data
+\end_layout
+
+\begin_layout Itemize
+Workers in more advanced countries may be more productive than workers in
+ developing countries
+\end_layout
+
+\begin_layout Itemize
+We must reconsider how we define a factor endowment
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Effective Factor Endowment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Effective Factor Endowment = Actual Factor Endowment x Factor Productivity
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Effective Factor Endowment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Original
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.59]{figures/l4/HO_1a}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Effective Factor Endowment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Effective
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.59]{figures/l4/HO_1c}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Effective Factor Endowment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Other issues arise when technological differences is not accounted for
+\end_layout
+
+\begin_layout Itemize
+Given that the U.S.
+ only had 5% of the world's share of workers but make up 23% of the world's
+ income, the HO model predicts that the U.S.
+ will import goods that embody nearly 4 times it's own labour endowment
+\end_layout
+
+\begin_layout Itemize
+But calculation of the factor content of U.S.
+ trade showed only a small net import of labour
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Same for China
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Effective Factor Endowment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Using effective factor endowments resolves some of this puzzle
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Effective labour supply in the U.S.
+ is much larger than the 5% share of world supply of workers
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Caveat: a multiplicative adjustment of factor endowment is not the only
+ way to model technological differences
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Developed vs Developing Countries
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Although the HO model under standard assumptions cannot explain trade patterns,
+ it does perform well under specific cases
+\end_layout
+
+\begin_layout Itemize
+It performs well when comparing the exports of developed countries with
+ an abundance of skilled labour and developing countries short on skilled
+ labour
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Developed vs Developing Countries
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.59]{figures/l4/HO_2a}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Developed vs Developing Countries
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Bangladesh accounts for a relatively large share of U.S.
+ imports of low-skill-intensity goods, such as clothing
+\end_layout
+
+\begin_layout Itemize
+Germany accounts for relatively large share of high-skill-intensity goods
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Developed vs Developing Countries
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The model also performs well when looking at changes in factor endowments
+ and trade patterns over time
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Developed vs Developing Countries
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.30]{figures/l4/HO_2b}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Developed vs Developing Countries
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Four miracles: South Korea, Taiwan, Hong Kong, and Singapore
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Poor countries in the 1960s
+\end_layout
+
+\begin_layout Itemize
+More high skilled in 1998
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Japanese exports titled towards low-skilled industries in the 1960s
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+But level of education of workforce equivalent to Western Europe in 1998
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Four miracles moved to the level of Japan a few decades earlier
+\end_layout
+
+\begin_layout Itemize
+As supply of skilled labour increased, these asian countries began specializing
+ more in skill-intensive goods---exactly the prediction the HO model.
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The predictions of the HO model seem to raise more questions than it answers
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The model performs poorly when taken to the data
+\end_layout
+
+\begin_layout Itemize
+Factor content of a country's export does not always reflect that country's
+ abundant factors
+\end_layout
+
+\begin_layout Itemize
+Volume of trade is substantially lower than predicted
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+But does well when comparing high skill vs low skill countries and when
+ looking at changes in factor endowment over time
+\end_layout
+
+\begin_layout Itemize
+Next:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To what extent does FPE holds
+\end_layout
+
+\begin_layout Itemize
+Close HO model
+\end_layout
+
+\begin_layout Itemize
+Specific Factors Model
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,3467 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+%Beamer theme and color theme
+\usetheme{Frankfurt}
+\usecolortheme{beaver}
+\setbeamertemplate{mini frames}{}
+
+\usepackage{amsmath,amssymb}
+
+%Expectation symbol
+\DeclareMathOperator{\E}{\mathbb{E}}
+
+\usepackage{booktabs,caption,fixltx2e}
+\usepackage[flushleft]{threeparttable}
+\usepackage{indentfirst}
+\usepackage{amsfonts}
+\usepackage{changepage}
+
+%Set slide number
+\setbeamertemplate{footline}[frame number]
+
+%remove navigation
+\beamertemplatenavigationsymbolsempty
+
+
+
+\definecolor{blue}{RGB}{0,0,120}
+
+\usepackage{hyperref}
+
+\usepackage{array}
+
+\usepackage[section]{placeins}
+
+\usepackage{graphicx}
+\end_preamble
+\options handouts
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+ECO364: International Trade Theory
+\end_layout
+
+\begin_layout Subtitle
+Lecture 2
+\end_layout
+
+\begin_layout Institute
+University of Toronto, Department of Economics
+\end_layout
+
+\begin_layout Author
+Palermo Penano
+\end_layout
+
+\begin_layout Section
+Outline for Today
+\end_layout
+
+\begin_layout Subsection
+Outline
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Last Class
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Facts
+\end_layout
+
+\begin_layout Itemize
+Ricardian Model: Definitions, Autarky Equilibrium
+\end_layout
+
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Today
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Ricardian Model
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Gains from Trade
+\end_layout
+
+\begin_layout Itemize
+Trade Equilibrium
+\end_layout
+
+\begin_layout Itemize
+Relative Wages
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Readings
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+KMO Chapter 3
+\end_layout
+
+\begin_layout Itemize
+Economist 
+\begin_inset Quotes eld
+\end_inset
+
+Trade Winds
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Krugman's 
+\begin_inset Quotes eld
+\end_inset
+
+In Praise of Cheap Labour
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Krugman's 
+\begin_inset Quotes eld
+\end_inset
+
+Ricardo's Difficult Idea
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Section
+Gains from Trade
+\end_layout
+
+\begin_layout Subsection
+Gains from Trade
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+LARGE 
+\backslash
+textbf{Gains from Trade}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A key insight from the autarky equilibrium is that the PPF curve and the
+ budget constraint overlap
+\end_layout
+
+\begin_layout Itemize
+In autarky, a country consumes/buys what it produces (e.g.
+ North Korea, to some extent)
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Consumption, C}=\text{Production, Q}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+This is not the case when countries are allowed to trade
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In the trading equilibrium, the budget constraint and the PPF may lie on
+ different lines
+\end_layout
+
+\begin_layout Itemize
+This is because prices are now set in the global market
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We'll use the same example from Lecture 1
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Two Countries: Canada and Mexico
+\end_layout
+
+\begin_layout Itemize
+Two Goods: Computers and Textiles
+\end_layout
+
+\begin_layout Itemize
+One Factor of Production: Labour
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+PPF is the same as before
+\begin_inset Formula 
+\[
+a_{C}^{N}Q_{C}^{N}+a_{T}Q_{T}^{N}\leq L^{N}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The budget constraint is now
+\begin_inset Formula 
+\[
+P_{C}C_{C}^{N}+P_{T}C_{T}^{N}\leq w^{N}L^{N}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Because goods can now freely move across countries, prices for a given good
+ across countries have equalized (no more superscripts on prices)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Wages are still country-specific because we will continue to assume that
+ immigration is not possible
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In autarky, relative prices is equal to relative unit labour requirements:
+\begin_inset Formula 
+\[
+\frac{P_{C}^{N}}{P_{T}^{N}}=\frac{a_{C}^{N}}{a_{T}^{N}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{P_{C}^{S}}{P_{T}^{S}}=\frac{a_{C}^{S}}{a_{T}^{S}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We also set up our model so that Mexico has a comparative advantage in textiles
+\begin_inset Formula 
+\[
+\frac{a_{C}^{N}}{a_{T}^{N}}\boldsymbol{<}\frac{a_{C}^{S}}{a_{T}^{S}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In a state where countries are free to trade, relative price must be between
+ the autarky prices 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}\ \text{and}\ \frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Formula 
+\[
+\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Slope of PPF no longer equals slope of budget constraint
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Budget constraint will pivot
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+With free trade (resulting in these prices), will there be gains from trade?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Gains represented by higher indifference curves
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Will there be gains from trade?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Put another way, can a country gain from producing only one good and importing
+ the other?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Gains represented by attaining an indifference curve higher than what is
+ attained in autarky
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Yes!
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Will there be gains from trade?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consider the Southern country
+\end_layout
+
+\begin_layout Itemize
+Since 
+\begin_inset Formula $\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+, budget constraint has a slope steeper than the PPF
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Note that the slopes are the negative of these values
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Will there be gains from trade?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/gt2.jpg
+	scale 8
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Will there be gains from trade?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/gt3.jpg
+	scale 8
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Will there be gains from trade?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/gt4.jpg
+	scale 8
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+North
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/gt1.jpg
+	scale 8
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade: Conclusion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If countries just specialized in the production of one type of good and
+ traded their surplus with another country, they attain a higher indifference
+ curve
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Thus, there are gains from specialization (and, subsequently, trade)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If, on the other hand, 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}=\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+, then North does not gain from trade (since North's relative price is equal
+ to that in autarky)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+But the southern country gains from trade!
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+, both countries gain from trade
+\end_layout
+
+\begin_layout Itemize
+The farther apart 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}\ \text{and}\ \frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+ are from world relative prices 
+\begin_inset Formula $\frac{P_{C}}{P_{T}}$
+\end_inset
+
+, the greater the countries will gain from trade
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+i.e.
+ the higher the indifference curve they will attain relative to autarky
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Section
+Trade Equilibrium
+\end_layout
+
+\begin_layout Subsection
+Trade Equlibrium
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+LARGE 
+\backslash
+textbf{Trade Equilibrium}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Okay, but where do prices come from?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We didnt't have to worry about how prices are determined in autarky
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+They came from the relative unit labour requirements (e.g.
+ 
+\begin_inset Formula $\frac{P_{C}^{N}}{P_{T}^{N}}=\frac{a_{C}^{N}}{a_{T}^{N}}$
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Under trade, we assumed that relative prices fell some where between the
+ autarky prices 
+\begin_inset Formula 
+\[
+\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+But where do these prices come from?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+There are infinitely many points in the continuum between 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}\ \text{and}\ \frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+How do we 
+\emph on
+fix 
+\emph default
+prices?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Okay, but where do prices come from?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What do we 
+\emph on
+remember
+\emph default
+ from second-year micro theory about what determines prices?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+...
+\end_layout
+
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Supply and Demand!
+\end_layout
+
+\begin_layout Itemize
+But since we're dealing with relative prices, we will focus on 
+\series bold
+Relative Demand (RD) 
+\series default
+and
+\series bold
+ Relative Supply (RS)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Ratio of prices and total quantities for both goods
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Price and Total Quantity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.075]{figures/te1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Price and Total Quantity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Vertical axis: relative price, 
+\begin_inset Formula $\frac{P_{C}}{P_{T}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Horizontal axis: relative 
+\emph on
+total
+\emph default
+ quantity, 
+\begin_inset Formula $\frac{Q_{C}^{N}+Q_{C}^{S}}{Q_{T}^{N}+Q_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We will derive the relative supply curve, RS, first
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Assumptions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Recall, 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+North, Canada, has a comparative advantage in producing computers
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Unit labour requirements and 
+\series bold
+autarky
+\series default
+ relative prices are
+\begin_inset Formula 
+\[
+\left(\frac{P_{C}}{P_{T}}\right)_{aut}^{N}=\frac{a_{C}^{N}}{a_{T}^{N}}\boldsymbol{<}\frac{a_{C}^{S}}{a_{T}^{S}}=\left(\frac{P_{C}}{P_{T}}\right)_{aut}^{S}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Note that we have changed notations
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Also, perfect competition across firms in each country implies
+\begin_inset Formula 
+\[
+P_{C}=w^{N}a_{C}^{N}\ \text{and}\ P_{T}=w^{N}a_{T}^{N}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Prices driven down so that marginal revenue = marginal cost
+\end_layout
+
+\begin_layout Itemize
+These conditions are true for South, too
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Autarky Prices
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.075]{figures/te2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If we allow countries to trade goods, the price of a good will be equal
+ across the two countries
+\begin_inset Formula 
+\[
+P_{C}^{N}=P_{C}^{S}=P_{C}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+P_{T}^{N}=P_{T}^{S}=P_{T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Subsection
+Relative supply curve
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Supply Curve
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To derive the relative supply curve, we must consider three cases:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Equilibrium relative prices could be 
+\series bold
+between
+\series default
+ 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}\ \text{and}\ \frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Equilibrium relative prices could be 
+\series bold
+greater
+\series default
+ than both 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}\ \text{and}\ \frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Equilibrium relative prices could be 
+\series bold
+below
+\series default
+ both 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}\ \text{and}\ \frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Lets consider each one
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Supply Curve: 1.
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\frac{P_{C}}{P_{T}}$
+\end_inset
+
+ is between the ratio of relative unit labour requirements of North and
+ South
+\end_layout
+
+\begin_layout Itemize
+For North, 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}\boldsymbol{<}\frac{P_{C}}{P_{T}}\implies P_{T}\frac{1}{a_{T}^{N}}<P_{C}\frac{1}{a_{C}^{N}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+These are just wages!
+\end_layout
+
+\begin_layout Itemize
+If these are the prices that prevail, all workers in North will just work
+ in the computer industry
+\end_layout
+
+\begin_layout Itemize
+Country North specializes in producing computers
+\begin_inset Formula 
+\[
+Q_{C}^{N}=\frac{L^{N}}{a_{C}^{N}},\ Q_{T}^{N}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Supply Curve: 1.
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For South, wages will be higher in textiles: 
+\begin_inset Formula $P_{C}\frac{1}{a_{C}^{S}}<P_{T}\frac{1}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+South will specialize in textile production (no computers) and outputs are
+\begin_inset Formula 
+\[
+Q_{C}^{S}=0,\ Q_{T}^{S}=\frac{L^{S}}{a_{T}^{S}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Supply Curve: 1.
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In summary, whenever the prices is between 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}\ \text{and}\ \frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+, world relative supply is
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{Q_{C}^{N}+Q_{C}^{S}}{Q_{T}^{N}+Q_{T}^{S}}=\frac{Q_{C}^{N}+0}{0+Q_{T}^{S}}=\frac{L^{N}/a_{C}^{N}}{L^{S}/a_{T}^{S}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Let's see how this looks like in our figure
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Supply Curve: 1.
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.075]{figures/te3}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Supply Curve: 2.
+ 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{a_{C}^{S}}{a_{T}^{S}}<\frac{P_{C}}{P_{T}}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\frac{P_{C}}{P_{T}}$
+\end_inset
+
+ is greater than ratio of relative unit labour requirements of both North
+ and South
+\end_layout
+
+\begin_layout Itemize
+North, same as case 1.
+ : 
+\begin_inset Formula $P_{T}\frac{1}{a_{T}^{N}}<P_{C}\frac{1}{a_{C}^{N}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+South, same as North: 
+\begin_inset Formula $P_{T}\frac{1}{a_{T}^{S}}<P_{C}\frac{1}{a_{C}^{S}}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+In both countries, wage is higher in the computer industry
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Supply Curve: 2.
+ 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{a_{C}^{S}}{a_{T}^{S}}<\frac{P_{C}}{P_{T}}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Because wage is higher in the computer industry in both countries, world
+ supply of textile will be zero
+\end_layout
+
+\begin_layout Itemize
+The world relative supply will be infinity
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{Q_{C}^{N}+Q_{C}^{S}}{Q_{T}^{N}+Q_{T}^{S}}=\frac{Q_{C}^{N}+Q_{C}^{S}}{0+0}=\infty
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+See figure
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Supply Curve: 2.
+ 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{a_{C}^{S}}{a_{T}^{S}}<\frac{P_{C}}{P_{T}}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.075]{figures/te4}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Supply Curve: 3.
+ 
+\begin_inset Formula $\frac{P_{C}}{P_{T}}<\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\frac{P_{C}}{P_{T}}$
+\end_inset
+
+ is less than ratio of relative unit labour requirements of both North and
+ South
+\end_layout
+
+\begin_layout Itemize
+North: 
+\begin_inset Formula $P_{C}\frac{1}{a_{C}^{N}}<P_{T}\frac{1}{a_{T}^{N}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+South: 
+\begin_inset Formula $P_{C}\frac{1}{a_{C}^{S}}<P_{T}\frac{1}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This time wage in textile is higher in both countries
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Supply Curve: 3.
+ 
+\begin_inset Formula $\frac{P_{C}}{P_{T}}<\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+World relative supply is now
+\begin_inset Formula 
+\[
+\frac{Q_{C}^{N}+Q_{C}^{S}}{Q_{T}^{N}+Q_{T}^{S}}=\frac{0+0}{Q_{T}^{N}+Q_{T}^{S}}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Supply Curve: 3.
+ 
+\begin_inset Formula $\frac{P_{C}}{P_{T}}<\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.075]{figures/te5}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Demand Curve
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Demand depends on consumer preferences
+\end_layout
+
+\begin_layout Itemize
+If the price of computers relative to textile is high, then the relative
+ demand for computers will be low
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Relative demand curve slopes downward
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Homothetic preferences means we can focus on aggregate demand
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Demand Curve
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Equilibrium price depends on where the demand curve is located
+\end_layout
+
+\begin_layout Itemize
+For a given relative price, 
+\begin_inset Formula $\bar{\frac{P_{C}}{P_{T}}}$
+\end_inset
+
+, world preferences could be such that
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+they like computers more than textiles
+\end_layout
+
+\begin_layout Itemize
+they like textiles more than computers
+\end_layout
+
+\begin_layout Itemize
+they like computers just as much as textiles
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Relative Demand Curve
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Let's consider each type of preferences and their corresponding demand curve
+ and study their equilibrium relative price
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+World likes computers more
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.075]{figures/te7}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+World likes computers more
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+With this demand curve, the equilibrium relative price is South's autarky
+ price, 
+\begin_inset Formula $\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+With this equilibrium price, North will produce only computers
+\end_layout
+
+\begin_layout Itemize
+South will produce both computers and textiles
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interpretation:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Under these preferences, the world demand for computer is high
+\end_layout
+
+\begin_layout Itemize
+The Northern country's production is not sufficient to supply it, so the
+ South produces some computers to make up for the shortage
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Who gains from trade?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Only the Northern country
+\end_layout
+
+\begin_layout Itemize
+South is facing its autarky price and is producing its autarky level of
+ output
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+World likes textiles more
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.075]{figures/te8}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+World likes textiles more
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+With this demand curve, the equilibrium price is North's autarky price,
+ 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+South will produce only textiles
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interpretation:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Here the world generally prefer more textiles over computers
+\end_layout
+
+\begin_layout Itemize
+South's production is insufficient to supply it, so North will make up for
+ the shortage
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Who gains from trade?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Only the Southern country
+\end_layout
+
+\begin_layout Itemize
+At this equilibrium price, North is producing at autarky level
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+World likes computers as much as textiles
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.075]{figures/te6}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+World likes computers as much as textiles
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Equilibrium price is in between the autarky prices of each country
+\end_layout
+
+\begin_layout Itemize
+Each country will specialize in the production of the good for which they
+ have a comparative advantage
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+North: Computers
+\end_layout
+
+\begin_layout Itemize
+South: Textiles
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Both countries gain from trade (see 
+\series bold
+\emph on
+Gains from Trade
+\series default
+\emph default
+ section of this lecture for a review why)
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Section
+Relative Wages
+\end_layout
+
+\begin_layout Subsection
+Relative Wages
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+LARGE 
+\backslash
+textbf{Relative Wages}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Why look at wages?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We have established that with free trade at least one country will gain
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Both will gain if both counries are able to specialize
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+We define a 
+\emph on
+gain 
+\emph default
+as being able to attain a higher indifference curve relative to autarky
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What on earth does an indifference curve mean in the real world?!
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Since, in studying international trade, we are interested in peoples welfare,
+ perhaps it might be useful look at something we can measure
+\end_layout
+
+\begin_layout Itemize
+Let's start with wages
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Assumptions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Suppose that under trade, the relative demand curve is such that relative
+ prices is strictly between each country's relative unit labour requirements
+\begin_inset Formula 
+\[
+\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In this case, North will specialize in computers and South will specialize
+ in textiles
+\end_layout
+
+\begin_layout Itemize
+Thus, wages paid in each country only comes from the surviving industry
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+No wages from textiles in North
+\end_layout
+
+\begin_layout Itemize
+No wages from computers in South
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Assumptions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For each country, we have two revenue = cost conditions
+\begin_inset Formula 
+\[
+P_{C}=w^{N}a_{C}^{N}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+P_{S}=w^{S}a_{T}^{S}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+North is only producing computers, thus all of its income comes from just
+ the computer industry
+\end_layout
+
+\begin_layout Itemize
+All of South's income come from the textile industry
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Assumptions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{C}=w^{N}a_{C}^{N}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+P_{T}=w^{S}a_{T}^{S}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+These conditions can be combined to give
+\begin_inset Formula 
+\[
+\frac{w^{N}}{w^{S}}=\frac{a_{T}^{S}}{a_{C}^{N}}\frac{P_{C}}{P_{T}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Relative wages depends on labour productivity and prices
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If computers and textiles have the same price, wages depend only on labour
+ productivity
+\end_layout
+
+\begin_layout Itemize
+Otherwise, wages depend on both
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade and Wages
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Keeping the assumptions above in mind (each country specializes), let's
+ see how gains from trade can be seen from wages
+\end_layout
+
+\begin_layout Itemize
+When making welfare statements from wages, it is more informative to look
+ at 
+\series bold
+\emph on
+real 
+\series default
+\emph default
+wages
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This is your nominal wage adjusted for inflation
+\end_layout
+
+\begin_layout Itemize
+No one cares about billionaires in Zimbabwe
+\end_layout
+
+\begin_layout Itemize
+Real wages is defined as 
+\series bold
+
+\begin_inset Formula $\frac{w}{p}$
+\end_inset
+
+
+\series default
+ (it is the number of goods--at price 
+\begin_inset Formula $p$
+\end_inset
+
+--you can buy with your wage, 
+\begin_inset Formula $w$
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade and Wages
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Real wages can be in terms of either computers or textiles
+\end_layout
+
+\begin_layout Itemize
+For North, we care about 
+\begin_inset Formula $\frac{w^{N}}{P_{C}}$
+\end_inset
+
+ and 
+\begin_inset Formula $\frac{w^{N}}{P_{T}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Similarly for South
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade and Wages
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We will consider three cases
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}=\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}=\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade and Wages
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For each of these cases we will ask 
+\emph on
+Did real wages increase under trade?
+\end_layout
+
+\begin_layout Itemize
+We answer this by comparing real wages in both autarky and trade 
+\emph on
+and
+\emph default
+ in terms of each of the two industries
+\end_layout
+
+\begin_layout Itemize
+Let's begin!
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade and Wages: 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What were autarky real wages in each industry?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\left(\frac{w^{N}}{P_{C}^{N}}\right)^{AUT}=\frac{1}{a_{C}^{N}}$
+\end_inset
+
+ and 
+\begin_inset Formula $\left(\frac{w^{N}}{P_{T}^{N}}\right)^{AUT}=\frac{1}{a_{T}^{N}}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade and Wages: 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What are trade--with full specialization--real wages in each industry?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Because North is only producing computers, the only revenue=cost condition
+ in North is 
+\begin_inset Formula $P_{C}=w^{N}a_{C}^{N}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Thus, trade real wages in computers is just 
+\begin_inset Formula $\left(\frac{w^{N}}{P_{C}}\right)^{TRADE}=\frac{1}{a_{C}^{N}}$
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Intuition?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This is the same as autarky computer real wages!
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\left(\frac{w^{N}}{P_{C}^{N}}\right)^{AUT}=\frac{1}{a_{C}^{N}}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade and Wages: 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What are trade--with full specialization--real wages in each industry?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For North, no wages are being earned in textiles
+\end_layout
+
+\begin_layout Itemize
+But we can still derive an expression for real wages in textiles
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\left(\frac{w^{N}}{P_{T}}\right)^{TRADE}=\frac{w^{N}}{P_{T}}\frac{P_{C}}{P_{C}}=\frac{w^{N}}{P_{C}}\frac{P_{C}}{P_{T}}=\frac{1}{a_{C}^{N}}\frac{P_{C}}{P_{T}}$
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+cant do this for computers because there is no revenue=cost condition for
+ textile industry
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Now we have everything we need to determine, using real wages, if there
+ are gains from trade
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade and Wages: 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Did real wages increase under trade?
+\end_layout
+
+\begin_layout Itemize
+From above, we see that real wages in terms of computers did not change
+ 
+\begin_inset Formula $\left(\frac{w^{N}}{P_{C}^{N}}\right)^{AUT}=\left(\frac{w^{N}}{P_{C}}\right)^{TRADE}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+In terms of textiles, because 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}\implies\frac{1}{a_{T}^{N}}<\frac{1}{a_{C}^{N}}\frac{P_{C}}{P_{T}}$
+\end_inset
+
+, real wages are greater under free trade!
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\left(\frac{w^{N}}{P_{T}^{N}}\right)^{AUT}<\left(\frac{w^{N}}{P_{T}}\right)^{TRADE}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade and Wages: 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In summary, real wages either did not change (for computers) or increased
+ (for textiles)
+\end_layout
+
+\begin_layout Itemize
+Thus, in this scenario,there are gains from trade
+\end_layout
+
+\begin_layout Itemize
+Because of trade, South is able to specialize in the production of good
+ for which it has a comparative advantaged (textiles)
+\end_layout
+
+\begin_layout Itemize
+South can then make this good available in the global market at a price
+ less than what North, in autarky, can provide
+\end_layout
+
+\begin_layout Itemize
+EXERCISE: Are there gains from trade for the Southern country under this
+ scenario?
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade and Wages: 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}=\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Free trade relative price equals the autarky relative price for North
+\end_layout
+
+\begin_layout Itemize
+Because of this autarky prices for North, they will produce both goods
+\end_layout
+
+\begin_layout Itemize
+Thus, for North, trade real wages is equal to autarky real wages
+\begin_inset Formula 
+\[
+\left(\frac{w^{N}}{P_{C}^{N}}\right)^{AUT}=\left(\frac{w^{N}}{P_{C}}\right)^{TRADE}=\frac{1}{a_{C}^{N}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\left(\frac{w^{N}}{P_{T}^{N}}\right)^{AUT}=\left(\frac{w^{N}}{P_{T}}\right)^{TRADE}=\frac{1}{a_{T}^{N}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade and Wages: 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}=\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+South, on the other hand, will specialize in producing textiles
+\end_layout
+
+\begin_layout Itemize
+However, only real wages for computers will increase in South
+\end_layout
+
+\begin_layout Itemize
+Real wages for textiles will not change
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+EXERCISE: Derive this!
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade and Wages: 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}=\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This is similar to the case where 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}=\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Only this time trade real wages will be the same as in autarky for the Southern
+ country (for both industries)
+\end_layout
+
+\begin_layout Itemize
+The Northern country, however, will experience an increase in real wages
+ in the textile industry but not in the computer industry
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+International Trade Misconceptions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now that we have a framework in mind, we can address some of the misconceptions
+ about free trade
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+International Trade Misconceptions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Myth 1: Free trade can only benefit a country if it is strong enough to
+ stand up to foreign competition (e.g.
+ the country must posses some technological or resource superiority to survive)
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+A country can be techinically inferior in all industries and still experience
+ gains from trade.
+ Comparative advantage and not absolute advantage is what gives rise to
+ gains from trade
+\end_layout
+
+\begin_layout Itemize
+This is true so long as countries are 
+\emph on
+different 
+\emph default
+in terms of their labour productivity and preferences are such that the
+ resulting equilibrium trade relative prices are different from each countries
+ relative labour productivity
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In other words, this 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+International Trade Misconceptions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Myth 2: Foreign competition is unfair because foreign countries compete
+ by paying their workers low wages
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+The Home country's concern should be whether it is cheaper to produce computers
+ and trade it for textiles versus producing textiles domestically
+\end_layout
+
+\begin_layout Itemize
+If it is cheaper to import textiles, then there are gains from trade, regardless
+ of the fact that the Foreign country is paying a lower wage
+\end_layout
+
+\begin_layout Itemize
+There are short term adjustment costs to free trade (people will lose jobs
+ as industrial production shifts overseas), so perhaps this is why trade
+ reforms remain a contentious issue
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+International Trade Misconceptions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Myth 3: Trade exploits a country and makes it worse off if its workers receive
+ much lower wages than workers in other countries (e.g.
+ sweatshops in China)
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+What's the alternative? Suppose we stop exporting computers to Mexico and
+ stop importing textiles
+\end_layout
+
+\begin_layout Itemize
+In our model, real wages would fall in the South country in terms of computers
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The South is inefficient at producing computers, so autarky computer prices
+ will be higher than free trade computer prices
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Home country, on the other hand, will see a drop in real wages in terms
+ of textiles
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Subsection
+Ricardian Model Conclusion
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The Ricardian Model: Summary
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each country should export the good in which they have a comparative advantage...
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+North: Computers, South: Textiles
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+...and import the good in which it has a comparative disadvantage
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+North: Textiles, South: Computers
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If free trade equilibrium relative price is between each country's autarky
+ relative prices, 
+\emph on
+both 
+\emph default
+countries gain from trade
+\end_layout
+
+\begin_layout Itemize
+But if the free trade equilibrium relative price is equal to one of the
+ country's autarky relative price, that country does not gain from trade
+ (it is also no worse off)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The other country, though, will gain from trade
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Gains from trade are modeled by a higher indifference curve attained and
+ through higher overall real wages
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The Ricardian Model: Shortcomings
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Only one factor in production: Labour
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Others: land, distinguish between skilled and low-skill labour, capital
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Assumes perfect labour mobility across industries
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Not always true
+\end_layout
+
+\begin_layout Itemize
+Takes time
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Countries can only experience gains from trade
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+At worst, there is no change in welfare
+\end_layout
+
+\begin_layout Itemize
+Does not model welfare losses from industrial shifts
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Countries differ only in terms of their productivity
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Does not model resource endowment
+\end_layout
+
+\begin_layout Itemize
+Canada has plenty of natural resources (lumber and shale oil)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+We will consider some of these issues in our next model:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The Heckscher-Ohlin Model
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\end_body
+\end_document
