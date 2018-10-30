@@ -30,8 +30,6 @@
 %remove navigation
 \beamertemplatenavigationsymbolsempty
 
-
-
 \definecolor{blue}{RGB}{0,0,120}
 
 \usepackage{hyperref}
@@ -39,6 +37,10 @@
 \usepackage{array}
 
 \usepackage[section]{placeins}
+
+% Fix undefined control sequence bug at \@@magyar@captionfix (see log)
+% Reference: https://tex.stackexchange.com/questions/426088/texlive-pretest-2018-beamer-and-subfig-collide
+\let\@@magyar@captionfix\relax
 \end_preamble
 \options handouts
 \use_default_options true
@@ -2181,7 +2183,7 @@ Does not account what goods each country produces
 
 \begin_deeper
 \begin_layout Itemize
-Trade flow of simply a function of GDP and distance
+Trade flow is simply a function of GDP and distance
 \end_layout
 
 \end_deeper
@@ -2286,7 +2288,7 @@ Why do countries trade?
 \end_layout
 
 \begin_layout Itemize
-Why might it be beneficial for the U.S.
+Why might it be beneficial for U.S.
  to trade with Canada?
 \begin_inset Separator latexpar
 \end_inset
@@ -2306,17 +2308,19 @@ One could argue that the U.S.
 
 \begin_deeper
 \begin_layout Itemize
-Benefit?
+Yet it is still beneficial for them to trade.
+ Why?
 \end_layout
 
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-Need to distinguish 
+
 \series bold
 Comparative Advantage
 \series default
- from 
+ v.s.
+ 
 \series bold
 Absolute Advantage
 \series default
@@ -2329,8 +2333,7 @@ Absolute Advantage
 
 \begin_deeper
 \begin_layout Itemize
-To understand the distinction, we must first introduce what's called an
- 
+To understand the difference, we define an idea called 
 \series bold
 Opportunity Cost
 \series default
@@ -2383,15 +2386,15 @@ Definition: Opportunity Cost
 
 \begin_deeper
 \begin_layout Itemize
-Definition: 
-\emph on
+
+\series bold
 The value of what you gave up when one alternative is chosen
 \end_layout
 
 \begin_layout Itemize
 You went to university which entailed going to classes, studying, writing
  exams, solving problem sets, etc.
- all of which, as you may be fondly aware, take a lot of time
+ all of which, as you may be fondly aware, take a tremendous amount of time
 \begin_inset Separator latexpar
 \end_inset
 
@@ -2400,12 +2403,11 @@ You went to university which entailed going to classes, studying, writing
 
 \begin_deeper
 \begin_layout Itemize
-You gave up the wage you would have earned had you, instead, decided to
- work right after high school
+You, instead, could've worked soon after you graduated from high school
 \end_layout
 
 \begin_layout Itemize
-This wage is the opportunity cost of your university education
+Opportunity cost of going to college: wage earned if you worked instead
 \end_layout
 
 \begin_layout Itemize
@@ -2414,16 +2416,7 @@ You hope that it is worth it (it is! the data supports it)
 
 \end_deeper
 \begin_layout Itemize
-Pyrrhic Victory
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Win at all cost
+Pyrrhic Victory 
 \begin_inset Note Note
 status collapsed
 
@@ -2437,7 +2430,6 @@ Greek general Pyrrhus whose army suffered significant lost in defeating
 
 \end_layout
 
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -2465,20 +2457,19 @@ Comparative Advantage
 
 \begin_deeper
 \begin_layout Itemize
-What does it mean for a person/country to have a 
+For a given task, what does it mean for a person to have a 
 \series bold
 comparative advantage
 \series default
- over another person/country in undertaking a task?
+ over another person?
 \end_layout
 
 \begin_layout Itemize
-In completing a task, person A has a comparative advantage over person B
- if her 
+Joe has a comparative advantage over Bob if the 
 \series bold
 opportunity cost
 \series default
- in doing that task is lower than the 
+ completing the task is lower than the 
 \series bold
 opportunity cost
 \series default
