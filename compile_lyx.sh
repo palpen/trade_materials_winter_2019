@@ -5,8 +5,8 @@
 LECTURE_PATH=$1
 DESTINATION_PATH=$2
 
-FILENAME_W_EXT="${LECTURE_PATH##*/}" # get filename with extension
-FILENAME_NO_EXT="${FILENAME_W_EXT%%.*}"  # File name witout extension
+FILENAME_W_EXT="${LECTURE_PATH##*/}" # Get filename with extension
+FILENAME_NO_EXT="${FILENAME_W_EXT%%.*}"  # Filename witout extension
 DIRNAME=${LECTURE_PATH%/*}
 
 #Compile lyx file and save pdf
