@@ -7,15 +7,14 @@
 \textclass beamer
 \begin_preamble
 %Beamer theme and color theme
-\usetheme{Frankfurt}
-\usecolortheme{beaver}
+\usetheme{default}
+\usecolortheme{default}
+
+\setbeamercolor{normal text}{bg=MyGreen}
+\definecolor{MyGreen}{RGB}{230, 242, 230}
+
+% no dots/buttons along the top
 \setbeamertemplate{mini frames}{}
-
-% set color of elements (e.g. bullet points, theorems, definitions, etc)
-\setbeamercolor{structure}{fg=red!60!white}
-
-% header showing only current section and subsection
-\useoutertheme{infolines}
 
 \usepackage{amsmath,amssymb}
 
@@ -34,8 +33,6 @@
 %remove navigation
 \beamertemplatenavigationsymbolsempty
 
-
-
 \definecolor{blue}{RGB}{0,0,120}
 
 \usepackage{hyperref}
@@ -43,8 +40,6 @@
 \usepackage{array}
 
 \usepackage[section]{placeins}
-
-\usepackage{graphicx}
 
 % Fix undefined control sequence bug at \@@magyar@captionfix (see log)
 % Reference: https://tex.stackexchange.com/questions/426088/texlive-pretest-2018-beamer-and-subfig-collide
@@ -312,6 +307,484 @@ Voluntary Export Restraint (VER)
 \end_layout
 
 \end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tariffs: Definitions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tax on imports
+\end_layout
+
+\begin_layout Itemize
+May take a variety of forms:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{Specific Tariff:}
+\end_layout
+
+\end_inset
+
+
+\series default
+ tax levied as a fixed charge for each unit imported
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\text{Revenue}=(p-t)q$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{Ad-valorem Tariff:}
+\end_layout
+
+\end_inset
+
+ tax levied as a fraction of the value being imported
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\text{Revenue}=(1-\tau)pq$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{Compound Duty:}
+\end_layout
+
+\end_inset
+
+ mixture of specific and ad-valorem tariff
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\text{Revenue}=(1-\tau)(p-t)q$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tariffs in Practice
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Average Tariff Rates (TBA !!!)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1996
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2014
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2018
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Canada
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+United States
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+China
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Source: !!!
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tariffs in Practice
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tariff rates vary widely by product group
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Canada: Average tariff rates in 2017 by product groups
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Meat of bovine animals, fresh or chilled: 26.5
+\end_layout
+
+\begin_layout Itemize
+Cotton sewing thread: 8%
+\end_layout
+
+\begin_layout Itemize
+Footwear; training, track or running: 18%
+\end_layout
+
+\begin_layout Itemize
+Pizza and Quiche: 14.5%
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Source: Canada Customs Tariff for 2017
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+https://www.cbsa-asfc.gc.ca/trade-commerce/tariff-tarif/2018/html/tblmod-3-eng.html
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tariffs in Practice
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why do countries use tariffs?
+\end_layout
+
+\begin_layout Itemize
+Why are many countries actively trying to cut tariffs?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+NAFTA 2.0 (US-Mexico-Canada Agreement)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Encourage domestic production of automobiles
+\end_layout
+
+\begin_layout Itemize
+Domestic labour
+\end_layout
+
+\begin_layout Itemize
+US access to Canadian dairy market
+\end_layout
+
+\begin_layout Itemize
+Intellectual property rights provisions
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Signed, but not ratified
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Who wins / loses from trade agreements?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Theory: Tariffs in Partial Equilibirum
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\end_layout
+
 \end_deeper
 \begin_layout Frame
 
