@@ -13,8 +13,13 @@
 \setbeamercolor{normal text}{bg=MyGreen}
 \definecolor{MyGreen}{RGB}{230, 242, 230}
 
-% no dots/buttons along the top
 \setbeamertemplate{mini frames}{}
+
+% set color of elements (e.g. bullet points, theorems, definitions, etc)
+%\setbeamercolor{structure}{fg=red!60!white}
+
+% header showing only current section and subsection
+% \useoutertheme{infolines}
 
 \usepackage{amsmath,amssymb}
 
@@ -30,13 +35,14 @@
 %Set slide number
 \setbeamertemplate{footline}[frame number]
 
-% Bullets and items
-\setbeamertemplate{itemize item}{\tiny\raise-2pt\hbox{$\blacktriangleright$}}
-\setbeamertemplate{itemize subitem}{\Huge\raise1.5pt\hbox{\donotcoloroutermaths$\cdot$}}
-\setbeamertemplate{itemize subsubitem}{\Huge\raise1.5pt\hbox{\donotcoloroutermaths$\cdot$}}
-
 %remove navigation
 \beamertemplatenavigationsymbolsempty
+
+% Bullets and items
+\setbeamertemplate{itemize item}{\tiny\raise1.50pt\hbox{$\blacktriangleright$}}
+\setbeamertemplate{itemize subitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
+\setbeamertemplate{itemize subsubitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
+
 
 \definecolor{blue}{RGB}{0,0,120}
 
@@ -45,6 +51,8 @@
 \usepackage{array}
 
 \usepackage[section]{placeins}
+
+\usepackage{graphicx}
 
 % Fix undefined control sequence bug at \@@magyar@captionfix (see log)
 % Reference: https://tex.stackexchange.com/questions/426088/texlive-pretest-2018-beamer-and-subfig-collide
@@ -124,7 +132,7 @@
 \begin_body
 
 \begin_layout Title
-ECO364: International Trade Theory
+ECO364H1S: International Trade Theory
 \end_layout
 
 \begin_layout Subtitle
@@ -143,17 +151,49 @@ Palermo Penano
 Welcome
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
+\begin_layout Frame
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-Short course introduction
+Welcome
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This class will study issues in international trade
+\end_layout
+
+\begin_layout Itemize
+Why do countries trade? When is trade beneficial? When is it harmful? What
+ factors affect the pattern of trade in goods and services?
+\end_layout
+
+\begin_layout Itemize
+What are the implications of tariffs, quotas, export subsidies, etc?
+\end_layout
+
+\begin_layout Itemize
+We will study these issues using economic modelling
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+Two Cheers for Formalism
+\emph default
+ by Paul Krugman
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
 \begin_inset Separator plain
 \end_inset
 
@@ -161,7 +201,7 @@ Short course introduction
 \end_layout
 
 \begin_layout Subsection
-Hello
+Course Information
 \end_layout
 
 \begin_layout Frame
@@ -248,89 +288,6 @@ Office Hours: By appointment
 
 \end_layout
 
-\begin_layout Section
-Administration
-\end_layout
-
-\begin_layout Subsection
-Books
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Textbook
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\series bold
-”International Economics: Theory and Policy” 
-\series default
-by Paul R.
- Krugman, Marc J.
- Melitz, and Maurice Obstfeld.
-\end_layout
-
-\begin_layout Itemize
-10th Edition — older edition is fine
-\end_layout
-
-\begin_layout Itemize
-Recommended—not required
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-TA and Website
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Course Website
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Syllabus lectures, problem sets and othe course materials will be available
- on Quercus.
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
 \begin_layout Frame
 \begin_inset Argument 4
 status open
@@ -387,6 +344,139 @@ Office hours: TBA
 \end_deeper
 \end_deeper
 \begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Administration
+\end_layout
+
+\begin_layout Subsection
+Prerequisite
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Course Prerequisite and Expectation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Please make sure you have the correct prerequisites for this course (see
+ Syllabus)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+I do not have any control over enrollment
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Calculus (partial and total derivatives) and linear algebra
+\end_layout
+
+\begin_layout Itemize
+Constrained optimization (Langrangians and Kuhn-Tucker conditions) as covered
+ in second-year microeconomics
+\end_layout
+
+\begin_layout Itemize
+A brief math review will be covered by one of the TAs in the first tutorial
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Textbook
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Textbook
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+International Economics: Theory and Policy 
+\series default
+by Paul R.
+ Krugman, Marc J.
+ Melitz, and Maurice Obstfeld.
+\end_layout
+
+\begin_layout Itemize
+11th Edition — older edition is fine
+\end_layout
+
+\begin_layout Itemize
+Recommended—not required
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+TA and Website
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Course Website
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Syllabus lectures, problem sets and othe course materials will be available
+ on Quercus.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
 
@@ -402,7 +492,7 @@ Evaluation
 status open
 
 \begin_layout Plain Layout
-Grading
+Grade Distribution
 \end_layout
 
 \end_inset
@@ -412,11 +502,11 @@ Grading
 
 \begin_deeper
 \begin_layout Itemize
-See syllabus for dates and deadlines
+See course syllabus for important dates and deadlines
 \end_layout
 
 \begin_layout Itemize
-Four problem sets each worth 5%
+Four problem sets: 5% each
 \end_layout
 
 \begin_layout Itemize
@@ -444,69 +534,6 @@ Goal
 status open
 
 \begin_layout Plain Layout
-Course Objectives
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Understand the reason for why countries trade using economic modelling 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-example of models: maps.
- Our model will be characterized by mathematical equations
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Review some of the empirical litrature testing these models
-\end_layout
-
-\begin_layout Itemize
-Recommended reading: 
-\emph on
-Two Cheers for Formalism
-\emph default
- by Paul Krugman 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-READ THIS !!!
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
 Outline for the Course
 \end_layout
 
@@ -526,15 +553,9 @@ Ricardian Model
 
 \begin_deeper
 \begin_layout Itemize
-How does differences in productivity drive specialization?
+How does differences in productivity determine specialization?
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-test
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Itemize
 Heckscher-Ohlin Model
@@ -542,7 +563,8 @@ Heckscher-Ohlin Model
 
 \begin_deeper
 \begin_layout Itemize
-How does differences in the abundance of factors drive specialization?
+How does differences in the abundance of factors (e.g.
+ land, labour) determine specialization?
 \end_layout
 
 \end_deeper
@@ -557,7 +579,7 @@ Specific-Factors Model
 \begin_deeper
 \begin_layout Itemize
 How does differences in the abundance of factors drive specialization in
- the case where one of the factors is immobile?
+ the case where some factors are immobile?
 \end_layout
 
 \end_deeper
@@ -590,19 +612,6 @@ Outline for the Course
 
 \end_layout
 
-\begin_layout Frame
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-!!! REVIEW SCOTTS MATERIALS FOR INTRODUCTION !!!
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_deeper
 \begin_layout Itemize
 Trade Policy
@@ -614,37 +623,13 @@ Trade Policy
 
 \begin_deeper
 \begin_layout Itemize
-Instruments
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
 Tariffs, quotas, export subsidies, voluntary export restraints
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
-Politics
-\begin_inset Separator latexpar
-\end_inset
-
-
+Why limit (encourage) trade? Why do we have the WTO?
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Why limit (encourage) trade?
-\end_layout
-
-\begin_layout Itemize
-Why do we have the WTO?
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Itemize
 Trade with increasing returns and imperfect competition
@@ -656,42 +641,17 @@ Trade with increasing returns and imperfect competition
 
 \begin_deeper
 \begin_layout Itemize
-External versus internal economies of scale
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
 Does trade encourage cost savings through economies of scale?
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Market power and trade
 \begin_inset Separator latexpar
 \end_inset
 
 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Does trade limit (increase) market power? 
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-Firm heterogeneity and trade
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
 Do more productive firms benefit from trade liberalization?
 \end_layout
@@ -700,7 +660,6 @@ Do more productive firms benefit from trade liberalization?
 Does trade encourage firms to invest in productivity?
 \end_layout
 
-\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Standard
