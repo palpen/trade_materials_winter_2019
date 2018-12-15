@@ -7,8 +7,11 @@
 \textclass beamer
 \begin_preamble
 %Beamer theme and color theme
-\usetheme{Frankfurt}
-\usecolortheme{beaver}
+\usetheme{default}
+\usecolortheme{default}
+
+\setbeamercolor{normal text}{bg=MyGreen}
+\definecolor{MyGreen}{RGB}{230, 242, 230}
 
 % no dots/buttons along the top
 \setbeamertemplate{mini frames}{}
@@ -209,7 +212,7 @@ Palermo Penano
 \end_layout
 
 \begin_layout Itemize
-Data scientist at Scotiabank
+Slack: TBA
 \end_layout
 
 \begin_layout Itemize
@@ -295,9 +298,32 @@ Course Website and TAs
 
 \begin_deeper
 \begin_layout Itemize
-!!! INSERT COURSE WEBSITE HERE !!!
+Syllabus lectures, problem sets and othe course materials will be available
+ on Quercus
 \end_layout
 
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Course Website and TAs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 TAs: 
 \begin_inset Separator latexpar
