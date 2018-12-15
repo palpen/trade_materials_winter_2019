@@ -30,6 +30,11 @@
 %Set slide number
 \setbeamertemplate{footline}[frame number]
 
+% Bullets and items
+\setbeamertemplate{itemize item}{\tiny\raise-2pt\hbox{$\blacktriangleright$}}
+\setbeamertemplate{itemize subitem}{\Huge\raise1.5pt\hbox{\donotcoloroutermaths$\cdot$}}
+\setbeamertemplate{itemize subsubitem}{\Huge\raise1.5pt\hbox{\donotcoloroutermaths$\cdot$}}
+
 %remove navigation
 \beamertemplatenavigationsymbolsempty
 
@@ -159,12 +164,12 @@ Short course introduction
 Hello
 \end_layout
 
-\begin_layout PlainFrame
+\begin_layout Frame
 \begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-Course Scheduling
+Course Information
 \end_layout
 
 \end_inset
@@ -173,6 +178,18 @@ Course Scheduling
 \end_layout
 
 \begin_deeper
+\begin_layout Itemize
+ECO364H1S International Trade Theory
+\end_layout
+
+\begin_layout Itemize
+Section: L5101
+\end_layout
+
+\begin_layout Itemize
+Term: Winter 2019
+\end_layout
+
 \begin_layout Itemize
 When? Tuesday 6-9pm
 \end_layout
@@ -194,7 +211,7 @@ Where? SS2135
 status open
 
 \begin_layout Plain Layout
-Hello
+Instructor
 \end_layout
 
 \end_inset
@@ -216,7 +233,11 @@ Slack: TBA
 \end_layout
 
 \begin_layout Itemize
-Email: palermo.penano@mail.utoronto.ca
+Email: palermo.penano@utoronto.ca
+\end_layout
+
+\begin_layout Itemize
+Office Hours: By appointment
 \end_layout
 
 \end_deeper
@@ -268,7 +289,7 @@ by Paul R.
 \end_layout
 
 \begin_layout Itemize
-Recommended but not required
+Recommended—not required
 \end_layout
 
 \end_deeper
@@ -288,7 +309,7 @@ TA and Website
 status open
 
 \begin_layout Plain Layout
-Course Website and TAs
+Course Website
 \end_layout
 
 \end_inset
@@ -300,7 +321,6 @@ Course Website and TAs
 \begin_layout Itemize
 Syllabus lectures, problem sets and othe course materials will be available
  on Quercus.
- TEST!!!
 \end_layout
 
 \end_deeper
@@ -316,18 +336,9 @@ Syllabus lectures, problem sets and othe course materials will be available
 status open
 
 \begin_layout Plain Layout
-Course Website and TAs
+Teaching Assistants
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-TAs: 
-\begin_inset Separator latexpar
 \end_inset
 
 
@@ -347,10 +358,12 @@ Rachapalli, Swapnika Reddy
 Email: s.rachapalli@mail.utoronto.ca
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 Office hours: TBA
 \end_layout
 
+\end_deeper
 \end_deeper
 \begin_layout Itemize
 Gorgulu, Nazli Billur
@@ -365,20 +378,13 @@ Gorgulu, Nazli Billur
 Email: billur.gorgulu@mail.utoronto.ca
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 Office hours: TBA
 \end_layout
 
 \end_deeper
 \end_deeper
-\begin_layout Itemize
-Office hours 
-\begin_inset Formula $\succ$
-\end_inset
-
- Email
-\end_layout
-
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -523,6 +529,12 @@ Ricardian Model
 How does differences in productivity drive specialization?
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+test
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Itemize
 Heckscher-Ohlin Model
