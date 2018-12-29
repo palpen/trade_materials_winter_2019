@@ -2373,7 +2373,7 @@ If the value of what you have to give up exceeds the value of what the other
 status open
 
 \begin_layout Plain Layout
-Definition: Opportunity Cost
+Opportunity Cost
 \end_layout
 
 \end_inset
@@ -2404,15 +2404,15 @@ You went to university which entailed going to classes, studying, writing
 
 \begin_deeper
 \begin_layout Itemize
-You, instead, could've worked soon after you graduated from high school
+Alternatively, you could have worked soon after high school
 \end_layout
 
 \begin_layout Itemize
-Opportunity cost of going to college: wage earned if you worked instead
+Opportunity cost of going to college: wage earned from full-time employment
 \end_layout
 
 \begin_layout Itemize
-You hope that it is worth it (it is! the data supports it)
+You hope that it is worth it
 \end_layout
 
 \end_deeper
@@ -2429,7 +2429,7 @@ You hope that it is worth it (it is! the data supports it)
 status open
 
 \begin_layout Plain Layout
-Definition: Opportunity Cost
+Opportunity Cost
 \end_layout
 
 \end_inset
@@ -2437,20 +2437,18 @@ Definition: Opportunity Cost
 
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
-In economic terms:
+In terms of production:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 The amount of another good that could have been produced with the resources
- used to produce one unit of a good
+ used to produce one unit of a good (KOM, Ch 3.1)
 \end_layout
 
-\begin_layout Itemize
-KOM, Ch 3.1
-\end_layout
-
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -2494,7 +2492,7 @@ opportunity cost for
 \series bold
 opportunity cost
 \series default
- of B for doing the same task
+ for Bob to do same task
 \begin_inset Separator latexpar
 \end_inset
 
@@ -2503,26 +2501,21 @@ opportunity cost
 
 \begin_deeper
 \begin_layout Itemize
-The key idea here is to ask What is the value of the thing that A had to
- give up in order to complete the task
+Question to ask: 
+\series bold
+What is the value of the thing that Joe will have to give up in order to
+ complete the task?
 \end_layout
 
 \begin_layout Itemize
-Compare this value to the value of what B had to give up to do the same
- task
+Compare this to the value of what Bob has to give up to do the same task
 \end_layout
 
 \begin_layout Itemize
-If it is lower for A, then A should do the task
+If it is lower for Bob, then Bob should do the task
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-For countries, instead of tasks, consider their choice on what goods to
- produce and measure the value of what they had to give up in terms of the
- number of outputs
-\end_layout
-
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -2536,7 +2529,7 @@ For countries, instead of tasks, consider their choice on what goods to
 status open
 
 \begin_layout Plain Layout
-Comparative Advantage: Example
+Comparative Advantage
 \end_layout
 
 \end_inset
@@ -2550,35 +2543,65 @@ Comparative Advantage: Example
 
 \begin_deeper
 \begin_layout Itemize
-This is a general principle that applies broadly to life
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Lawyers are probably more efficient than their legal secretaries in everything
+Lawyers are likely more efficient than their legal secretaries in most tasks
  related to their practice.
- But, the lawyer's time is better spent practicing law and delegating the
+ 
+\end_layout
+
+\begin_layout Itemize
+Lawyer's time, however, is better spent practicing law and delegating the
  more mundane part of their practice to their legal secretary.
- Both parties benefit
+ 
 \end_layout
 
 \begin_layout Itemize
-You always have that one person who knows everything when working as a group
- on a problem set.
- But because there's a deadline, it would be advantageous for that person
- to have their peers work on some of the questions
+Both parties benefit and are more productive
 \end_layout
 
 \begin_layout Itemize
-Parents are faster at doing the dishes (or any chore for that matter), but
- they have their kids do it (perhaps for a small wage)
+Another example: Doctors and nurses
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Comparative Advantage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For countries, instead of tasks, consider their choice on what goods to
+ produce
+\end_layout
+
+\begin_layout Itemize
+When producing shoes, how many sandals could they have produced instead
+ with the same resources
+\end_layout
+
+\begin_layout Itemize
+Measure value in terms of the number of outputs (300 pairs of sandals)
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -2610,19 +2633,19 @@ Absolute advantage, on the other hand, makes raw comparisons of ability
 \end_layout
 
 \begin_layout Itemize
-We say that person A has an 
+We say that Joe has an 
 \series bold
 absolute advantage
 \series default
- over person B in a given task if A can do it faster, more efficiently,
- and with greater proficiency than B
+ over Bob in a given task if Joe can do it faster, more efficiently, and
+ with greater proficiency than Bob
 \end_layout
 
 \begin_layout Itemize
 E.g.
  the U.S.
- probably has an absolute advantage over most developing countries when
- it comes to producing most goods
+ may have an absolute advantage over most developing countries when it comes
+ to producing most goods and services
 \begin_inset Separator latexpar
 \end_inset
 
@@ -2639,10 +2662,12 @@ But, in spite of this, it can only have a comparative advantage for some
  goods
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
-To produce textiles, it must give up producing some computers!
+To produce textiles, it must give up producing some computers
 \end_layout
 
+\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Standard
