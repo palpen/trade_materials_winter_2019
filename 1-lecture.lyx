@@ -219,7 +219,7 @@ Course Information
 
 \begin_deeper
 \begin_layout Itemize
-ECO364H1S International Trade Theory
+Course Name: ECO364H1S International Trade Theory
 \end_layout
 
 \begin_layout Itemize
@@ -231,11 +231,11 @@ Term: Winter 2019
 \end_layout
 
 \begin_layout Itemize
-When? Tuesday 6-9pm
+When: Tuesday 6-9pm
 \end_layout
 
 \begin_layout Itemize
-Where? SS2135
+Where: SS 2135
 \end_layout
 
 \end_deeper
@@ -317,7 +317,7 @@ Email: s.rachapalli@mail.utoronto.ca
 
 \begin_deeper
 \begin_layout Itemize
-Office hours: TBA
+Office hours and location: TBA (LOCATION)
 \end_layout
 
 \end_deeper
@@ -337,7 +337,7 @@ Email: billur.gorgulu@mail.utoronto.ca
 
 \begin_deeper
 \begin_layout Itemize
-Office hours: TBA
+Office hours and location: TBA (LOCATION)
 \end_layout
 
 \end_deeper
@@ -379,7 +379,7 @@ Please make sure you have the correct prerequisites for this course (see
 
 \begin_deeper
 \begin_layout Itemize
-I do not have any control over enrollment
+I do not have control over enrollment
 \end_layout
 
 \end_deeper
@@ -433,15 +433,15 @@ International Economics: Theory and Policy
 \series default
 by Paul R.
  Krugman, Marc J.
- Melitz, and Maurice Obstfeld.
-\end_layout
-
-\begin_layout Itemize
-11th Edition — older edition is fine
+ Melitz, and Maurice Obstfeld, 11th Edition
 \end_layout
 
 \begin_layout Itemize
 Recommended—not required
+\end_layout
+
+\begin_layout Itemize
+Online version available (see syllabus for details on how to purchase)
 \end_layout
 
 \end_deeper
@@ -471,8 +471,8 @@ Course Website
 
 \begin_deeper
 \begin_layout Itemize
-Syllabus lectures, problem sets and othe course materials will be available
- on Quercus.
+All course materials (syllabus, lecture slides, problem sets, etc.) will
+ be posted on Quercus
 \end_layout
 
 \end_deeper
@@ -502,10 +502,6 @@ Grade Distribution
 
 \begin_deeper
 \begin_layout Itemize
-See course syllabus for important dates and deadlines
-\end_layout
-
-\begin_layout Itemize
 Four problem sets: 5% each
 \end_layout
 
@@ -515,6 +511,10 @@ In-class Midterm Exam: 30%
 
 \begin_layout Itemize
 Final Exam: 50%
+\end_layout
+
+\begin_layout Itemize
+See course syllabus for important dates and deadlines
 \end_layout
 
 \end_deeper
@@ -564,7 +564,7 @@ Heckscher-Ohlin Model
 \begin_deeper
 \begin_layout Itemize
 How does differences in the abundance of factors (e.g.
- land, labour) determine specialization?
+ capital, labour) determine specialization?
 \end_layout
 
 \end_deeper
@@ -578,8 +578,8 @@ Specific-Factors Model
 
 \begin_deeper
 \begin_layout Itemize
-How does differences in the abundance of factors drive specialization in
- the case where some factors are immobile?
+Assuming some factors are immobile (land), how will differences in abundance
+ of factors drive specialization?
 \end_layout
 
 \end_deeper
@@ -627,7 +627,7 @@ Tariffs, quotas, export subsidies, voluntary export restraints
 \end_layout
 
 \begin_layout Itemize
-Why limit (encourage) trade? Why do we have the WTO?
+Why limit / encourage trade? Why do we have the WTO?
 \end_layout
 
 \end_deeper
@@ -649,7 +649,7 @@ Does trade encourage cost savings through economies of scale?
 \end_layout
 
 \begin_layout Itemize
-Does trade limit (increase) market power? 
+Does trade increase or decrease market power? 
 \end_layout
 
 \begin_layout Itemize
@@ -657,7 +657,7 @@ Do more productive firms benefit from trade liberalization?
 \end_layout
 
 \begin_layout Itemize
-Does trade encourage firms to invest in productivity?
+Does trade encourage firms to invest in productivity improving technologies?
 \end_layout
 
 \end_deeper
@@ -713,10 +713,6 @@ Trade by partner country
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-Outline for Semester
-\end_layout
-
 \begin_layout Itemize
 Ricardian Model
 \end_layout
@@ -816,10 +812,6 @@ Trade, as a share of GDP, has grown since the 1970s, with rapid increases
 
 \begin_layout Itemize
 This is true for both advanced and developing countries
-\end_layout
-
-\begin_layout Itemize
-In this course, we will offer suggestions for why this is happening
 \end_layout
 
 \end_deeper
@@ -1476,7 +1468,7 @@ Developing countries produce more textiles and food
 \end_layout
 
 \begin_layout Itemize
-Countries appear to be specializing depending on their level of development
+Countries appear to be specializing based on their level of development
 \end_layout
 
 \end_deeper
@@ -2027,8 +2019,8 @@ Take Away
 
 \begin_deeper
 \begin_layout Itemize
-Trade flows appear to be greatest between countries that are large and countries
- that are physically close
+Trade flows appear to be greatest between economically large and geographically
+ near countries
 \begin_inset Separator latexpar
 \end_inset
 
@@ -2048,7 +2040,7 @@ Larger economies generate more income from goods and services sold: they
 
 \end_deeper
 \begin_layout Itemize
-Thus, large countries are more likely to trade with each other
+The implication is large countries are more likely to trade with each other
 \end_layout
 
 \end_deeper
@@ -2078,17 +2070,13 @@ Take Away
 
 \begin_deeper
 \begin_layout Itemize
-We can model this observation by borrowing the model that describes a fundamenta
-l law in physics: large and close bodies generate greater gravitational
- force
+We can model this observation by repurposing a mathematical formula describing
+ a foundational law in physics: large and close bodies generate greater
+ gravitational force
 \end_layout
 
 \begin_layout Itemize
-This law is repurposed by economists to describe international trade
-\end_layout
-
-\begin_layout Itemize
-It is called the Gravity Model of Trade:
+In trade theory, we call this the Gravity Model of Trade:
 \begin_inset Separator latexpar
 \end_inset
 
@@ -2097,7 +2085,7 @@ It is called the Gravity Model of Trade:
 
 \begin_deeper
 \begin_layout Itemize
-countries 
+Countries 
 \begin_inset Formula $i$
 \end_inset
 
@@ -2153,6 +2141,32 @@ The superscripts
 status open
 
 \begin_layout Plain Layout
+Empircal Estimation of the Gravity Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+TBA
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Limitations of the Gravity Model
 \end_layout
 
@@ -2176,7 +2190,7 @@ Limitations of the gravity model:
 
 \begin_deeper
 \begin_layout Itemize
-Does not account what goods each country produces
+Does not account for what goods each country produces
 \end_layout
 
 \begin_deeper
@@ -2186,8 +2200,7 @@ Trade flow is simply a function of GDP and distance
 
 \end_deeper
 \begin_layout Itemize
-Does not account for factor prices (e.g.
- wages and return on capital)
+Does not account for factor prices, such wages and return on capital
 \end_layout
 
 \begin_deeper
@@ -2197,7 +2210,7 @@ Factor cost has significant implications on production output
 
 \end_deeper
 \begin_layout Itemize
-Cannot make predictions on whether trade has been beneficial or harmful
+Cannot predict welfare implications of trade
 \end_layout
 
 \begin_deeper
@@ -2208,7 +2221,7 @@ When is trade beneficial? When is it harmful?
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-We will develop economic models in this course addressing these limitations
+We will develop economic models that overcome these limitations
 \end_layout
 
 \end_deeper
@@ -2286,8 +2299,8 @@ Why do countries trade?
 \end_layout
 
 \begin_layout Itemize
-Why might it be beneficial for U.S.
- to trade with Canada?
+Why might the U.S.
+ trade with Canada?
 \begin_inset Separator latexpar
 \end_inset
 
@@ -2297,20 +2310,10 @@ Why might it be beneficial for U.S.
 \begin_deeper
 \begin_layout Itemize
 One could argue that the U.S.
- is technologically superior to Canada
-\begin_inset Separator latexpar
-\end_inset
-
-
+ is technologically superior to Canada yet it would still be in their favour
+ to trade
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Yet it is still beneficial for them to trade.
- Why?
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Itemize
 
@@ -2331,7 +2334,7 @@ Absolute Advantage
 
 \begin_deeper
 \begin_layout Itemize
-To understand the difference, we define an idea called 
+To understand the difference, we define the idea of 
 \series bold
 Opportunity Cost
 \series default
@@ -2386,7 +2389,7 @@ Definition: Opportunity Cost
 \begin_layout Itemize
 
 \series bold
-The value of what you gave up when one alternative is chosen
+The value of what you gave up by choosing the alternative
 \end_layout
 
 \begin_layout Itemize
@@ -2413,14 +2416,20 @@ You hope that it is worth it (it is! the data supports it)
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-Pyrrhic Victory 
-\begin_inset Note Note
-status collapsed
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
 
 \begin_layout Plain Layout
-Greek general Pyrrhus whose army suffered significant lost in defeating
- the Romans during a war some time around 300 BC
+Definition: Opportunity Cost
 \end_layout
 
 \end_inset
@@ -2428,9 +2437,23 @@ Greek general Pyrrhus whose army suffered significant lost in defeating
 
 \end_layout
 
+\begin_layout Itemize
+In economic terms:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The amount of another good that could have been produced with the resources
+ used to produce one unit of a good
+\end_layout
+
+\begin_layout Itemize
+KOM, Ch 3.1
+\end_layout
+
 \end_deeper
 \begin_layout Standard
-\begin_inset Separator parbreak
+\begin_inset Separator plain
 \end_inset
 
 
@@ -2465,7 +2488,7 @@ comparative advantage
 \begin_layout Itemize
 Joe has a comparative advantage over Bob if the 
 \series bold
-opportunity cost
+opportunity cost for
 \series default
  completing the task is lower than the 
 \series bold
