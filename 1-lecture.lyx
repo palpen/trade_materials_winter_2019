@@ -2700,12 +2700,12 @@ Formal Model
 
 \begin_deeper
 \begin_layout Itemize
-Let's show this analytically with a formal model
+Let's see how this works out in a formal model
 \end_layout
 
 \begin_layout Itemize
-Allows us to focus on how differences in technology can be the reason why
- it is mutually beneficial for countries to trade
+How does differences in technology result in mutually beneficial reason
+ to trade?
 \end_layout
 
 \end_deeper
@@ -2721,70 +2721,217 @@ Allows us to focus on how differences in technology can be the reason why
 status open
 
 \begin_layout Plain Layout
-Model World
+Model Assumptions
 \end_layout
 
-\end_inset
-
-
-\begin_inset Separator latexpar
 \end_inset
 
 
 \end_layout
 
 \begin_deeper
-\begin_layout Enumerate
-Two countries: Canada (North: N) and Mexico (South: S)
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
 \end_layout
 
-\begin_layout Enumerate
-Two goods: Computers, C and Textiles, T (e.g.
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+item[1.]
+\end_layout
+
+\end_inset
+
+ Two countries: Canada (North: N) and Mexico (South: S)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+item[2.]
+\end_layout
+
+\end_inset
+
+ Two goods: Computers, C and Textiles, T (e.g.
  clothing)
 \end_layout
 
-\begin_layout Enumerate
-One factor in production: labour, L
+\begin_layout Itemize
+Assume there is value in producing a fraction of a good (e.g.
+ 1/2 a computer)
 \end_layout
 
-\begin_layout Enumerate
-Labour is stuck in each country, but they can move across industries within
- a country
-\begin_inset Separator latexpar
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+item[3.]
+\end_layout
+
+\end_inset
+
+ One factor of production: labour, L
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+item[4.]
+\end_layout
+
+\end_inset
+
+ Labour cannot move across countries, but can move across industries
+\end_layout
+
+\begin_layout Itemize
+Implication for wages
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
+\end_layout
+
 \end_inset
 
 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-implication for wages
 \end_layout
 
 \end_deeper
-\begin_layout Enumerate
-Perfect competition (price = marginal cost)
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
-\begin_layout Enumerate
-Homothetic preferences
-\begin_inset Separator latexpar
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Model Assumptions, continued...
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
 \begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{itemize}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+item[5.]
+\end_layout
+
+\end_inset
+
+ Perfect competition (price = marginal cost)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+item[6.]
+\end_layout
+
+\end_inset
+
+ Homothetic preferences
+\end_layout
+
+\begin_layout Itemize
+Implies that proportion of each good consumed does not change across income
+ levels, only across relative prices
+\end_layout
+
 \begin_layout Itemize
 e.g.
  Whether a rich or a poor country: 40% Computers, 60% Textile
 \end_layout
 
-\begin_layout Itemize
-Believe this for now...
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{itemize}
 \end_layout
 
-\end_deeper
+\end_inset
+
+
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -2825,18 +2972,25 @@ Unit Labour Requirement
 
 \begin_deeper
 \begin_layout Itemize
-...labour for one unit requirement...
+
+\emph on
+The amount of labour needed to create one unit of a good
 \end_layout
 
 \begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
 
-\emph on
-the amount of labour needed to create one unit of a good
+Labour for one unit requirement
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
 e.g.
- 3hrs of labour for one computer
+ For computers, ULR = 3 -> 3hrs of labour to make one computer
 \end_layout
 
 \begin_layout Itemize
@@ -2878,30 +3032,7 @@ With one unit of labour, how many units of a good can we create
 \end_layout
 
 \begin_layout Itemize
-e.g.
- If 3 hrs of labour creates one computer, then working for an hour creates
- 
-\begin_inset Formula $1/3$
-\end_inset
-
- of a computer (!)
-\end_layout
-
-\begin_layout Itemize
-So if labour is used up in 1hr increments, the marginal product of labour
- for computers is 
-\series bold
-
-\begin_inset Formula $1/3$
-\end_inset
-
-
-\series default
-
-\begin_inset Separator latexpar
-\end_inset
-
-
+Inverse of the unit labour requirements: 
 \end_layout
 
 \begin_deeper
@@ -2917,10 +3048,24 @@ So if labour is used up in 1hr increments, the marginal product of labour
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+e.g.
+ If it takes 3 hrs to create a computer, then working for an hour creates
+ 
+\begin_inset Formula $1/3$
+\end_inset
+
+ of a computer
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
 \end_deeper
 \end_deeper
 \begin_layout Standard
-\begin_inset Separator parbreak
+\begin_inset Separator plain
 \end_inset
 
 
@@ -2934,10 +3079,6 @@ status open
 Example 
 \end_layout
 
-\end_inset
-
-
-\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2968,6 +3109,15 @@ Mexico:
 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+
+\size scriptsize
+Note: values based strictly on level of economic development and not innate
+ ability
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Frame
 \begin_inset ERT
@@ -3250,7 +3400,7 @@ Canada has an absolute advantage over Mexico
 
 \begin_deeper
 \begin_layout Itemize
-5 hours only to produce either Computer or Textiles
+Takes only 5 hours to produce either Computer or Textiles
 \end_layout
 
 \end_deeper
@@ -3259,7 +3409,7 @@ Takes Mexico 10 hours of labour to produce a Computer
 \end_layout
 
 \begin_layout Itemize
-So should Canada take over production of all goods?
+Should Canada take over production of all goods?
 \end_layout
 
 \end_deeper
@@ -3414,16 +3564,11 @@ With 5 hours of labour, Canada can create 1 Textile
 \end_layout
 
 \begin_layout Itemize
-But they can also use this 5 hours of labour to create 1 Computer
+But with the same amount of labour they could have created 1 Computer
 \end_layout
 
 \begin_layout Itemize
-To create 1 Textile in Canada, they had to give up 1 Computer 
-\end_layout
-
-\begin_layout Itemize
-i.e.
- In Canada, Opportunity Cost of 1 Textile is 1 Computer
+The opportunity cost of 1 Textile in Canada is 1 Computer
 \end_layout
 
 \end_deeper
@@ -3574,19 +3719,15 @@ end{table}
 
 \begin_deeper
 \begin_layout Itemize
-For Mexico, 1 Textile requires 5 hours of labour
+For Mexico, 1 Textile takes 5 hours of labour
 \end_layout
 
 \begin_layout Itemize
-But 5 hours of labour creates 1/2 a Computer (!)
+But 5 hours of labour can create 1/2 a Computer
 \end_layout
 
 \begin_layout Itemize
-To create 1 Textile in Mexico, they had to give up 1/2 a Computer
-\end_layout
-
-\begin_layout Itemize
-In Mexico, Opportunity Cost of 1 Textile is 1/2 a Computer
+The opportunity cost of 1 Textile in Mexico is 1/2 a Computer
 \end_layout
 
 \end_deeper
