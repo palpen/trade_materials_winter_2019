@@ -3568,7 +3568,7 @@ But with the same amount of labour they could have created 1 Computer
 \end_layout
 
 \begin_layout Itemize
-The opportunity cost of 1 Textile in Canada is 1 Computer
+In Canada, the opportunity cost of 1 Textile is 1 Computer
 \end_layout
 
 \end_deeper
@@ -3723,11 +3723,11 @@ For Mexico, 1 Textile takes 5 hours of labour
 \end_layout
 
 \begin_layout Itemize
-But 5 hours of labour can create 1/2 a Computer
+With this amount of labour, they can create 1/2 a Computer
 \end_layout
 
 \begin_layout Itemize
-The opportunity cost of 1 Textile in Mexico is 1/2 a Computer
+In Mexico, the opportunity cost of 1 Textile is 1/2 a Computer
 \end_layout
 
 \end_deeper
@@ -3878,21 +3878,18 @@ end{table}
 
 \begin_deeper
 \begin_layout Itemize
-Canada has an Absolute Advantage over Mexico in producing both goods
+Canada has an absolute advantage over Mexico in producing both goods
 \end_layout
 
 \begin_layout Itemize
 But Mexico gives up fewer Computers to produce 1 Textile, which means that
- it has a comparative advantage in this good over Canada
+ they have a comparative advantage over Canada in textile production
 \end_layout
 
 \begin_layout Itemize
-Thus, aggregate output can increase if Canada focuses it's production in
- Computers
-\end_layout
-
-\begin_layout Itemize
-and if Mexico focuses its production in Textiles
+Given that each country only has a finite amount of labour for production,
+ aggregate output would be greater if Canada focuses it's production in
+ Computers and Mexico in Textiles
 \end_layout
 
 \end_deeper
@@ -3908,13 +3905,9 @@ and if Mexico focuses its production in Textiles
 status open
 
 \begin_layout Plain Layout
-Unit Labour Requirements
+Checking for Comparative Advantage
 \end_layout
 
-\end_inset
-
-
-\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3922,20 +3915,12 @@ Unit Labour Requirements
 
 \begin_deeper
 \begin_layout Itemize
-We're going to be working a lot using Unit Labour Requirements
+Here's a quick way to check to confirm that Mexico indeed has a comparative
+ advantage in textile production
 \end_layout
 
 \begin_layout Itemize
-Here's one way to confirm that Mexico has a Comparative Advantage over Canada
- in producing Textiles
-\end_layout
-
-\begin_layout Itemize
-With 
-\emph on
-1 hour of labour
-\emph default
-, Mexico has a Comparative Advantage in the production of Textile if
+Mexico has a comparative advantage in the production of Textile if
 \begin_inset Formula 
 \[
 \frac{\text{Textiles made}}{\text{Computers given up }}_{N}<\frac{\text{Textiles made}}{\text{Computers given up}}_{S}
@@ -3955,8 +3940,9 @@ With
 \end_layout
 
 \begin_layout Itemize
-If in 1 hour you had to give up a lot of computers (very low left hand side)
- for one incremental production of textile, you should just produce computers
+Mexico will have to give up more computers to produce the same number of
+ textiles.
+ They should just focus on textile production
 \end_layout
 
 \end_deeper
@@ -3972,7 +3958,7 @@ If in 1 hour you had to give up a lot of computers (very low left hand side)
 status open
 
 \begin_layout Plain Layout
-Unit Labour Requirements
+Checking for Comparative Advantage
 \end_layout
 
 \end_inset
@@ -3986,40 +3972,22 @@ Unit Labour Requirements
 
 \begin_deeper
 \begin_layout Itemize
-Using Unit Labour Requirements, we can see that Canada has a Comparative
- Advantage over Mexico in the production of Computers
+Using unit labour requirements, we can see that Canada has a comparative
+ advantage over Mexico in the production of Computers
 \end_layout
 
 \begin_layout Itemize
 With 1 hour of labour, Canada produces 1/5 of a Computer and gives up 1/5
- of a Textile
-\begin_inset Separator latexpar
-\end_inset
-
-
+ of a Textile (i.e.
+ 1 Computer per Textile)
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-1 Computer per Textile
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 Mexico, on the other hand, produces 1/10 of a Computer and gives up 1/5
- of a Textile
-\begin_inset Separator latexpar
-\end_inset
-
-
+ of a Textile (i.e.
+ 1/2 a Computer per Textile)
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-1/2 a Computer per Textile
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 Both gives up the same amount of Textile to produce Computers, but Canada
  was able to create more with their 1 hour of labour
@@ -4042,7 +4010,7 @@ Therefore, Canada has a Comparative Advantage in the production of Computers
 status open
 
 \begin_layout Plain Layout
-Unit Labour Requirements
+Checking for Comparative Advantage
 \end_layout
 
 \end_inset
