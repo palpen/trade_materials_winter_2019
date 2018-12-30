@@ -703,7 +703,7 @@ Will there be gains from trade?
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -716,72 +716,12 @@ status open
 centering
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename figures/l2a/gt2.jpg
-	scale 8
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Will there be gains from trade?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
 \begin_layout Plain Layout
 
 
 \backslash
-centering
+includegraphics[scale=.09]{figures/l2a/gt2.jpg}
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename figures/l2a/gt3.jpg
-	scale 8
 
 \end_inset
 
@@ -830,15 +770,66 @@ status open
 centering
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.09]{figures/l2a/gt3.jpg}
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename figures/gt4.jpg
-	scale 8
+Will there be gains from trade?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.09]{figures/l2a/gt4.jpg}
+\end_layout
 
 \end_inset
 
@@ -874,7 +865,7 @@ North
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -887,15 +878,12 @@ status open
 centering
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename figures/gt1.jpg
-	scale 8
+
+
+\backslash
+includegraphics[scale=.09]{figures/l2a/gt1.jpg}
+\end_layout
 
 \end_inset
 
@@ -1225,7 +1213,7 @@ Relative Price and Total Quantity
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -1242,7 +1230,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.075]{figures/te1}
+includegraphics[scale=.075]{figures/l2a/te1}
 \end_layout
 
 \end_inset
@@ -1415,7 +1403,7 @@ Relative Autarky Prices
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -1432,7 +1420,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.075]{figures/te2}
+includegraphics[scale=.075]{figures/l2a/te2}
 \end_layout
 
 \end_inset
@@ -1790,7 +1778,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.075]{figures/te3}
+includegraphics[scale=.075]{figures/l2a/te3}
 \end_layout
 
 \end_inset
@@ -1947,7 +1935,7 @@ Relative Supply Curve: 2.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -1964,7 +1952,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.075]{figures/te4}
+includegraphics[scale=.075]{figures/l2a/te4}
 \end_layout
 
 \end_inset
@@ -2108,7 +2096,7 @@ Relative Supply Curve: 3.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -2125,7 +2113,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.075]{figures/te5}
+includegraphics[scale=.075]{figures/l2a/te5}
 \end_layout
 
 \end_inset
@@ -2309,7 +2297,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.075]{figures/te7}
+includegraphics[scale=.075]{figures/l2a/te7}
 \end_layout
 
 \end_inset
@@ -2452,7 +2440,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.075]{figures/te8}
+includegraphics[scale=.075]{figures/l2a/te8}
 \end_layout
 
 \end_inset
@@ -2586,7 +2574,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.075]{figures/te6}
+includegraphics[scale=.075]{figures/l2a/te6}
 \end_layout
 
 \end_inset
