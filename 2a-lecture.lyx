@@ -1,13 +1,25 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass beamer
 \begin_preamble
 %Beamer theme and color theme
-\usetheme{Frankfurt}
-\usecolortheme{beaver}
+\usetheme{default}
+\usecolortheme{default}
+
+\setbeamercolor{normal text}{bg=MyGreen}
+\definecolor{MyGreen}{RGB}{230, 242, 230}
+
 \setbeamertemplate{mini frames}{}
+
+% set color of elements (e.g. bullet points, theorems, definitions, etc)
+%\setbeamercolor{structure}{fg=red!60!white}
+
+% header showing only current section and subsection
+% \useoutertheme{infolines}
 
 \usepackage{amsmath,amssymb}
 
@@ -26,6 +38,10 @@
 %remove navigation
 \beamertemplatenavigationsymbolsempty
 
+% Bullets and items
+\setbeamertemplate{itemize item}{\tiny\raise1.50pt\hbox{$\blacktriangleright$}}
+\setbeamertemplate{itemize subitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
+\setbeamertemplate{itemize subsubitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
 
 
 \definecolor{blue}{RGB}{0,0,120}
@@ -37,6 +53,10 @@
 \usepackage[section]{placeins}
 
 \usepackage{graphicx}
+
+% Fix undefined control sequence bug at \@@magyar@captionfix (see log)
+% Reference: https://tex.stackexchange.com/questions/426088/texlive-pretest-2018-beamer-and-subfig-collide
+\let\@@magyar@captionfix\relax
 \end_preamble
 \options handouts
 \use_default_options true
@@ -45,16 +65,18 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -84,6 +106,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -92,7 +115,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -130,12 +156,19 @@ Outline
 \end_layout
 
 \begin_layout Frame
+\begin_inset Separator latexpar
+\end_inset
+
 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Last Class
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -144,7 +177,7 @@ Facts
 \end_layout
 
 \begin_layout Itemize
-Ricardian Model: Definitions, Autarky Equilibrium
+Ricardian Model: Defsinitions, Autarky Equilibrium
 \end_layout
 
 \end_deeper
@@ -154,11 +187,19 @@ Ricardian Model: Definitions, Autarky Equilibrium
 
 \begin_layout Itemize
 Today
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Ricardian Model
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -182,6 +223,10 @@ Relative Wages
 \end_deeper
 \begin_layout Itemize
 Readings
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -227,7 +272,10 @@ Ricardo's Difficult Idea
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -268,11 +316,17 @@ textbf{Gains from Trade}}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
 \begin_layout Frame
+\begin_inset Separator latexpar
+\end_inset
+
 
 \end_layout
 
@@ -285,6 +339,10 @@ A key insight from the autarky equilibrium is that the PPF curve and the
 \begin_layout Itemize
 In autarky, a country consumes/buys what it produces (e.g.
  North Korea, to some extent)
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -302,6 +360,10 @@ In autarky, a country consumes/buys what it produces (e.g.
 \end_deeper
 \begin_layout Itemize
 This is not the case when countries are allowed to trade
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -316,17 +378,27 @@ This is because prices are now set in the global market
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
 \begin_layout Frame
+\begin_inset Separator latexpar
+\end_inset
+
 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 We'll use the same example from Lecture 1
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -344,11 +416,17 @@ One Factor of Production: Labour
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
 \begin_layout Frame
+\begin_inset Separator latexpar
+\end_inset
+
 
 \end_layout
 
@@ -380,6 +458,10 @@ P_{C}C_{C}^{N}+P_{T}C_{T}^{N}\leq w^{N}L^{N}
 \begin_layout Itemize
 Because goods can now freely move across countries, prices for a given good
  across countries have equalized (no more superscripts on prices)
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -390,11 +472,17 @@ Wages are still country-specific because we will continue to assume that
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
 \begin_layout Frame
+\begin_inset Separator latexpar
+\end_inset
+
 
 \end_layout
 
@@ -441,7 +529,10 @@ In a state where countries are free to trade, relative price must be between
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -458,11 +549,19 @@ In a state where countries are free to trade, relative price must be between
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Slope of PPF no longer equals slope of budget constraint
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -473,6 +572,10 @@ Budget constraint will pivot
 \end_deeper
 \begin_layout Itemize
 With free trade (resulting in these prices), will there be gains from trade?
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -482,7 +585,10 @@ Gains represented by higher indifference curves
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -497,12 +603,20 @@ Will there be gains from trade?
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Put another way, can a country gain from producing only one good and importing
  the other?
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -517,7 +631,10 @@ Yes!
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -529,6 +646,10 @@ status open
 Will there be gains from trade?
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -545,6 +666,10 @@ Since
 \end_inset
 
 , budget constraint has a slope steeper than the PPF
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -554,7 +679,10 @@ Note that the slopes are the negative of these values
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -595,7 +723,7 @@ centering
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename figures/gt2.jpg
+	filename figures/l2a/gt2.jpg
 	scale 8
 
 \end_inset
@@ -608,7 +736,10 @@ centering
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -649,7 +780,7 @@ centering
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename figures/gt3.jpg
+	filename figures/l2a/gt3.jpg
 	scale 8
 
 \end_inset
@@ -662,7 +793,10 @@ centering
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -683,7 +817,7 @@ Will there be gains from trade?
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -716,7 +850,10 @@ centering
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -770,7 +907,10 @@ centering
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -785,6 +925,10 @@ Gains from Trade: Conclusion
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -792,6 +936,10 @@ Gains from Trade: Conclusion
 If countries just specialized in the production of one type of good and
  traded their surplus with another country, they attain a higher indifference
  curve
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -807,6 +955,10 @@ If, on the other hand,
 
 , then North does not gain from trade (since North's relative price is equal
  to that in autarky)
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -833,6 +985,10 @@ The farther apart
 \end_inset
 
 , the greater the countries will gain from trade
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -843,7 +999,10 @@ i.e.
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -884,7 +1043,10 @@ textbf{Trade Equilibrium}}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -899,11 +1061,19 @@ Okay, but where do prices come from?
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 We didnt't have to worry about how prices are determined in autarky
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -932,6 +1102,10 @@ Under trade, we assumed that relative prices fell some where between the
 
 \begin_layout Itemize
 But where do these prices come from?
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -953,7 +1127,10 @@ prices?
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -968,6 +1145,10 @@ Okay, but where do prices come from?
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -977,6 +1158,10 @@ What do we
 remember
 \emph default
  from second-year micro theory about what determines prices?
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1001,6 +1186,12 @@ Relative Demand (RD)
 and
 \series bold
  Relative Supply (RS)
+\series default
+
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1010,7 +1201,10 @@ Ratio of prices and total quantities for both goods
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1061,7 +1255,10 @@ includegraphics[scale=.075]{figures/te1}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1073,6 +1270,10 @@ status open
 Relative Price and Total Quantity
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1104,7 +1305,10 @@ We will derive the relative supply curve, RS, first
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1123,11 +1327,19 @@ Assumptions
 
 \begin_layout Frame
 Recall, 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 North, Canada, has a comparative advantage in producing computers
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1162,6 +1374,10 @@ P_{C}=w^{N}a_{C}^{N}\ \text{and}\ P_{T}=w^{N}a_{T}^{N}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1175,7 +1391,10 @@ These conditions are true for South, too
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1226,7 +1445,10 @@ includegraphics[scale=.075]{figures/te2}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1238,6 +1460,10 @@ status open
 
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1266,7 +1492,10 @@ P_{T}^{N}=P_{T}^{S}=P_{T}
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1288,12 +1517,19 @@ Relative Supply Curve
 \end_layout
 
 \begin_layout Frame
+\begin_inset Separator latexpar
+\end_inset
+
 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 To derive the relative supply curve, we must consider three cases:
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1339,7 +1575,10 @@ Lets consider each one
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1355,6 +1594,10 @@ Relative Supply Curve: 1.
 
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1399,7 +1642,10 @@ Q_{C}^{N}=\frac{L^{N}}{a_{C}^{N}},\ Q_{T}^{N}=0
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1415,6 +1661,10 @@ Relative Supply Curve: 1.
 
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1442,7 +1692,10 @@ Q_{C}^{S}=0,\ Q_{T}^{S}=\frac{L^{S}}{a_{T}^{S}}
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1458,6 +1711,10 @@ Relative Supply Curve: 1.
 
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1488,7 +1745,10 @@ Let's see how this looks like in our figure
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1543,7 +1803,10 @@ includegraphics[scale=.075]{figures/te3}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1560,6 +1823,10 @@ Relative Supply Curve: 2.
  
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1596,7 +1863,10 @@ In both countries, wage is higher in the computer industry
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1613,6 +1883,10 @@ Relative Supply Curve: 2.
  
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1644,7 +1918,10 @@ See figure
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1700,7 +1977,10 @@ includegraphics[scale=.075]{figures/te4}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1720,6 +2000,10 @@ Relative Supply Curve: 3.
 \end_inset
 
  
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1752,7 +2036,10 @@ This time wage in textile is higher in both countries
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1772,6 +2059,10 @@ Relative Supply Curve: 3.
 \end_inset
 
  
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1788,7 +2079,10 @@ World relative supply is now
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1844,7 +2138,10 @@ includegraphics[scale=.075]{figures/te5}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1859,6 +2156,10 @@ Relative Demand Curve
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1869,6 +2170,10 @@ Demand depends on consumer preferences
 \begin_layout Itemize
 If the price of computers relative to textile is high, then the relative
  demand for computers will be low
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1882,7 +2187,10 @@ Homothetic preferences means we can focus on aggregate demand
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1894,6 +2202,10 @@ status open
 Relative Demand Curve
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1910,6 +2222,10 @@ For a given relative price,
 \end_inset
 
 , world preferences could be such that
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1927,7 +2243,10 @@ they like computers just as much as textiles
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1949,7 +2268,10 @@ Let's consider each type of preferences and their corresponding demand curve
  and study their equilibrium relative price
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2004,7 +2326,10 @@ includegraphics[scale=.075]{figures/te7}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2016,6 +2341,10 @@ status open
 World likes computers more
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2043,6 +2372,12 @@ South will produce both computers and textiles
 
 \series bold
 Interpretation:
+\series default
+
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2058,6 +2393,10 @@ The Northern country's production is not sufficient to supply it, so the
 \end_deeper
 \begin_layout Itemize
 Who gains from trade?
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2072,7 +2411,10 @@ South is facing its autarky price and is producing its autarky level of
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2123,7 +2465,10 @@ includegraphics[scale=.075]{figures/te8}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2135,6 +2480,10 @@ status open
 World likes textiles more
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2158,6 +2507,12 @@ South will produce only textiles
 
 \series bold
 Interpretation:
+\series default
+
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2173,6 +2528,10 @@ South's production is insufficient to supply it, so North will make up for
 \end_deeper
 \begin_layout Itemize
 Who gains from trade?
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2186,7 +2545,10 @@ At this equilibrium price, North is producing at autarky level
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2237,7 +2599,10 @@ includegraphics[scale=.075]{figures/te6}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2252,6 +2617,10 @@ World likes computers as much as textiles
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2262,6 +2631,10 @@ Equilibrium price is in between the autarky prices of each country
 \begin_layout Itemize
 Each country will specialize in the production of the good for which they
  have a comparative advantage
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2285,7 +2658,10 @@ Gains from Trade
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2326,7 +2702,10 @@ textbf{Relative Wages}}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2341,11 +2720,19 @@ Why look at wages?
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 We have established that with free trade at least one country will gain
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2360,6 +2747,10 @@ We define a
 gain 
 \emph default
 as being able to attain a higher indifference curve relative to autarky
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2378,7 +2769,10 @@ Let's start with wages
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2390,6 +2784,10 @@ status open
 Assumptions
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2416,6 +2814,10 @@ In this case, North will specialize in computers and South will specialize
 
 \begin_layout Itemize
 Thus, wages paid in each country only comes from the surviving industry
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2429,7 +2831,10 @@ No wages from computers in South
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2441,6 +2846,10 @@ status open
 Assumptions
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2477,7 +2886,10 @@ All of South's income come from the textile industry
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2489,6 +2901,10 @@ status open
 Assumptions
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2528,6 +2944,10 @@ These conditions can be combined to give
 
 \begin_layout Itemize
 Relative wages depends on labour productivity and prices
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2542,7 +2962,10 @@ Otherwise, wages depend on both
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2554,6 +2977,10 @@ status open
 Gains from Trade and Wages
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2574,6 +3001,10 @@ real
 \series default
 \emph default
 wages
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2594,11 +3025,11 @@ Real wages is defined as
 
 
 \series default
- (it is the number of goods--at price 
+ (it is the number of goods–at price 
 \begin_inset Formula $p$
 \end_inset
 
---you can buy with your wage, 
+–you can buy with your wage, 
 \begin_inset Formula $w$
 \end_inset
 
@@ -2607,7 +3038,10 @@ Real wages is defined as
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2619,6 +3053,10 @@ status open
 Gains from Trade and Wages
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2646,7 +3084,10 @@ Similarly for South
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2661,11 +3102,19 @@ Gains from Trade and Wages
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 We will consider three cases
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2692,7 +3141,10 @@ We will consider three cases
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2704,6 +3156,10 @@ status open
 Gains from Trade and Wages
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2729,7 +3185,10 @@ Let's begin!
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2748,11 +3207,19 @@ Gains from Trade and Wages:
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 What were autarky real wages in each industry?
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2769,7 +3236,10 @@ What were autarky real wages in each industry?
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2788,11 +3258,19 @@ Gains from Trade and Wages:
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-What are trade--with full specialization--real wages in each industry?
+What are trade–with full specialization–real wages in each industry?
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2825,6 +3303,10 @@ Intuition?
 
 \begin_layout Itemize
 This is the same as autarky computer real wages!
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2838,7 +3320,10 @@ This is the same as autarky computer real wages!
 \end_deeper
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2857,11 +3342,19 @@ Gains from Trade and Wages:
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-What are trade--with full specialization--real wages in each industry?
+What are trade–with full specialization–real wages in each industry?
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2898,7 +3391,10 @@ Now we have everything we need to determine, using real wages, if there
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2914,6 +3410,10 @@ Gains from Trade and Wages:
 
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2939,6 +3439,10 @@ In terms of textiles, because
 \end_inset
 
 , real wages are greater under free trade!
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2951,7 +3455,10 @@ In terms of textiles, because
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2967,6 +3474,10 @@ Gains from Trade and Wages:
 
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2998,7 +3509,10 @@ EXERCISE: Are there gains from trade for the Southern country under this
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3014,6 +3528,10 @@ Gains from Trade and Wages:
 
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3049,7 +3567,10 @@ Thus, for North, trade real wages is equal to autarky real wages
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3068,6 +3589,10 @@ Gains from Trade and Wages:
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3081,6 +3606,10 @@ However, only real wages for computers will increase in South
 
 \begin_layout Itemize
 Real wages for textiles will not change
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3090,7 +3619,10 @@ EXERCISE: Derive this!
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3106,6 +3638,10 @@ Gains from Trade and Wages:
 
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3131,7 +3667,10 @@ The Northern country, however, will experience an increase in real wages
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3146,6 +3685,10 @@ International Trade Misconceptions
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3155,7 +3698,10 @@ Now that we have a framework in mind, we can address some of the misconceptions
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3167,6 +3713,10 @@ status open
 International Trade Misconceptions
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3198,6 +3748,10 @@ different
 in terms of their labour productivity and preferences are such that the
  resulting equilibrium trade relative prices are different from each countries
  relative labour productivity
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3211,7 +3765,10 @@ In other words, this
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3223,6 +3780,10 @@ status open
 International Trade Misconceptions
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3255,7 +3816,10 @@ There are short term adjustment costs to free trade (people will lose jobs
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3267,6 +3831,10 @@ status open
 International Trade Misconceptions
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3290,6 +3858,10 @@ What's the alternative? Suppose we stop exporting computers to Mexico and
 
 \begin_layout Itemize
 In our model, real wages would fall in the South country in terms of computers
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3305,7 +3877,10 @@ Home country, on the other hand, will see a drop in real wages in terms
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3328,11 +3903,19 @@ The Ricardian Model: Summary
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Each country should export the good in which they have a comparative advantage...
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3343,6 +3926,10 @@ North: Computers, South: Textiles
 \end_deeper
 \begin_layout Itemize
 ...and import the good in which they have a comparative disadvantage
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3364,6 +3951,10 @@ countries gain from trade
 But if the free trade equilibrium relative price is equal to one of the
  country's autarky relative price, that country does not gain from trade
  (it is also no worse off)
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3378,7 +3969,10 @@ Gains from trade are modeled by a higher indifference curve attained and
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3393,11 +3987,19 @@ The Ricardian Model: Shortcomings
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Only one factor in production: Labour
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3408,6 +4010,10 @@ Others: land, distinguish between skilled and low-skill labour, capital
 \end_deeper
 \begin_layout Itemize
 Assumes perfect labour mobility across industries
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3422,6 +4028,10 @@ Takes time
 \end_deeper
 \begin_layout Itemize
 Countries can only experience gains from trade
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3436,6 +4046,10 @@ Does not model welfare losses from industrial shifts
 \end_deeper
 \begin_layout Itemize
 Countries differ only in terms of their productivity
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3450,6 +4064,10 @@ Canada has plenty of natural resources (lumber and shale oil)
 \end_deeper
 \begin_layout Itemize
 We will consider some of these issues in our next model:
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3459,7 +4077,10 @@ The Heckscher-Ohlin Model
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
