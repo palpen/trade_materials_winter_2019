@@ -147,6 +147,23 @@ University of Toronto
 Palermo Penano
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+To add:
+\end_layout
+
+\begin_layout Plain Layout
+* Estimating the gravity equation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Welcome
 \end_layout
@@ -166,7 +183,8 @@ Welcome
 
 \begin_deeper
 \begin_layout Itemize
-This class will study issues in international trade
+This class will study issues in international trade with emphasis on theoretical
+ economic models
 \end_layout
 
 \begin_layout Itemize
@@ -730,7 +748,7 @@ Trade Facts
 \end_layout
 
 \begin_layout Subsection
-facts
+Facts
 \end_layout
 
 \begin_layout Frame
@@ -2070,9 +2088,9 @@ Take Away
 
 \begin_deeper
 \begin_layout Itemize
-We can model this observation by repurposing a mathematical formula describing
- a foundational law in physics: large and close bodies generate greater
- gravitational force
+Economists model this observation by repurposing a mathematical formula
+ describing a foundational law in physics: large and close bodies generate
+ greater gravitational force
 \end_layout
 
 \begin_layout Itemize
@@ -2233,7 +2251,7 @@ We will develop economic models that overcome these limitations
 \end_layout
 
 \begin_layout Section
-RM-Intro
+Ricardian Model
 \end_layout
 
 \begin_layout Subsection
@@ -2389,7 +2407,7 @@ Opportunity Cost
 \begin_layout Itemize
 
 \series bold
-The value of what you gave up by choosing the alternative
+The value of what you give up by choosing the alternative
 \end_layout
 
 \begin_layout Itemize
@@ -3900,6 +3918,10 @@ Given that each country only has a finite amount of labour for production,
 
 \end_layout
 
+\begin_layout Subsection
+Quick Way to Check for Comparative Advantage
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
@@ -4043,12 +4065,8 @@ No Comparative Advantage if
 
 \end_layout
 
-\begin_layout Section
-RM-Main
-\end_layout
-
 \begin_layout Subsection
-Actual Model
+Production Constraints
 \end_layout
 
 \begin_layout Frame
@@ -4056,7 +4074,7 @@ Actual Model
 status open
 
 \begin_layout Plain Layout
-Autarky and PPF
+Definition: Autarky
 \end_layout
 
 \end_inset
@@ -4074,16 +4092,43 @@ Autarky and PPF
 \series bold
 Autarky
 \series default
-: a state in which a country does not trade with any other countries
+: a state in which a country does not trade
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Will be used as a baseline
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Definition: Production Possibility Frontier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 
 \series bold
 Production Possibility Frontier (PPF)
 \series default
-: the set of outputs across all goods such that all the country's resources
- (labour) is being used 
+: the set of outputs across all goods such that all resources are used 
 \begin_inset Separator latexpar
 \end_inset
 
@@ -4093,7 +4138,7 @@ Production Possibility Frontier (PPF)
 \begin_deeper
 \begin_layout Itemize
 Canada: 
-\begin_inset Formula $a_{C}^{N}Q_{C}^{N}+a_{T}^{N}Q_{T}^{N}\leq L^{N}$
+\begin_inset Formula $a_{C}^{N}Q_{C}^{N}+a_{T}^{N}Q_{T}^{N}=L^{N}$
 \end_inset
 
 
@@ -4101,36 +4146,25 @@ Canada:
 
 \begin_layout Itemize
 Mexico: 
-\begin_inset Formula $a_{C}^{S}Q_{C}^{S}+a_{T}^{S}Q_{T}^{S}\leq L^{S}$
+\begin_inset Formula $a_{C}^{S}Q_{C}^{S}+a_{T}^{S}Q_{T}^{S}=L^{S}$
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Note: PPF curve may not be linear
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-\begin_inset Formula $L^{N}$
+\begin_inset Formula $L^{i}$
 \end_inset
 
- is the maximum number of hours of labour available in Canada 
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $L^{S}$
-\end_inset
-
- is the maximum number of hours of labour available in Mexico
-\end_layout
-
-\begin_layout Itemize
-The Unit Labour Requirements and Labour Endowments are 
-\emph on
-given
-\end_layout
-
-\begin_layout Itemize
-Thus, the PPF equations can be draw in the the output space
-\begin_inset Separator latexpar
+: Labour endowment in country 
+\begin_inset Formula $i$
 \end_inset
 
 
@@ -4138,10 +4172,16 @@ Thus, the PPF equations can be draw in the the output space
 
 \begin_deeper
 \begin_layout Itemize
-the PPF curve does not need to be linear
+Max number of hours of labour available 
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+The unit labour requirements and labour endowments are 
+\emph on
+given
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -4184,7 +4224,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.075]{figures/l1/1-1}
+includegraphics[scale=.09]{figures/l1/1-1}
 \end_layout
 
 \end_inset
@@ -4225,7 +4265,7 @@ Mexico's PPF Curve
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -4242,7 +4282,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.075]{figures/l1/1-2}
+includegraphics[scale=.09]{figures/l1/1-2}
 \end_layout
 
 \end_inset
@@ -4281,7 +4321,7 @@ Budget Constraint
 
 \begin_deeper
 \begin_layout Itemize
-Now consider Canada as a consumer with the budget constraint:
+Consider Canada as a consumer with the budget constraint:
 \end_layout
 
 \begin_layout Standard
@@ -4309,7 +4349,7 @@ We can also represent the budget constraint in the output space
 
 \begin_layout Itemize
 But before we do that, because of perfect competition, unit revenue = unit
- cost
+ cost (marginal revenue = marginal cost)
 \end_layout
 
 \begin_layout Standard
@@ -4531,7 +4571,7 @@ U=Q_{C}^{0.5}Q_{T}^{0.5}
 status open
 
 \begin_layout Plain Layout
-Consumer Maximization
+Consumer Maximization under Autarky
 \end_layout
 
 \end_inset
@@ -4600,7 +4640,7 @@ P_{C}^{N}=w^{N}a_{C}^{N},\ P_{T}^{N}=w^{N}a_{T}^{N}
 status open
 
 \begin_layout Plain Layout
-Consumer Maximization
+Consumer Maximization under Autarky
 \end_layout
 
 \end_inset
@@ -4629,7 +4669,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.21]{figures/l1/1-4}
+includegraphics[scale=.23]{figures/l1/1-4}
 \end_layout
 
 \end_inset
