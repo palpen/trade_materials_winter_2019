@@ -6079,7 +6079,7 @@
 								<key>r</key>
 								<real>-0.17764461040496826</real>
 								<key>space</key>
-								<string>9eaea0911d89d63e39e95f2e2116eaec7e0bb91e</string>
+								<string>srgb</string>
 							</dict>
 							<key>Legacy</key>
 							<true/>
@@ -6478,7 +6478,7 @@
 								<key>r</key>
 								<real>-0.17764461040496826</real>
 								<key>space</key>
-								<string>9eaea0911d89d63e39e95f2e2116eaec7e0bb91e</string>
+								<string>srgb</string>
 							</dict>
 							<key>Legacy</key>
 							<true/>
@@ -6722,7 +6722,7 @@
 								<key>r</key>
 								<real>-0.17764461040496826</real>
 								<key>space</key>
-								<string>9eaea0911d89d63e39e95f2e2116eaec7e0bb91e</string>
+								<string>srgb</string>
 							</dict>
 							<key>Legacy</key>
 							<true/>
@@ -7573,7 +7573,7 @@
 								<key>r</key>
 								<real>-0.17764461040496826</real>
 								<key>space</key>
-								<string>9eaea0911d89d63e39e95f2e2116eaec7e0bb91e</string>
+								<string>srgb</string>
 							</dict>
 							<key>Legacy</key>
 							<true/>
@@ -7914,7 +7914,7 @@
 		<key>CurrentSheet</key>
 		<integer>0</integer>
 		<key>Frame</key>
-		<string>{{-0, -0}, {1440, 877}}</string>
+		<string>{{0, -1}, {1440, 877}}</string>
 		<key>ShowInfo</key>
 		<true/>
 		<key>ShowRuler</key>
@@ -7926,7 +7926,7 @@
 		<key>Sidebar_Tab</key>
 		<integer>0</integer>
 		<key>VisibleRegion</key>
-		<string>{{-103, -149}, {894, 767}}</string>
+		<string>{{-127.5, -7}, {894, 767}}</string>
 		<key>WindowInfo_InspectorTab</key>
 		<array>
 			<string>com.omnigroup.OmniGraffle.inspectorGroup.canvas</string>
