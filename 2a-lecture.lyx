@@ -2003,7 +2003,7 @@ South:
 \end_layout
 
 \begin_layout Itemize
-This time wage in textile is higher in both countries
+Wage in textile is higher in both countries
 \end_layout
 
 \end_deeper
@@ -2135,21 +2135,20 @@ Relative Demand Curve
 
 \begin_deeper
 \begin_layout Itemize
-Demand depends on consumer preferences
+Demand depends on consumer preferences (utility function)
 \end_layout
 
 \begin_layout Itemize
-If the price of computers relative to textile is high, then the relative
- demand for computers will be low
-\begin_inset Separator latexpar
-\end_inset
-
-
+We will assume well-behaved demand functions
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Relative demand curve slopes downward
+High prices maps to lower demand for goods
+\end_layout
+
+\begin_layout Itemize
+Downward sloping demand curves
 \end_layout
 
 \end_deeper
@@ -2192,7 +2191,7 @@ For a given relative price,
 \begin_inset Formula $\bar{\frac{P_{C}}{P_{T}}}$
 \end_inset
 
-, world preferences could be such that
+, consumer preferences could be such that
 \begin_inset Separator latexpar
 \end_inset
 
@@ -2201,15 +2200,15 @@ For a given relative price,
 
 \begin_deeper
 \begin_layout Itemize
-they like computers more than textiles
+they want computers more than textiles
 \end_layout
 
 \begin_layout Itemize
-they like textiles more than computers
+they want textiles more than computers
 \end_layout
 
 \begin_layout Itemize
-they like computers just as much as textiles
+they want computers just as much as textiles
 \end_layout
 
 \end_deeper
@@ -2234,11 +2233,13 @@ Relative Demand Curve
 
 \end_layout
 
-\begin_layout Frame
+\begin_deeper
+\begin_layout Itemize
 Let's consider each type of preferences and their corresponding demand curve
  and study their equilibrium relative price
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
@@ -2309,7 +2310,7 @@ includegraphics[scale=.075]{figures/l2a/te7}
 status open
 
 \begin_layout Plain Layout
-World likes computers more
+Greater Preferences for Computers
 \end_layout
 
 \end_inset
@@ -2323,7 +2324,7 @@ World likes computers more
 
 \begin_deeper
 \begin_layout Itemize
-With this demand curve, the equilibrium relative price is South's autarky
+For this demand curve, the equilibrium relative price is South's autarky
  price, 
 \begin_inset Formula $\frac{a_{C}^{S}}{a_{T}^{S}}$
 \end_inset
@@ -2353,12 +2354,12 @@ Interpretation:
 
 \begin_deeper
 \begin_layout Itemize
-Under these preferences, the world demand for computer is high
+World demand for computer is high
 \end_layout
 
 \begin_layout Itemize
-The Northern country's production is not sufficient to supply it, so the
- South produces some computers to make up for the shortage
+North's production is not sufficient to supply it, so the South produces
+ some computers to make up for the shortage
 \end_layout
 
 \end_deeper
@@ -2372,12 +2373,7 @@ Who gains from trade?
 
 \begin_deeper
 \begin_layout Itemize
-Only the Northern country
-\end_layout
-
-\begin_layout Itemize
-South is facing its autarky price and is producing its autarky level of
- output
+North (South is producing its autarky level of output)
 \end_layout
 
 \end_deeper
@@ -2394,7 +2390,7 @@ South is facing its autarky price and is producing its autarky level of
 status open
 
 \begin_layout Plain Layout
-World likes textiles more
+Greater Preferences for Textiles
 \end_layout
 
 \end_inset
@@ -2448,7 +2444,7 @@ includegraphics[scale=.075]{figures/l2a/te8}
 status open
 
 \begin_layout Plain Layout
-World likes textiles more
+Greater Preferences for Textiles
 \end_layout
 
 \end_inset
@@ -2475,6 +2471,10 @@ South will produce only textiles
 \end_layout
 
 \begin_layout Itemize
+North will produce both computers and textiles
+\end_layout
+
+\begin_layout Itemize
 
 \series bold
 Interpretation:
@@ -2488,7 +2488,7 @@ Interpretation:
 
 \begin_deeper
 \begin_layout Itemize
-Here the world generally prefer more textiles over computers
+World demand for textiles is high
 \end_layout
 
 \begin_layout Itemize
@@ -2507,11 +2507,7 @@ Who gains from trade?
 
 \begin_deeper
 \begin_layout Itemize
-Only the Southern country
-\end_layout
-
-\begin_layout Itemize
-At this equilibrium price, North is producing at autarky level
+South (North is producing at autarky level)
 \end_layout
 
 \end_deeper
@@ -2582,7 +2578,7 @@ includegraphics[scale=.075]{figures/l2a/te6}
 status open
 
 \begin_layout Plain Layout
-World likes computers as much as textiles
+Preferences for computers is close to textiles
 \end_layout
 
 \end_inset
@@ -2619,13 +2615,23 @@ South: Textiles
 
 \end_deeper
 \begin_layout Itemize
-Both countries gain from trade (see 
+Both countries gain from trade 
+\begin_inset Note Note
+status open
+
+\begin_layout Itemize
+see 
 \series bold
 \emph on
 Gains from Trade
 \series default
 \emph default
- section of this lecture for a review why)
+ section of this lecture for a review why
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -2685,7 +2691,7 @@ textbf{Relative Wages}}
 status open
 
 \begin_layout Plain Layout
-Why look at wages?
+Gains from trade we can observe
 \end_layout
 
 \end_inset
@@ -2708,35 +2714,21 @@ We have established that with free trade at least one country will gain
 
 \begin_deeper
 \begin_layout Itemize
-Both will gain if both counries are able to specialize
+Both will gain if prices are such that both counries are able to specialize
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-We define a 
+We define 
 \emph on
-gain 
+gains 
 \emph default
-as being able to attain a higher indifference curve relative to autarky
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-What on earth does an indifference curve mean in the real world?!
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Since, in studying international trade, we are interested in peoples welfare,
- perhaps it might be useful look at something we can measure
+as being able to attain a higher indifference curve than autarky
 \end_layout
 
 \begin_layout Itemize
-Let's start with wages
+We are interested in people's welfare, perhaps it might be useful look at
+ something we can observe in the real world: wages
 \end_layout
 
 \end_deeper
@@ -2784,7 +2776,7 @@ In this case, North will specialize in computers and South will specialize
 \end_layout
 
 \begin_layout Itemize
-Thus, wages paid in each country only comes from the surviving industry
+As a result, wages paid only comes from industries that survive
 \begin_inset Separator latexpar
 \end_inset
 
@@ -2828,7 +2820,7 @@ Assumptions
 
 \begin_deeper
 \begin_layout Itemize
-For each country, we have two revenue = cost conditions
+Under this scenario, we have only two profit maximizing conditions:
 \begin_inset Formula 
 \[
 P_{C}=w^{N}a_{C}^{N}
@@ -2848,12 +2840,11 @@ P_{S}=w^{S}a_{T}^{S}
 \end_layout
 
 \begin_layout Itemize
-North is only producing computers, thus all of its income comes from just
- the computer industry
+All of North's income comes from the computer industry
 \end_layout
 
 \begin_layout Itemize
-All of South's income come from the textile industry
+All of South's income comes from the textile industry
 \end_layout
 
 \end_deeper
@@ -2902,7 +2893,7 @@ P_{T}=w^{S}a_{T}^{S}
 \end_layout
 
 \begin_layout Itemize
-These conditions can be combined to give
+We combine these two conditions:
 \begin_inset Formula 
 \[
 \frac{w^{N}}{w^{S}}=\frac{a_{T}^{S}}{a_{C}^{N}}\frac{P_{C}}{P_{T}}
@@ -2959,8 +2950,8 @@ Gains from Trade and Wages
 
 \begin_deeper
 \begin_layout Itemize
-Keeping the assumptions above in mind (each country specializes), let's
- see how gains from trade can be seen from wages
+Keeping the assumptions above in mind, let's see how gains from trade can
+ be connected to wages
 \end_layout
 
 \begin_layout Itemize
@@ -2981,10 +2972,6 @@ wages
 \begin_deeper
 \begin_layout Itemize
 This is your nominal wage adjusted for inflation
-\end_layout
-
-\begin_layout Itemize
-No one cares about billionaires in Zimbabwe
 \end_layout
 
 \begin_layout Itemize
