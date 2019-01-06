@@ -183,8 +183,8 @@ Welcome
 
 \begin_deeper
 \begin_layout Itemize
-This class will study issues in international trade with emphasis on theoretical
- economic models
+This class will study issues in international trade through the lense of
+ theoretical economic models
 \end_layout
 
 \begin_layout Itemize
@@ -211,8 +211,10 @@ Two Cheers for Formalism
 
 \end_deeper
 \begin_layout Itemize
-Goal: Provide theoretical frameworks to understand real-world issues in
- international trade
+
+\series bold
+Goal: Provide theoretical frameworks to understand and reason about real-world
+ issues in international trade
 \end_layout
 
 \end_deeper
@@ -403,21 +405,26 @@ The university does check prerequisites and may de-enroll you from the course
 
 \end_deeper
 \begin_layout Itemize
+Math you need:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
 Calculus (partial and total derivatives) and linear algebra
 \end_layout
 
 \begin_layout Itemize
-Constrained optimization (Langrangians and Kuhn-Tucker conditions) as covered
- in second-year microeconomics
+Basic constrained optimization (Langrangians and Kuhn-Tucker conditions)
+ as covered in second-year microeconomics
 \end_layout
 
 \begin_layout Itemize
-A brief math review will be covered by one of the TAs in the first tutorial
- next week
+Will provide brief math review next week
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
-Focus will be on the meaning and insights revealed by the math
+Emphasis will be placed on the meaning and insights revealed by the math
 \end_layout
 
 \end_deeper
@@ -809,6 +816,56 @@ Facts
 status open
 
 \begin_layout Plain Layout
+What is International Trade?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+One aspect: exchange of goods and services across independent nations
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Globalization: greater interaction between people and nations in the world
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Other aspects:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Greater flow of money (international finance)
+\end_layout
+
+\begin_layout Itemize
+Greater flow of people (immigration)
+\end_layout
+
+\begin_layout Itemize
+Greater flow of ideas (technology, culture)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Trade Over Time
 \end_layout
 
@@ -817,11 +874,12 @@ Trade Over Time
 
 \end_layout
 
-\begin_layout Frame
-
+\begin_deeper
+\begin_layout Itemize
+World export of manufactured goods / world industrial production
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -842,7 +900,62 @@ centering
 
 
 \backslash
-includegraphics[scale=.32]{figures/l1/exports_imports_perc_gdp_1_1.png}
+includegraphics[scale=.36]{figures/l1/txtfig_2_5_global_trade}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trade Over Time
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.32]{figures/l1/txtfig_1_1_exports_imports_perc_gdp}
 \end_layout
 
 \end_inset
@@ -856,7 +969,7 @@ includegraphics[scale=.32]{figures/l1/exports_imports_perc_gdp_1_1.png}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Separator parbreak
+\begin_inset Separator plain
 \end_inset
 
 
@@ -881,7 +994,7 @@ Trade Over Time
 
 \begin_deeper
 \begin_layout Itemize
-Trade, as a share of GDP, has grown since the 1970s, with rapid increases
+Trade, as a share of GDP, has grown since the 1960s, with rapid increases
  beginning in the 1980s
 \end_layout
 
@@ -1061,7 +1174,11 @@ hline
 
 
 \backslash
-multicolumn{ 9}{l}{Source: Robert Feenstra, ``World Trade Flows"} 
+multicolumn{ 9}{l}{Source: Robert Feenstra, 
+\begin_inset Quotes eld
+\end_inset
+
+World Trade Flows"} 
 \backslash
 end{tabular}   
 \end_layout
@@ -1267,7 +1384,11 @@ hline
 
 
 \backslash
-multicolumn{ 9}{l}{Source: Robert Feenstra, ``World Trade Flows"} 
+multicolumn{ 9}{l}{Source: Robert Feenstra, 
+\begin_inset Quotes eld
+\end_inset
+
+World Trade Flows"} 
 \backslash
 end{tabular}   
 \end_layout
@@ -1473,7 +1594,11 @@ hline
 
 
 \backslash
-multicolumn{ 9}{l}{Source: Robert Feenstra, ``World Trade Flows"} 
+multicolumn{ 9}{l}{Source: Robert Feenstra, 
+\begin_inset Quotes eld
+\end_inset
+
+World Trade Flows"} 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1549,6 +1674,32 @@ Countries appear to be specializing based on their level of development
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trade by Partners
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Who are countries trading with?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
 \end_inset
 
 
@@ -2070,6 +2221,60 @@ end{table}
 
 \begin_layout Standard
 \begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trade by Partners
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.43]{figures/l1/txtfig_2_2_size_trade}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
 \end_inset
 
 
@@ -3975,8 +4180,8 @@ Checking for Comparative Advantage
 
 \begin_deeper
 \begin_layout Itemize
-Here's a quick way to check to confirm that Mexico indeed has a comparative
- advantage in textile production
+Here's a quick way to check that Mexico indeed has a comparative advantage
+ in textile production
 \end_layout
 
 \begin_layout Itemize
