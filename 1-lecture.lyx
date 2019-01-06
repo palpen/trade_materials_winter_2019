@@ -210,6 +210,11 @@ Two Cheers for Formalism
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+Goal: Provide theoretical frameworks to understand real-world issues in
+ international trade
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -249,7 +254,7 @@ Term: Winter 2019
 \end_layout
 
 \begin_layout Itemize
-When: Tuesday 6-9pm
+When: Tuesday 6-9pm (8-9pm are for tutorials / office hours)
 \end_layout
 
 \begin_layout Itemize
@@ -287,7 +292,7 @@ Palermo Penano
 \end_layout
 
 \begin_layout Itemize
-Slack: TBA
+Slack channel: See syllabus for instructions
 \end_layout
 
 \begin_layout Itemize
@@ -321,7 +326,7 @@ Teaching Assistants
 
 \begin_deeper
 \begin_layout Itemize
-Rachapalli, Swapnika Reddy
+Swapnika Rachapalli
 \begin_inset Separator latexpar
 \end_inset
 
@@ -333,15 +338,13 @@ Rachapalli, Swapnika Reddy
 Email: s.rachapalli@mail.utoronto.ca
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
-Office hours and location: TBA (LOCATION)
+Office hours and location: See Syllabus
 \end_layout
 
 \end_deeper
-\end_deeper
 \begin_layout Itemize
-Gorgulu, Nazli Billur
+Billur Gorgulu
 \begin_inset Separator latexpar
 \end_inset
 
@@ -353,12 +356,10 @@ Gorgulu, Nazli Billur
 Email: billur.gorgulu@mail.utoronto.ca
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
-Office hours and location: TBA (LOCATION)
+Office hours and location: See Syllabus
 \end_layout
 
-\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Standard
@@ -391,13 +392,13 @@ Course Prerequisite and Expectation
 
 \begin_deeper
 \begin_layout Itemize
-Please make sure you have the correct prerequisites for this course (see
- Syllabus)
+Please make sure you have the correct pre-requisites for this course
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-I do not have control over enrollment
+The university does check prerequisites and may de-enroll you from the course
+ (I am powerless against this)
 \end_layout
 
 \end_deeper
@@ -412,6 +413,11 @@ Constrained optimization (Langrangians and Kuhn-Tucker conditions) as covered
 
 \begin_layout Itemize
 A brief math review will be covered by one of the TAs in the first tutorial
+ next week
+\end_layout
+
+\begin_layout Itemize
+Focus will be on the meaning and insights revealed by the math
 \end_layout
 
 \end_deeper
@@ -532,7 +538,7 @@ Final Exam: 50%
 \end_layout
 
 \begin_layout Itemize
-See course syllabus for important dates and deadlines
+Important dates and deadlines are on the syllabus
 \end_layout
 
 \end_deeper
@@ -545,6 +551,53 @@ See course syllabus for important dates and deadlines
 
 \begin_layout Subsection
 Goal
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+LARGE 
+\backslash
+textbf{Course Outline}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -765,10 +818,14 @@ Trade Over Time
 \end_layout
 
 \begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -785,7 +842,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.42]{figures/l1/Slide1}
+includegraphics[scale=.32]{figures/l1/exports_imports_perc_gdp_1_1.png}
 \end_layout
 
 \end_inset
@@ -2145,33 +2202,14 @@ The superscripts
  amplify the importance of each term to bilateral trade flows
 \end_layout
 
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Empirical Estimation of the Gravity Model
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
-TBA
+\begin_inset Formula $A,a,b,c$
+\end_inset
+
+ can be estimated using trade flows data using regression analysis
 \end_layout
 
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
