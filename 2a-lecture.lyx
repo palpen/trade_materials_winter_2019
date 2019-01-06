@@ -132,7 +132,7 @@
 \begin_body
 
 \begin_layout Title
-ECO364: International Trade Theory
+ECO364H1S: International Trade Theory
 \end_layout
 
 \begin_layout Subtitle
@@ -2775,24 +2775,6 @@ In this case, North will specialize in computers and South will specialize
  in textiles
 \end_layout
 
-\begin_layout Itemize
-As a result, wages paid only comes from industries that survive
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-No wages from textiles in North
-\end_layout
-
-\begin_layout Itemize
-No wages from computers in South
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -2820,7 +2802,21 @@ Assumptions
 
 \begin_deeper
 \begin_layout Itemize
-Under this scenario, we have only two profit maximizing conditions:
+As a result, wages paid only comes from industries that survive
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+All wages are earned only from computers in North and textiles in South
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+This gives us two profit maximizing conditions:
 \begin_inset Formula 
 \[
 P_{C}=w^{N}a_{C}^{N}
@@ -2839,14 +2835,6 @@ P_{S}=w^{S}a_{T}^{S}
 
 \end_layout
 
-\begin_layout Itemize
-All of North's income comes from the computer industry
-\end_layout
-
-\begin_layout Itemize
-All of South's income comes from the textile industry
-\end_layout
-
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -2866,32 +2854,9 @@ Assumptions
 \end_inset
 
 
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-\begin_inset Formula 
-\[
-P_{C}=w^{N}a_{C}^{N}
-\]
-
-\end_inset
-
-
-\begin_inset Formula 
-\[
-P_{T}=w^{S}a_{T}^{S}
-\]
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Itemize
 We combine these two conditions:
 \begin_inset Formula 
@@ -2906,23 +2871,19 @@ We combine these two conditions:
 
 \begin_layout Itemize
 Relative wages depends on labour productivity and prices
-\begin_inset Separator latexpar
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+If computers and textiles have the same price, wages depend only on labour
+ productivity
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-If computers and textiles have the same price, wages depend only on labour
- productivity
-\end_layout
-
-\begin_layout Itemize
-Otherwise, wages depend on both
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -2983,12 +2944,12 @@ Real wages is defined as
 
 
 \series default
- (it is the number of goods–at price 
-\begin_inset Formula $p$
+ (number of goods you can buy with wage 
+\begin_inset Formula $w$
 \end_inset
 
-–you can buy with your wage, 
-\begin_inset Formula $w$
+ given price 
+\begin_inset Formula $p$
 \end_inset
 
 )
@@ -3038,7 +2999,7 @@ For North, we care about
 \end_layout
 
 \begin_layout Itemize
-Similarly for South
+Similar for South
 \end_layout
 
 \end_deeper
@@ -3068,7 +3029,7 @@ Gains from Trade and Wages
 
 \begin_deeper
 \begin_layout Itemize
-We will consider three cases
+We will consider the three possible scenarios that may arise:
 \begin_inset Separator latexpar
 \end_inset
 
@@ -3125,7 +3086,7 @@ Gains from Trade and Wages
 
 \begin_deeper
 \begin_layout Itemize
-For each of these cases we will ask 
+For each of these scenarios we will ask 
 \emph on
 Did real wages increase under trade?
 \end_layout
@@ -3138,8 +3099,54 @@ and
  in terms of each of the two industries
 \end_layout
 
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade and Wages: 
+\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
-Let's begin!
+Autarky real wages in each industry
+\begin_inset Formula 
+\[
+\left(\frac{w^{N}}{P_{C}^{N}}\right)^{AUT}=\frac{1}{a_{C}^{N}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\left(\frac{w^{N}}{P_{T}^{N}}\right)^{AUT}=\frac{1}{a_{T}^{N}}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -3173,58 +3180,7 @@ Gains from Trade and Wages:
 
 \begin_deeper
 \begin_layout Itemize
-What were autarky real wages in each industry?
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Formula $\left(\frac{w^{N}}{P_{C}^{N}}\right)^{AUT}=\frac{1}{a_{C}^{N}}$
-\end_inset
-
- and 
-\begin_inset Formula $\left(\frac{w^{N}}{P_{T}^{N}}\right)^{AUT}=\frac{1}{a_{T}^{N}}$
-\end_inset
-
- 
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gains from Trade and Wages: 
-\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
-\end_inset
-
- 
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-What are trade–with full specialization–real wages in each industry?
+What are the real wages under free trade in each industry?
 \begin_inset Separator latexpar
 \end_inset
 
@@ -3308,7 +3264,7 @@ Gains from Trade and Wages:
 
 \begin_deeper
 \begin_layout Itemize
-What are trade–with full specialization–real wages in each industry?
+What are the real wages under free trade in each industry?
 \begin_inset Separator latexpar
 \end_inset
 
@@ -3344,8 +3300,8 @@ cant do this for computers because there is no revenue=cost condition for
 
 \end_deeper
 \begin_layout Itemize
-Now we have everything we need to determine, using real wages, if there
- are gains from trade
+Now we have everything we need to determine if there are gains from trade
+ using real wages
 \end_layout
 
 \end_deeper
@@ -3637,6 +3593,51 @@ The Northern country, however, will experience an increase in real wages
 status open
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+LARGE 
+\backslash
+textbf{Misconceptions about International Trade}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 International Trade Misconceptions
 \end_layout
 
@@ -3831,7 +3832,17 @@ The South is inefficient at producing computers, so autarky computer prices
 \end_deeper
 \begin_layout Itemize
 Home country, on the other hand, will see a drop in real wages in terms
- of textiles
+ of textiles 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Why?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -3848,6 +3859,53 @@ Conclusion
 
 \begin_layout Subsection
 Ricardian Model Conclusion
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+LARGE 
+\backslash
+textbf{Ricardion Model: Summary}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -3939,7 +3997,7 @@ Gains from trade are modeled by a higher indifference curve attained and
 status open
 
 \begin_layout Plain Layout
-The Ricardian Model: Shortcomings
+The Ricardian Model: Limitations
 \end_layout
 
 \end_inset
