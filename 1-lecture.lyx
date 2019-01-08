@@ -340,10 +340,6 @@ Swapnika Rachapalli
 Email: s.rachapalli@mail.utoronto.ca
 \end_layout
 
-\begin_layout Itemize
-Office hours and location: See Syllabus
-\end_layout
-
 \end_deeper
 \begin_layout Itemize
 Billur Gorgulu
@@ -358,11 +354,11 @@ Billur Gorgulu
 Email: billur.gorgulu@mail.utoronto.ca
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
-Office hours and location: See Syllabus
+See Syllabus for office hours and location
 \end_layout
 
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -384,7 +380,7 @@ Prerequisite
 status open
 
 \begin_layout Plain Layout
-Course Prerequisite and Expectation
+Course Pre-requisite and Expectation
 \end_layout
 
 \end_inset
@@ -841,15 +837,15 @@ Other aspects:
 
 \begin_deeper
 \begin_layout Itemize
-Greater flow of money (international finance)
+International Finance (flow of money)
 \end_layout
 
 \begin_layout Itemize
-Greater flow of people (immigration)
+Immigration (flow of people)
 \end_layout
 
 \begin_layout Itemize
-Greater flow of ideas (technology, culture)
+Technology and Culture (flow of ideas)
 \end_layout
 
 \end_deeper
@@ -2762,7 +2758,7 @@ opportunity cost
 
 \begin_deeper
 \begin_layout Itemize
-Question to ask: 
+
 \series bold
 What is the value of the thing that Joe will have to give up in order to
  complete the task?
@@ -2804,15 +2800,13 @@ Comparative Advantage
 
 \begin_deeper
 \begin_layout Itemize
-Lawyers are likely more efficient than their legal secretaries in most tasks
- related to their practice.
- 
+Attorneys are likely more efficient than their legal secretaries in most
+ tasks related to their practice
 \end_layout
 
 \begin_layout Itemize
-Lawyer's time, however, is better spent practicing law and delegating the
- more mundane part of their practice to their legal secretary.
- 
+An attorney's time, however, is better spent practicing law and delegating
+ the more mundane part of their practice to their legal secretary
 \end_layout
 
 \begin_layout Itemize
@@ -2919,8 +2913,8 @@ It has a more advanced manufacturing system, for example
 \end_layout
 
 \begin_layout Itemize
-But, in spite of this, it can only have a comparative advantage for some
- goods
+Despite this, the U.S.
+ can only have a comparative advantage over some goods
 \end_layout
 
 \begin_deeper
@@ -2961,12 +2955,12 @@ Formal Model
 
 \begin_deeper
 \begin_layout Itemize
-Let's see how this works out in a formal model
+Let's see how comparative advantage and opportunity costs are used in a
+ formal model
 \end_layout
 
 \begin_layout Itemize
-How does differences in technology result in mutually beneficial reason
- to trade?
+How does differences in technology make it mutually advantageous to trade?
 \end_layout
 
 \end_deeper
@@ -4148,9 +4142,9 @@ But Mexico gives up fewer Computers to produce 1 Textile, which means that
 \end_layout
 
 \begin_layout Itemize
-Given that each country only has a finite amount of labour for production,
- aggregate output would be greater if Canada focuses it's production in
- Computers and Mexico in Textiles
+Because each country has a finite amount of labour for production, aggregate
+ output would be greater if Canada were to focus its production in Computers
+ and Mexico in Textiles
 \end_layout
 
 \end_deeper
@@ -4237,29 +4231,26 @@ Checking for Comparative Advantage
 
 \begin_deeper
 \begin_layout Itemize
-Using unit labour requirements, we can see that Canada has a comparative
- advantage over Mexico in the production of Computers
+Conversely, we can see that Canada has a comparative advantage over Mexico
+ in the production of Computers
 \end_layout
 
 \begin_layout Itemize
 With 1 hour of labour, Canada produces 1/5 of a Computer and gives up 1/5
- of a Textile (i.e.
- 1 Computer per Textile)
+ of a Textile
 \end_layout
 
 \begin_layout Itemize
 Mexico, on the other hand, produces 1/10 of a Computer and gives up 1/5
- of a Textile (i.e.
- 1/2 a Computer per Textile)
+ of a Textile
 \end_layout
 
 \begin_layout Itemize
-Both gives up the same amount of Textile to produce Computers, but Canada
- was able to create more with their 1 hour of labour
+Canada was able to create more computers with their 1 hour of labour
 \end_layout
 
 \begin_layout Itemize
-Therefore, Canada has a Comparative Advantage in the production of Computers
+Therefore, Canada's comparative advantage is in Computer production
 \end_layout
 
 \end_deeper
@@ -4708,8 +4699,8 @@ Budget Constraint overlaps PPF
 
 \begin_deeper
 \begin_layout Itemize
-From the perfect competition assumption we can see that the slopes of the
- budget constraint and PPF are equal
+From the perfect competition assumption the slopes of the budget constraint
+ and PPF are equal
 \begin_inset Formula 
 \[
 \frac{P_{C}^{N}}{P_{T}^{N}}=\frac{a_{C}^{N}}{a_{T}^{N}}
@@ -4733,8 +4724,8 @@ This is also true for the southern country, Mexico
 \end_layout
 
 \begin_layout Itemize
-We need to make some assumptions about preferences before we can calculate
- the optimal level of production of each good
+To calculate the optimal level of production for each good, we need to make
+ some assumptions about preferences 
 \end_layout
 
 \end_deeper
@@ -4764,8 +4755,7 @@ Preferences
 
 \begin_deeper
 \begin_layout Itemize
-Homothetic preferences imply that we can consider the whole country as one
- consumer
+By homothetic preferences, we can consider the whole country as one consumer
 \begin_inset Separator latexpar
 \end_inset
 
