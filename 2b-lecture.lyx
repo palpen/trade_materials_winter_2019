@@ -323,8 +323,8 @@ HO Model
 
 \begin_deeper
 \begin_layout Itemize
-In the Ricardian model, we assumed that technological differences in production
- is what gives rise to specialization and trade
+In the Ricardian model, we assumed that only technological differences in
+ production gave rise to specialization and trade
 \end_layout
 
 \begin_layout Itemize
@@ -333,8 +333,8 @@ We also assumed that only one factor is used in production
 
 \begin_layout Itemize
 Although the Ricardian model was able to make predictions about welfare,
- the worst that could happen to a country is that welfare does not change
- following trade
+ the worst that could happen to a country is to have similar welfare as
+ the autarky scenario even under trade conditions
 \begin_inset Separator latexpar
 \end_inset
 
@@ -366,7 +366,34 @@ HO Model
 \end_inset
 
 
-\begin_inset Separator latexpar
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We can conceive of losses arising from trade
+\end_layout
+
+\begin_layout Itemize
+Perhaps the welfare outcomes under trade in the Ricardian model is too far
+ remove from reality
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+HO Model
+\end_layout
+
 \end_inset
 
 
@@ -374,7 +401,7 @@ HO Model
 
 \begin_deeper
 \begin_layout Itemize
-To introduce the possibility of welfare losses, we introduce another factor
+To introduce the possibility of welfare losses, we will add another factor
  in production
 \begin_inset Separator latexpar
 \end_inset
@@ -384,27 +411,19 @@ To introduce the possibility of welfare losses, we introduce another factor
 
 \begin_deeper
 \begin_layout Itemize
-This will allow us to make a prediction on how the income of one factor
- is affected relative to the income of the other factor following trade
+This allows prediction on how the income of one factor may be affected relative
+ to the income of the other factor following trade
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Another key difference between the Ricardian model and the HO model is the
- source of trade
-\begin_inset Separator latexpar
-\end_inset
-
-
+Additionally, we will set up our model such that the reason for trade arises
+ from factor abundance 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Ricardian: technological differences
-\end_layout
-
-\begin_layout Itemize
-HO: factor abundance
+In the Ricardian model, trade happened because of technological differences
 \end_layout
 
 \end_deeper
