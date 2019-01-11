@@ -411,19 +411,22 @@ To introduce the possibility of welfare losses, we will add another factor
 
 \begin_deeper
 \begin_layout Itemize
-This allows prediction on how the income of one factor may be affected relative
- to the income of the other factor following trade
+Welfare losses could arise if a factor benefits more than the other in a
+ trading equilibrium
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Additionally, we will set up our model such that the reason for trade arises
- from factor abundance 
+In addition, we will model the source of trade to be based on 
+\series bold
+factor abundance
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-In the Ricardian model, trade happened because of technological differences
+In the Ricardian model, the source of trade was based on 
+\series bold
+technological differences
 \end_layout
 
 \end_deeper
@@ -479,13 +482,12 @@ K: buildings, machinery
 \end_layout
 
 \begin_layout Itemize
-The supply of K and L in each country is fixed, but it varies across the
- two countries
+Supply of K and L are fixed and differ between the two countries
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Constant returns to scale in production
+Production exhibits constant returns to scale
 \begin_inset Separator latexpar
 \end_inset
 
@@ -494,7 +496,7 @@ Constant returns to scale in production
 
 \begin_deeper
 \begin_layout Itemize
-scale inputs by a factor of 2, output increases by a factor of 2
+Scale inputs by a factor of 2, output increases by a factor of 2
 \end_layout
 
 \end_deeper
@@ -508,12 +510,12 @@ Perfect competition
 
 \begin_deeper
 \begin_layout Itemize
-firms take prices as given, marginal revenue = marginal cost
+Firms take prices as given, marginal revenue = marginal cost
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Both factors are mobile across sectors but not across countries
+Factors are mobile across sectors but not across countries
 \begin_inset Separator latexpar
 \end_inset
 
@@ -522,8 +524,8 @@ Both factors are mobile across sectors but not across countries
 
 \begin_deeper
 \begin_layout Itemize
-this will equalize their returns (wage and rental rate) across sectors within
- a country
+Factor returns–wage and rental rate–will equalize across sectors and within
+ each country
 \end_layout
 
 \end_deeper
@@ -554,11 +556,11 @@ Model Environment and Assumptions
 
 \begin_deeper
 \begin_layout Itemize
-Assume that North's stock of factors is such that they have a 
+Assume that North's stock of factors is such that they are 
 \series bold
-relative abundance
+relative abundant
 \series default
- of capital
+ in capital:
 \begin_inset Formula 
 \[
 \frac{K^{N}}{L^{N}}>\frac{K^{S}}{L^{S}}
@@ -570,11 +572,7 @@ relative abundance
 \end_layout
 
 \begin_layout Itemize
-We will focus on relative factor abundance (not absolute)
-\end_layout
-
-\begin_layout Itemize
-Similar to the distinction made between comparative and absolute advantage
+We will focus on relative factor abundance
 \end_layout
 
 \end_deeper
@@ -625,7 +623,7 @@ F_{C}(K_{C},L_{C})\ \text{and}\ F_{T}(K_{T},L_{T})
 
 \begin_deeper
 \begin_layout Itemize
-In the Ricardian model, we just had 
+In the Ricardian model, we had 
 \begin_inset Formula $F_{C}(L)=\frac{1}{a_{C}}L$
 \end_inset
 
@@ -634,8 +632,8 @@ In the Ricardian model, we just had
 
 \end_deeper
 \begin_layout Itemize
-These production functions will be increasing in each input, but at diminishing
- rates
+These production functions will be increasing in each input, but at a diminishin
+g rate:
 \begin_inset Separator latexpar
 \end_inset
 
@@ -669,12 +667,14 @@ These production functions will be increasing in each input, but at diminishing
 First-order derivatives are just the marginal products of each input
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 e.g.
- adding the second cook should provide a significant increase in output,
- but the 10th cook provides much less
+ Adding a second cook to the kitchen provides a significant increase in
+ output, but the 10th cook provides much less
 \end_layout
 
+\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Standard
@@ -707,8 +707,8 @@ Input Intensity of a Good
 
 \begin_deeper
 \begin_layout Itemize
-Since there are now two factors used in production, goods must be different
- in terms of how dependent they are in each input
+Because there are now two factors used in production, goods must be unique
+ in terms of how much they depend on each factor:
 \begin_inset Separator latexpar
 \end_inset
 
@@ -717,11 +717,11 @@ Since there are now two factors used in production, goods must be different
 
 \begin_deeper
 \begin_layout Itemize
-Computers are more relatively capital intensive than textiles
+Computers are relatively more capital intensive than textiles
 \end_layout
 
 \begin_layout Itemize
-Textiles are more relatively labour intensive than computers
+Textiles are relatively more labour intensive than computers
 \end_layout
 
 \end_deeper
@@ -780,7 +780,7 @@ Relative factor price is
 \end_layout
 
 \begin_layout Itemize
-We can represent differences in relative capital intensity using something
+We can represent differences in relative capital intensity using what is
  called an 
 \series bold
 FF curve
