@@ -1,19 +1,25 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass beamer
 \begin_preamble
 %Beamer theme and color theme
-\usetheme{Frankfurt}
-\usecolortheme{beaver}
+\usetheme{default}
+\usecolortheme{default}
+
+\setbeamercolor{normal text}{bg=MyGreen}
+\definecolor{MyGreen}{RGB}{230, 242, 230}
+
 \setbeamertemplate{mini frames}{}
 
 % set color of elements (e.g. bullet points, theorems, definitions, etc)
-\setbeamercolor{structure}{fg=red!60!white}
+%\setbeamercolor{structure}{fg=red!60!white}
 
 % header showing only current section and subsection
-\useoutertheme{infolines}
+% \useoutertheme{infolines}
 
 \usepackage{amsmath,amssymb}
 
@@ -32,6 +38,10 @@
 %remove navigation
 \beamertemplatenavigationsymbolsempty
 
+% Bullets and items
+\setbeamertemplate{itemize item}{\tiny\raise1.50pt\hbox{$\blacktriangleright$}}
+\setbeamertemplate{itemize subitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
+\setbeamertemplate{itemize subsubitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
 
 
 \definecolor{blue}{RGB}{0,0,120}
@@ -43,6 +53,12 @@
 \usepackage[section]{placeins}
 
 \usepackage{graphicx}
+
+\date{}
+
+% Fix undefined control sequence bug at \@@magyar@captionfix (see log)
+% Reference: https://tex.stackexchange.com/questions/426088/texlive-pretest-2018-beamer-and-subfig-collide
+\let\@@magyar@captionfix\relax
 \end_preamble
 \options handouts
 \use_default_options true
@@ -51,16 +67,18 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -90,6 +108,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -98,7 +117,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -157,12 +179,19 @@ Outline
 \end_layout
 
 \begin_layout Frame
+\begin_inset Separator latexpar
+\end_inset
+
 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Last Class
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -185,6 +214,10 @@ SS Curve (Relates good prices to factor prices)
 
 \begin_layout Itemize
 Today
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -216,6 +249,10 @@ Bonus if anyone not polish can pronounce this
 
 \begin_layout Itemize
 Heckscher-Ohlin Theorem
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -227,6 +264,10 @@ Heckscher-Ohlin Theorem
 \end_deeper
 \begin_layout Itemize
 Readings
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -251,11 +292,19 @@ Last Lecture...
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Derived the FF curve
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -275,6 +324,10 @@ The position of the curves relative to each other depends on the relative
 \end_deeper
 \begin_layout Itemize
 Derived the SS curve
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -292,7 +345,10 @@ Thought experiment
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -343,7 +399,10 @@ includegraphics[scale=.125]{"figures/l3/ffss 1"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -355,6 +414,10 @@ status open
 FF and SS Curves Together
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -371,6 +434,10 @@ Suppose
 \end_inset
 
  stays constant
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -394,6 +461,10 @@ Since textile is labour-intensive, increase in demand for labour increases
 \begin_layout Itemize
 But for each unit of labour moving from computers to textiles, more capital
  is being released
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -420,7 +491,10 @@ Therefore,
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -432,6 +506,10 @@ status open
 FF and SS Curves Together
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -450,6 +528,10 @@ Thus,
 \end_inset
 
  rises in both sectors
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -472,7 +554,10 @@ EXERCISE: Suppose
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -491,11 +576,19 @@ Three Theorems in the HO Model
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 What happens to the returns to factors when the price of goods changes?
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -513,6 +606,10 @@ Trade shocks through goods prices could result in welfare losses
 \begin_layout Itemize
 What happens to the structure of production when the distribution of factor
  endowments changes?
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -530,6 +627,10 @@ Allows predictions for how migration might affect industrial structure
 \begin_layout Itemize
 In what goods do countries specialize in given their factor endowments following
  trade liberalization?
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -546,7 +647,10 @@ Makes predictions on how factor endowment might affect the goods in which
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -583,7 +687,10 @@ textbf{Stolper-Samuelson Theorem}}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -595,6 +702,10 @@ status open
 Stolper-Samuelson Theorem
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -626,7 +737,10 @@ We'll add to these results by looking at real returns
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -638,6 +752,10 @@ status open
 Stolper-Samuelson Theorem
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -670,6 +788,10 @@ A rise in the relative price of a good will lead to a rise in the return
 \begin_layout Itemize
 If the price of textiles increases, the model predicts that wage increases
  whereas the return to capital decreases
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -679,7 +801,10 @@ Wages increases because labour is the input used most intensively in textiles
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -698,11 +823,19 @@ real
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 What we care about is the purchasing power of our workers
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -735,6 +868,10 @@ Note, when a person buys both computers and textiles, her real return is
 \end_inset
 
 )
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -747,7 +884,10 @@ Note, when a person buys both computers and textiles, her real return is
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -759,6 +899,10 @@ status open
 Real returns to capital
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -807,7 +951,10 @@ Therefore, the overall real return to capital falls
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -819,6 +966,10 @@ status open
 Real returns to labour
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -859,6 +1010,10 @@ From the FF-SS Curves, a rise in
 \end_inset
 
  in both industries
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -873,7 +1028,10 @@ This can be interpreted as firms substituting towards the more inexpensive
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -928,7 +1086,10 @@ includegraphics[scale=.125]{"figures/l3/ffss 2"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -943,6 +1104,10 @@ Real returns to labour
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -952,6 +1117,10 @@ The increase in
 \end_inset
 
  raises the marginal product of labour
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -963,6 +1132,10 @@ Each worker is working with more capital, so their individual output increases
 \begin_layout Itemize
 From perfect competition, 
 \begin_inset Formula $w/P_{T}=MPL_{T}$
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -995,7 +1168,10 @@ The increase in the marginal product of labour increases
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1010,6 +1186,10 @@ Argument applies to returns to capital
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1020,6 +1200,10 @@ Each unit of capital is now working with less labour, thus the marginal
 \end_inset
 
  in terms of both goods fall
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1032,7 +1216,10 @@ Each unit of capital is now working with less labour, thus the marginal
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1069,7 +1256,10 @@ textbf{Rybczynski Theorem}}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1084,12 +1274,20 @@ Rybczynski Theorem
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 What happens to structure of production when the distribution of factor
  endowments changes?
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1113,6 +1311,10 @@ Can also give insight on how factor endowments determine a country's industrial
 \end_deeper
 \begin_layout Itemize
 Dutch Disease
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1164,7 +1366,10 @@ http://www.economist.com/blogs/economist-explains/2014/11/economist-explains-2
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1176,6 +1381,10 @@ status open
 Rybczynski Theorem
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1195,6 +1404,10 @@ Given this relative factor price, the FF curves gives us the capital-labour
 \begin_layout Itemize
 Along with the resource constraint, we can use this information to solve
  for factor allocation within this country
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1220,7 +1433,10 @@ These factor allocations are
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1232,6 +1448,10 @@ status open
 Example
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1269,7 +1489,10 @@ These production functions implied the following FF curves
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1281,6 +1504,10 @@ status open
 Example
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1348,7 +1575,10 @@ L_{T}+L_{C} & = & \bar{L}\label{eq:4}
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1360,6 +1590,10 @@ status open
 Example
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1407,6 +1641,10 @@ Thus, we can solve for optimal capital and labour in each industry:
 \begin_layout Itemize
 Note that the solutions will be a function of the parameters of the optimization
  problem
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1440,7 +1678,10 @@ In particular,
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1455,11 +1696,19 @@ Edgeworth Box
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Let's see how this can be done using the Edgeworth Box
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1470,7 +1719,10 @@ Allows us to visualize how changes in endowment affect input use in each
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1521,7 +1773,10 @@ includegraphics[scale=.125]{"figures/l3/eb 1"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1572,7 +1827,10 @@ includegraphics[scale=.125]{"figures/l3/eb 2"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1623,7 +1881,10 @@ includegraphics[scale=.125]{"figures/l3/eb 3"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1674,7 +1935,10 @@ includegraphics[scale=.125]{"figures/l3/eb 4"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1725,7 +1989,10 @@ includegraphics[scale=.125]{"figures/l3/eb 5"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1740,12 +2007,20 @@ Ray from Origin
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 From the FF-SS curves, we are give the capital-labour ratio for a given
  relative goods prices and relative factor prices
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1760,7 +2035,10 @@ These capital-labour ratios tells us how relatively capital intensive an
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1811,7 +2089,10 @@ includegraphics[scale=.125]{"figures/l3/ffss 1"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1826,12 +2107,20 @@ Output Expansion Path
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 The prevailing capital-labour ratios for a given set of prices is the slope
  of the ray from the origin in the Edgeworth box
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1847,6 +2136,10 @@ We saw this in our study of the Lerner diagram in lecture 2b
 \begin_layout Itemize
 By our assumption that the computer industry is more capital intensive than
  textiles, this line will be steeper for computers
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1856,7 +2149,10 @@ We can see that this is the case by comparing each industry's FF curves
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1907,7 +2203,10 @@ includegraphics[scale=.125]{"figures/l3/eb 6"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1958,7 +2257,10 @@ includegraphics[scale=.125]{"figures/l3/eb 7"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2014,7 +2316,10 @@ includegraphics[scale=.12]{"figures/l3/eb 8"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2065,7 +2370,10 @@ includegraphics[scale=.125]{"figures/l3/eb 9"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2077,6 +2385,10 @@ status open
 Change in Factor Endowment
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2095,6 +2407,10 @@ Suppose the stock of labour,
 
 , were to increase but relative good prices and, as a result, relative factor
  prices stayed the same
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2104,7 +2420,10 @@ Relative factor intensity in each industry have not changed
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2162,7 +2481,10 @@ includegraphics[scale=.125]{"figures/l3/eb 11"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2220,7 +2542,10 @@ includegraphics[scale=.125]{"figures/l3/eb 12"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2232,6 +2557,10 @@ status open
 Output Expansion Path Slope
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2248,7 +2577,10 @@ Therefore, slope of Output Expansion Path (rays from origin) does not change
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2306,7 +2638,10 @@ includegraphics[scale=.125]{"figures/l3/eb 13"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2364,7 +2699,10 @@ includegraphics[scale=.125]{"figures/l3/eb 14"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2376,6 +2714,10 @@ status open
 What Happened?
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2417,7 +2759,10 @@ These results summarizes the prediction made by the Rybczynski theorem
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2429,6 +2774,10 @@ status open
 Rybczynski Theorem
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2454,7 +2803,10 @@ An increase in a factor endowment will increase the output of the industry
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2466,6 +2818,10 @@ status open
 Rybczynski Theorem
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2503,7 +2859,10 @@ and decreased output in computers
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2515,6 +2874,10 @@ status open
 Rybczynski Theorem
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2547,6 +2910,10 @@ An alternative interpretation is that countries will produce more of the
 \begin_layout Itemize
 E.g.
  Mexico will produce more textiles than computers relative to Canada because:
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2564,7 +2931,10 @@ This can be shown in each countries relative supply curve
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2615,7 +2985,10 @@ includegraphics[scale=.10]{"figures/l3/rsrd 1a"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2630,19 +3003,26 @@ Relative Supply Curve
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-For a given relative goods price, South---the labour abundant country----produce
-s more textiles relative to computers than North---the capital abundant
- country
+For a given relative goods price, South—the labour abundant country—-produces
+ more textiles relative to computers than North—the capital abundant country
 \end_layout
 
 \begin_layout Itemize
 What underlie the difference in these two supply curve is the fact that
  we have assumed that goods and factor prices remain constant when we changed
  the labour stock in the Edgeworth Box
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2653,7 +3033,10 @@ This is why the slopes of the Output Expansion Paths did not change as the
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2665,6 +3048,10 @@ status open
 Relative Supply Curve
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2704,6 +3091,10 @@ PPFs in the HO Model
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2715,6 +3106,10 @@ Unlike the Ricardian Model, the PPF in the HO model are bowed out
 This is because of the diminishing marginal returns assumption we made on
  the production function, 
 \begin_inset Formula $Q_{j}=F_{j}(K,L)$
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2740,7 +3135,10 @@ This results in a bowed out PPF curve
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2791,7 +3189,10 @@ includegraphics[scale=.08]{"figures/l3/ppf 1"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2803,6 +3204,10 @@ status open
 Isovalue Line
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -2853,6 +3258,12 @@ This gives us all the combination of
 Call this line the 
 \series bold
 isovalue line
+\series default
+
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2866,7 +3277,10 @@ isovalue curve
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2921,7 +3335,10 @@ includegraphics[scale=.10]{"figures/l3/ppf 2"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2980,7 +3397,10 @@ includegraphics[scale=.09]{"figures/l3/ppf 4"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2992,6 +3412,10 @@ status open
 Relative Supply Curves
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3038,7 +3462,10 @@ includegraphics[scale=.085]{"figures/l3/ppf 5"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3050,6 +3477,10 @@ status open
 Relative Supply Curves
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3095,7 +3526,10 @@ includegraphics[scale=.085]{"figures/l3/ppf 5"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3110,12 +3544,20 @@ Relative Supply Curves
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 The shape of the PPF curves depend on the labour and capital endowment in
  each country
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3129,6 +3571,10 @@ The shape of the PPF curves depend on the labour and capital endowment in
 \end_deeper
 \begin_layout Itemize
 Consider South, is relatively more abundant in labour
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3143,6 +3589,10 @@ For a given
 \end_deeper
 \begin_layout Itemize
 North, on the other hand, is relatively more abundant in capital
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3156,7 +3606,10 @@ For a given
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3207,7 +3660,10 @@ includegraphics[scale=.10]{"figures/l3/ppf 7"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3258,7 +3714,10 @@ includegraphics[scale=.10]{"figures/l3/ppf 6"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3270,6 +3729,10 @@ status open
 Country PPF: North and South
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3298,7 +3761,10 @@ This means that North's relative supply curve is to the left of South's
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3349,7 +3815,10 @@ includegraphics[scale=.10]{"figures/l3/rsrd 1"}
  
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3368,6 +3837,10 @@ Free Trade
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3377,6 +3850,10 @@ Let's now study what happens when we allow countries to trade
 
 \begin_layout Itemize
 Recall, preference is homothetic and identical across the two countries
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3402,7 +3879,10 @@ It is downward sloping
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3414,6 +3894,10 @@ status open
 Free Trade
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3431,7 +3915,10 @@ The points where each country's relative supply curve cross the relative
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3482,7 +3969,10 @@ includegraphics[scale=.10]{"figures/l3/rsrd 1"}
  
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3539,7 +4029,10 @@ includegraphics[scale=.083]{"figures/l3/ppf 9"}
  
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3551,6 +4044,10 @@ status open
 Trade Equilibrium
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3567,6 +4064,10 @@ Differences in price for a good across countries can be arbitraged away
 
 \begin_layout Itemize
 This causes a convergence in the relative price of goods 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3580,7 +4081,10 @@ An increase in relative goods prices for South
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3631,7 +4135,10 @@ includegraphics[scale=.10]{"figures/l3/rsrd 2"}
  
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3682,7 +4189,10 @@ includegraphics[scale=.10]{"figures/l3/rsrd 3"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3694,6 +4204,10 @@ status open
 Trade Equilibrium
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3711,7 +4225,10 @@ We can see how output changes within a country and the gains from trade
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3762,7 +4279,10 @@ includegraphics[scale=.10]{"figures/l3/ppf 10"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3774,6 +4294,10 @@ status open
 Gains from Trade: South
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3795,6 +4319,10 @@ When countries are allowed to trade, prices converge and South goes from
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3803,7 +4331,7 @@ Note in the PPF diagram, this is a decrease in
 \begin_inset Formula $\frac{P_{C}}{P_{T}}$
 \end_inset
 
----which is a flatter isovalue line
+—which is a flatter isovalue line
 \end_layout
 
 \end_deeper
@@ -3818,7 +4346,10 @@ By importing the extra computers they need and exporting their surplus of
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3869,7 +4400,10 @@ includegraphics[scale=.10]{"figures/l3/ppf 11"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3920,7 +4454,10 @@ includegraphics[scale=.10]{"figures/l3/ppf 12"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3932,6 +4469,10 @@ status open
 Gains from Trade: North
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3950,6 +4491,10 @@ Trade caused a decrease of relative goods prices from autarky,
 
  ,to global market price, 
 \begin_inset Formula $\left(\frac{P_{T}}{P_{C}}\right)^{TRADE}$
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3976,7 +4521,10 @@ By importing the extra textiles they need and exporting their surplus of
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -3991,6 +4539,10 @@ Heckscher-Ohlin Theorem
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -3999,7 +4551,10 @@ This trading pattern is summarized by the Heckscher-Ohlin Theorem
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -4011,6 +4566,10 @@ status open
 Heckscher-Ohlin Theorem
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -4035,7 +4594,10 @@ Each country will export the good that uses its abundant factor intensively
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -4047,6 +4609,10 @@ status open
 Heckscher-Ohlin Theorem
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -4083,7 +4649,10 @@ South will export textile under free trade
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -4095,6 +4664,10 @@ status open
 Implications on Income Distribution
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -4110,6 +4683,10 @@ Implications on Income Distribution
 
 \begin_layout Itemize
 By the Stolper-Samuelson theorem
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -4130,6 +4707,10 @@ Abundant factors win while scarce factors lose
 
 \begin_layout Itemize
 But, countries as a whole achieve a higher indifference curve
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -4144,7 +4725,10 @@ Perhaps some sort of transfer mechanism could be implemented to share some
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -4163,6 +4747,10 @@ Size and Gains from Trade
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -4172,7 +4760,10 @@ From the PPF curves, we saw that the more different a country's autarky
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -4223,7 +4814,10 @@ includegraphics[scale=.10]{"figures/l3/ppf 10"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -4235,6 +4829,10 @@ status open
 Size and Gains from Trade
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -4253,6 +4851,10 @@ A country will experience the most drastic change in its relative goods
 different 
 \emph default
 it is from the integrated world (post-trade world)
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -4267,7 +4869,10 @@ The country that is most different from the integrated world are the smaller
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -4279,6 +4884,10 @@ status open
 Size and Gains from Trade
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -4444,7 +5053,10 @@ end{table}
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -4456,6 +5068,10 @@ status open
 Large Canada
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -4618,6 +5234,10 @@ end{table}
 
 \begin_layout Itemize
 Canada more closely resembles the world
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -4644,7 +5264,10 @@ China will experience a more drastic change in the isovalue line, which
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -4695,7 +5318,10 @@ includegraphics[scale=.135]{"figures/l3/ffss 3"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -4707,6 +5333,10 @@ status open
 Large China
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -4869,6 +5499,10 @@ end{table}
 
 \begin_layout Itemize
 China more closely resembles the world
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -4895,7 +5529,10 @@ Canada will experience a more drastic change in the isovalue line, which
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -4946,7 +5583,10 @@ includegraphics[scale=.135]{"figures/l3/ffss 4"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -4965,11 +5605,19 @@ Conclusion
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 We have covered the three major results in the Heckscher-Ohlin Model
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -4988,6 +5636,10 @@ Heckscher-Ohlin Theorem
 \end_deeper
 \begin_layout Itemize
 Together, they allowed us to answer
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -5006,11 +5658,19 @@ and how the stock of factors determine the goods countries will trade
 \end_deeper
 \begin_layout Itemize
 Next class
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Trade allow prices to converge, which causes factor prices to also converge
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -5029,7 +5689,10 @@ How well does the HO model hold in the data?
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
