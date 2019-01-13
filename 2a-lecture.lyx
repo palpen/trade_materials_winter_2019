@@ -1514,21 +1514,9 @@ Relative Supply Curve: 1.
 \end_inset
 
 
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-\begin_inset Formula $\frac{P_{C}}{P_{T}}$
-\end_inset
-
- is between the ratio of relative unit labour requirements of North and
- South
-\end_layout
-
 \begin_layout Itemize
 For North, 
 \begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}\boldsymbol{<}\frac{P_{C}}{P_{T}}\implies P_{T}\frac{1}{a_{T}^{N}}<P_{C}\frac{1}{a_{C}^{N}}$
@@ -1640,7 +1628,7 @@ Relative Supply Curve: 1.
 
 \begin_deeper
 \begin_layout Itemize
-In summary, whenever prices are between 
+Whenever prices are between 
 \begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}\ \text{and}\ \frac{a_{C}^{S}}{a_{T}^{S}}$
 \end_inset
 
@@ -1825,10 +1813,6 @@ The world relative supply will be infinity
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-See figure
 \end_layout
 
 \end_deeper
@@ -2195,7 +2179,7 @@ Let's consider each type of preferences and their corresponding demand curve
 status open
 
 \begin_layout Plain Layout
-World likes computers more
+Greater Preference for Computers
 \end_layout
 
 \end_inset
@@ -2253,7 +2237,7 @@ includegraphics[scale=.075]{figures/l2a/te7}
 status open
 
 \begin_layout Plain Layout
-Greater Preferences for Computers
+Greater Preference for Computers
 \end_layout
 
 \end_inset
@@ -2333,7 +2317,7 @@ North (South is producing its autarky level of output)
 status open
 
 \begin_layout Plain Layout
-Greater Preferences for Textiles
+Greater Preference for Textiles
 \end_layout
 
 \end_inset
@@ -2387,7 +2371,7 @@ includegraphics[scale=.075]{figures/l2a/te8}
 status open
 
 \begin_layout Plain Layout
-Greater Preferences for Textiles
+Greater Preference for Textiles
 \end_layout
 
 \end_inset
@@ -2467,7 +2451,7 @@ South (North is producing at autarky level)
 status open
 
 \begin_layout Plain Layout
-World likes computers as much as textiles
+Similar Level of Preference
 \end_layout
 
 \end_inset
@@ -2521,7 +2505,7 @@ includegraphics[scale=.075]{figures/l2a/te6}
 status open
 
 \begin_layout Plain Layout
-Preferences for computers is close to textiles
+Similar Level of Preference
 \end_layout
 
 \end_inset
@@ -2648,7 +2632,7 @@ Gains from trade we can observe
 
 \begin_deeper
 \begin_layout Itemize
-We have established that with free trade at least one country will gain
+We have established that at least one country can benefit from free trade
 \begin_inset Separator latexpar
 \end_inset
 
@@ -2662,16 +2646,17 @@ Both will gain if prices are such that both counries are able to specialize
 
 \end_deeper
 \begin_layout Itemize
-We define 
+We defined 
 \emph on
 gains 
 \emph default
-as being able to attain a higher indifference curve than autarky
+as being able to attain an indifference curve higher than what can be achieved
+ in autarky
 \end_layout
 
 \begin_layout Itemize
-We are interested in people's welfare, perhaps it might be useful look at
- something we can observe in the real world: wages
+Given our interest in people's welfare, perhaps it might be more useful
+ to look at something we can observe in the real world: wages
 \end_layout
 
 \end_deeper
@@ -2759,7 +2744,7 @@ All wages are earned only from computers in North and textiles in South
 
 \end_deeper
 \begin_layout Itemize
-This gives us two profit maximizing conditions:
+This leaves us with two profit maximizing conditions:
 \begin_inset Formula 
 \[
 P_{C}=w^{N}a_{C}^{N}
@@ -2846,18 +2831,9 @@ Gains from Trade and Wages
 \end_inset
 
 
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-Keeping the assumptions above in mind, let's see how gains from trade can
- be connected to wages
-\end_layout
-
 \begin_layout Itemize
 When making welfare statements from wages, it is more informative to look
  at 
@@ -2875,7 +2851,7 @@ wages
 
 \begin_deeper
 \begin_layout Itemize
-This is your nominal wage adjusted for inflation
+This is just nominal wage adjusted for cost of living (inflation)
 \end_layout
 
 \begin_layout Itemize
@@ -3123,7 +3099,7 @@ Gains from Trade and Wages:
 
 \begin_deeper
 \begin_layout Itemize
-What are the real wages under free trade in each industry?
+Free trade real wages in each industry:
 \begin_inset Separator latexpar
 \end_inset
 
@@ -3207,22 +3183,15 @@ Gains from Trade and Wages:
 
 \begin_deeper
 \begin_layout Itemize
-What are the real wages under free trade in each industry?
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-For North, no wages are being earned in textiles
+For North, no wages are being earned in textiles (under these relative prices,
+ North is fully specialized in computer production)
 \end_layout
 
 \begin_layout Itemize
 But we can still derive an expression for real wages in textiles
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 \begin_inset Formula $\left(\frac{w^{N}}{P_{T}}\right)^{TRADE}=\frac{w^{N}}{P_{T}}\frac{P_{C}}{P_{C}}=\frac{w^{N}}{P_{C}}\frac{P_{C}}{P_{T}}=\frac{1}{a_{C}^{N}}\frac{P_{C}}{P_{T}}$
 \end_inset
@@ -3351,8 +3320,13 @@ Thus, in this scenario,there are gains from trade
 \end_layout
 
 \begin_layout Itemize
-Because of trade, South is able to specialize in the production of good
- for which it has a comparative advantaged (textiles)
+Economic Intuition:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Under free trade, South is able to specialize in the production of textiles
+ (their comparative advantage good)
 \end_layout
 
 \begin_layout Itemize
@@ -3360,6 +3334,7 @@ South can then make this good available in the global market at a price
  less than what North, in autarky, can provide
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
 EXERCISE: Are there gains from trade for the Southern country under this
  scenario?
@@ -3648,7 +3623,7 @@ This is true so long as countries are
 different 
 \emph default
 in terms of their labour productivity and preferences are such that the
- resulting equilibrium trade relative prices are different from each countries
+ resulting equilibrium trade relative prices are different from each country's
  relative labour productivity
 \begin_inset Separator latexpar
 \end_inset
@@ -3774,18 +3749,8 @@ The South is inefficient at producing computers, so autarky computer prices
 
 \end_deeper
 \begin_layout Itemize
-Home country, on the other hand, will see a drop in real wages in terms
- of textiles 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Why?
-\end_layout
-
-\end_inset
-
-
+North country, on the other hand, will see a drop in real wages in terms
+ of textiles due to higher textile prices
 \end_layout
 
 \end_deeper
@@ -3835,7 +3800,7 @@ centering
 \backslash
 LARGE 
 \backslash
-textbf{Ricardion Model: Summary}}
+textbf{Ricardian Model: Summary}}
 \end_layout
 
 \end_inset
@@ -3870,7 +3835,7 @@ The Ricardian Model: Summary
 
 \begin_deeper
 \begin_layout Itemize
-Each country should export the good in which they have a comparative advantage...
+Each country should export the good for which they have a comparative advantage...
 \begin_inset Separator latexpar
 \end_inset
 
@@ -3884,7 +3849,7 @@ North: Computers, South: Textiles
 
 \end_deeper
 \begin_layout Itemize
-...and import the good in which they have a comparative disadvantage
+...and import the good for which they have a comparative disadvantage
 \begin_inset Separator latexpar
 \end_inset
 
@@ -3908,8 +3873,8 @@ countries gain from trade
 
 \begin_layout Itemize
 But if the free trade equilibrium relative price is equal to one of the
- country's autarky relative price, that country does not gain from trade
- (it is also no worse off)
+ country's autarky relative price, that country does not gain (but is not
+ worse off) from trade
 \begin_inset Separator latexpar
 \end_inset
 
@@ -3918,13 +3883,13 @@ But if the free trade equilibrium relative price is equal to one of the
 
 \begin_deeper
 \begin_layout Itemize
-The other country, though, will gain from trade
+The other country, however, will gain from trade
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Gains from trade are modeled by a higher indifference curve attained and
- through higher overall real wages
+Gains from trade are modeled by attaining a higher indifference curve and
+ by higher overall real wages
 \end_layout
 
 \end_deeper
@@ -3977,11 +3942,8 @@ Assumes perfect labour mobility across industries
 
 \begin_deeper
 \begin_layout Itemize
-Not always true
-\end_layout
-
-\begin_layout Itemize
-Takes time
+Not always true.
+ Adjustment may take a long time
 \end_layout
 
 \end_deeper
