@@ -366,7 +366,7 @@ In autarky, a country consumes/buys what it produces
 
 \end_deeper
 \begin_layout Itemize
-This is not the case when countries are allowed to trade
+Under free trade, a country's consumption need not equal to production
 \begin_inset Separator latexpar
 \end_inset
 
@@ -375,8 +375,7 @@ This is not the case when countries are allowed to trade
 
 \begin_deeper
 \begin_layout Itemize
-In the trading equilibrium, the budget constraint and the PPF may lie on
- different lines
+PPF and budget constraint need not overlap
 \end_layout
 
 \begin_layout Itemize
@@ -524,6 +523,13 @@ Due to perfect competition + labour mobility across industries
 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Follows from the labour mobility across industries and perfect competition
+ assumptions
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -560,8 +566,15 @@ We will set up our model so that Mexico has a comparative advantage in textiles
 
 \begin_layout Itemize
 In a state where countries are free to trade, relative price must be between
- the autarky prices 
-\begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}\ \text{and}\ \frac{a_{C}^{S}}{a_{T}^{S}}$
+ the autarky prices:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}
+\]
+
 \end_inset
 
 
@@ -610,19 +623,9 @@ Budget constraint will pivot
 
 \end_deeper
 \begin_layout Itemize
-With free trade (resulting in these prices), will there be gains from trade?
-\begin_inset Separator latexpar
-\end_inset
-
-
+Will it be mutually advantageous for countries to trade?
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Gains represented by higher indifference curves
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -649,10 +652,6 @@ Gains from trade?
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-Will it be mutually advantageous for countries to trade?
-\end_layout
-
 \begin_layout Itemize
 Stated more precisely, can a country gain from producing only one good and
  importing the other?
@@ -665,14 +664,10 @@ Stated more precisely, can a country gain from producing only one good and
 \begin_deeper
 \begin_layout Itemize
 Gains from trade are made by attaining an indifference curve higher than
- what the one attained in autarky
+ what can be achieved under autarky
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-Yes!
-\end_layout
-
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -700,7 +695,7 @@ Gains from trade?
 
 \begin_deeper
 \begin_layout Itemize
-Consider the Southern country
+Consider country South
 \end_layout
 
 \begin_layout Itemize
@@ -708,8 +703,25 @@ Since
 \begin_inset Formula $\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
 \end_inset
 
-, budget constraint has a flatter slope than the PPF
-\begin_inset Separator latexpar
+, the budget constraint has a flatter slope than the PPF
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from trade?
+\end_layout
+
 \end_inset
 
 
@@ -717,173 +729,104 @@ Since
 
 \begin_deeper
 \begin_layout Itemize
-Slopes are the negative of these values
+Previously
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.085]{figures/l2a/gt3.jpg}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from trade?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Under free trade
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.085]{figures/l2a/gt4.jpg}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gains from trade?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.09]{figures/l2a/gt2.jpg}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gains from trade?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.09]{figures/l2a/gt3.jpg}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gains from trade?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.09]{figures/l2a/gt4.jpg}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
@@ -1134,11 +1077,15 @@ There are infinitely many points between
 
 \begin_deeper
 \begin_layout Itemize
-How do we 
+How do we
 \emph on
-fix 
+ 
 \emph default
-prices?
+find the equilibrium relative
+\emph on
+ 
+\emph default
+price?
 \end_layout
 
 \end_deeper
@@ -1173,7 +1120,7 @@ What do we
 \emph on
 remember
 \emph default
- from second-year micro theory about what determines prices?
+ from second-year micro theory about how to derive equilibrium prices?
 \end_layout
 
 \begin_layout Pause
@@ -1205,11 +1152,11 @@ and
 Ratio of prices and total quantities for both goods
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
-We will derive the RS curve first
+We need to derive both
 \end_layout
 
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -1364,12 +1311,6 @@ autarky
 
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Note that we have changed notations
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
