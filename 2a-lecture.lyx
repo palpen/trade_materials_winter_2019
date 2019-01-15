@@ -441,7 +441,7 @@ One Factor of Production: Labour
 PPF (same as before)
 \begin_inset Formula 
 \[
-a_{C}^{N}Q_{C}^{N}+a_{T}Q_{T}^{N}\leq L^{N}
+a_{C}^{N}Q_{C}^{N}+a_{T}^{N}Q_{T}^{N}\leq L^{N}
 \]
 
 \end_inset
@@ -472,7 +472,7 @@ Because goods can now freely move across countries, prices for a given good
 
 \begin_deeper
 \begin_layout Itemize
-Wages, however, are still country-specific as we will continue to assume
+We will continue to seamless transition of labour across industries but
  no immigration
 \end_layout
 
@@ -917,7 +917,7 @@ If countries were to specialize in the production of a type of good, trading
 
 \begin_deeper
 \begin_layout Itemize
-There are gains from specialization trade (and specialization)
+There are gains from trade and specialization
 \end_layout
 
 \end_deeper
@@ -978,7 +978,7 @@ Trade Equilibrium
 \end_layout
 
 \begin_layout Subsection
-Trade Equlibrium
+Trade Equilibrium
 \end_layout
 
 \begin_layout Frame
@@ -1116,11 +1116,11 @@ Where do prices come from?
 
 \begin_deeper
 \begin_layout Itemize
-What do we 
+What do we
 \emph on
-remember
+ 
 \emph default
- from second-year micro theory about how to derive equilibrium prices?
+remember from second-year micro theory about how to derive equilibrium prices?
 \end_layout
 
 \begin_layout Pause
@@ -1128,7 +1128,7 @@ remember
 \end_layout
 
 \begin_layout Itemize
-Prices at which the supply curve crosses the demand curve!
+The price at which the supply curve crosses the demand curve!
 \end_layout
 
 \begin_layout Itemize
@@ -1536,7 +1536,7 @@ Under these prices, nobody will work in the textile industries
 
 \end_deeper
 \begin_layout Itemize
-North will specializes in producing computers:
+North will specialize in producing computers:
 \begin_inset Formula 
 \[
 Q_{C}^{N}=\frac{L^{N}}{a_{C}^{N}},\ Q_{T}^{N}=0
@@ -2080,9 +2080,15 @@ Downward sloping demand curves
 
 \end_deeper
 \begin_layout Itemize
-Homothetic preferences means we can focus on aggregate demand
+Homothetic preferences means we can focus on a single consumer 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Consumers differ only in income and not in shares of goods consumed
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -2127,15 +2133,15 @@ For a given relative price,
 
 \begin_deeper
 \begin_layout Itemize
-they want computers more than textiles
+there is greater demand for computers over textiles
 \end_layout
 
 \begin_layout Itemize
-they want textiles more than computers
+there is greater demand for textiles over computers
 \end_layout
 
 \begin_layout Itemize
-they want computers just as much as textiles
+demand for computers and textiles is relatively even
 \end_layout
 
 \end_deeper
@@ -2179,7 +2185,7 @@ Let's consider each type of preferences and their corresponding demand curve
 status open
 
 \begin_layout Plain Layout
-Greater Preference for Computers
+Greater Demand for Computers
 \end_layout
 
 \end_inset
@@ -2237,7 +2243,7 @@ includegraphics[scale=.075]{figures/l2a/te7}
 status open
 
 \begin_layout Plain Layout
-Greater Preference for Computers
+Greater Demand for Computers
 \end_layout
 
 \end_inset
@@ -2317,7 +2323,7 @@ North (South is producing its autarky level of output)
 status open
 
 \begin_layout Plain Layout
-Greater Preference for Textiles
+Greater Demand for Textiles
 \end_layout
 
 \end_inset
@@ -2371,7 +2377,7 @@ includegraphics[scale=.075]{figures/l2a/te8}
 status open
 
 \begin_layout Plain Layout
-Greater Preference for Textiles
+Greater Demand for Textiles
 \end_layout
 
 \end_inset
@@ -2451,7 +2457,7 @@ South (North is producing at autarky level)
 status open
 
 \begin_layout Plain Layout
-Similar Level of Preference
+Relatively Even Demand
 \end_layout
 
 \end_inset
@@ -2505,7 +2511,7 @@ includegraphics[scale=.075]{figures/l2a/te6}
 status open
 
 \begin_layout Plain Layout
-Similar Level of Preference
+Relatively Even Demand
 \end_layout
 
 \end_inset
@@ -2570,11 +2576,11 @@ Gains from Trade
 \end_layout
 
 \begin_layout Section
-Relative Wages
+Trade and Wages
 \end_layout
 
 \begin_layout Subsection
-Relative Wages
+Trade and Wages
 \end_layout
 
 \begin_layout Frame
@@ -2598,7 +2604,7 @@ centering
 \backslash
 LARGE 
 \backslash
-textbf{Relative Wages}}
+textbf{Trade and Wages}}
 \end_layout
 
 \end_inset
@@ -2641,7 +2647,7 @@ We have established that at least one country can benefit from free trade
 
 \begin_deeper
 \begin_layout Itemize
-Both will gain if prices are such that both counries are able to specialize
+Both will gain if prices are such that both countries are able to specialize
 \end_layout
 
 \end_deeper
@@ -2776,7 +2782,7 @@ P_{S}=w^{S}a_{T}^{S}
 status open
 
 \begin_layout Plain Layout
-Assumptions
+Relative Wages
 \end_layout
 
 \end_inset
@@ -2786,7 +2792,7 @@ Assumptions
 
 \begin_deeper
 \begin_layout Itemize
-We combine these two conditions:
+Combining the two conditions:
 \begin_inset Formula 
 \[
 \frac{w^{N}}{w^{S}}=\frac{a_{T}^{S}}{a_{C}^{N}}\frac{P_{C}}{P_{T}}
@@ -2798,14 +2804,15 @@ We combine these two conditions:
 \end_layout
 
 \begin_layout Itemize
-Relative wages depends on labour productivity and prices
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-If computers and textiles have the same price, wages depend only on labour
- productivity
+These are the wages we expect under free trade with full specialization
 \end_layout
+
+\begin_layout Itemize
+Note that by assumption
+\begin_inset Formula 
+\[
+\frac{a_{T}^{S}}{a_{T}^{N}}<\frac{w^{N}}{w^{S}}<\frac{a_{C}^{S}}{a_{C}^{N}}
+\]
 
 \end_inset
 
@@ -2825,7 +2832,62 @@ If computers and textiles have the same price, wages depend only on labour
 status open
 
 \begin_layout Plain Layout
-Gains from Trade and Wages
+Relative Wages
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{a_{T}^{S}}{a_{T}^{N}}<\frac{w^{N}}{w^{S}}<\frac{a_{C}^{S}}{a_{C}^{N}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Nothing inherently wrong with workers in South being paid a significantly
+ lower wage than North
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Wage reflects productivity which, in turn, becomes a cost advantage that
+ can result in gains from trade
+\end_layout
+
+\begin_layout Itemize
+North has a cost advantage in computers despite higher wages, which is offset
+ by higher productivity
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+We expect North to have higher wages than South under free trade though
+ both countries still gain from trade
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gains from Trade and Real Wages
 \end_layout
 
 \end_inset
@@ -2835,8 +2897,8 @@ Gains from Trade and Wages
 
 \begin_deeper
 \begin_layout Itemize
-When making welfare statements from wages, it is more informative to look
- at 
+When making welfare statements from wages, it may be more informative to
+ look at 
 \series bold
 \emph on
 real 
@@ -2888,7 +2950,7 @@ Real wages is defined as
 status open
 
 \begin_layout Plain Layout
-Gains from Trade and Wages
+Gains from Trade and Real Wages
 \end_layout
 
 \end_inset
@@ -2934,7 +2996,7 @@ Similar for South
 status open
 
 \begin_layout Plain Layout
-Gains from Trade and Wages
+Gains from Trade and Real Wages
 \end_layout
 
 \end_inset
@@ -2991,7 +3053,7 @@ We will consider the three possible scenarios that may arise:
 status open
 
 \begin_layout Plain Layout
-Gains from Trade and Wages
+Gains from Trade and Real Wages
 \end_layout
 
 \end_inset
@@ -3031,7 +3093,7 @@ and
 status open
 
 \begin_layout Plain Layout
-Gains from Trade and Wages: 
+Gains from Trade and Real Wages: 
 \begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
 \end_inset
 
@@ -3081,7 +3143,7 @@ Autarky real wages in each industry
 status open
 
 \begin_layout Plain Layout
-Gains from Trade and Wages: 
+Gains from Trade and Real Wages: 
 \begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
 \end_inset
 
@@ -3165,7 +3227,7 @@ This is the same as autarky computer real wages!
 status open
 
 \begin_layout Plain Layout
-Gains from Trade and Wages: 
+Gains from Trade and Real Wages: 
 \begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
 \end_inset
 
@@ -3211,11 +3273,6 @@ cant do this for computers because there is no revenue=cost condition for
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-Now we have everything we need to determine if there are gains from trade
- using real wages
-\end_layout
-
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -3229,7 +3286,7 @@ Now we have everything we need to determine if there are gains from trade
 status open
 
 \begin_layout Plain Layout
-Gains from Trade and Wages: 
+Gains from Trade and Real Wages: 
 \begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
 \end_inset
 
@@ -3251,8 +3308,7 @@ Did real wages increase under trade?
 \end_layout
 
 \begin_layout Itemize
-From above, we see that real wages in terms of computers did not change
- 
+We saw that real wages in terms of computers did not change 
 \begin_inset Formula $\left(\frac{w^{N}}{P_{C}^{N}}\right)^{AUT}=\left(\frac{w^{N}}{P_{C}}\right)^{TRADE}$
 \end_inset
 
@@ -3293,7 +3349,7 @@ In terms of textiles, because
 status open
 
 \begin_layout Plain Layout
-Gains from Trade and Wages: 
+Gains from Trade and Real Wages: 
 \begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
 \end_inset
 
@@ -3316,7 +3372,7 @@ In summary, real wages either did not change (for computers) or increased
 \end_layout
 
 \begin_layout Itemize
-Thus, in this scenario,there are gains from trade
+In this scenario, there are gains from trade
 \end_layout
 
 \begin_layout Itemize
@@ -3353,7 +3409,7 @@ EXERCISE: Are there gains from trade for the Southern country under this
 status open
 
 \begin_layout Plain Layout
-Gains from Trade and Wages: 
+Gains from Trade and Real Wages: 
 \begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}=\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
 \end_inset
 
@@ -3379,7 +3435,7 @@ Because of this autarky prices for North, they will produce both goods
 \end_layout
 
 \begin_layout Itemize
-Thus, for North, trade real wages is equal to autarky real wages
+For North, trade real wages will just equal autarky real wages
 \begin_inset Formula 
 \[
 \left(\frac{w^{N}}{P_{C}^{N}}\right)^{AUT}=\left(\frac{w^{N}}{P_{C}}\right)^{TRADE}=\frac{1}{a_{C}^{N}}
@@ -3411,7 +3467,7 @@ Thus, for North, trade real wages is equal to autarky real wages
 status open
 
 \begin_layout Plain Layout
-Gains from Trade and Wages: 
+Gains from Trade and Real Wages: 
 \begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}=\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
 \end_inset
 
@@ -3438,10 +3494,6 @@ However, only real wages for computers will increase in South
 
 \begin_layout Itemize
 Real wages for textiles will not change
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -3463,7 +3515,7 @@ EXERCISE: Derive this!
 status open
 
 \begin_layout Plain Layout
-Gains from Trade and Wages: 
+Gains from Trade and Real Wages: 
 \begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}<\frac{P_{C}}{P_{T}}=\frac{a_{C}^{S}}{a_{T}^{S}}$
 \end_inset
 
@@ -3481,7 +3533,7 @@ Gains from Trade and Wages:
 
 \begin_deeper
 \begin_layout Itemize
-This is similar to the case where 
+Argument is similar to the case where 
 \begin_inset Formula $\frac{a_{C}^{N}}{a_{T}^{N}}=\frac{P_{C}}{P_{T}}<\frac{a_{C}^{S}}{a_{T}^{S}}$
 \end_inset
 
@@ -3489,8 +3541,8 @@ This is similar to the case where
 \end_layout
 
 \begin_layout Itemize
-Only this time trade real wages will be the same as in autarky for the Southern
- country (for both industries)
+Only this time trade real wages in both industries will be the same as autarky
+ for the Southern country 
 \end_layout
 
 \begin_layout Itemize
@@ -3611,7 +3663,7 @@ Myth 1: Free trade can only benefit a country if it is strong enough to
 \end_layout
 
 \begin_layout Itemize
-A country can be techinically inferior in all industries and still experience
+A country can be technically inferior in all industries and still experience
  gains from trade.
  Comparative advantage and not absolute advantage is what gives rise to
  gains from trade
@@ -3677,8 +3729,9 @@ Myth 2: Foreign competition is unfair because foreign countries compete
 \end_layout
 
 \begin_layout Itemize
-The Home country's concern should be whether it is cheaper to produce computers
- and trade it for textiles versus producing textiles domestically
+The Home country's concern should be whether it is cheaper (in terms of
+ labour expenditure) to produce computers and trade it for textiles versus
+ producing textiles domestically
 \end_layout
 
 \begin_layout Itemize
@@ -3729,8 +3782,8 @@ Myth 3: Trade exploits a country and makes it worse off if its workers receive
 \end_layout
 
 \begin_layout Itemize
-What's the alternative? Suppose we stop exporting computers to Mexico and
- stop importing textiles
+What's the alternative? Suppose North stops exporting computers and importing
+ textiles from South
 \end_layout
 
 \begin_layout Itemize
@@ -3743,13 +3796,13 @@ In our model, real wages would fall in the South country in terms of computers
 
 \begin_deeper
 \begin_layout Itemize
-The South is inefficient at producing computers, so autarky computer prices
- will be higher than free trade computer prices
+The South is inefficient in producing computers resulting in autarky computer
+ prices that are higher than free trade computer prices
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-North country, on the other hand, will see a drop in real wages in terms
+The North country, on the other hand, will see a drop in real wages in terms
  of textiles due to higher textile prices
 \end_layout
 
@@ -3873,7 +3926,7 @@ countries gain from trade
 
 \begin_layout Itemize
 But if the free trade equilibrium relative price is equal to one of the
- country's autarky relative price, that country does not gain (but is not
+ country's autarky relative price, that country does not gain (but is no
  worse off) from trade
 \begin_inset Separator latexpar
 \end_inset
@@ -3888,8 +3941,7 @@ The other country, however, will gain from trade
 
 \end_deeper
 \begin_layout Itemize
-Gains from trade are modeled by attaining a higher indifference curve and
- by higher overall real wages
+Gains from trade are modeled by using indifference curves and real wages
 \end_layout
 
 \end_deeper
@@ -3928,7 +3980,7 @@ Only one factor in production: Labour
 
 \begin_deeper
 \begin_layout Itemize
-Others: land, distinguish between skilled and low-skill labour, capital
+Others: land, skilled v.s low-skill labour, capital
 \end_layout
 
 \end_deeper
@@ -3942,13 +3994,16 @@ Assumes perfect labour mobility across industries
 
 \begin_deeper
 \begin_layout Itemize
-Not always true.
- Adjustment may take a long time
+Countries gain by shifting labour to more productive industries
+\end_layout
+
+\begin_layout Itemize
+Some resources may not be perfectly mobile (retraining takes time)
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Countries can only experience gains from trade
+No losses from trade
 \begin_inset Separator latexpar
 \end_inset
 
@@ -3965,6 +4020,28 @@ Does not model welfare losses from industrial shifts
 \end_layout
 
 \end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The Ricardian Model: Limitations
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 Countries differ only in terms of their productivity
 \begin_inset Separator latexpar
@@ -3975,31 +4052,19 @@ Countries differ only in terms of their productivity
 
 \begin_deeper
 \begin_layout Itemize
-Does not model resource endowment
-\end_layout
-
-\begin_layout Itemize
-Canada has plenty of natural resources (lumber and shale oil)
+Does not model resource endowment (e.g.
+ lumber and shale oil)
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-We will consider some of these issues in our next model:
-\begin_inset Separator latexpar
-\end_inset
-
-
+We will consider some of these issues in the Heckscher-Ohlin model next
+ class
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-The Heckscher-Ohlin Model
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Standard
-\begin_inset Separator parbreak
+\begin_inset Separator plain
 \end_inset
 
 
