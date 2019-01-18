@@ -371,12 +371,51 @@ HO Model
 
 \begin_deeper
 \begin_layout Itemize
-We can conceive of losses arising from trade
+But some sectors do get hurt by international trade
 \end_layout
 
 \begin_layout Itemize
 Perhaps the welfare outcomes under trade in the Ricardian model is too far
  remove from reality
+\end_layout
+
+\begin_layout Itemize
+In addition, having a second factor in production can better model specializatio
+n due to different resource endowments (some countries have more land, others
+ have more labour)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+HO Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In studying the HO model, we hope to answer the following question:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+How does the income distribution in a country change following a price shock
+ arising from international trade?
 \end_layout
 
 \end_deeper
@@ -559,7 +598,7 @@ Model Environment and Assumptions
 \begin_layout Itemize
 Assume that North's stock of factors is such that they are 
 \series bold
-relative abundant
+relatively abundant
 \series default
  in capital:
 \begin_inset Formula 
@@ -570,10 +609,6 @@ relative abundant
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-We will focus on relative factor abundance
 \end_layout
 
 \end_deeper
@@ -624,7 +659,7 @@ F_{C}(K_{C},L_{C})\ \text{and}\ F_{T}(K_{T},L_{T})
 
 \begin_deeper
 \begin_layout Itemize
-In the Ricardian model, we had 
+In the Ricardian model, this was 
 \begin_inset Formula $F_{C}(L)=\frac{1}{a_{C}}L$
 \end_inset
 
@@ -782,9 +817,9 @@ Relative factor price is
 
 \begin_layout Itemize
 We can represent differences in relative capital intensity using what is
- called an 
+ called the 
 \series bold
-FF curve (!!! WHAT DOES FF STAND FOR !!!)
+FF curve
 \end_layout
 
 \end_deeper
@@ -808,7 +843,8 @@ FF Curve: Factor Prices and Input Ratio
 
 \end_layout
 
-\begin_layout Frame
+\begin_deeper
+\begin_layout Itemize
 For a fixed value of 
 \begin_inset Formula $\frac{w}{r}$
 \end_inset
@@ -816,11 +852,17 @@ For a fixed value of
 , computers uses more capital relative to labour than textile
 \end_layout
 
+\begin_layout Itemize
+As wages go up relative to capital, produces will use more capital relative
+ to labour
+\end_layout
+
+\end_deeper
 \begin_layout Frame
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -837,7 +879,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.065]{figures/l2b/ff1}
+includegraphics[scale=.055]{figures/l2b/ff1}
 \end_layout
 
 \end_inset
@@ -1093,8 +1135,7 @@ But what drives relative factor price?
 
 \begin_deeper
 \begin_layout Itemize
-It turns out that in our model, it is the prices of goods (the relative
- good price, to be precise)
+It turns out that in our model, it is the relative price of goods
 \end_layout
 
 \end_deeper
@@ -1168,8 +1209,7 @@ price
 
 \end_deeper
 \begin_layout Itemize
-But before we can derive the SS curve, we need to introduce what's called
- the 
+But before we can derive the SS curve, we need to introduce the 
 \series bold
 Lerner Diagram
 \series default
@@ -1184,11 +1224,10 @@ Lerner Diagram
 \begin_layout Itemize
 The Lerner Diagram will help us understand the underlying mechanism for
  the relationship between relative good price and relative factor price
- (!!! ADD BETTER EXPLANATION)
 \end_layout
 
 \begin_layout Itemize
-It will contain two curves: the 
+It contains two curves: the 
 \series bold
 iso-value 
 \series default
@@ -1467,7 +1506,7 @@ Given
 \begin_inset Formula $r$
 \end_inset
 
-, it is derived from cost function
+, it is derived from
 \begin_inset Formula 
 \[
 wL+rK=1
@@ -1624,14 +1663,14 @@ The slope of the iso-cost curve is just
 \begin_inset Formula $-\frac{w}{r}$
 \end_inset
 
-
+ (which comes from the cost equation set to $1)
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
 We derive the iso-value slope below
 \end_layout
 
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -1910,7 +1949,7 @@ Rearranging the expression above
 \end_layout
 
 \begin_layout Itemize
-The ratios on the right are the marginal products of labour and capital
+The derivatives on the right are the marginal products of labour and capital
 \begin_inset Separator latexpar
 \end_inset
 
@@ -2054,8 +2093,8 @@ The slopes of the iso-cost and iso-value curves must be equal
 
 \begin_deeper
 \begin_layout Itemize
-In consumer theory, the equilibrium bundle is such that the slope of the
- indifference curve is equal to the slope of the budget constraint
+Note: In consumer theory, the equilibrium bundle is such that the slope
+ of the indifference curve is equal to the slope of the budget constraint
 \end_layout
 
 \end_deeper
@@ -2150,21 +2189,12 @@ Lerner Diagram: Two Industries
 
 \begin_deeper
 \begin_layout Itemize
-So far, we've been considering just one industry: computers
+So far, we have only considered one industry: computers
 \end_layout
 
 \begin_layout Itemize
-With two industries, both industries share the same iso-cost curve
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-wage and rental rates are the same across industries due to perfect labour/capit
-al mobility
+With two industries, both industries share the same iso-cost curve (their
+ cost functions are the same)
 \begin_inset Formula 
 \[
 1=rK+wL
@@ -2175,10 +2205,16 @@ al mobility
 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Note: Wages and rental rates are the same across industries due to perfect
+ labour/capital mobility
+\end_layout
+
 \end_deeper
 \begin_layout Itemize
-Their iso-value curves, however, differ because each industry has its own
- production function and face different prices
+Their iso-value curves are different because each industry face a different
+ production function and prices
 \begin_inset Formula 
 \begin{eqnarray*}
 1 & = & P_{C}F_{C}(K,L)\\
@@ -2619,25 +2655,20 @@ The supply of capital increases and as a result returns to capital,
 , decreases
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
+The decrease in 
 \begin_inset Formula $r$
 \end_inset
 
- must decrease in order to avoid negative profits in the computer industry
-\end_layout
+ and the corresponding increase in 
+\begin_inset Formula $w$
+\end_inset
 
-\begin_deeper
-\begin_layout Itemize
-Negative profits entails an iso-value curve 
-\emph on
-above 
-\emph default
-the iso-cost line
+ causes the iso-cost curve to pivot
 \end_layout
 
 \begin_layout Itemize
-!!! INTUITION WHY NOT A PARALLEL SHIFT IN ISOCOST LINE !!!
+Adjustment continues until firms in each industry make zero profit
 \end_layout
 
 \end_deeper
@@ -2697,32 +2728,6 @@ includegraphics[scale=.085]{figures/l2b/ld7}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Summary
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-!!! INSERT SUMMARY OF DERIVATIONS
-\end_layout
-
-\end_deeper
-\begin_layout Standard
 \begin_inset Separator plain
 \end_inset
 
@@ -2748,20 +2753,20 @@ Next Class
 
 \begin_deeper
 \begin_layout Itemize
-The thought experiment allows us to map how changes in relative prices affects
- relative factor returns
+The thought experiment allows us to map changes in relative prices to changes
+ in relative factor returns
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-The curve describing this relationship is called the SS curve
+We call the curve describing this relationship the SS curve
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-In the next class, we will bring this together with the FF curve to relate
- relative goods prices, relative factor prices, and the resulting optimal
- capital-labour ratio in each industry
+Next class, we will bring this together with the FF curve to relate relative
+ goods prices, relative factor prices, and the resulting optimal capital-labour
+ ratio in each industry
 \end_layout
 
 \begin_layout Itemize
@@ -2772,7 +2777,7 @@ We will then introduce the Stolper-Samuelson Theorem, which will confirms
 
 \begin_deeper
 \begin_layout Itemize
-This will help us answer the following question: 
+We can finally ask the question we stated in the beginning: 
 \series bold
 How does the income distribution in a country change following a price shock
  arising from international trade?
