@@ -1,20 +1,19 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
-\save_transient_properties true
-\origin unavailable
 \textclass beamer
 \begin_preamble
 %Beamer theme and color theme
-\usetheme{default}
-\usecolortheme{default}
-
-\setbeamercolor{normal text}{bg=MyGreen}
-\definecolor{MyGreen}{RGB}{230, 242, 230}
-
-% no dots/buttons along the top
+\usetheme{Frankfurt}
+\usecolortheme{beaver}
 \setbeamertemplate{mini frames}{}
+
+% set color of elements (e.g. bullet points, theorems, definitions, etc)
+\setbeamercolor{structure}{fg=red!60!white}
+
+% header showing only current section and subsection
+\useoutertheme{infolines}
 
 \usepackage{amsmath,amssymb}
 
@@ -33,6 +32,8 @@
 %remove navigation
 \beamertemplatenavigationsymbolsempty
 
+
+
 \definecolor{blue}{RGB}{0,0,120}
 
 \usepackage{hyperref}
@@ -41,9 +42,7 @@
 
 \usepackage[section]{placeins}
 
-% Fix undefined control sequence bug at \@@magyar@captionfix (see log)
-% Reference: https://tex.stackexchange.com/questions/426088/texlive-pretest-2018-beamer-and-subfig-collide
-\let\@@magyar@captionfix\relax
+\usepackage{graphicx}
 \end_preamble
 \options handouts
 \use_default_options true
@@ -52,18 +51,16 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "default"
-\font_sans "default" "default"
-\font_typewriter "default" "default"
-\font_math "auto" "auto"
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100 100
-\font_tt_scale 100 100
-\use_microtype false
-\use_dash_ligatures true
+\font_sf_scale 100
+\font_tt_scale 100
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -93,7 +90,6 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
-\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -102,10 +98,7 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\is_math_indent 0
-\math_numbering_side default
-\quotes_style english
-\dynamic_quotes 0
+\quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -123,7 +116,7 @@ ECO364: International Trade Theory
 \end_layout
 
 \begin_layout Subtitle
-Lecture 6 - Review
+Lecture 6 - Midterm Information
 \end_layout
 
 \begin_layout Institute
@@ -134,12 +127,31 @@ University of Toronto, Department of Economics
 Palermo Penano
 \end_layout
 
-\begin_layout Section
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Outline for Today
 \end_layout
 
-\begin_layout Subsection
-Outline
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Midterm information
+\end_layout
+
+\begin_layout Itemize
+Work through a past midterm exam
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Midterm
 \end_layout
 
 \begin_layout Frame
@@ -147,7 +159,7 @@ Outline
 status open
 
 \begin_layout Plain Layout
-Previously
+Exam format, time, location
 \end_layout
 
 \end_inset
@@ -157,61 +169,23 @@ Previously
 
 \begin_deeper
 \begin_layout Itemize
-Classical Trade Model
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Perfect Competition
+Two big questions with multiple parts; one short question
 \end_layout
 
 \begin_layout Itemize
-Comparative Advantage Based on Trade
+Time: 2 hours (beginning at 2:10pm)
+\end_layout
+
+\begin_layout Itemize
+Location: In class
+\end_layout
+
+\begin_layout Itemize
+You're permitted to bring a non-programmable calculator
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-Second-half of this Course
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Trade Policy
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-When can trade restrictions improve welfare? Why?
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Trade with Increasing Returns to Scale and Imperfect Competition
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Quotes eld
-\end_inset
-
-Pro-competitive
-\begin_inset Quotes erd
-\end_inset
-
- Gains from Trade
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Trade Policy with Imperfect Competition
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
+\begin_layout Separator
 
 \end_layout
 
@@ -220,7 +194,7 @@ Trade Policy with Imperfect Competition
 status open
 
 \begin_layout Plain Layout
-Today
+How to prepare for the midterm
 \end_layout
 
 \end_inset
@@ -230,22 +204,29 @@ Today
 
 \begin_deeper
 \begin_layout Itemize
-The Instruments of Trade Policy (KMO Ch.
- 9)
+Understand everything in the lecture slides
+\end_layout
+
+\begin_layout Itemize
+Do the exercises in the lecture slides
+\end_layout
+
+\begin_layout Itemize
+Understand the solutions to both problem sets
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Appendix to KMO Ch.
- 10 (Optimal Tariffs)
+Solutions will be posted after the tutorial today
 \end_layout
 
 \end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
+\begin_layout Itemize
+Work through the additional practice questions
+\end_layout
 
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
@@ -254,73 +235,7 @@ Appendix to KMO Ch.
 status open
 
 \begin_layout Plain Layout
-Outline
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Tariffs
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Definitions and Introduction
-\end_layout
-
-\begin_layout Itemize
-Theory: Small Country
-\end_layout
-
-\begin_layout Itemize
-Theory: Large Country
-\end_layout
-
-\end_deeper
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Itemize
-Other Instruments
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Export Subsidies
-\end_layout
-
-\begin_layout Itemize
-Quotas
-\end_layout
-
-\begin_layout Itemize
-Voluntary Export Restraint (VER)
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Tariffs: Definitions
+What will be on the exam
 \end_layout
 
 \end_inset
@@ -330,471 +245,25 @@ Tariffs: Definitions
 
 \begin_deeper
 \begin_layout Itemize
-Tax on imports
-\end_layout
-
-\begin_layout Itemize
-May take a variety of forms:
+All the materials we have covered
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-
-\series bold
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textbf{Specific Tariff:}
+Ricardian Model
 \end_layout
 
-\end_inset
-
-
-\series default
- tax levied as a fixed charge for each unit imported
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
-\begin_inset Formula $\text{Revenue}=(p-t)q$
-\end_inset
-
-
+Heckscher-Ohlin Model
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textbf{Ad-valorem Tariff:}
-\end_layout
-
-\end_inset
-
- tax levied as a fraction of the value being imported
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Formula $\text{Revenue}=(1-\tau)pq$
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-textbf{Compound Duty:}
-\end_layout
-
-\end_inset
-
- mixture of specific and ad-valorem tariff
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Formula $\text{Revenue}=(1-\tau)(p-t)q$
-\end_inset
-
-
+Specific Factors Model
 \end_layout
 
 \end_deeper
 \end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Tariffs in Practice
-\end_layout
-
-\end_inset
-
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Average Tariff Rates (TBA !!!)
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-center
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="4">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1996
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2014
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2018
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Canada
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-United States
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-China
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Source: !!!
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Tariffs in Practice
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Tariff rates vary widely by product group
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Canada: Average tariff rates in 2017 by product groups
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Meat of bovine animals, fresh or chilled: 26.5
-\end_layout
-
-\begin_layout Itemize
-Cotton sewing thread: 8%
-\end_layout
-
-\begin_layout Itemize
-Footwear; training, track or running: 18%
-\end_layout
-
-\begin_layout Itemize
-Pizza and Quiche: 14.5%
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Source: Canada Customs Tariff for 2017
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-https://www.cbsa-asfc.gc.ca/trade-commerce/tariff-tarif/2018/html/tblmod-3-eng.html
-\end_layout
-
-\end_deeper
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Tariffs in Practice
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Why do countries use tariffs?
-\end_layout
-
-\begin_layout Itemize
-Why are many countries actively trying to cut tariffs?
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\series bold
-NAFTA 2.0 (US-Mexico-Canada Agreement)
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Encourage domestic production of automobiles
-\end_layout
-
-\begin_layout Itemize
-Domestic labour
-\end_layout
-
-\begin_layout Itemize
-US access to Canadian dairy market
-\end_layout
-
-\begin_layout Itemize
-Intellectual property rights provisions
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Signed, but not ratified
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Who wins / loses from trade agreements?
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Theory: Tariffs in Partial Equilibirum
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-
-\end_layout
-
-\end_deeper
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Frame
+\begin_layout Separator
 
 \end_layout
 

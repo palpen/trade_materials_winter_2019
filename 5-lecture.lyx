@@ -43,9 +43,6 @@
 \usepackage[section]{placeins}
 
 \usepackage{graphicx}
-
-% strike through text: usage \sout{good by}
-\usepackage{ulem}
 \end_preamble
 \options handouts
 \use_default_options true
@@ -119,7 +116,7 @@ ECO364: International Trade Theory
 \end_layout
 
 \begin_layout Subtitle
-Lecture 5
+Lecture 4
 \end_layout
 
 \begin_layout Institute
@@ -128,6 +125,27 @@ University of Toronto, Department of Economics
 
 \begin_layout Author
 Palermo Penano
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+References: 
+\end_layout
+
+\begin_layout Plain Layout
+Lecture 3 (for Stolper Samuelson)
+\end_layout
+
+\begin_layout Plain Layout
+Lecture 4 (All)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -149,11 +167,7 @@ Last Class
 
 \begin_deeper
 \begin_layout Itemize
-Why does FPE happen in free trade?
-\end_layout
-
-\begin_layout Itemize
-Factor Content Studies
+Three theorems in the HO model
 \end_layout
 
 \end_deeper
@@ -167,23 +181,11 @@ Today
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-sout{Under what conditions does FPE take place?}
-\end_layout
-
-\end_inset
-
-
+Factor Price Equalization
 \end_layout
 
 \begin_layout Itemize
-Specific Factors Model
+Factor Content of Trade
 \end_layout
 
 \begin_layout Pause
@@ -197,170 +199,17 @@ Readings
 
 \begin_deeper
 \begin_layout Itemize
-KMO Ch 4
+None!
 \end_layout
 
 \end_deeper
 \end_deeper
 \begin_layout Section
-Specific Factors Model 
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-The Specific Factors Model
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-In the Ricardian model, we were not able to say anything about the income
- distribution (why?)
-\end_layout
-
-\begin_layout Itemize
-But we were able to do this in the Heckscher-Ohlin model
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Two factors of production
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-In a model with more than one factor, we showed that factors could experience
- a fall in their real returns
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-When the price of a good increases, the factor used intensively in the productio
-n of that good experiences an increase in real returns
-\end_layout
-
-\begin_layout Itemize
-The other good experiences a decrease in real returns
-\end_layout
-
-\begin_layout Itemize
-Stolper-Samuelson theorem
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-The Specific Factors Model
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The HO model is more suitable for studying the long-run effects of trade
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-We assumed each factor can costlessly transfer across industries within
- a country where the decision to move is based on factor returns
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-In the short run, factors could be stuck in their industry
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Occupation-specific skills: it takes a long time and a lot of money to switch
- careers
-\end_layout
-
-\begin_layout Itemize
-Large factories and heavy machinery are difficult to move or convert for
- other uses
-\end_layout
-
-\begin_layout Itemize
-Geographic constraints: very high transportation or migration costs could
- make it difficult for factors to move in locations with industries experiencing
- growth
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Specific Factors Model: Outline
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Model setup + analysis
-\end_layout
-
-\begin_layout Itemize
-Autarky equilibrium
-\end_layout
-
-\begin_layout Itemize
-Trade equilibrium
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Countries North and South
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Gains from Trade
-\end_layout
-
-\begin_layout Itemize
-Note: a lot of the ideas here will be similar to what you saw in the HO
- model, but I will proceed slowly anyway (consider it as a review for the
- exam!)
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
+Factor Price Equalization
 \end_layout
 
 \begin_layout Subsection
-Model setup + analysis
+FPE happens
 \end_layout
 
 \begin_layout Frame
@@ -368,7 +217,7 @@ Model setup + analysis
 status open
 
 \begin_layout Plain Layout
-Model Setup
+HO Model and Factor Price Equalization
 \end_layout
 
 \end_inset
@@ -378,54 +227,328 @@ Model Setup
 
 \begin_deeper
 \begin_layout Itemize
-Two sectors/goods: Food, 
-\begin_inset Formula $F$
-\end_inset
-
-; Computers, 
-\begin_inset Formula $C$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Three factors in production: Labour, 
-\begin_inset Formula $L$
-\end_inset
-
-; Capital, 
-\begin_inset Formula $K$
-\end_inset
-
-; Land, 
-\begin_inset Formula $T$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Labour is a 
-\series bold
-mobile factor
-\series default
-: can costlessly move across industries
-\end_layout
-
-\begin_layout Itemize
-Capital and Land are 
-\series bold
-specific factors
+Based on a country's factor endowments we were able to predict
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Land is used only in the food sector
+that capital abundant countries export capital intensive goods and import
+ labour intensive goods
 \end_layout
 
 \begin_layout Itemize
-Capital is used only in the computer sector
+that the return to capital owners in this country increases while the return
+ to labour owners decreases
+\end_layout
+
+\begin_layout Itemize
+that the opposite result arises in the labour abundant country
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+return to capital owners decreases and return to labour owners increases
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+HO Model and Factor Price Equalization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+When countries are allowed to trade, there appears to be a convergence in
+ factor prices
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Factor Price Equalization (FPE)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+To see this more clearly
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+RS-RD in Autarky
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Recall that the autarky relative price in each country is determined by
+ the RS-RD graph
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.085]{"figures/l3/rsrd 1"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+FPE
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Under free trade, the two countries' relative good prices converge as cross-coun
+try differences in prices of goods is arbitraged away
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.085]{"figures/l3/rsrd 2"}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+FPE
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Since the two countries share the same SS curve, the convergence in their
+ relative goods prices results in a convergence in their relative factor
+ prices
+\end_layout
+
+\begin_layout Itemize
+If we had skilled and low-skilled labour as the two factors in our production,
+ this result suggests that if skilled workers make double the pay of low-skilled
+ workers in Canada, then with free trade, skilled workers will also get
+ paid double the wage of low-skilled workers in Mexico
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+FPE
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why is this happening?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We assumed that factors cannot move across countries
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The goods that countries trade embody the factors used in the production
+ of those goods
+\end_layout
+
+\begin_layout Itemize
+Because of this, trade in final goods is similar to trade in the factors
+ used in the production of those goods
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+FPE
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For example, a capital abundant country exports capital-intensive goods
+ and imports labour intensive goods
+\end_layout
+
+\begin_layout Itemize
+One could interpret this as exporting capital and importing labour
+\end_layout
+
+\begin_layout Itemize
+Empirical studies of the HO model is also called 
+\series bold
+factor content studies
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Section
+Factor Content of Trade
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Factor Content Studies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Looks at how much trade in factors is implied by trade in goods
+\end_layout
+
+\begin_layout Itemize
+Start with the volume of exports and imports
+\end_layout
+
+\begin_layout Itemize
+Using unit labour requirements, calculate how much labour does net (net)
+ imports embody
+\end_layout
+
+\begin_layout Itemize
+For now we will focus on just two factors: skilled and unskilled labour
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+But researchers in practice include as many factors as possible in their
+ study
 \end_layout
 
 \end_deeper
@@ -439,7 +562,7 @@ Capital is used only in the computer sector
 status open
 
 \begin_layout Plain Layout
-Model Setup
+Definitions and Notations
 \end_layout
 
 \end_inset
@@ -449,41 +572,67 @@ Model Setup
 
 \begin_deeper
 \begin_layout Itemize
-The production functions for each industry are denoted by
-\begin_inset Formula 
-\[
-Q_{C}=Q_{C}(K,L_{C})
-\]
+Suppose there are two factors (skilled and unskilled labour)
+\end_layout
 
+\begin_layout Itemize
+There are only two goods: computers and textiles
+\end_layout
+
+\begin_layout Itemize
+Suppose the North exports computers and the South exports textiles
+\end_layout
+
+\begin_layout Itemize
+Let
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $X_{C}^{N}$
 \end_inset
 
+: Northern exports of computers to the South
+\end_layout
 
-\begin_inset Formula 
-\[
-Q_{F}=Q_{F}(T,L_{F})
-\]
+\begin_layout Itemize
+\begin_inset Formula $X_{T}^{S}$
+\end_inset
 
+: Southern exports of textiles to the North
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $S_{i}^{j}$
+\end_inset
+
+: Skilled labour employment in sector 
+\begin_inset Formula $i$
+\end_inset
+
+ in country 
+\begin_inset Formula $j$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Itemize
-There's a finite stock of labour, 
-\begin_inset Formula $\bar{L}$
+\begin_inset Formula $U_{i}^{j}$
 \end_inset
 
- ,in the economy and in optimum
-\begin_inset Formula 
-\[
-L_{C}+L_{F}=\bar{L}
-\]
+: Unskilled labour employment in sector 
+\begin_inset Formula $i$
+\end_inset
 
+ in country 
+\begin_inset Formula $j$
 \end_inset
 
 
 \end_layout
 
+\end_deeper
 \end_deeper
 \begin_layout Separator
 
@@ -494,7 +643,7 @@ L_{C}+L_{F}=\bar{L}
 status open
 
 \begin_layout Plain Layout
-Model Setup
+Unit Labour Requirements
 \end_layout
 
 \end_inset
@@ -504,49 +653,83 @@ Model Setup
 
 \begin_deeper
 \begin_layout Itemize
-The marginal product of labour are
+\begin_inset Formula $a_{S,C}^{N}$
+\end_inset
+
+: unit skilled labour requirement for computers in the North
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $a_{U,C}^{N}$
+\end_inset
+
+: unit unskilled labour requirement for computers in the North
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-MPL_{C}=\frac{\partial Q_{C}(K,L_{C})}{\partial L_{C}}
+Q_{C}^{N}=\frac{1}{a_{S,C}^{N}}S_{C}^{N}\implies a_{S,C}^{N}=\frac{S_{C}^{N}}{Q_{C}^{N}}
 \]
 
 \end_inset
 
 
-\begin_inset Formula 
-\[
-MPL_{F}=\frac{\partial Q_{F}(T,L_{F})}{\partial L_{F}}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Just as in the HO model, we will assume that the production functions exhibit
- diminishing returns in each input
-\end_layout
-
-\begin_layout Itemize
-For labour, these are just
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\frac{\partial^{2}Q_{C}(K,L_{C})}{\partial L_{C}^{2}}<0
+Q_{C}^{N}=\frac{1}{a_{U,C}^{N}}U_{C}^{N}\implies a_{U,C}^{N}=\frac{U_{C}^{N}}{Q_{C}^{N}}
 \]
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+These are just the number of skilled/unskilled labour used per unit of computers
+ in the North
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Unit Labour Requirements
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $a_{S,T}^{S}$
+\end_inset
+
+: unit skilled labour requirement for textiles in the South
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $a_{U,T}^{S}$
+\end_inset
+
+: unit unskilled labour requirement for textiles in the South
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula 
 \[
-\frac{\partial^{2}Q_{F}(T,L_{F})}{\partial L_{F}^{2}}<0
+Q_{T}^{S}=\frac{1}{a_{S,T}^{S}}S_{T}^{S}\implies a_{S,T}^{S}=\frac{S_{T}^{S}}{Q_{T}^{S}}
 \]
 
 \end_inset
@@ -554,377 +737,10 @@ For labour, these are just
 
 \end_layout
 
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Production Function and Marginal Product of Labour
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.092]{"figures/l5/of1"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Production Function and Marginal Product of Labour
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.092]{"figures/l5/of2"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Diminishing Returns and PPF
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.092]{"figures/l5/ppf 1"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Diminishing Returns and PPF
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.092]{"figures/l5/ppf 2"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-How the PPF is constructed
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.34]{"figures/l5/sfm1"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-How the PPF is constructed
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Lower left quadrant
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Labour allocation in each sector
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Lower right and upper left quadrant
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Production functions in each sector as a function of labour
-\end_layout
-
-\begin_layout Itemize
-Conditional on some given amount of their specific factors
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-PPF bowed out because of diminishing returns
-\end_layout
-
-\begin_layout Itemize
-How is labour allocated across sectors in this economy?
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-How labour is allocated across sectors
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-To see how labour is allocated, we need to model the supply and demand for
- labour in each industry
-\end_layout
-
-\begin_layout Itemize
-The demand for labour in a given sector depends on the price of the good
- in that sector and the current wages
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Demand for Labour
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Employers (firms) will hire labour until it is not longer worth it for them
- to do so
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Hire until the marginal value produced by the hire is greater than the marginal
- cost of the hire
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Value of a marginal hire is
+\begin_layout Standard
 \begin_inset Formula 
 \[
-MPL_{C}P_{C}
+Q_{T}^{S}=\frac{1}{a_{U,T}^{S}}U_{T}^{S}\implies a_{U,T}^{S}=\frac{U_{T}^{S}}{Q_{T}^{S}}
 \]
 
 \end_inset
@@ -933,15 +749,8 @@ MPL_{C}P_{C}
 \end_layout
 
 \begin_layout Itemize
-Cost of a marginal hire
-\begin_inset Formula 
-\[
-w
-\]
-
-\end_inset
-
-
+These are just the number of skilled/unskilled labour used per unit of textiles
+ in the South
 \end_layout
 
 \end_deeper
@@ -954,7 +763,7 @@ w
 status open
 
 \begin_layout Plain Layout
-Demand for Labour
+Unit Labour Requirements
 \end_layout
 
 \end_inset
@@ -964,55 +773,12 @@ Demand for Labour
 
 \begin_deeper
 \begin_layout Itemize
-If 
-\begin_inset Formula $MPL_{C}P_{C}>w$
-\end_inset
-
-, firm should hire more labour!
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Value of marginal hire exceeds cost
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-If 
-\begin_inset Formula $MPL_{C}P_{C}<w$
-\end_inset
-
-, firm hired too much labour
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Cost of marginal hire exceeds the value they can generate
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-\begin_inset Formula $MPL_{C}P_{C}=w$
-\end_inset
-
- is the optimum
+Notice that the right hand side of these unit labour requirements are variables
+ that we can observe from the data
 \end_layout
 
 \begin_layout Itemize
-Recall, diminishing returns in the production function is the reason why
- for a large value of 
-\begin_inset Formula $L_{C}$
-\end_inset
-
-, 
-\begin_inset Formula $MPL_{C}P_{C}$
-\end_inset
-
- is small
-\end_layout
-
-\begin_layout Itemize
-These conditions also hold for the food industry
+A few more definitions and we're read to make some calculations
 \end_layout
 
 \end_deeper
@@ -1025,7 +791,7 @@ These conditions also hold for the food industry
 status open
 
 \begin_layout Plain Layout
-Demand for Labour
+Skilled and Unskilled Labour in Exports
 \end_layout
 
 \end_inset
@@ -1035,484 +801,24 @@ Demand for Labour
 
 \begin_deeper
 \begin_layout Itemize
-The optimum condition for labour demand, 
-\begin_inset Formula $MPL_{C}P_{C}=w$
-\end_inset
-
-, can be interpreted as the inverse demand function for labour
-\end_layout
-
-\begin_layout Itemize
-For a given 
-\begin_inset Formula $P_{C}$
-\end_inset
-
-, when nominal wages are too high, firms should hire less labour
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Formula $MPL_{C}P_{C}<w$
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Similarly, when wages are very low, firms should hire more labour
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Formula $MPL_{C}P_{C}>w$
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Demand for Labour
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The demand for labour in the food industry is similar
-\begin_inset Formula 
-\[
-MPL_{F}P_{F}=w
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Because labour can freely move across sectors, wage between the two sector
- will equalize
-\end_layout
-
-\begin_layout Itemize
-Along with the labour market clearing condition, 
-\begin_inset Formula $L_{C}+L_{F}=\bar{L}$
-\end_inset
-
-, we can solve for the equilibrium labour allocation in each industry
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Demand for Labour
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.092]{"figures/l5/sd 1"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Demand for Labour
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.092]{"figures/l5/sd 2"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Demand for Labour
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-In other words, for some given values of 
-\begin_inset Formula $P_{C}$
-\end_inset
-
-, 
-\begin_inset Formula $P_{F}$
-\end_inset
-
-, 
-\begin_inset Formula $K$
-\end_inset
-
-, 
-\begin_inset Formula $T$
-\end_inset
-
-, and 
-\begin_inset Formula $\bar{L}$
-\end_inset
-
-, the equilibrium allocation of labour in each sector, 
-\begin_inset Formula $L_{C}^{*}$
+Define 
+\begin_inset Formula $S_{Trade}^{j}$
 \end_inset
 
  and 
-\begin_inset Formula $L_{F}^{*}$
+\begin_inset Formula $U_{Trade}^{j}$
 \end_inset
 
-, satisfies
-\begin_inset Formula 
-\[
-MPL_{C}(K,L_{C}^{*})P_{C}=MPL_{F}(T,L_{T}^{*})P_{F}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-and
-\begin_inset Formula 
-\[
-L_{C}^{*}+L_{F}^{*}=\bar{L}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-The last condition is just a resource constraint
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Demand for Labour
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The equilibrium allocation can be shown in what's called the Scissors Diagram
-\end_layout
-
-\begin_layout Itemize
-This is a diagram where the labour demand curves in both sectors are shown
- together
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Demand for Labour
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.092]{"figures/l5/sd 3"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Demand for Labour
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-Suppose wages is higher than the point where the two demand curves cross...
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-study minimum wage implications?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.08]{"figures/l5/sd 4"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Relative Goods Prices and Production Pattern
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-From the equilibrium allocation of labour condition, we saw that 
-\begin_inset Formula 
-\[
-MPL_{C}(K,L_{C}^{*})P_{C}=MPL_{F}(T,L_{F}^{*})P_{F}
-\]
-
+ as the skilled and unskilled labour that is embodied in the exports of
+ country 
+\begin_inset Formula $j$
 \end_inset
 
 
 \begin_inset Formula 
-\[
-\implies\frac{P_{C}}{P_{F}}=\frac{MPL_{F}(T,L_{F}^{*})}{MPL_{C}(K,L_{C}^{*})}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-This takes us back to our PPF, since 
-\begin_inset Formula $\frac{MPL_{F}(T,L_{F}^{*})}{MPL_{C}(K,L_{C}^{*})}$
-\end_inset
-
- is just the slope of the PPF at the production output corresponding to
- the inputs 
-\begin_inset Formula $T$
-\end_inset
-
-, 
-\begin_inset Formula $K$
-\end_inset
-
-, 
-\begin_inset Formula $L_{F}^{*}$
-\end_inset
-
-, and 
-\begin_inset Formula $L_{C}^{*}$
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Relative Goods Prices and Production Pattern
-\end_layout
+\begin{alignat*}{2}
+S_{Trade}^{N}=a_{S,C}^{N}X_{C}^{N}+a_{S,T}^{N}X_{T}^{N} & \ \ \  & S_{Trade}^{S}=a_{S,C}^{S}X_{C}^{S}+a_{S,T}^{S}X_{T}^{S}
+\end{alignat*}
 
 \end_inset
 
@@ -1520,116 +826,15 @@ Relative Goods Prices and Production Pattern
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-The economy will produce the output that maximizes the total value of production
+\begin_layout Standard
 \begin_inset Formula 
-\[
-V=Q_{F}P_{F}+Q_{C}P_{C}
-\]
+\begin{alignat*}{2}
+U_{Trade}^{N}=a_{U,C}^{N}X_{C}^{N}+a_{U,T}^{N}X_{T}^{N} & \ \ \  & U_{Trade}^{S}=a_{U,C}^{S}X_{C}^{S}+a_{U,T}^{S}X_{T}^{S}
+\end{alignat*}
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-This is at the point where the line described by the equation 
-\begin_inset Formula $V$
-\end_inset
-
- is tangent with the PPF
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Relative Goods Prices and Production Pattern
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.092]{"figures/l5/ppf 3"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Subsubsection
-Equal Proportion Increase in Prices
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Changes in Prices
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Now that the main elements of the model is complete, we can conduct some
- thought experiments
-\end_layout
-
-\begin_layout Itemize
-We will consider two types of price changes:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The price of both goods rises by the same percentage
-\end_layout
-
-\begin_layout Itemize
-The price of one good rises while the other stays constant
 \end_layout
 
 \end_deeper
@@ -1643,7 +848,7 @@ The price of one good rises while the other stays constant
 status open
 
 \begin_layout Plain Layout
-Changes in Prices
+Change in Endowment Stock due to Trade
 \end_layout
 
 \end_inset
@@ -1653,647 +858,46 @@ Changes in Prices
 
 \begin_deeper
 \begin_layout Itemize
-For each type of price change, we will answer the following questions
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-What happens to the production of output in each good?
-\end_layout
-
-\begin_layout Itemize
-What happens to how labour is allocated across industries?
-\end_layout
-
-\begin_layout Itemize
-Who gains from the price change? Who loses?
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Let's begin
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Equal-Proportion Price Increase: Changes in Output
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Suppose the price of both computers, 
-\begin_inset Formula $P_{C}$
-\end_inset
-
-, and food, 
-\begin_inset Formula $P_{F}$
-\end_inset
-
-, increases by 10%
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Assume everything else stays the same
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-\begin_inset Formula $P_{C}/P_{F}$
-\end_inset
-
- does not change
-\end_layout
-
-\begin_layout Itemize
-Because relative goods prices stays the same, from the PPF, output allocation
- stays the same
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Equal-Proportion Price Increase: Labour Allocation
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-What happens to labour allocation?
-\end_layout
-
-\begin_layout Itemize
-Recall, the inverse labour demand functions were 
+When the two countries are trading, the amount of skilled and unskilled
+ labour in their country that will change because of trade is defined as
 \begin_inset Formula 
-\[
-w=MPL_{C}P_{C}
-\]
+\begin{alignat*}{2}
+\tilde{S}^{N}=S^{N}-S_{Trade}^{N}+S_{Trade}^{S} & \ \ \  & \tilde{S}^{S}=S^{S}-S_{Trade}^{S}+S_{Trade}^{N}
+\end{alignat*}
 
 \end_inset
 
 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
 \begin_inset Formula 
-\[
-w=MPL_{F}P_{F}
-\]
+\begin{alignat*}{2}
+\tilde{U}^{N}=U^{N}-U_{Trade}^{N}+U_{Trade}^{S} & \ \ \ \ \ \  & \tilde{U}^{S}=U^{S}-U_{Trade}^{S}+U_{Trade}^{N}
+\end{alignat*}
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-For some fixed wage, an increase in goods prices causes the value of the
- marginal product of labour to be higher than before
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Firms will demand more workers
-\end_layout
-
-\begin_layout Itemize
-Wages will increase as a consequence
 \end_layout
 
 \end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Equal-Proportion Price Increase: Labour Allocation
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Formula $P_{C}$
-\end_inset
-
- increased by 10%
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.082]{"figures/l5/sd 5"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Equal-Proportion Price Increase: Labour Allocation
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-But 
-\begin_inset Formula $P_{F}$
-\end_inset
-
- also increased by 10%
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.082]{"figures/l5/sd 6"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Equal-Proportion Price Increase: Labour Allocation
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Formula $w$
-\end_inset
-
- increases
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.082]{"figures/l5/sd 7"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Equal-Proportion Price Increase: Gains / Losses
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
-From the scissors diagram, we see that an equal proportion change in goods
- prices results in no changes in the labour allocation
-\end_layout
-
-\begin_layout Itemize
-For workers, the 10% increase change in price causes a 10% change in real
- wages
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-This means that wages, 
-\begin_inset Formula $w/P_{C}$
+\begin_inset Formula $S^{i}$
 \end_inset
 
  and 
-\begin_inset Formula $w/P_{F}$
+\begin_inset Formula $U^{i}$
 \end_inset
 
- do not change
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Equal-Proportion Price Increase: Gains / Losses
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-What about the returns to capital and land owners (owners of the factors
- specific to their industry)?
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Equal-Proportion Price Increase: Gains / Losses
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Consider the capital owners
-\end_layout
-
-\begin_layout Itemize
-Remember that 
-\begin_inset Formula $MPK_{C}=\partial Q_{C}(K,L_{C})/\partial K$
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The marginal product of capital is a function of both capital and labour
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Because 
-\begin_inset Formula $L_{C}$
-\end_inset
-
- did not change (from scissors diagram), 
-\begin_inset Formula $MPK_{C}$
-\end_inset
-
- stays the same
-\end_layout
-
-\begin_layout Itemize
-By the marginal revenue = marginal cost condition, 
-\begin_inset Formula $MPK_{C}P_{C}=r$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Thus, real return to capital in terms of computers does not change
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Formula $r/P_{C}=MPK_{C}$
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Because, 
-\begin_inset Formula $r/P_{C}$
-\end_inset
-
- is unchanged, 
-\begin_inset Formula $r$
-\end_inset
-
- must have increased by 10%
-\end_layout
-
-\begin_layout Itemize
-This means 
-\begin_inset Formula $r/P_{F}$
-\end_inset
-
- also did not change (since 
-\begin_inset Formula $P_{F}$
-\end_inset
-
- increased by 10%)
-\end_layout
-
-\begin_layout Itemize
-Similar argument can be applied to see that the real return to land owners
- did not change (EXERCISE)
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Equal-Proportion Price Increase: Summary
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-In summary, an equal-proportion increase in goods prices results in
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-No changes in relative goods prices
-\end_layout
-
-\begin_layout Itemize
-No changes in the pattern of production
-\end_layout
-
-\begin_layout Itemize
-No changes in the labour allocation across industries
-\end_layout
-
-\begin_layout Itemize
-No changes in the real wage of workers in both industries
-\end_layout
-
-\begin_layout Itemize
-No changes in the real returns to capital and land owners
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Equal-Proportion Price Increase: Summary
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-General principle: if the price of all goods in the economy were to increase
- by the same percentage point, things will be just like before
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-At least in the long run this is probably true
-\end_layout
-
-\begin_layout Itemize
-In the real world, there may be institutional frictions that prevents changes
- in prices to be perfectly passed on to worker wages and capital/land returns
-\end_layout
-
-\begin_layout Itemize
-Different market structures also have implications (we assumed perfect competiti
-on)
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Change in Relative Prices
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Real change is caused by a disproportionate change in prices across goods
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-This causes a change in relative output, as seen from the PPF
-\end_layout
-
-\begin_layout Itemize
-which, in turn, causes a change in the allocation of labour
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Change in Relative Prices
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Let's consider the case where the price of computers increases but the price
- of food stays the same
-\end_layout
-
-\begin_layout Itemize
-Suppose the price of computers, 
-\begin_inset Formula $P_{C}$
-\end_inset
-
-, increases by 
-\begin_inset Formula $7\%$
+ is the total stock of skilled and unskilled labour in country 
+\begin_inset Formula $i$
 \end_inset
 
  
 \end_layout
 
-\begin_layout Itemize
-Denote the change from the old relative goods price by 
-\begin_inset Formula $(P_{C}/P_{F})^{1}$
-\end_inset
-
- and the new relative goods price by 
-\begin_inset Formula $(P_{C}/P_{F})^{2}$
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Relative goods prices increases
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Separator
 
@@ -2304,7 +908,7 @@ Relative goods prices increases
 status open
 
 \begin_layout Plain Layout
-Change in Relative Prices
+Example
 \end_layout
 
 \end_inset
@@ -2314,555 +918,49 @@ Change in Relative Prices
 
 \begin_deeper
 \begin_layout Itemize
-Let's ask the same questions:
-\end_layout
+Suppose 
+\begin_inset Formula $S^{N}=200$
+\end_inset
 
-\begin_deeper
-\begin_layout Itemize
-What happens to the production of output in each good?
-\end_layout
+, 
+\begin_inset Formula $U^{N}=100$
+\end_inset
 
-\begin_layout Itemize
-What happens to how labour is allocated across industries?
-\end_layout
+, 
+\begin_inset Formula $S^{S}=100$
+\end_inset
 
-\begin_layout Itemize
-Who gains from the price change? Who loses?
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Change in Relative Prices: Changes in Output
-\end_layout
-
+, and 
+\begin_inset Formula $U^{S}=200$
 \end_inset
 
 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
-Change in relative goods prices causes a change in production patterns
+Suppose North exports 10 computers and South exports 10 units of textiles
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
-It changes the slope of the isovalue line equation
+All other trade are zero
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Assume that the unit labour requirements are
 \begin_inset Formula 
-\[
-V=P_{C}Q_{C}+P_{F}Q_{F}
-\]
+\begin{alignat*}{2}
+a_{S,C}^{N}=1/5 & \ \ \  & a_{S,T}^{S}=1/10
+\end{alignat*}
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-The result is that the output of computers increases while that of food
- decreases
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Change in Relative Prices: Changes in Output
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.092]{"figures/l5/ppf 4"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Change in Relative Prices: Labour Allocation
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-What's the effect of the relative price change on the allocation of labour?
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Change in Relative Prices: Labour Allocation
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.092]{"figures/l5/sd 8"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Change in Relative Prices: Labour Allocation
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The increase in 
-\begin_inset Formula $P_{C}$
-\end_inset
-
- rotates the labour demand curve up
-\end_layout
-
-\begin_layout Itemize
-Equilibrium changes from point 1 to point 2
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Change in Relative Prices: Labour Allocation
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Two things to note:
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-Although 
-\begin_inset Formula $w$
-\end_inset
-
- rises, it rises by less than the increase in the price of computers
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-If it were to increase by the same amount, it would be in 
-\begin_inset Formula $w^{2'}$
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Labour shifts from the food sector to the computer sector
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-This increase in labour working in computers decreases the marginal product
- of labour in computers (
-\begin_inset Formula $MPL_{C}$
-\end_inset
-
-)
-\end_layout
-
-\begin_layout Itemize
-which is the reason why, as noted in note 1., the price of computers, 
-\begin_inset Formula $P_{C}$
-\end_inset
-
-, increased by more than 
-\begin_inset Formula $w$
-\end_inset
-
- (recall, 
-\begin_inset Formula $w=P_{C}\cdot MPL_{C}$
-\end_inset
-
-)
-\end_layout
-
-\begin_layout Itemize
-We see here that the increase in output is due to more labour being allocated
- to the computer industry
-\end_layout
-
-\end_deeper
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Change in Relative Prices: Labour Allocation
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.092]{"figures/l5/sd 8"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Change in Relative Prices: Gains / Losses
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Who gains and who loses from the change in relative price?
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Change in Relative Prices: Gains / Losses
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Workers
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Not obvious
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $w$
-\end_inset
-
- increased, but not by as much as 
-\begin_inset Formula $P_{C}$
-\end_inset
-
-; therefore, 
-\begin_inset Formula $w/P_{C}$
-\end_inset
-
- fell
-\end_layout
-
-\begin_layout Itemize
-Since 
-\begin_inset Formula $P_{F}$
-\end_inset
-
- did not change, 
-\begin_inset Formula $w/P_{F}$
-\end_inset
-
- must have increased
-\end_layout
-
-\begin_layout Itemize
-Whether workers gain or lose depend on how much they value each good
-\end_layout
-
-\begin_layout Itemize
-If they value computers more than food, they lose from the price change
-\end_layout
-
-\begin_layout Itemize
-If they value food more than computers, they gain from the price change
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Change in Relative Prices: Gains / Losses
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Capital owners
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Capital owners gain
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $MPK_{C}$
-\end_inset
-
- rises because 
-\begin_inset Formula $L_{C}$
-\end_inset
-
- increased
-\end_layout
-
-\begin_layout Itemize
-Thus, 
-\begin_inset Formula $r/P_{C}=MPK_{C}$
-\end_inset
-
- increases
-\end_layout
-
-\begin_layout Itemize
-This suggests that 
-\begin_inset Formula $r$
-\end_inset
-
- increased by more than 7%
-\end_layout
-
-\begin_layout Itemize
-Because 
-\begin_inset Formula $r$
-\end_inset
-
- increased and 
-\begin_inset Formula $P_{F}$
-\end_inset
-
- stayed constant, 
-\begin_inset Formula $r/P_{F}$
-\end_inset
-
- increased
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Change in Relative Prices: Gains / Losses
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Capital owners:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\series bold
-Aside: 
-\series default
-To convince yourself that 
-\begin_inset Formula $MPK_{C}$
-\end_inset
-
- increased, here's a production function and take it's derivative with respect
- to 
-\begin_inset Formula $K$
-\end_inset
-
- 
 \begin_inset Formula 
-\[
-Q_{C}=K^{2/3}L_{C}^{1/3}
-\]
+\begin{alignat*}{2}
+a_{U,C}^{N}=1/10 & \ \ \  & a_{U,T}^{S}=1/5
+\end{alignat*}
 
 \end_inset
 
@@ -2870,9 +968,122 @@ Q_{C}=K^{2/3}L_{C}^{1/3}
 \end_layout
 
 \begin_layout Itemize
-Intuitively, a machine with 2, 3, or 4 workers on it cannot be less productive
- than a machine with just 1 worker on it---assuming the depreciation of
- the machine is constant for any number of workers
+Recall North is an exporter of computer and South is an exporter of textiles
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Given these values North will end up importing 1 unit of unskilled labour
+ and exporting one unit of skilled labour
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+EXERCISE
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+This leads to 
+\begin_inset Formula $\tilde{S}^{N}=199$
+\end_inset
+
+, 
+\begin_inset Formula $\tilde{U}^{N}=101$
+\end_inset
+
+, 
+\begin_inset Formula $\tilde{S}^{S}=101$
+\end_inset
+
+, 
+\begin_inset Formula $\tilde{U}^{S}=199$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The larger the factor content of trade, the greater the extent to which
+ factor prices will converge between the two country
+\end_layout
+
+\begin_layout Itemize
+Unfortunately, the prediction of the theory does not fit the data well
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Subsection
+Test using data
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Factor Content Studies and Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+U.S.
+ is one of the most advanced country in the world
+\end_layout
+
+\begin_layout Itemize
+This technological superiority imply that more capital is being used per
+ person in production compared to other countries
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+One worker operating many machines to make a car
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+According to our theory, the U.S.
+ should be a net exporter of capital-intensive goods and a net importer
+ of labour-intensive goods
+\end_layout
+
+\begin_layout Itemize
+In a study done in 1953, economist Wassily Leontief found that U.S.
+ exports were less capital-intensive than U.S.
+ imports
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This inconsistency with the theory is named the Leontief Paradox
 \end_layout
 
 \end_deeper
@@ -2886,656 +1097,7 @@ Intuitively, a machine with 2, 3, or 4 workers on it cannot be less productive
 status open
 
 \begin_layout Plain Layout
-Change in Relative Prices: Gains / Losses
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Landowners
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Landowners lose
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $MPT_{F}$
-\end_inset
-
- decreases because labour has moved to the computer industry
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $r_{T}/P_{F}$
-\end_inset
-
- decreases, which means 
-\begin_inset Formula $r_{T}$
-\end_inset
-
- decreased since 
-\begin_inset Formula $P_{F}$
-\end_inset
-
- did not change
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $r_{T}/P_{C}$
-\end_inset
-
- decreases by more than 7% since 
-\begin_inset Formula $r_{T}$
-\end_inset
-
- fell and 
-\begin_inset Formula $P_{C}$
-\end_inset
-
- increased
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Change in Relative Prices: Gains / Losses
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-EXERCISE: What if the price of food drops while the price of computers remained
- the same?
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Change in Relative Prices: Summary
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The factor specific to the sector whose relative price increased (computers)
- are better off
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Capital owners
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-The factor specific to the sector whose relative price decreased (food)
- are worse off
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Landowners
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-The change in welfare of the mobile factor is unclear
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-It depends on how much workers value computers over food
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Subsection
-Autarky equilibrium
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Autarky Equilibrium
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-We will now study the source of the price changes in our model
-\end_layout
-
-\begin_layout Itemize
-Just like the Ricardian and Heckscher-Ohlin models, prices come from the
- intersection of the relative demand (RD) and relative supply (RS) curve
-\end_layout
-
-\begin_layout Itemize
-Relative Demand:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Homothetic and identical preferences across countries
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Relative Supply:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Comes from the PPF diagram which, itself, is based on factor endowments
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-The intersection of the relative demand and relative supply curve gives
- us the equilibrium relative price and quantity of a country
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-RS and RD curves
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.092]{"figures/l5/rsrd 1"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Equilibrium under Autarky
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Based on the equilibrium relative price pinned down by the intersection
- of the RD and RS curves, we can derive the optimal level of production
- of each good
-\end_layout
-
-\begin_layout Itemize
-We do this by going back to the PPF diagram
-\end_layout
-
-\begin_layout Itemize
-The equilibrium is one where the PPF, isovalue line, and the indifference
- curve are tangent to each other and have the same slope
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Note that in autarky, consumption is equal to production for all goods
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Equilibrium under Autarky
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.092]{"figures/l5/ppf 5"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Subsection
-Trade equilibrium
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Trade Equilibrium
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-As before, when countries trade, world relative price is determined by the
- world RD and the 
-\emph on
-world
-\emph default
- RS curves
-\end_layout
-
-\begin_layout Itemize
-Assume that the country we are analyzing is very good at producing computers
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-or they are relatively capital abundant, which means they have a comparative
- advantage in computers
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Trade Equilibrium RD / RS
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-World RS moves to the left of autarky RS of our country
-\end_layout
-
-\begin_layout Itemize
-The world is relatively less productive at producing food than the South
- and relatively less productive at producing computers than the North
-\end_layout
-
-\begin_layout Itemize
-World RD is the same as before
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-by the homothetic and identical preferences assumption
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Trade Equilibrium: RD / RS
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.092]{"figures/l5/rsrd 2"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Trade Equilibrium: Equilibrium Quantities
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The trade equilibrium results in relative prices that are higher than relative
- prices in autarky
-\end_layout
-
-\begin_layout Itemize
-Given these relative goods prices, we can see how production patterns change
- using the PPF, the isovalue line, and indifference curves
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Trade Equilibrium: Equilibrium Quantities
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.092]{"figures/l5/ppf 6"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Subsection
-Gains from Trade
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gains from Trade
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-In aggregate, our country gains from trade
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-They attain a higher indifference curve in the PPF diagram
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-But just like in the HO model, we need to look at real returns to each factor
-\end_layout
-
-\begin_layout Itemize
-We can study real returns by going back to the scissors diagram and examine
- how---as a result of the price changes because of trade---
-\begin_inset Formula $w$
-\end_inset
-
- and the marginal product of labour in each sector, changed
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gains from Trade
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.092]{"figures/l5/sd 8"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Gains from Trade: Real Returns
+Leontief Paradox
 \end_layout
 
 \end_inset
@@ -3552,77 +1114,131 @@ status open
 
 \backslash
 begin{center} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
 \backslash
-begin{tabular}{lccc}
-\end_layout
-
-\begin_layout Plain Layout
-
-
+textbf{Factor Content of U.S.
+ Exports and Imports for 1962} 
 \backslash
-hline                           
-\end_layout
-
-\begin_layout Plain Layout
-
-& Nominal& Real in computers   & Real in foods 
+vskip .5in 
 \backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hline                           
-\end_layout
-
-\begin_layout Plain Layout
-
-Worker             & $w$       & $w/P_C$                & $w/P_F$     
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-Capital owner & $r$   & $r/P_C$             & $r/P_F$  
-\backslash
-
-\backslash
- Landowner & $r_T$   & $r_T/P_C$              & $r_T/P_F$  
-\backslash
-
-\backslash
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-
+begin{tabular}{lcc} 
 \backslash
 hline 
+\backslash
+hline                                                &Imports &Exports
+\backslash
+
+\backslash
+ 
+\backslash
+hline Capital (million 
+\backslash
+$)                  &2.132    &1.876
+\backslash
+
+\backslash
+ Labor (person-years)               &119     &131
+\backslash
+
+\backslash
+ Capital-labor ratio (
+\backslash
+$/person)&17,916&14,321
+\backslash
+
+\backslash
+ Average years of education per worker&9.9&10.1
+\backslash
+
+\backslash
+ Proportion of engineers and scientists in work force&0.0189&0.0255
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
+end{tabular} 
+\backslash
+end{center}
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leontief Paradox
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
 
 
 \backslash
+begin{center} 
+\backslash
+textbf{Factor Content of U.S.
+ Exports and Imports for 1962} 
+\backslash
+vskip .5in 
+\backslash
+begin{tabular}{lcc} 
+\backslash
+hline 
+\backslash
+hline                                                &Imports &Exports
+\backslash
+
+\backslash
+ 
+\backslash
+hline Capital (million 
+\backslash
+$)                  &2.132    &1.876
+\backslash
+
+\backslash
+ Labor (person-years)               &119     &131
+\backslash
+
+\backslash
+ Capital-labor ratio (
+\backslash
+$/person)&17,916&14,321
+\backslash
+
+\backslash
+ Average years of education per worker&9.9&10.1
+\backslash
+
+\backslash
+ Proportion of engineers and scientists in work force&0.0189&0.0255
+\backslash
+
+\backslash
+ 
+\backslash
+hline 
+\backslash
 end{tabular} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
 \backslash
 end{center}
 \end_layout
@@ -3634,19 +1250,45 @@ end{center}
 
 \begin_deeper
 \begin_layout Itemize
-Just like before, the welfare analyses involves three factors and six values
+U.S.
+ exported goods that embodied more labour than its imports
 \end_layout
 
 \begin_layout Itemize
-Workers lose in terms of computers, but gain in terms of food
+Imported more capital than it exported
 \end_layout
 
 \begin_layout Itemize
-Capital owners gain in terms of both goods
+Other data shows the prediction consistent with the theory
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
-Landowners lose in terms of both goods
+Exports are more technology-intensive than imports
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Leontief Paradox
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why did this happen?
 \end_layout
 
 \end_deeper
@@ -3659,7 +1301,7 @@ Landowners lose in terms of both goods
 status open
 
 \begin_layout Plain Layout
-Gains from Trade
+Leontief Paradox
 \end_layout
 
 \end_inset
@@ -3669,31 +1311,262 @@ Gains from Trade
 
 \begin_deeper
 \begin_layout Itemize
-Stating these results in terms of how trade affects welfare:
+Leontief only looked at labour and capital
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Trade benefits the factor that is specific to the export industry (computer)
- and harms the factor that is specific to the import-competing sector (food)
+Land is an important factor of production in the U.S.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Leontief used U.S.
+ technology to impute the factor content of U.S.
+ imports
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Perhaps guided by assumption that technology is the same across countries
+ in the HO model
 \end_layout
 
 \begin_layout Itemize
-The welfare effect of trade on the mobile factor is ambiguous
+Skilled labour and innovative entrepreneurship (low capital) v.s.
+ large scale manufacturing (high capital)
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+Leontief treated labour used in the U.S.
+ exports and imports to be the same
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+No distinction made between skilled and unskilled labour
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Test on Global Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Since the U.S.
+ might be a special case, researchers have undertaken this study for other
+ countries
+\end_layout
+
+\begin_layout Itemize
+Instead of measuring relative factor endowment within a country, compute
+ the country's share of a factor endowment in the whole world
+\end_layout
+
+\begin_layout Itemize
+If the share of that factor is greater than the country's share of world
+ GDP, that country must be abundant in that factor
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In 2008, China had 7% of world income but roughly 20% of the world's workers
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+According to the HO model, the country should be an exporter of the factor
+ for which the share of the global supply of that factor exceeds the country's
+ share of world GDP
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Test on Global Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The country should be an importer of the factor for which their share of
+ the global supply of that factor is less than their share of world GDP
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Test on Global Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Each country's share of global supply of each factor
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.59]{figures/l4/HO_1a}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Test on Global Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+For 2/3 of the factors of production, trade ran in the direction predicted
+ by the HO theory less than 70% of the time
+\end_layout
+
 \end_deeper
 \begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.6]{figures/l4/HO_1b}
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Test on Global Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Results suggests that the HO theory based on standard assumptions have failed
+\end_layout
+
+\begin_layout Itemize
+Confirms the Leontief Paradox at a more global level
+\end_layout
+
+\end_deeper
 \begin_layout Separator
 
 \end_layout
 
 \begin_layout Subsection
-Example Questions
+Case of Missing Trade
 \end_layout
 
 \begin_layout Frame
@@ -3701,7 +1574,7 @@ Example Questions
 status open
 
 \begin_layout Plain Layout
-Questions
+The Case of the Missing Trade
 \end_layout
 
 \end_inset
@@ -3711,76 +1584,17 @@ Questions
 
 \begin_deeper
 \begin_layout Itemize
-We can use the specific factors model to ask other questions and study its
- welfare implications
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-What happens if labour stock increases or decreases? 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-immigration, brain drain
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-What happens if capital stock increases?
+Large differences in technology across countries might explain why the HO
+ model is inconsistent with what is observed in the data
 \end_layout
 
 \begin_layout Itemize
-What happens when consumer preference changes?
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-homothetic to non-homothetic
+Workers in more advanced countries may be more productive than workers in
+ developing countries
 \end_layout
 
 \begin_layout Itemize
-different budget allocation between the rich and the poor
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-What if labour cannot move between sectors?
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-occupation-specific skills
-\end_layout
-
-\end_deeper
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Increase in Labour Stock
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Let's consider the case where labour stock increases
-\end_layout
-
-\begin_layout Itemize
-Suppose our country relaxes its immigration policy and allows labourers
- from other countries to enter
+We must reconsider how we define a factor endowment
 \end_layout
 
 \end_deeper
@@ -3793,7 +1607,250 @@ Suppose our country relaxes its immigration policy and allows labourers
 status open
 
 \begin_layout Plain Layout
-Increase in Labour Stock: PPF
+Effective Factor Endowment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Effective Factor Endowment = Actual Factor Endowment x Factor Productivity
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Effective Factor Endowment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Original
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.59]{figures/l4/HO_1a}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Effective Factor Endowment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Effective
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.59]{figures/l4/HO_1c}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Effective Factor Endowment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Other issues arise when technological differences is not accounted for
+\end_layout
+
+\begin_layout Itemize
+Given that the U.S.
+ only had 5% of the world's share of workers but make up 23% of the world's
+ income, the HO model predicts that the U.S.
+ will import goods that embody nearly 4 times it's own labour endowment
+\end_layout
+
+\begin_layout Itemize
+But calculation of the factor content of U.S.
+ trade showed only a small net import of labour
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Same for China
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Effective Factor Endowment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Using effective factor endowments resolves some of this puzzle
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Effective labour supply in the U.S.
+ is much larger than the 5% share of world supply of workers
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Caveat: a multiplicative adjustment of factor endowment is not the only
+ way to model technological differences
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Developed vs Developing Countries
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Although the HO model under standard assumptions cannot explain trade patterns,
+ it does perform well under specific cases
+\end_layout
+
+\begin_layout Itemize
+It performs well when comparing the exports of developed countries with
+ an abundance of skilled labour and developing countries short on skilled
+ labour
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Developed vs Developing Countries
 \end_layout
 
 \end_inset
@@ -3822,7 +1879,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/ppf 7"}
+includegraphics[scale=.59]{figures/l4/HO_2a}
 \end_layout
 
 \end_inset
@@ -3844,7 +1901,7 @@ includegraphics[scale=.092]{"figures/l5/ppf 7"}
 status open
 
 \begin_layout Plain Layout
-Increase in Labour Stock: PPF
+Developed vs Developing Countries
 \end_layout
 
 \end_inset
@@ -3854,21 +1911,12 @@ Increase in Labour Stock: PPF
 
 \begin_deeper
 \begin_layout Itemize
-More labour in the economy means the PPF expands outward
+Bangladesh accounts for a relatively large share of U.S.
+ imports of low-skill-intensity goods, such as clothing
 \end_layout
 
 \begin_layout Itemize
-Note that labour is just as intensive in computers as it is in food
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Equal change across all points on the PPF
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Since price levels did not change, production of both goods increases
+Germany accounts for relatively large share of high-skill-intensity goods
 \end_layout
 
 \end_deeper
@@ -3881,7 +1929,7 @@ Since price levels did not change, production of both goods increases
 status open
 
 \begin_layout Plain Layout
-Increase in Labour Stock: Scissors Diagram
+Developed vs Developing Countries
 \end_layout
 
 \end_inset
@@ -3891,8 +1939,8 @@ Increase in Labour Stock: Scissors Diagram
 
 \begin_deeper
 \begin_layout Itemize
-Let's see how this increase in labour stock is depicted in the scissors
- diagram
+The model also performs well when looking at changes in factor endowments
+ and trade patterns over time
 \end_layout
 
 \end_deeper
@@ -3905,7 +1953,7 @@ Let's see how this increase in labour stock is depicted in the scissors
 status open
 
 \begin_layout Plain Layout
-Increase in Labour Stock: Scissors Diagram
+Developed vs Developing Countries
 \end_layout
 
 \end_inset
@@ -3934,7 +1982,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.084]{"figures/l5/sd 9"}
+includegraphics[scale=.30]{figures/l4/HO_2b}
 \end_layout
 
 \end_inset
@@ -3956,7 +2004,7 @@ includegraphics[scale=.084]{"figures/l5/sd 9"}
 status open
 
 \begin_layout Plain Layout
-Increase in Labour Stock: Scissors Diagram
+Developed vs Developing Countries
 \end_layout
 
 \end_inset
@@ -3966,48 +2014,36 @@ Increase in Labour Stock: Scissors Diagram
 
 \begin_deeper
 \begin_layout Itemize
-As the horizontal axis shifts out, it takes the 
-\begin_inset Formula $w=P_{F}MPL_{F}$
-\end_inset
-
- curve with it
+Four miracles: South Korea, Taiwan, Hong Kong, and Singapore
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-nothing else changed except the domain of the function
+Poor countries in the 1960s
+\end_layout
+
+\begin_layout Itemize
+More high skilled in 1998
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-At the old equilibrium wage 
-\begin_inset Formula $w^{1}$
-\end_inset
-
-, labour in computer will be at A and labour in food will be at B
+Japanese exports titled towards low-skilled industries in the 1960s
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-These are the same labour quantity before the labour stock increase
+But level of education of workforce equivalent to Western Europe in 1998
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Because 
-\begin_inset Formula $w^{1}$
-\end_inset
-
- is too high for the new labour demand curve, the unemployed workers will
- bid down the wage
+Four miracles moved to the level of Japan a few decades earlier
 \end_layout
 
 \begin_layout Itemize
-Nominal wage falls resulting in a move from point 1 to point 2
-\end_layout
-
-\begin_layout Itemize
-Both sectors now have more workers
+As supply of skilled labour increased, these asian countries began specializing
+ more in skill-intensive goods---exactly the prediction the HO model.
 \end_layout
 
 \end_deeper
@@ -4015,163 +2051,7 @@ Both sectors now have more workers
 
 \end_layout
 
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Increase in Labour Stock: Gains / Loses
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Workers:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Formula $P_{C}$
-\end_inset
-
- and 
-\begin_inset Formula $P_{T}$
-\end_inset
-
- have not changed, but 
-\begin_inset Formula $w$
-\end_inset
-
- is lower---workers purchasing power have decreased
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Capital owners:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Formula $MPK$
-\end_inset
-
- rises because there are now more labourers per machine
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $r/P_{C}$
-\end_inset
-
- rises and since 
-\begin_inset Formula $P_{C}$
-\end_inset
-
- did not change, 
-\begin_inset Formula $r$
-\end_inset
-
- must have increased
-\end_layout
-
-\begin_layout Itemize
-This means 
-\begin_inset Formula $r/P_{F}$
-\end_inset
-
- also increased since 
-\begin_inset Formula $P_{F}$
-\end_inset
-
- did not change
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Landowners:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Formula $MPT$
-\end_inset
-
- rises with more labour
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $r_{T}/P_{F}$
-\end_inset
-
- increases, which means 
-\begin_inset Formula $r_{T}$
-\end_inset
-
- increased because 
-\begin_inset Formula $P_{F}$
-\end_inset
-
- did not change
-\end_layout
-
-\begin_layout Itemize
-Therefore, 
-\begin_inset Formula $r_{T}/P_{C}$
-\end_inset
-
- also increased
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Increase in Labour Stock: Gains / Loses
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-These outcomes show that in a model with specific factors, the Rybczynski
- theorem no longer holds
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\emph on
-Rybczynski theorem
-\emph default
-: an increase in the endowment of a factor increases the output of the industry
- using that factor intensively, and decreases the output of the other industry
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-In the specific factors model, an increase in labour endowment increases
- the output in both industries
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Subsection
+\begin_layout Section
 Conclusion
 \end_layout
 
@@ -4190,41 +2070,47 @@ Conclusion
 
 \begin_deeper
 \begin_layout Itemize
-The specific factors model allows us to study some of the short-run implications
- of trade
+The predictions of the HO model seem to raise more questions than it answers
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-We do this by introducing factors that are specific to an industry---perhaps
- because it is prohibitively expensive to move them
+The model performs poorly when taken to the data
+\end_layout
+
+\begin_layout Itemize
+Factor content of a country's export does not always reflect that country's
+ abundant factors
+\end_layout
+
+\begin_layout Itemize
+Volume of trade is substantially lower than predicted
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Just like in the HO model, we were able to study the effects of trade on
- the income distribution and on aggregate welfare
+But does well when comparing high skill vs low skill countries and when
+ looking at changes in factor endowment over time
 \end_layout
 
 \begin_layout Itemize
-Factors experiencing the relative price increase are better off whereas
- the other factor are worse off
+Next:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Welfare effect on the mobile factor depend on preferences over goods
+To what extent does FPE holds
+\end_layout
+
+\begin_layout Itemize
+Close HO model
+\end_layout
+
+\begin_layout Itemize
+Specific Factors Model
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-Thursday: Last Class!
-\end_layout
-
-\begin_layout Itemize
-No new topics----perhaps we'll do a midterm exam review
-\end_layout
-
 \end_deeper
 \begin_layout Separator
 
