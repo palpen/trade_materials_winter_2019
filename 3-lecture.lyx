@@ -55,6 +55,8 @@
 
 \usepackage{graphicx}
 
+\date{}
+
 % Fix undefined control sequence bug at \@@magyar@captionfix (see log)
 % Reference: https://tex.stackexchange.com/questions/426088/texlive-pretest-2018-beamer-and-subfig-collide
 \let\@@magyar@captionfix\relax
