@@ -1,19 +1,25 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass beamer
 \begin_preamble
 %Beamer theme and color theme
-\usetheme{Frankfurt}
-\usecolortheme{beaver}
+\usetheme{default}
+\usecolortheme{default}
+
+\setbeamercolor{normal text}{bg=MyGreen}
+\definecolor{MyGreen}{RGB}{230, 242, 230}
+
 \setbeamertemplate{mini frames}{}
 
 % set color of elements (e.g. bullet points, theorems, definitions, etc)
-\setbeamercolor{structure}{fg=red!60!white}
+%\setbeamercolor{structure}{fg=red!60!white}
 
 % header showing only current section and subsection
-\useoutertheme{infolines}
+% \useoutertheme{infolines}
 
 \usepackage{amsmath,amssymb}
 
@@ -32,17 +38,28 @@
 %remove navigation
 \beamertemplatenavigationsymbolsempty
 
+% Bullets and items
+\setbeamertemplate{itemize item}{\tiny\raise1.50pt\hbox{$\blacktriangleright$}}
+\setbeamertemplate{itemize subitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
+\setbeamertemplate{itemize subsubitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
 
 
 \definecolor{blue}{RGB}{0,0,120}
 
 \usepackage{hyperref}
+\hypersetup{urlcolor=magenta, colorlinks=true}
 
 \usepackage{array}
 
 \usepackage[section]{placeins}
 
 \usepackage{graphicx}
+
+\date{}
+
+% Fix undefined control sequence bug at \@@magyar@captionfix (see log)
+% Reference: https://tex.stackexchange.com/questions/426088/texlive-pretest-2018-beamer-and-subfig-collide
+\let\@@magyar@captionfix\relax
 \end_preamble
 \options handouts
 \use_default_options true
@@ -51,16 +68,18 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -90,6 +109,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -98,7 +118,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -112,11 +135,11 @@
 \begin_body
 
 \begin_layout Title
-ECO364: International Trade Theory
+ECO364H1S: International Trade Theory
 \end_layout
 
 \begin_layout Subtitle
-Lecture 4
+Lecture 5
 \end_layout
 
 \begin_layout Institute
@@ -157,12 +180,19 @@ Outline
 \end_layout
 
 \begin_layout Frame
+\begin_inset Separator latexpar
+\end_inset
+
 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Last Class
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -177,6 +207,10 @@ Three theorems in the HO model
 
 \begin_layout Itemize
 Today
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -195,6 +229,10 @@ Factor Content of Trade
 \end_deeper
 \begin_layout Itemize
 Readings
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -223,11 +261,19 @@ HO Model and Factor Price Equalization
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Based on a country's factor endowments we were able to predict
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -243,6 +289,10 @@ that the return to capital owners in this country increases while the return
 
 \begin_layout Itemize
 that the opposite result arises in the labour abundant country
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -253,7 +303,10 @@ return to capital owners decreases and return to labour owners increases
 \end_deeper
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -268,12 +321,20 @@ HO Model and Factor Price Equalization
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 When countries are allowed to trade, there appears to be a convergence in
  factor prices
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -289,7 +350,10 @@ To see this more clearly
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -345,7 +409,10 @@ includegraphics[scale=.085]{"figures/l3/rsrd 1"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -401,7 +468,10 @@ includegraphics[scale=.085]{"figures/l3/rsrd 2"}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -413,6 +483,10 @@ status open
 FPE
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -433,7 +507,10 @@ If we had skilled and low-skilled labour as the two factors in our production,
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -448,11 +525,19 @@ FPE
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Why is this happening?
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -472,7 +557,10 @@ Because of this, trade in final goods is similar to trade in the factors
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -484,6 +572,10 @@ status open
 FPE
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -506,7 +598,10 @@ factor content studies
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -522,6 +617,10 @@ status open
 Factor Content Studies
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -543,6 +642,10 @@ Using unit labour requirements, calculate how much labour does net (net)
 
 \begin_layout Itemize
 For now we will focus on just two factors: skilled and unskilled labour
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -553,7 +656,10 @@ But researchers in practice include as many factors as possible in their
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -565,6 +671,10 @@ status open
 Definitions and Notations
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -585,6 +695,10 @@ Suppose the North exports computers and the South exports textiles
 
 \begin_layout Itemize
 Let
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -634,7 +748,10 @@ Let
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -646,6 +763,10 @@ status open
 Unit Labour Requirements
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -694,7 +815,10 @@ These are just the number of skilled/unskilled labour used per unit of computers
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -706,6 +830,10 @@ status open
 Unit Labour Requirements
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -754,7 +882,10 @@ These are just the number of skilled/unskilled labour used per unit of textiles
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -766,6 +897,10 @@ status open
 Unit Labour Requirements
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -782,7 +917,10 @@ A few more definitions and we're read to make some calculations
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -794,6 +932,10 @@ status open
 Skilled and Unskilled Labour in Exports
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -823,6 +965,10 @@ S_{Trade}^{N}=a_{S,C}^{N}X_{C}^{N}+a_{S,T}^{N}X_{T}^{N} & \ \ \  & S_{Trade}^{S}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -839,7 +985,10 @@ U_{Trade}^{N}=a_{U,C}^{N}X_{C}^{N}+a_{U,T}^{N}X_{T}^{N} & \ \ \  & U_{Trade}^{S}
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -854,6 +1003,10 @@ Change in Endowment Stock due to Trade
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -865,6 +1018,10 @@ When the two countries are trading, the amount of skilled and unskilled
 \tilde{S}^{N}=S^{N}-S_{Trade}^{N}+S_{Trade}^{S} & \ \ \  & \tilde{S}^{S}=S^{S}-S_{Trade}^{S}+S_{Trade}^{N}
 \end{alignat*}
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -899,7 +1056,10 @@ When the two countries are trading, the amount of skilled and unskilled
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -911,6 +1071,10 @@ status open
 Example
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -939,6 +1103,10 @@ Suppose
 
 \begin_layout Itemize
 Suppose North exports 10 computers and South exports 10 units of textiles
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -972,7 +1140,10 @@ Recall North is an exporter of computer and South is an exporter of textiles
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -987,12 +1158,20 @@ Example
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Given these values North will end up importing 1 unit of unskilled labour
  and exporting one unit of skilled labour
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1031,7 +1210,10 @@ Unfortunately, the prediction of the theory does not fit the data well
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1050,6 +1232,10 @@ Factor Content Studies and Data
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1061,6 +1247,10 @@ U.S.
 \begin_layout Itemize
 This technological superiority imply that more capital is being used per
  person in production compared to other countries
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1079,6 +1269,10 @@ According to our theory, the U.S.
 In a study done in 1953, economist Wassily Leontief found that U.S.
  exports were less capital-intensive than U.S.
  imports
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1088,7 +1282,10 @@ This inconsistency with the theory is named the Leontief Paradox
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1168,7 +1365,10 @@ end{center}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1243,6 +1443,10 @@ end{tabular}
 end{center}
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1260,6 +1464,10 @@ Imported more capital than it exported
 
 \begin_layout Itemize
 Other data shows the prediction consistent with the theory
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1269,7 +1477,10 @@ Exports are more technology-intensive than imports
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1281,6 +1492,10 @@ status open
 Leontief Paradox
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1292,7 +1507,10 @@ Why did this happen?
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1307,11 +1525,19 @@ Leontief Paradox
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Leontief only looked at labour and capital
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1324,6 +1550,10 @@ Land is an important factor of production in the U.S.
 Leontief used U.S.
  technology to impute the factor content of U.S.
  imports
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1341,6 +1571,10 @@ Skilled labour and innovative entrepreneurship (low capital) v.s.
 \begin_layout Itemize
 Leontief treated labour used in the U.S.
  exports and imports to be the same
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1350,7 +1584,10 @@ No distinction made between skilled and unskilled labour
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1362,6 +1599,10 @@ status open
 Test on Global Data
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1382,6 +1623,10 @@ Instead of measuring relative factor endowment within a country, compute
 \begin_layout Itemize
 If the share of that factor is greater than the country's share of world
  GDP, that country must be abundant in that factor
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1397,7 +1642,10 @@ According to the HO model, the country should be an exporter of the factor
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1412,6 +1660,10 @@ Test on Global Data
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1421,7 +1673,10 @@ The country should be an importer of the factor for which their share of
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1476,7 +1731,10 @@ includegraphics[scale=.59]{figures/l4/HO_1a}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1488,6 +1746,10 @@ status open
 Test on Global Data
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1534,7 +1796,10 @@ includegraphics[scale=.6]{figures/l4/HO_1b}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1546,6 +1811,10 @@ status open
 Test on Global Data
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1561,7 +1830,10 @@ Confirms the Leontief Paradox at a more global level
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1577,6 +1849,10 @@ status open
 The Case of the Missing Trade
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1598,7 +1874,10 @@ We must reconsider how we define a factor endowment
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1613,6 +1892,10 @@ Effective Factor Endowment
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1621,7 +1904,10 @@ Effective Factor Endowment = Actual Factor Endowment x Factor Productivity
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1676,7 +1962,10 @@ includegraphics[scale=.59]{figures/l4/HO_1a}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1731,7 +2020,10 @@ includegraphics[scale=.59]{figures/l4/HO_1c}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1743,6 +2035,10 @@ status open
 Effective Factor Endowment
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1763,6 +2059,10 @@ Given that the U.S.
 \begin_layout Itemize
 But calculation of the factor content of U.S.
  trade showed only a small net import of labour
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1776,7 +2076,10 @@ Same for China
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1791,11 +2094,19 @@ Effective Factor Endowment
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Using effective factor endowments resolves some of this puzzle
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1811,7 +2122,10 @@ Caveat: a multiplicative adjustment of factor endowment is not the only
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1823,6 +2137,10 @@ status open
 Developed vs Developing Countries
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1841,7 +2159,10 @@ It performs well when comparing the exports of developed countries with
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1892,7 +2213,10 @@ includegraphics[scale=.59]{figures/l4/HO_2a}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1904,6 +2228,10 @@ status open
 Developed vs Developing Countries
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1920,7 +2248,10 @@ Germany accounts for relatively large share of high-skill-intensity goods
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1935,6 +2266,10 @@ Developed vs Developing Countries
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1944,7 +2279,10 @@ The model also performs well when looking at changes in factor endowments
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -1995,7 +2333,10 @@ includegraphics[scale=.30]{figures/l4/HO_2b}
 
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2010,11 +2351,19 @@ Developed vs Developing Countries
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Four miracles: South Korea, Taiwan, Hong Kong, and Singapore
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2029,6 +2378,10 @@ More high skilled in 1998
 \end_deeper
 \begin_layout Itemize
 Japanese exports titled towards low-skilled industries in the 1960s
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2043,11 +2396,14 @@ Four miracles moved to the level of Japan a few decades earlier
 
 \begin_layout Itemize
 As supply of skilled labour increased, these asian countries began specializing
- more in skill-intensive goods---exactly the prediction the HO model.
+ more in skill-intensive goods—exactly the prediction the HO model.
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -2066,11 +2422,19 @@ Conclusion
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 The predictions of the HO model seem to raise more questions than it answers
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2095,6 +2459,10 @@ But does well when comparing high skill vs low skill countries and when
 
 \begin_layout Itemize
 Next:
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2112,7 +2480,10 @@ Specific Factors Model
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
