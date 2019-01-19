@@ -47,6 +47,7 @@
 \definecolor{blue}{RGB}{0,0,120}
 
 \usepackage{hyperref}
+\hypersetup{urlcolor=magenta, colorlinks=true}
 
 \usepackage{array}
 
@@ -134,7 +135,7 @@
 \begin_body
 
 \begin_layout Title
-ECO364: International Trade Theory
+ECO364H1S: International Trade Theory
 \end_layout
 
 \begin_layout Subtitle
@@ -272,7 +273,8 @@ Readings
 
 \begin_deeper
 \begin_layout Itemize
-None!
+KOM, Ch.
+ 5
 \end_layout
 
 \end_deeper
@@ -442,7 +444,7 @@ Suppose
 
 \begin_deeper
 \begin_layout Itemize
-Remember the thought experiment in lecture 2b?
+Remember the thought experiment in lecture 3?
 \end_layout
 
 \begin_layout Itemize
@@ -469,24 +471,20 @@ But for each unit of labour moving from computers to textiles, more capital
 
 \begin_deeper
 \begin_layout Itemize
-this is because computers are relatively capital intensive
+Why? Because computers are relatively capital intensive
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-New, unemployed capital causes a decrease in 
+New, unemployed capital enables producers to bid down 
 \begin_inset Formula $r$
 \end_inset
 
- (the return to capital)
-\end_layout
-
-\begin_layout Itemize
-Therefore, 
+ (the return to capital) resulting in an increase in 
 \begin_inset Formula $w/r$
 \end_inset
 
- increases
+
 \end_layout
 
 \end_deeper
@@ -523,7 +521,7 @@ Because labour is now more expensive relative to capital, firms in both
 \end_layout
 
 \begin_layout Itemize
-Thus, 
+As a result, 
 \begin_inset Formula $K/L$
 \end_inset
 
@@ -563,6 +561,51 @@ EXERCISE: Suppose
 
 \begin_layout Section
 Three Theorems in the HO Model
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+LARGE 
+\backslash
+textbf{Three Theorems in the HO Model}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -778,7 +821,7 @@ Stolper-Samuelson
 \begin_layout Theorem
 A rise in the relative price of a good will lead to a rise in the return
  to the factor used most intensively in the production of that good.
- There will also be a fall in the return to the other factor
+ In addition, return to the other factor will fall.
 \end_layout
 
 \begin_layout Pause
@@ -786,20 +829,10 @@ A rise in the relative price of a good will lead to a rise in the return
 \end_layout
 
 \begin_layout Itemize
-If the price of textiles increases, the model predicts that wage increases
- whereas the return to capital decreases
-\begin_inset Separator latexpar
-\end_inset
-
-
+If the price of textiles increases (input used most intensively in textiles),
+ the model predicts that wage increases whereas the return to capital decreases
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Wages increases because labour is the input used most intensively in textiles
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -831,16 +864,7 @@ real
 
 \begin_deeper
 \begin_layout Itemize
-What we care about is the purchasing power of our workers
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Which means we must look at real returns: 
+What we care about is the purchasing power of our workers: 
 \begin_inset Formula $w/p$
 \end_inset
 
@@ -851,10 +875,9 @@ Which means we must look at real returns:
  
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
-Note, when a person buys both computers and textiles, her real return is
- wages 
+Note, when a person buys both computers and textiles, her real return can
+ be measured by wages 
 \begin_inset Formula $w$
 \end_inset
 
@@ -876,10 +899,16 @@ Note, when a person buys both computers and textiles, her real return is
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Formula $\boldsymbol{P}$
+The 
+\begin_inset CommandInset href
+LatexCommand href
+name "Consumer Price Index"
+target "https://en.wikipedia.org/wiki/Consumer_price_index"
+literal "false"
+
 \end_inset
 
- is a function of the price of both textiles and computers
+ is one example
 \end_layout
 
 \end_deeper
@@ -985,11 +1014,11 @@ Since the price of computer did not change,
 \end_layout
 
 \begin_layout Itemize
-But it is not clear if 
+But it is not clear how 
 \begin_inset Formula $w/P_{T}$
 \end_inset
 
- increased since both 
+ changes because both 
 \begin_inset Formula $w$
 \end_inset
 
@@ -1018,8 +1047,7 @@ From the FF-SS Curves, a rise in
 
 \begin_deeper
 \begin_layout Itemize
-This can be interpreted as firms substituting towards the more inexpensive
- factor, capital
+Firms are substituting towards the more inexpensive factor, capital
 \end_layout
 
 \end_deeper
@@ -1160,11 +1188,15 @@ e.g.
 
 \end_deeper
 \begin_layout Itemize
-The increase in the marginal product of labour increases 
+Therefore, the increase in the marginal product of labour increases 
 \begin_inset Formula $w/P_{T}$
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+Overall returns to labour increased
 \end_layout
 
 \end_deeper
@@ -1193,6 +1225,10 @@ Argument applies to returns to capital
 \end_layout
 
 \begin_deeper
+\begin_layout Itemize
+Argument using MPK also applies to returns to capital
+\end_layout
+
 \begin_layout Itemize
 Each unit of capital is now working with less labour, thus the marginal
  product of capital falls which means the purchasing power of 
@@ -1282,7 +1318,7 @@ Rybczynski Theorem
 
 \begin_deeper
 \begin_layout Itemize
-What happens to structure of production when the distribution of factor
+What happens to the structure of production when the distribution of factor
  endowments changes?
 \begin_inset Separator latexpar
 \end_inset
@@ -1392,13 +1428,11 @@ Rybczynski Theorem
 
 \begin_deeper
 \begin_layout Itemize
-Given a set of goods prices, the SS curve give the corresponding relative
- factor price
-\end_layout
+Goods Prices –> SS Curve –> Factor Prices –> FF Curves –> 
+\begin_inset Formula $\frac{K}{L}$
+\end_inset
 
-\begin_layout Itemize
-Given this relative factor price, the FF curves gives us the capital-labour
- ratio in each sector
+ in each sector
 \end_layout
 
 \begin_layout Itemize
@@ -1459,7 +1493,7 @@ Example
 
 \begin_deeper
 \begin_layout Itemize
-Let's go back to the numerical example from Lecture 2b
+Let's use the same example from Lecture 3
 \end_layout
 
 \begin_layout Standard
@@ -1474,7 +1508,8 @@ Q_{C}=K_{C}^{2/3}L_{C}^{1/3} &  & Q_{T}=K_{T}^{1/3}L_{T}^{2/3}
 \end_layout
 
 \begin_layout Itemize
-These production functions implied the following FF curves
+These production functions result in the following equations describing
+ an FF curves
 \end_layout
 
 \begin_layout Standard
@@ -1534,7 +1569,7 @@ Now suppose relative goods prices are such that the SS curves gives us
 \end_layout
 
 \begin_layout Itemize
-Thus, 
+Simplifying the equations
 \begin_inset Formula 
 \begin{eqnarray}
 2K_{T} & = & L_{T}\label{eq:1}\\
@@ -1547,11 +1582,7 @@ K_{C} & = & 2L_{C}\label{eq:2}
 \end_layout
 
 \begin_layout Itemize
-In optimum, all resources in a country will be employed
-\end_layout
-
-\begin_layout Itemize
-This gives us the following equations
+In optimum, all resources in a country will be employed:
 \begin_inset Formula 
 \begin{eqnarray}
 K_{T}+K_{C} & = & \bar{K}\\
@@ -1564,14 +1595,14 @@ L_{T}+L_{C} & = & \bar{L}\label{eq:4}
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $K$
+\begin_inset Formula $\bar{K}$
 \end_inset
 
  and 
-\begin_inset Formula $L$
+\begin_inset Formula $\bar{L}$
 \end_inset
 
- with no subscripts are the stock of capital and labour
+ are the stock of capital and labour
 \end_layout
 
 \end_deeper
@@ -1619,7 +1650,7 @@ reference "eq:4"
 \end_layout
 
 \begin_layout Itemize
-Thus, we can solve for optimal capital and labour in each industry: 
+We can solve for optimal capital and labour in each industry: 
 \begin_inset Formula $K_{C}^{*}$
 \end_inset
 
@@ -1639,9 +1670,27 @@ Thus, we can solve for optimal capital and labour in each industry:
 \end_layout
 
 \begin_layout Itemize
-Note that the solutions will be a function of the parameters of the optimization
- problem
-\begin_inset Separator latexpar
+\begin_inset Formula $K_{C}^{*}$
+\end_inset
+
+, 
+\begin_inset Formula $K_{T}^{*}$
+\end_inset
+
+, 
+\begin_inset Formula $L_{C}^{*}$
+\end_inset
+
+, 
+\begin_inset Formula $L_{T}^{*}$
+\end_inset
+
+ each will be a function of 
+\begin_inset Formula $\bar{K}$
+\end_inset
+
+ and 
+\begin_inset Formula $\bar{L}$
 \end_inset
 
 
@@ -1649,31 +1698,7 @@ Note that the solutions will be a function of the parameters of the optimization
 
 \begin_deeper
 \begin_layout Itemize
-In particular, 
-\begin_inset Formula $K_{C}^{*}$
-\end_inset
-
-, 
-\begin_inset Formula $K_{T}^{*}$
-\end_inset
-
-, 
-\begin_inset Formula $L_{C}^{*}$
-\end_inset
-
-, 
-\begin_inset Formula $L_{T}^{*}$
-\end_inset
-
- will change as the stock of capital 
-\begin_inset Formula $\bar{K}$
-\end_inset
-
- and labour 
-\begin_inset Formula $\bar{L}$
-\end_inset
-
- changes
+The solutions describes how factor endowments determine structure of production
 \end_layout
 
 \end_deeper
@@ -1704,7 +1729,16 @@ Edgeworth Box
 
 \begin_deeper
 \begin_layout Itemize
-Let's see how this can be done using the Edgeworth Box
+Let's see how this can be done using an 
+\begin_inset CommandInset href
+LatexCommand href
+name "Edgeworth Box"
+target "https://en.wikipedia.org/wiki/Edgeworth_box"
+literal "false"
+
+\end_inset
+
+
 \begin_inset Separator latexpar
 \end_inset
 
@@ -1713,8 +1747,8 @@ Let's see how this can be done using the Edgeworth Box
 
 \begin_deeper
 \begin_layout Itemize
-Allows us to visualize how changes in endowment affect input use in each
- industry and, subsequently, their level of output
+A visualization tool used for studying resource distribution in a general
+ equilibrium model setting
 \end_layout
 
 \end_deeper
@@ -2125,11 +2159,8 @@ The prevailing capital-labour ratios for a given set of prices is the slope
 
 \begin_deeper
 \begin_layout Itemize
-These rays from the origins are also called the Output Expansion Path
-\end_layout
-
-\begin_layout Itemize
-We saw this in our study of the Lerner diagram in lecture 2b
+These rays from the origins are also called the Output Expansion Path (introduce
+d in the Lerner diagram in lecture 3)
 \end_layout
 
 \end_deeper
@@ -2396,8 +2427,10 @@ Change in Factor Endowment
 
 \begin_deeper
 \begin_layout Itemize
-Now we can ask How do production patterns change if we increase the stock
- of one of the endowments?
+Now we can ask 
+\emph on
+How does production patterns change if we increase the stock of one of the
+ endowments?
 \end_layout
 
 \begin_layout Itemize
@@ -2918,7 +2951,7 @@ E.g.
 
 \begin_deeper
 \begin_layout Enumerate
-it has relatively more labour than capital compared with Canada
+it has relatively more labour than capital than Canada
 \end_layout
 
 \begin_layout Enumerate
@@ -3068,9 +3101,16 @@ So for each
 \end_inset
 
  in the relative supply curves between the two countries are just the result
- of changes in labour endowment as seen in the Edgeworth Box
+ of changes in labour endowment (as shown in the Edgeworth Box)
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+i.e.
+ Supply curve shifts as factor endowment changes
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 We can also derive these relative supply curves using PPFs
 \end_layout
@@ -3103,7 +3143,7 @@ Unlike the Ricardian Model, the PPF in the HO model are bowed out
 \end_layout
 
 \begin_layout Itemize
-This is because of the diminishing marginal returns assumption we made on
+This follows from the diminishing marginal returns assumption we made on
  the production function, 
 \begin_inset Formula $Q_{j}=F_{j}(K,L)$
 \end_inset
@@ -3159,7 +3199,7 @@ PPFs in the HO Model
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -3176,7 +3216,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.08]{"figures/l3/ppf 1"}
+includegraphics[scale=.10]{"figures/l3/ppf 1"}
 \end_layout
 
 \end_inset
@@ -3215,7 +3255,8 @@ Isovalue Line
 
 \begin_deeper
 \begin_layout Itemize
-Optimum output can be attained by maximizing the value of output
+Optimum output can be attained by maximizing the value of output (i.e revenue)
+ subject to the PPF:
 \begin_inset Formula 
 \begin{eqnarray*}
 V & = & P_{C}Q_{C}+P_{T}Q_{T}
@@ -3227,7 +3268,7 @@ V & = & P_{C}Q_{C}+P_{T}Q_{T}
 \end_layout
 
 \begin_layout Itemize
-Rewrite this as
+Rewrite as
 \begin_inset Formula 
 \[
 Q_{T}=\frac{V}{P_{T}}-\frac{P_{C}}{P_{T}}Q_{C}
@@ -3553,7 +3594,7 @@ Relative Supply Curves
 \begin_deeper
 \begin_layout Itemize
 The shape of the PPF curves depend on the labour and capital endowment in
- each country
+ each country:
 \begin_inset Separator latexpar
 \end_inset
 
@@ -3824,6 +3865,53 @@ includegraphics[scale=.10]{"figures/l3/rsrd 1"}
 
 \begin_layout Subsection
 Heckscher-Ohlin
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+LARGE 
+\backslash
+textbf{Heckscher-Ohlin Theorem}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -4336,8 +4424,8 @@ Note in the PPF diagram, this is a decrease in
 
 \end_deeper
 \begin_layout Itemize
-We see that following this change in relative price, South produces less
- computers and more textiles
+Following this change in relative price, South produces less computers and
+ more textiles
 \end_layout
 
 \begin_layout Itemize
@@ -4489,7 +4577,7 @@ Trade caused a decrease of relative goods prices from autarky,
 \begin_inset Formula $\left(\frac{P_{T}}{P_{C}}\right)_{N}^{AUT}$
 \end_inset
 
- ,to global market price, 
+ , to global market price, 
 \begin_inset Formula $\left(\frac{P_{T}}{P_{C}}\right)^{TRADE}$
 \end_inset
 
@@ -4691,18 +4779,16 @@ By the Stolper-Samuelson theorem
 
 \begin_deeper
 \begin_layout Itemize
-Labourers in the South real returns increase; capital owners real returns
- decrease
+South: Labourers real returns increase; capital owners real returns decrease
 \end_layout
 
 \begin_layout Itemize
-Labourers in the North real returns decrease; capital owners real returns
- increase
+North: Labourers real returns decrease; capital owners real returns increase
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Abundant factors win while scarce factors lose
+Abundant factors win; scarce factors lose
 \end_layout
 
 \begin_layout Itemize
@@ -4720,7 +4806,7 @@ Those who gained outnumber those who lost welfare
 
 \begin_layout Itemize
 Perhaps some sort of transfer mechanism could be implemented to share some
- of the gains with scarce factors
+ of the gains with losing factors
 \end_layout
 
 \end_deeper
@@ -4734,6 +4820,53 @@ Perhaps some sort of transfer mechanism could be implemented to share some
 
 \begin_layout Section
 Size and Gains from Trade
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+LARGE 
+\backslash
+textbf{Size and Gains from Trade}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -4756,7 +4889,7 @@ Size and Gains from Trade
 \begin_deeper
 \begin_layout Itemize
 From the PPF curves, we saw that the more different a country's autarky
- price is form the global market price, the greater the gain
+ price is from the global market price, the greater the gain
 \end_layout
 
 \end_deeper
@@ -4840,34 +4973,21 @@ Size and Gains from Trade
 
 \begin_deeper
 \begin_layout Itemize
-Under what case will a country experience a drastic change in its relative
- goods price when going from autarky to free trade?
-\end_layout
-
-\begin_layout Itemize
-A country will experience the most drastic change in its relative goods
- price the more 
-\emph on
-different 
-\emph default
-it is from the integrated world (post-trade world)
-\begin_inset Separator latexpar
-\end_inset
-
-
+Which countries experience the most drastic change in relative goods price
+ when going from autarky to free trade?
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Different in terms of its stock of factors
+Countries with resource endowments that are most different from the integrated
+ world
+\end_layout
+
+\begin_layout Itemize
+These tend to be economically small countries
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-The country that is most different from the integrated world are the smaller
- countries
-\end_layout
-
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -4895,7 +5015,7 @@ Size and Gains from Trade
 
 \begin_deeper
 \begin_layout Itemize
-Consider the following example
+Example:
 \end_layout
 
 \begin_layout Standard
@@ -5233,7 +5353,7 @@ end{table}
 \end_layout
 
 \begin_layout Itemize
-Canada more closely resembles the world
+Large Canada more closely resembles the world
 \begin_inset Separator latexpar
 \end_inset
 
@@ -5265,7 +5385,7 @@ China will experience a more drastic change in the isovalue line, which
 
 \end_deeper
 \begin_layout Standard
-\begin_inset Separator parbreak
+\begin_inset Separator plain
 \end_inset
 
 
@@ -5288,7 +5408,7 @@ Large Canada
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -5298,14 +5418,7 @@ status open
 
 
 \backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.135]{"figures/l3/ffss 3"}
+includegraphics[scale=.125]{"figures/l3/ffss 3"}
 \end_layout
 
 \end_inset
@@ -5498,7 +5611,7 @@ end{table}
 \end_layout
 
 \begin_layout Itemize
-China more closely resembles the world
+Large China more closely resembles the world
 \begin_inset Separator latexpar
 \end_inset
 
@@ -5570,7 +5683,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.135]{"figures/l3/ffss 4"}
+includegraphics[scale=.125]{"figures/l3/ffss 4"}
 \end_layout
 
 \end_inset
@@ -5613,7 +5726,7 @@ Conclusion
 
 \begin_deeper
 \begin_layout Itemize
-We have covered the three major results in the Heckscher-Ohlin Model
+We have covered three important results from the Heckscher-Ohlin Model
 \begin_inset Separator latexpar
 \end_inset
 
@@ -5652,7 +5765,11 @@ How changes in the stock of factors affect industrial composition
 \end_layout
 
 \begin_layout Itemize
-and how the stock of factors determine the goods countries will trade
+How the stock of factors determine the goods countries will trade
+\end_layout
+
+\begin_layout Itemize
+Which country experience the greatest change under free trade
 \end_layout
 
 \end_deeper
