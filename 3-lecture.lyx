@@ -347,6 +347,11 @@ Although the Ricardian model was able to make predictions about welfare,
 No welfare loss when moving from autarky to trade
 \end_layout
 
+\begin_layout Itemize
+Welfare losses could arise if a factor benefits more than the other in a
+ trading equilibrium
+\end_layout
+
 \end_deeper
 \end_deeper
 \begin_layout Standard
@@ -408,16 +413,32 @@ HO Model
 
 \begin_deeper
 \begin_layout Itemize
-In studying the HO model, we hope to answer the following question:
+In addition, we may be interested in
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The structure of production
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
-How does the income distribution in a country change following a price shock
- arising from international trade?
+How factor endowments affect specialization
 \end_layout
 
+\end_deeper
+\begin_layout Itemize
+To be able to address these issues, we change our model such that the source
+ for trading arises from differences in factor endowment
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In the Ricardian model, the source of trade was based on 
+\series bold
+technological differences
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -441,35 +462,16 @@ HO Model
 
 \begin_deeper
 \begin_layout Itemize
-To introduce the possibility of welfare losses, we will add another factor
- in production
-\begin_inset Separator latexpar
-\end_inset
-
-
+In studying the HO model, we hope to answer the following question:
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
-Welfare losses could arise if a factor benefits more than the other in a
- trading equilibrium
-\end_layout
 
-\end_deeper
-\begin_layout Itemize
-In addition, we will model the source of trade to be based on 
 \series bold
-factor abundance
+How does the income distribution in a country change following a price shock
+ arising from international trade?
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-In the Ricardian model, the source of trade was based on 
-\series bold
-technological differences
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
