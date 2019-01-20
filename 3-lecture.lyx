@@ -931,7 +931,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.055]{figures/l2b/ff1}
+includegraphics[scale=.055]{figures/l3/ff1}
 \end_layout
 
 \end_inset
@@ -1130,7 +1130,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.07]{figures/l2b/ff2}
+includegraphics[scale=.07]{figures/l3/ff2}
 \end_layout
 
 \end_inset
@@ -1337,7 +1337,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.085]{figures/l2b/ld1}
+includegraphics[scale=.085]{figures/l3/ld1}
 \end_layout
 
 \end_inset
@@ -1506,7 +1506,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.083]{figures/l2b/ld2}
+includegraphics[scale=.083]{figures/l3/ld2}
 \end_layout
 
 \end_inset
@@ -1627,7 +1627,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.085]{figures/l2b/ld3}
+includegraphics[scale=.085]{figures/l3/ld3}
 \end_layout
 
 \end_inset
@@ -1765,7 +1765,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.085]{figures/l2b/ld4a}
+includegraphics[scale=.085]{figures/l3/ld4a}
 \end_layout
 
 \end_inset
@@ -2202,7 +2202,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.085]{figures/l2b/ld4}
+includegraphics[scale=.085]{figures/l3/ld4}
 \end_layout
 
 \end_inset
@@ -2320,7 +2320,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.085]{figures/l2b/ld5}
+includegraphics[scale=.085]{figures/l3/ld5}
 \end_layout
 
 \end_inset
@@ -2545,7 +2545,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.085]{figures/l2b/ld6}
+includegraphics[scale=.085]{figures/l3/ld6}
 \end_layout
 
 \end_inset
@@ -2766,7 +2766,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.085]{figures/l2b/ld7}
+includegraphics[scale=.085]{figures/l3/ld7}
 \end_layout
 
 \end_inset
