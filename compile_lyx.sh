@@ -13,5 +13,5 @@ DIRNAME=${LECTURE_PATH%/*}
 /Applications/LyX.app/Contents/MacOS/lyx -e pdf2 "$LECTURE_PATH"
 
 # Move to destination folder and add date
-NAME_W_DATE=${FILENAME_NO_EXT}_`date +%d%b%y`.pdf
+NAME_W_DATE=${FILENAME_NO_EXT}_`date +%Y-%m-%d`.pdf
 mv "$DIRNAME/$FILENAME_NO_EXT.pdf" "$DESTINATION_PATH/$NAME_W_DATE"
