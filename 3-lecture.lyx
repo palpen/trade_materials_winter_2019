@@ -2627,22 +2627,6 @@ Since textile is relatively labour-intensive, the increase demand for labourers
 On the other hand, return to capital will decrease
 \end_layout
 
-\begin_layout Itemize
-
-\series bold
-Summary:
-\series default
- when 
-\begin_inset Formula $\frac{P_{T}}{P_{C}}$
-\end_inset
-
- increases, 
-\begin_inset Formula $\frac{w}{r}$
-\end_inset
-
- rises
-\end_layout
-
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -2767,6 +2751,74 @@ centering
 
 \backslash
 includegraphics[scale=.085]{figures/l3/ld7}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+SS Curve
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+When 
+\begin_inset Formula $\frac{P_{T}}{P_{C}}$
+\end_inset
+
+ increases, 
+\begin_inset Formula $\frac{w}{r}$
+\end_inset
+
+ rises
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.18]{figures/l3/ss0}
 \end_layout
 
 \end_inset

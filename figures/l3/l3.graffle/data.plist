@@ -11402,7 +11402,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2019-01-20 16:43:09 +0000</string>
+	<string>2019-01-20 17:54:47 +0000</string>
 	<key>Modifier</key>
 	<string>Palermo S  Penano</string>
 	<key>MovementHandleVisible</key>
@@ -17282,7 +17282,7 @@
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{394.01575160646058, 345.82677479128199}, {21, 13}}</string>
+					<string>{{412.44094862402892, 320.31496353618741}, {21, 13}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -17377,7 +17377,7 @@
 								<key>element</key>
 								<string>MOVETO</string>
 								<key>point</key>
-								<string>{379.70070015154397, 358.58268041882923}</string>
+								<string>{402.76243093922659, 328.17679558011048}</string>
 							</dict>
 							<dict>
 								<key>element</key>
@@ -17389,7 +17389,7 @@
 					</dict>
 					<key>Points</key>
 					<array>
-						<string>{379.70070015154397, 358.58268041882923}</string>
+						<string>{402.76243093922659, 328.17679558011048}</string>
 						<string>{164.40945031060946, 594.5335920312524}</string>
 					</array>
 					<key>Style</key>
@@ -17538,7 +17538,7 @@
 		<key>Sidebar_Tab</key>
 		<integer>0</integer>
 		<key>VisibleRegion</key>
-		<string>{{-23.204419889502756, 212.7071823204416}, {626.51933701657458, 506.6298342541437}}</string>
+		<string>{{-26.243093922651905, 160.49723756906087}, {626.51933701657458, 506.62983425414359}}</string>
 		<key>WindowInfo_InspectorTab</key>
 		<array>
 			<string>com.omnigroup.OmniGraffle.inspectorGroup.canvas</string>
@@ -17607,14 +17607,14 @@
 	<key>copyLinkedImagesKey</key>
 	<false/>
 	<key>createSinglePDFKey</key>
-	<false/>
+	<integer>0</integer>
 	<key>exportAreaKey</key>
 	<integer>1</integer>
 	<key>exportQualityKey</key>
 	<real>100</real>
 	<key>exportSizesKey</key>
 	<array>
-		<integer>1</integer>
+		<real>1</real>
 		<string></string>
 	</array>
 	<key>fileFormatKey</key>
@@ -17628,7 +17628,7 @@
 	<key>lastExportTypeKey</key>
 	<integer>1</integer>
 	<key>marginWidthKey</key>
-	<real>10</real>
+	<real>0.0</real>
 	<key>readOnlyKey</key>
 	<false/>
 	<key>resolutionForBMPKey</key>
