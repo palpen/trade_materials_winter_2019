@@ -396,7 +396,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.085]{"figures/l3/rsrd 1"}
+includegraphics[scale=.085]{"figures/l4/rsrd 1"}
 \end_layout
 
 \end_inset
@@ -455,7 +455,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.085]{"figures/l3/rsrd 2"}
+includegraphics[scale=.085]{"figures/l4/rsrd 2"}
 \end_layout
 
 \end_inset
@@ -1718,7 +1718,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.59]{figures/l4/HO_1a}
+includegraphics[scale=.59]{figures/l5/HO_1a}
 \end_layout
 
 \end_inset
@@ -1783,7 +1783,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.6]{figures/l4/HO_1b}
+includegraphics[scale=.6]{figures/l5/HO_1b}
 \end_layout
 
 \end_inset
@@ -1949,7 +1949,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.59]{figures/l4/HO_1a}
+includegraphics[scale=.59]{figures/l5/HO_1a}
 \end_layout
 
 \end_inset
@@ -2007,7 +2007,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.59]{figures/l4/HO_1c}
+includegraphics[scale=.59]{figures/l5/HO_1c}
 \end_layout
 
 \end_inset
@@ -2200,7 +2200,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.59]{figures/l4/HO_2a}
+includegraphics[scale=.59]{figures/l5/HO_2a}
 \end_layout
 
 \end_inset
@@ -2320,7 +2320,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.30]{figures/l4/HO_2b}
+includegraphics[scale=.30]{figures/l5/HO_2b}
 \end_layout
 
 \end_inset
