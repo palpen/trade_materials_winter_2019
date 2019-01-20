@@ -544,6 +544,54 @@ Scale inputs by a factor of 2, output increases by a factor of 2
 \end_layout
 
 \end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Model Environment and Assumptions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Countries face the same production function: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For any good 
+\begin_inset Formula $j$
+\end_inset
+
+ and inputs, 
+\begin_inset Formula $F_{j}^{N}(K_{j},L_{j})=F_{j}^{S}(K_{j},L_{j})$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Perfect competition
 \begin_inset Separator latexpar
@@ -575,7 +623,7 @@ Factor returns–wage and rental rate–will equalize across sectors and within
 \end_deeper
 \end_deeper
 \begin_layout Standard
-\begin_inset Separator parbreak
+\begin_inset Separator plain
 \end_inset
 
 
