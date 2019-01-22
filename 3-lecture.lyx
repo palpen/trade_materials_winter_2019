@@ -337,7 +337,7 @@ We also assumed that only one factor is used in production
 \begin_layout Itemize
 Although the Ricardian model was able to make predictions about welfare,
  the worst that could happen to a country is to have similar welfare as
- the autarky scenario even under trade conditions
+ the autarky scenario under trade conditions
 \begin_inset Separator latexpar
 \end_inset
 
@@ -347,11 +347,6 @@ Although the Ricardian model was able to make predictions about welfare,
 \begin_deeper
 \begin_layout Itemize
 No welfare loss when moving from autarky to trade
-\end_layout
-
-\begin_layout Itemize
-Welfare losses could arise if a factor benefits more than the other in a
- trading equilibrium
 \end_layout
 
 \end_deeper
@@ -378,18 +373,19 @@ HO Model
 
 \begin_deeper
 \begin_layout Itemize
-But some sectors do get hurt by international trade
+But welfare losses could arise if a factor benefits more than the other
+ in a trading equilibrium
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Some sectors do get hurt by international trade
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Perhaps the welfare outcomes under trade in the Ricardian model is too far
  remove from reality
-\end_layout
-
-\begin_layout Itemize
-In addition, having a second factor in production can better model specializatio
-n due to different resource endowments (some countries have more land, others
- have more labour)
 \end_layout
 
 \end_deeper
@@ -420,24 +416,23 @@ In addition, we may be interested in
 
 \begin_deeper
 \begin_layout Itemize
-The structure of production
+The structure of production before and after trade
 \end_layout
 
 \begin_layout Itemize
-How factor endowments affect specialization
+How factor endowments determine specialization
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-To be able to address these issues, we change our model such that the source
- for trading arises from differences in factor endowment
+A model that explicitly accounts for factor endowment differences may be
+ better in addressing these issues
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-In the Ricardian model, the source of trade was based on 
-\series bold
-technological differences
+Where in the Ricardian model trade arises from difference in technology,
+ in the HO model trade arises from difference in factor endowment
 \end_layout
 
 \end_deeper
@@ -464,7 +459,8 @@ HO Model
 
 \begin_deeper
 \begin_layout Itemize
-In studying the HO model, we hope to answer the following question:
+Ultimately, our goal in developing the HO model is to answer the following
+ question:
 \end_layout
 
 \begin_layout Itemize
@@ -540,7 +536,8 @@ Production exhibits constant returns to scale
 
 \begin_deeper
 \begin_layout Itemize
-Scale inputs by a factor of 2, output increases by a factor of 2
+Scale all inputs by a factor of 2 results in an increase in output by the
+ same factor
 \end_layout
 
 \end_deeper
@@ -575,7 +572,8 @@ Model Environment and Assumptions
 
 \begin_deeper
 \begin_layout Itemize
-Countries face the same production function
+Countries face the same production function (i.e.
+ same technology)
 \end_layout
 
 \begin_deeper
@@ -616,7 +614,7 @@ Factors are mobile across sectors but not across countries
 
 \begin_deeper
 \begin_layout Itemize
-Factor returns–wage and rental rate–will equalize across sectors and within
+Factor returns–wage and rental rate–will equalize across sectors within
  each country
 \end_layout
 
@@ -752,7 +750,7 @@ g rate:
 \end_layout
 
 \begin_layout Itemize
-First-order derivatives are just the marginal products of each input
+First-order derivatives are the marginal products of each input
 \end_layout
 
 \begin_deeper
@@ -795,8 +793,8 @@ Input Intensity of a Good
 
 \begin_deeper
 \begin_layout Itemize
-Because there are now two factors used in production, goods must be unique
- in terms of how much they depend on each factor:
+Because there are now two factors used in production, goods differ in terms
+ of how each factor is used in their production:
 \begin_inset Separator latexpar
 \end_inset
 
@@ -905,7 +903,7 @@ For a fixed value of
 \end_layout
 
 \begin_layout Itemize
-As wages go up relative to capital, produces will use more capital relative
+As wages go up relative to capital, producers will use more capital relative
  to labour
 \end_layout
 
@@ -1687,7 +1685,7 @@ both
 
 \begin_deeper
 \begin_layout Itemize
-Why? because perfect competition requires that revenue = cost
+Why? because perfect competition results in revenue = cost
 \end_layout
 
 \begin_deeper
@@ -1847,22 +1845,8 @@ Move price to the left-hand side
 \end_inset
 
 
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Note that 
-\begin_inset Formula $1/P_{C}$
-\end_inset
-
- is just revenue divided price, which is the output 
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
