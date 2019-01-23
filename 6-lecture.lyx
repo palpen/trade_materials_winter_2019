@@ -159,7 +159,13 @@ Outline
 \end_layout
 
 \begin_layout Frame
-\begin_inset Separator latexpar
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
@@ -168,10 +174,6 @@ Outline
 \begin_deeper
 \begin_layout Itemize
 Last Class
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -184,59 +186,39 @@ Factor Content Studies
 \end_layout
 
 \end_deeper
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout Itemize
 Today
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-sout{Under what conditions does FPE take place?}
-\end_layout
-
-\end_inset
-
-
+Under what conditions does FPE take place?
 \end_layout
 
 \begin_layout Itemize
 Specific Factors Model
 \end_layout
 
-\begin_layout Pause
-
-\end_layout
-
 \end_deeper
 \begin_layout Itemize
 Readings
-\begin_inset Separator latexpar
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+KMO, Ch.
+ 4
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
 \end_inset
 
 
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-KMO Ch 4
-\end_layout
-
-\end_deeper
-\end_deeper
 \begin_layout Section
 Specific Factors Model 
 \end_layout
