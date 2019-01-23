@@ -135,7 +135,7 @@
 \begin_body
 
 \begin_layout Title
-ECO364: International Trade Theory
+ECO364H1S: International Trade Theory
 \end_layout
 
 \begin_layout Subtitle
@@ -696,7 +696,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/of1"}
+includegraphics[scale=.092]{"figures/l6/of1"}
 \end_layout
 
 \end_inset
@@ -750,7 +750,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/of2"}
+includegraphics[scale=.092]{"figures/l6/of2"}
 \end_layout
 
 \end_inset
@@ -804,7 +804,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/ppf 1"}
+includegraphics[scale=.092]{"figures/l6/ppf 1"}
 \end_layout
 
 \end_inset
@@ -858,7 +858,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/ppf 2"}
+includegraphics[scale=.092]{"figures/l6/ppf 2"}
 \end_layout
 
 \end_inset
@@ -912,7 +912,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.34]{"figures/l5/sfm1"}
+includegraphics[scale=.34]{"figures/l6/sfm1"}
 \end_layout
 
 \end_inset
@@ -1343,7 +1343,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/sd 1"}
+includegraphics[scale=.092]{"figures/l6/sd 1"}
 \end_layout
 
 \end_inset
@@ -1397,7 +1397,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/sd 2"}
+includegraphics[scale=.092]{"figures/l6/sd 2"}
 \end_layout
 
 \end_inset
@@ -1568,7 +1568,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/sd 3"}
+includegraphics[scale=.092]{"figures/l6/sd 3"}
 \end_layout
 
 \end_inset
@@ -1636,7 +1636,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.08]{"figures/l5/sd 4"}
+includegraphics[scale=.08]{"figures/l6/sd 4"}
 \end_layout
 
 \end_inset
@@ -1807,7 +1807,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/ppf 3"}
+includegraphics[scale=.092]{"figures/l6/ppf 3"}
 \end_layout
 
 \end_inset
@@ -2102,7 +2102,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.082]{"figures/l5/sd 5"}
+includegraphics[scale=.082]{"figures/l6/sd 5"}
 \end_layout
 
 \end_inset
@@ -2164,7 +2164,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.082]{"figures/l5/sd 6"}
+includegraphics[scale=.082]{"figures/l6/sd 6"}
 \end_layout
 
 \end_inset
@@ -2225,7 +2225,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.082]{"figures/l5/sd 7"}
+includegraphics[scale=.082]{"figures/l6/sd 7"}
 \end_layout
 
 \end_inset
@@ -2789,7 +2789,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/ppf 4"}
+includegraphics[scale=.092]{"figures/l6/ppf 4"}
 \end_layout
 
 \end_inset
@@ -2873,7 +2873,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/sd 8"}
+includegraphics[scale=.092]{"figures/l6/sd 8"}
 \end_layout
 
 \end_inset
@@ -3063,7 +3063,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/sd 8"}
+includegraphics[scale=.092]{"figures/l6/sd 8"}
 \end_layout
 
 \end_inset
@@ -3626,7 +3626,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/rsrd 1"}
+includegraphics[scale=.092]{"figures/l6/rsrd 1"}
 \end_layout
 
 \end_inset
@@ -3731,7 +3731,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/ppf 5"}
+includegraphics[scale=.092]{"figures/l6/ppf 5"}
 \end_layout
 
 \end_inset
@@ -3888,7 +3888,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/rsrd 2"}
+includegraphics[scale=.092]{"figures/l6/rsrd 2"}
 \end_layout
 
 \end_inset
@@ -3978,7 +3978,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/ppf 6"}
+includegraphics[scale=.092]{"figures/l6/ppf 6"}
 \end_layout
 
 \end_inset
@@ -4089,7 +4089,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/sd 8"}
+includegraphics[scale=.092]{"figures/l6/sd 8"}
 \end_layout
 
 \end_inset
@@ -4449,7 +4449,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l5/ppf 7"}
+includegraphics[scale=.092]{"figures/l6/ppf 7"}
 \end_layout
 
 \end_inset
@@ -4582,7 +4582,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.084]{"figures/l5/sd 9"}
+includegraphics[scale=.084]{"figures/l6/sd 9"}
 \end_layout
 
 \end_inset
