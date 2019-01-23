@@ -1,19 +1,25 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass beamer
 \begin_preamble
 %Beamer theme and color theme
-\usetheme{Frankfurt}
-\usecolortheme{beaver}
+\usetheme{default}
+\usecolortheme{default}
+
+\setbeamercolor{normal text}{bg=MyGreen}
+\definecolor{MyGreen}{RGB}{230, 242, 230}
+
 \setbeamertemplate{mini frames}{}
 
 % set color of elements (e.g. bullet points, theorems, definitions, etc)
-\setbeamercolor{structure}{fg=red!60!white}
+%\setbeamercolor{structure}{fg=red!60!white}
 
 % header showing only current section and subsection
-\useoutertheme{infolines}
+% \useoutertheme{infolines}
 
 \usepackage{amsmath,amssymb}
 
@@ -32,17 +38,28 @@
 %remove navigation
 \beamertemplatenavigationsymbolsempty
 
+% Bullets and items
+\setbeamertemplate{itemize item}{\tiny\raise1.50pt\hbox{$\blacktriangleright$}}
+\setbeamertemplate{itemize subitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
+\setbeamertemplate{itemize subsubitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
 
 
 \definecolor{blue}{RGB}{0,0,120}
 
 \usepackage{hyperref}
+\hypersetup{urlcolor=magenta, colorlinks=true}
 
 \usepackage{array}
 
 \usepackage[section]{placeins}
 
 \usepackage{graphicx}
+
+\date{}
+
+% Fix undefined control sequence bug at \@@magyar@captionfix (see log)
+% Reference: https://tex.stackexchange.com/questions/426088/texlive-pretest-2018-beamer-and-subfig-collide
+\let\@@magyar@captionfix\relax
 \end_preamble
 \options handouts
 \use_default_options true
@@ -51,16 +68,18 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -90,6 +109,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -98,7 +118,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -116,7 +139,7 @@ ECO364: International Trade Theory
 \end_layout
 
 \begin_layout Subtitle
-Lecture 6 - Midterm Information
+Lecture 7 - Midterm Information
 \end_layout
 
 \begin_layout Institute
@@ -135,6 +158,10 @@ status open
 Outline for Today
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -165,6 +192,10 @@ Exam format, time, location
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -185,7 +216,10 @@ You're permitted to bring a non-programmable calculator
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -197,6 +231,10 @@ status open
 How to prepare for the midterm
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -213,6 +251,10 @@ Do the exercises in the lecture slides
 
 \begin_layout Itemize
 Understand the solutions to both problem sets
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -226,7 +268,10 @@ Work through the additional practice questions
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -241,11 +286,19 @@ What will be on the exam
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 All the materials we have covered
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -263,7 +316,10 @@ Specific Factors Model
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 

@@ -13,8 +13,13 @@
 \setbeamercolor{normal text}{bg=MyGreen}
 \definecolor{MyGreen}{RGB}{230, 242, 230}
 
-% no dots/buttons along the top
 \setbeamertemplate{mini frames}{}
+
+% set color of elements (e.g. bullet points, theorems, definitions, etc)
+%\setbeamercolor{structure}{fg=red!60!white}
+
+% header showing only current section and subsection
+% \useoutertheme{infolines}
 
 \usepackage{amsmath,amssymb}
 
@@ -33,13 +38,24 @@
 %remove navigation
 \beamertemplatenavigationsymbolsempty
 
+% Bullets and items
+\setbeamertemplate{itemize item}{\tiny\raise1.50pt\hbox{$\blacktriangleright$}}
+\setbeamertemplate{itemize subitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
+\setbeamertemplate{itemize subsubitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
+
+
 \definecolor{blue}{RGB}{0,0,120}
 
 \usepackage{hyperref}
+\hypersetup{urlcolor=magenta, colorlinks=true}
 
 \usepackage{array}
 
 \usepackage[section]{placeins}
+
+\usepackage{graphicx}
+
+\date{}
 
 % Fix undefined control sequence bug at \@@magyar@captionfix (see log)
 % Reference: https://tex.stackexchange.com/questions/426088/texlive-pretest-2018-beamer-and-subfig-collide
@@ -123,7 +139,7 @@ ECO364: International Trade Theory
 \end_layout
 
 \begin_layout Subtitle
-Lecture 6 - Review
+Lecture 8
 \end_layout
 
 \begin_layout Institute
