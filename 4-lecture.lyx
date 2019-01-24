@@ -388,7 +388,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.125]{"figures/l3/ffss 1"}
+includegraphics[scale=.125]{"figures/l4/ffss 1"}
 \end_layout
 
 \end_inset
@@ -1097,7 +1097,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.125]{"figures/l3/ffss 2"}
+includegraphics[scale=.125]{"figures/l4/ffss 2"}
 \end_layout
 
 \end_inset
@@ -1794,7 +1794,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.125]{"figures/l3/eb 1"}
+includegraphics[scale=.125]{"figures/l4/eb 1"}
 \end_layout
 
 \end_inset
@@ -1848,7 +1848,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.125]{"figures/l3/eb 2"}
+includegraphics[scale=.125]{"figures/l4/eb 2"}
 \end_layout
 
 \end_inset
@@ -1902,7 +1902,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.125]{"figures/l3/eb 3"}
+includegraphics[scale=.125]{"figures/l4/eb 3"}
 \end_layout
 
 \end_inset
@@ -1956,7 +1956,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.125]{"figures/l3/eb 4"}
+includegraphics[scale=.125]{"figures/l4/eb 4"}
 \end_layout
 
 \end_inset
@@ -2010,7 +2010,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.125]{"figures/l3/eb 5"}
+includegraphics[scale=.125]{"figures/l4/eb 5"}
 \end_layout
 
 \end_inset
@@ -2110,7 +2110,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.125]{"figures/l3/ffss 1"}
+includegraphics[scale=.125]{"figures/l4/ffss 1"}
 \end_layout
 
 \end_inset
@@ -2221,7 +2221,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.125]{"figures/l3/eb 6"}
+includegraphics[scale=.125]{"figures/l4/eb 6"}
 \end_layout
 
 \end_inset
@@ -2275,7 +2275,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.125]{"figures/l3/eb 7"}
+includegraphics[scale=.125]{"figures/l4/eb 7"}
 \end_layout
 
 \end_inset
@@ -2334,7 +2334,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.12]{"figures/l3/eb 8"}
+includegraphics[scale=.12]{"figures/l4/eb 8"}
 \end_layout
 
 \end_inset
@@ -2388,7 +2388,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.125]{"figures/l3/eb 9"}
+includegraphics[scale=.125]{"figures/l4/eb 9"}
 \end_layout
 
 \end_inset
@@ -2501,7 +2501,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.125]{"figures/l3/eb 11"}
+includegraphics[scale=.125]{"figures/l4/eb 11"}
 \end_layout
 
 \end_inset
@@ -2562,7 +2562,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.125]{"figures/l3/eb 12"}
+includegraphics[scale=.125]{"figures/l4/eb 12"}
 \end_layout
 
 \end_inset
@@ -2658,7 +2658,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.125]{"figures/l3/eb 13"}
+includegraphics[scale=.125]{"figures/l4/eb 13"}
 \end_layout
 
 \end_inset
@@ -2719,7 +2719,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.125]{"figures/l3/eb 14"}
+includegraphics[scale=.125]{"figures/l4/eb 14"}
 \end_layout
 
 \end_inset
@@ -3005,7 +3005,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.10]{"figures/l3/rsrd 1a"}
+includegraphics[scale=.10]{"figures/l4/rsrd 1a"}
 \end_layout
 
 \end_inset
@@ -3216,7 +3216,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.10]{"figures/l3/ppf 1"}
+includegraphics[scale=.10]{"figures/l4/ppf 1"}
 \end_layout
 
 \end_inset
@@ -3359,7 +3359,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.10]{"figures/l3/ppf 2"}
+includegraphics[scale=.10]{"figures/l4/ppf 2"}
 \end_layout
 
 \end_inset
@@ -3421,7 +3421,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.09]{"figures/l3/ppf 4"}
+includegraphics[scale=.09]{"figures/l4/ppf 4"}
 \end_layout
 
 \end_inset
@@ -3490,7 +3490,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.085]{"figures/l3/ppf 5"}
+includegraphics[scale=.085]{"figures/l4/ppf 5"}
 \end_layout
 
 \end_inset
@@ -3554,7 +3554,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.085]{"figures/l3/ppf 5"}
+includegraphics[scale=.085]{"figures/l4/ppf 5"}
 \end_layout
 
 \end_inset
@@ -3688,7 +3688,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.10]{"figures/l3/ppf 7"}
+includegraphics[scale=.10]{"figures/l4/ppf 7"}
 \end_layout
 
 \end_inset
@@ -3742,7 +3742,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.10]{"figures/l3/ppf 6"}
+includegraphics[scale=.10]{"figures/l4/ppf 6"}
 \end_layout
 
 \end_inset
@@ -3843,7 +3843,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.10]{"figures/l3/rsrd 1"}
+includegraphics[scale=.10]{"figures/l4/rsrd 1"}
 \end_layout
 
 \end_inset
@@ -4044,7 +4044,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.10]{"figures/l3/rsrd 1"}
+includegraphics[scale=.10]{"figures/l4/rsrd 1"}
 \end_layout
 
 \end_inset
@@ -4104,7 +4104,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.083]{"figures/l3/ppf 9"}
+includegraphics[scale=.083]{"figures/l4/ppf 9"}
 \end_layout
 
 \end_inset
@@ -4210,7 +4210,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.10]{"figures/l3/rsrd 2"}
+includegraphics[scale=.10]{"figures/l4/rsrd 2"}
 \end_layout
 
 \end_inset
@@ -4264,7 +4264,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.10]{"figures/l3/rsrd 3"}
+includegraphics[scale=.10]{"figures/l4/rsrd 3"}
 \end_layout
 
 \end_inset
@@ -4354,7 +4354,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.10]{"figures/l3/ppf 10"}
+includegraphics[scale=.10]{"figures/l4/ppf 10"}
 \end_layout
 
 \end_inset
@@ -4475,7 +4475,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.10]{"figures/l3/ppf 11"}
+includegraphics[scale=.10]{"figures/l4/ppf 11"}
 \end_layout
 
 \end_inset
@@ -4529,7 +4529,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.10]{"figures/l3/ppf 12"}
+includegraphics[scale=.10]{"figures/l4/ppf 12"}
 \end_layout
 
 \end_inset
@@ -4934,7 +4934,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.10]{"figures/l3/ppf 10"}
+includegraphics[scale=.10]{"figures/l4/ppf 10"}
 \end_layout
 
 \end_inset
@@ -5418,7 +5418,7 @@ status open
 
 
 \backslash
-includegraphics[scale=.125]{"figures/l3/ffss 3"}
+includegraphics[scale=.125]{"figures/l4/ffss 3"}
 \end_layout
 
 \end_inset
@@ -5683,7 +5683,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.125]{"figures/l3/ffss 4"}
+includegraphics[scale=.125]{"figures/l4/ffss 4"}
 \end_layout
 
 \end_inset
