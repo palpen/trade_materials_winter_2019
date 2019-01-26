@@ -269,7 +269,8 @@ HO Model and Factor Price Equalization
 
 \begin_deeper
 \begin_layout Itemize
-Based on a country's factor endowments we were able to predict
+Based on a country's factor endowments we were able to make the following
+ predictions
 \begin_inset Separator latexpar
 \end_inset
 
@@ -278,29 +279,20 @@ Based on a country's factor endowments we were able to predict
 
 \begin_deeper
 \begin_layout Itemize
-that capital abundant countries export capital intensive goods and import
- labour intensive goods
+Capital abundant countries export capital intensive goods and import labour
+ intensive goods
 \end_layout
 
 \begin_layout Itemize
-that the return to capital owners in this country increases while the return
- to labour owners decreases
+The return to capital owners in the capital abundant country increases while
+ the return to labour owners decreases
 \end_layout
 
 \begin_layout Itemize
-that the opposite result arises in the labour abundant country
-\begin_inset Separator latexpar
-\end_inset
-
-
+Conversely, the return capital owners in the labour abundant country decreases
+ while the return to labour owners increases
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-return to capital owners decreases and return to labour owners increases
-\end_layout
-
-\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Standard
@@ -346,7 +338,7 @@ Factor Price Equalization (FPE)
 
 \end_deeper
 \begin_layout Itemize
-To see this more clearly
+Let's look at this more closely
 \end_layout
 
 \end_deeper
@@ -371,8 +363,8 @@ RS-RD in Autarky
 \end_layout
 
 \begin_layout Frame
-Recall that the autarky relative price in each country is determined by
- the RS-RD graph
+Recall that we can visualize the autarky relative price in each country
+ using RS-RD graph
 \end_layout
 
 \begin_layout Frame
@@ -430,8 +422,8 @@ FPE
 \end_layout
 
 \begin_layout Frame
-Under free trade, the two countries' relative good prices converge as cross-coun
-try differences in prices of goods is arbitraged away
+Under free trade, each country's relative good prices converges as price
+ differences are arbitraged away
 \end_layout
 
 \begin_layout Frame
@@ -494,18 +486,33 @@ FPE
 
 \begin_deeper
 \begin_layout Itemize
-Since the two countries share the same SS curve, the convergence in their
- relative goods prices results in a convergence in their relative factor
- prices
+Convergence in their relative goods prices results in a convergence in their
+ relative factor prices
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why? the two countries share the same SS curve (i.e.
+ same production function for a given good)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Example
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assume production takes skilled and low-skilled labour as inputs
 \end_layout
 
 \begin_layout Itemize
-If we had skilled and low-skilled labour as the two factors in our production,
- this result suggests that if skilled workers make double the pay of low-skilled
- workers in Canada, then with free trade, skilled workers will also get
- paid double the wage of low-skilled workers in Mexico
+Result suggests that if skilled workers make 2x the pay of low-skilled workers
+ in Canada, under free trade, skilled workers will also make 2x the wage
+ of low-skilled workers in Mexico
 \end_layout
 
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -547,8 +554,8 @@ We assumed that factors cannot move across countries
 
 \end_deeper
 \begin_layout Itemize
-The goods that countries trade embody the factors used in the production
- of those goods
+The goods that countries trade embody the input factors used in producing
+ those goods
 \end_layout
 
 \begin_layout Itemize
@@ -592,9 +599,7 @@ One could interpret this as exporting capital and importing labour
 \end_layout
 
 \begin_layout Itemize
-Empirical studies of the HO model is also called 
-\series bold
-factor content studies
+Lets look at some of the empirical evidence for this
 \end_layout
 
 \end_deeper
@@ -628,7 +633,7 @@ Factor Content Studies
 
 \begin_deeper
 \begin_layout Itemize
-Looks at how much trade in factors is implied by trade in goods
+How much trade in factors is implied by trade in goods?
 \end_layout
 
 \begin_layout Itemize
@@ -641,7 +646,7 @@ Using unit labour requirements, calculate how much labour does net (net)
 \end_layout
 
 \begin_layout Itemize
-For now we will focus on just two factors: skilled and unskilled labour
+For now, focus on just two factors: skilled and unskilled labour
 \begin_inset Separator latexpar
 \end_inset
 
@@ -650,8 +655,9 @@ For now we will focus on just two factors: skilled and unskilled labour
 
 \begin_deeper
 \begin_layout Itemize
-But researchers in practice include as many factors as possible in their
- study
+Researchers in practice include as many measurable factors as possible in
+ their study (e.g.
+ physical and investment capital, land, etc.)
 \end_layout
 
 \end_deeper
@@ -668,7 +674,7 @@ But researchers in practice include as many factors as possible in their
 status open
 
 \begin_layout Plain Layout
-Definitions and Notations
+Assumptions and Definitions
 \end_layout
 
 \end_inset
@@ -682,19 +688,25 @@ Definitions and Notations
 
 \begin_deeper
 \begin_layout Itemize
-Suppose there are two factors (skilled and unskilled labour)
+Assumptions:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Two factors: skilled and unskilled labour
 \end_layout
 
 \begin_layout Itemize
-There are only two goods: computers and textiles
+Two goods: computers and textiles
 \end_layout
 
 \begin_layout Itemize
-Suppose the North exports computers and the South exports textiles
+North exports computers and the South exports textiles
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
-Let
+Define the following notations:
 \begin_inset Separator latexpar
 \end_inset
 
@@ -787,6 +799,10 @@ Unit Labour Requirements
 : unit unskilled labour requirement for computers in the North
 \end_layout
 
+\begin_layout Itemize
+Production functions:
+\end_layout
+
 \begin_layout Standard
 \begin_inset Formula 
 \[
@@ -807,11 +823,6 @@ Q_{C}^{N}=\frac{1}{a_{U,C}^{N}}U_{C}^{N}\implies a_{U,C}^{N}=\frac{U_{C}^{N}}{Q_
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-These are just the number of skilled/unskilled labour used per unit of computers
- in the North
 \end_layout
 
 \end_deeper
@@ -874,11 +885,6 @@ Q_{T}^{S}=\frac{1}{a_{U,T}^{S}}U_{T}^{S}\implies a_{U,T}^{S}=\frac{U_{T}^{S}}{Q_
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-These are just the number of skilled/unskilled labour used per unit of textiles
- in the South
 \end_layout
 
 \end_deeper
@@ -981,6 +987,15 @@ U_{Trade}^{N}=a_{U,C}^{N}X_{C}^{N}+a_{U,T}^{N}X_{T}^{N} & \ \ \  & U_{Trade}^{S}
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+e.g.
+ 
+\begin_inset Formula $a_{S,C}^{N}X_{C}^{N}$
+\end_inset
+
+ is the amount of skilled labour exported by North from the computer industry
 \end_layout
 
 \end_deeper
@@ -1135,10 +1150,6 @@ a_{U,C}^{N}=1/10 & \ \ \  & a_{U,T}^{S}=1/5
 
 \end_layout
 
-\begin_layout Itemize
-Recall North is an exporter of computer and South is an exporter of textiles
-\end_layout
-
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -1179,9 +1190,9 @@ Given these values North will end up importing 1 unit of unskilled labour
 EXERCISE
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
-This leads to 
+In other words, the net change in skilled and unskilled labour due to trade
+ are 
 \begin_inset Formula $\tilde{S}^{N}=199$
 \end_inset
 
@@ -1200,11 +1211,7 @@ This leads to
 
 \end_layout
 
-\begin_layout Itemize
-The larger the factor content of trade, the greater the extent to which
- factor prices will converge between the two country
-\end_layout
-
+\end_deeper
 \begin_layout Itemize
 Unfortunately, the prediction of the theory does not fit the data well
 \end_layout
@@ -1245,8 +1252,8 @@ U.S.
 \end_layout
 
 \begin_layout Itemize
-This technological superiority imply that more capital is being used per
- person in production compared to other countries
+This imply that more capital is being used per person in production compared
+ to other countries
 \begin_inset Separator latexpar
 \end_inset
 
@@ -1310,8 +1317,6 @@ status open
 
 
 \backslash
-begin{center} 
-\backslash
 textbf{Factor Content of U.S.
  Exports and Imports for 1962} 
 \backslash
@@ -1355,9 +1360,7 @@ $/person)&17,916&14,321
 \backslash
 hline 
 \backslash
-end{tabular} 
-\backslash
-end{center}
+end{tabular}
 \end_layout
 
 \end_inset
@@ -1391,9 +1394,15 @@ status open
 
 \begin_layout Plain Layout
 
+\end_layout
 
-\backslash
-begin{center} 
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 textbf{Factor Content of U.S.
  Exports and Imports for 1962} 
@@ -1439,8 +1448,10 @@ $/person)&17,916&14,321
 hline 
 \backslash
 end{tabular} 
-\backslash
-end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1558,13 +1569,14 @@ Leontief used U.S.
 
 \begin_deeper
 \begin_layout Itemize
-Perhaps guided by assumption that technology is the same across countries
- in the HO model
+He assumed that all countries used the same technology, perhaps guided by
+ assumption in the HO model
 \end_layout
 
 \begin_layout Itemize
-Skilled labour and innovative entrepreneurship (low capital) v.s.
- large scale manufacturing (high capital)
+Developed countries have more skilled labour and innovative entrepreneurship
+ (low physical capital) v.s.
+ large scale manufacturing (high physical capital) in developing countries
 \end_layout
 
 \end_deeper
@@ -1634,6 +1646,10 @@ If the share of that factor is greater than the country's share of world
 In 2008, China had 7% of world income but roughly 20% of the world's workers
 \end_layout
 
+\begin_layout Itemize
+By this measure, China is labour abundant
+\end_layout
+
 \end_deeper
 \begin_layout Itemize
 According to the HO model, the country should be an exporter of the factor
@@ -1672,6 +1688,13 @@ The country should be an importer of the factor for which their share of
  the global supply of that factor is less than their share of world GDP
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+e.g.
+ China exports labour (embodied), import investment capital
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -1701,7 +1724,7 @@ Each country's share of global supply of each factor
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -1718,7 +1741,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.59]{figures/l5/HO_1a}
+includegraphics[scale=.55]{figures/l5/HO_1a}
 \end_layout
 
 \end_inset
@@ -1766,7 +1789,7 @@ For 2/3 of the factors of production, trade ran in the direction predicted
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -1783,7 +1806,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.6]{figures/l5/HO_1b}
+includegraphics[scale=.55]{figures/l5/HO_1b}
 \end_layout
 
 \end_inset
@@ -1822,7 +1845,7 @@ Test on Global Data
 
 \begin_deeper
 \begin_layout Itemize
-Results suggests that the HO theory based on standard assumptions have failed
+According to the results, HO theory based on standard assumptions failed
 \end_layout
 
 \begin_layout Itemize
@@ -1924,11 +1947,12 @@ Effective Factor Endowment
 
 \end_layout
 
-\begin_layout Frame
-Original
+\begin_deeper
+\begin_layout Itemize
+Figure before accounting for factor productivity
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1949,7 +1973,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.59]{figures/l5/HO_1a}
+includegraphics[scale=.55]{figures/l5/HO_1a}
 \end_layout
 
 \end_inset
@@ -1962,6 +1986,7 @@ includegraphics[scale=.59]{figures/l5/HO_1a}
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
@@ -1982,15 +2007,16 @@ Effective Factor Endowment
 
 \end_layout
 
-\begin_layout Frame
-Effective
+\begin_deeper
+\begin_layout Itemize
+Figure after accounting for factor productivity
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -2007,7 +2033,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.59]{figures/l5/HO_1c}
+includegraphics[scale=.55]{figures/l5/HO_1c}
 \end_layout
 
 \end_inset
@@ -2020,6 +2046,7 @@ includegraphics[scale=.59]{figures/l5/HO_1c}
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
@@ -2046,7 +2073,7 @@ Effective Factor Endowment
 
 \begin_deeper
 \begin_layout Itemize
-Other issues arise when technological differences is not accounted for
+Other issues arise when technological differences are not accounted for
 \end_layout
 
 \begin_layout Itemize
