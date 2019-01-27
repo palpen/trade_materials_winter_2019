@@ -215,21 +215,18 @@ SS Curve (Relates good prices to factor prices)
 
 \begin_layout Itemize
 Today
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Review of last lecture (FF and SS curve)
-\end_layout
-
-\begin_layout Itemize
 Putting the FF and SS curve together
 \end_layout
 
+\begin_layout Itemize
+Three Theorems:
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 Stolper-Samuelson Theorem
 \end_layout
@@ -256,7 +253,6 @@ Heckscher-Ohlin Theorem
 
 \end_layout
 
-\begin_deeper
 \begin_layout Pause
 
 \end_layout
@@ -288,7 +284,7 @@ FF + SS Curves
 status open
 
 \begin_layout Plain Layout
-Last Lecture...
+Previous Lecture
 \end_layout
 
 \end_inset
@@ -311,7 +307,7 @@ Derived the FF curve
 
 \begin_deeper
 \begin_layout Itemize
-Relates relative factor prices to relative input demands (
+Relates relative factor prices to relative input factors (
 \begin_inset Formula $K/L$
 \end_inset
 
@@ -320,7 +316,7 @@ Relates relative factor prices to relative input demands (
 
 \begin_layout Itemize
 The position of the curves relative to each other depends on the relative
- input intensity of each good (see FF curve derivation with numbers)
+ input intensity of each good
 \end_layout
 
 \end_deeper
@@ -436,17 +432,14 @@ Suppose
 \end_inset
 
  stays constant
-\begin_inset Separator latexpar
-\end_inset
+\end_layout
 
-
+\begin_layout Itemize
+What are the long-run impact on relative factor prices and relative factor
+ demand?
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-Remember the thought experiment in lecture 3?
-\end_layout
-
 \begin_layout Itemize
 New firms enter textile because of short-term positive profits
 \end_layout
@@ -521,24 +514,13 @@ Because labour is now more expensive relative to capital, firms in both
 \end_layout
 
 \begin_layout Itemize
-As a result, 
+By the FF curves, 
 \begin_inset Formula $K/L$
 \end_inset
 
  rises in both sectors
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-This mapping between relative factor prices and the capital-labour ratio
- is characterized by the FF curve 
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 EXERCISE: Suppose 
 \begin_inset Formula $P_{T}$
@@ -645,6 +627,10 @@ Stolper-Samuelson Theorem
 Trade shocks through goods prices could result in welfare losses
 \end_layout
 
+\begin_layout Pause
+
+\end_layout
+
 \end_deeper
 \begin_layout Itemize
 What happens to the structure of production when the distribution of factor
@@ -664,6 +650,10 @@ Rybczynski Theorem
 
 \begin_layout Itemize
 Allows predictions for how migration might affect industrial structure
+\end_layout
+
+\begin_layout Pause
+
 \end_layout
 
 \end_deeper
@@ -819,9 +809,9 @@ Stolper-Samuelson
 \end_layout
 
 \begin_layout Theorem
-A rise in the relative price of a good will lead to a rise in the return
+A rise in the relative price of a good will lead to a rise in the real return
  to the factor used most intensively in the production of that good.
- In addition, return to the other factor will fall.
+ In addition, the real return to the other factor will fall.
 \end_layout
 
 \begin_layout Pause
@@ -830,7 +820,8 @@ A rise in the relative price of a good will lead to a rise in the return
 
 \begin_layout Itemize
 If the price of textiles increases (input used most intensively in textiles),
- the model predicts that wage increases whereas the return to capital decreases
+ the model predicts that real wage increases whereas the real return to
+ capital decreases
 \end_layout
 
 \end_deeper
@@ -846,11 +837,7 @@ If the price of textiles increases (input used most intensively in textiles),
 status open
 
 \begin_layout Plain Layout
-What about 
-\emph on
-real
-\emph default
- returns?
+Real Returns
 \end_layout
 
 \end_inset
@@ -976,7 +963,7 @@ Since
 \end_layout
 
 \begin_layout Itemize
-Therefore, the overall real return to capital falls
+Therefore, real return to capital falls
 \end_layout
 
 \end_deeper
@@ -1047,7 +1034,7 @@ From the FF-SS Curves, a rise in
 
 \begin_deeper
 \begin_layout Itemize
-Firms are substituting towards the more inexpensive factor, capital
+Firms are substituting towards cheaper factor, capital
 \end_layout
 
 \end_deeper
@@ -1196,7 +1183,7 @@ Therefore, the increase in the marginal product of labour increases
 \end_layout
 
 \begin_layout Itemize
-Overall returns to labour increased
+Overall real returns to labour increased
 \end_layout
 
 \end_deeper
@@ -1356,8 +1343,8 @@ Dutch Disease
 \begin_deeper
 \begin_layout Itemize
 Commodity booms (such as the discovery of oil) tend to cause industrial
- restructuring, most of the time the type that is harmful to the long-term
- development of the country
+ restructuring, that may be harmful to the long-term development of the
+ country
 \begin_inset Note Note
 status collapsed
 
@@ -1437,7 +1424,7 @@ Goods Prices –> SS Curve –> Factor Prices –> FF Curves –>
 
 \begin_layout Itemize
 Along with the resource constraint, we can use this information to solve
- for factor allocation within this country
+ for factor allocation within a country
 \begin_inset Separator latexpar
 \end_inset
 
@@ -1582,7 +1569,8 @@ K_{C} & = & 2L_{C}\label{eq:2}
 \end_layout
 
 \begin_layout Itemize
-In optimum, all resources in a country will be employed:
+In optimum, all resources in a country will be employed (market clearing
+ conditions):
 \begin_inset Formula 
 \begin{eqnarray}
 K_{T}+K_{C} & = & \bar{K}\\
@@ -1592,17 +1580,6 @@ L_{T}+L_{C} & = & \bar{L}\label{eq:4}
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $\bar{K}$
-\end_inset
-
- and 
-\begin_inset Formula $\bar{L}$
-\end_inset
-
- are the stock of capital and labour
 \end_layout
 
 \end_deeper
@@ -2050,14 +2027,13 @@ Ray from Origin
 \begin_deeper
 \begin_layout Itemize
 From the FF-SS curves, we are give the capital-labour ratio for a given
- relative goods prices and relative factor prices
+ relative goods prices
 \begin_inset Separator latexpar
 \end_inset
 
 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 These capital-labour ratios tells us how relatively capital intensive an
  industry will be for a given relative goods price, 
@@ -2067,7 +2043,6 @@ These capital-labour ratios tells us how relatively capital intensive an
 
 \end_layout
 
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -2427,7 +2402,7 @@ Change in Factor Endowment
 
 \begin_deeper
 \begin_layout Itemize
-Now we can ask 
+
 \emph on
 How does production patterns change if we increase the stock of one of the
  endowments?
@@ -2951,11 +2926,11 @@ E.g.
 
 \begin_deeper
 \begin_layout Enumerate
-it has relatively more labour than capital than Canada
+It has relatively more labour than capital than Canada
 \end_layout
 
 \begin_layout Enumerate
-textiles is more labour intensive than computers
+Textiles is more labour intensive than computers
 \end_layout
 
 \end_deeper
@@ -3043,8 +3018,22 @@ Relative Supply Curve
 \end_layout
 
 \begin_deeper
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Relative supply curves are derived using PPFs, budget constraints, and indiffere
+nce curves (exactly the same technique used in the Ricardian model)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
-For a given relative goods price, South—the labour abundant country—-produces
+For a given relative goods price, South—the labour abundant country—produces
  more textiles relative to computers than North—the capital abundant country
 \end_layout
 
@@ -3104,15 +3093,9 @@ So for each
  of changes in labour endowment (as shown in the Edgeworth Box)
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
-i.e.
- Supply curve shifts as factor endowment changes
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-We can also derive these relative supply curves using PPFs
+In other words, changes in the labour endowments causes shifts in the relative
+ supply curve
 \end_layout
 
 \end_deeper
