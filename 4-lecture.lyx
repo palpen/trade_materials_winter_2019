@@ -3040,7 +3040,7 @@ For a given relative goods price, South—the labour abundant country—produces
 \begin_layout Itemize
 What underlie the difference in these two supply curve is the fact that
  we have assumed that goods and factor prices remain constant when we changed
- the labour stock in the Edgeworth Box
+ the labour stock (as demonstrated in the Edgeworth Box)
 \begin_inset Separator latexpar
 \end_inset
 
@@ -3149,7 +3149,7 @@ Increasing the production of good
 
 \begin_layout Itemize
 But as we use more and more of these inputs, the marginal output we get
- is decreasing
+ decreases
 \end_layout
 
 \begin_layout Itemize
@@ -3296,7 +3296,11 @@ This is not the same as the
 \series bold
 isovalue curve
 \series default
- in the Lerner Diagram
+ in the Lerner Diagram (which can also be called the 
+\series bold
+isoquant
+\series default
+)
 \end_layout
 
 \end_deeper
@@ -3511,70 +3515,6 @@ Relative Supply Curves
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-Note the ratio of prices in the y-axis
-\end_layout
-
-\end_deeper
-\begin_layout Frame
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=.085]{"figures/l4/ppf 5"}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Relative Supply Curves
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
 The shape of the PPF curves depend on the labour and capital endowment in
  each country:
@@ -3594,7 +3534,7 @@ The shape of the PPF curves depend on the labour and capital endowment in
 
 \end_deeper
 \begin_layout Itemize
-Consider South, is relatively more abundant in labour
+South is relatively more abundant in labour
 \begin_inset Separator latexpar
 \end_inset
 
@@ -3764,8 +3704,8 @@ Country PPF: North and South
 
 \begin_deeper
 \begin_layout Itemize
-For a given price, North is able to produce more computers, while South
- is able to produce more textile
+For a given relative goods price, North is able to produce more computers,
+ while South is able to produce more textiles
 \end_layout
 
 \begin_layout Itemize
@@ -3781,7 +3721,8 @@ In other words, for the price
 \end_layout
 
 \begin_layout Itemize
-This means that North's relative supply curve is to the left of South's
+In terms of relative supply curves, North's supply curve will be to the
+ left of South's
 \end_layout
 
 \end_deeper
@@ -3985,6 +3926,20 @@ The points where each country's relative supply curve cross the relative
  demand curve is their autarky equilibrium
 \end_layout
 
+\begin_layout Itemize
+Under autarky, relative prices change only if 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+consumer preferences changes (indifference curves change shape or position)
+\end_layout
+
+\begin_layout Itemize
+labour endowment changes (PPFs changes shape)
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -4061,7 +4016,7 @@ Autarky Equilibrium: PPF
 \end_layout
 
 \begin_layout Frame
-For both countries, equilibrium quantities is located where PPF is tangent
+For either countries, equilibrium quantities is located where PPF is tangent
  to indifference curve.
  Consumption also equal production in autarky
 \end_layout
@@ -4126,11 +4081,12 @@ Trade Equilibrium
 
 \begin_deeper
 \begin_layout Itemize
-With free trade, goods are now free to flow across countries
+With free trade, countries are now free to trade goods
 \end_layout
 
 \begin_layout Itemize
-Differences in price for a good across countries can be arbitraged away
+In the longrun, differences in price for a good across countries will be
+ arbitraged away
 \end_layout
 
 \begin_layout Itemize
@@ -4604,6 +4560,202 @@ By importing the extra textiles they need and exporting their surplus of
 status open
 
 \begin_layout Plain Layout
+PPFs and Gains from Trade
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We can also look at a country's balanced trade condition to understand why
+ countries gain from trade
+\end_layout
+
+\begin_layout Itemize
+Balanced trade condition:
+\begin_inset Formula 
+\[
+P_{C}C_{C}+P_{T}C_{T}=P_{C}Q_{C}+P_{T}Q_{T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+One could also think of this as a 
+\emph on
+country-level
+\emph default
+ budget constraint
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Value of goods consumed shouldn't exceed value of goods produced 
+\end_layout
+
+\begin_layout Itemize
+Rewrite as follows:
+\begin_inset Formula 
+\[
+C_{T}-Q_{T}=\frac{P_{C}}{P_{T}}(Q_{C}-C_{C})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+PPFs and Gains from Trade
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+C_{T}-Q_{T}=\frac{P_{C}}{P_{T}}(Q_{C}-C_{C})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Under autarky, a country can only consume what it produces: 
+\begin_inset Formula $C_{T}=Q_{T}$
+\end_inset
+
+ and 
+\begin_inset Formula $C_{C}=Q_{C}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tangency across PPF, balanced trade equation, and indifference curve
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+But under free trade, 
+\begin_inset Formula $C_{T}=Q_{T}$
+\end_inset
+
+ and 
+\begin_inset Formula $C_{C}=Q_{C}$
+\end_inset
+
+ no longer needs to hold
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Under such conditions for South, 
+\begin_inset Formula $\mid C_{T}-Q_{T}\mid$
+\end_inset
+
+ is exports and 
+\begin_inset Formula $\mid C_{C}-Q_{C}\mid$
+\end_inset
+
+ is imports
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Free trade allow countries to consume anywhere on their budget constraint
+ instead of being restricted by their PPF curve!
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+PPFs and Gains from Trade
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Because we can consume outside of the PPF under free trade, a given country
+ as a whole, can consume more of both goods compared to autarky
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+They may consume less of one good under free trade, but total consumption
+ (sum of both goods) will be greater than under autarky
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Therefore, every individual in principle should also be able consume more
+ of both goods
+\end_layout
+
+\begin_layout Itemize
+Some individuals may want more of one good and less of the other, such option
+ is available under free trade
+\end_layout
+
+\begin_layout Itemize
+See KOM, Ch.
+ 4.3
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Heckscher-Ohlin Theorem
 \end_layout
 
@@ -4618,7 +4770,8 @@ Heckscher-Ohlin Theorem
 
 \begin_deeper
 \begin_layout Itemize
-This trading pattern is summarized by the Heckscher-Ohlin Theorem
+The trading pattern we have observed is summarized by the Heckscher-Ohlin
+ Theorem
 \end_layout
 
 \end_deeper
@@ -4871,8 +5024,8 @@ Size and Gains from Trade
 
 \begin_deeper
 \begin_layout Itemize
-From the PPF curves, we saw that the more different a country's autarky
- price is from the global market price, the greater the gain
+From the PPF curves, we saw that the greater the difference between a country's
+ autarky price from its global market price, the greater the gain
 \end_layout
 
 \end_deeper
@@ -5362,8 +5515,8 @@ Thus, Canada's autarky price is close to world trade equilibrium price
 \end_layout
 
 \begin_layout Itemize
-China will experience a more drastic change in the isovalue line, which
- means greater gains
+China will experience a more drastic change in the isovalue line, resulting
+ in greater gains
 \end_layout
 
 \end_deeper
@@ -5756,6 +5909,28 @@ Which country experience the greatest change under free trade
 \end_layout
 
 \end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 Next class
 \begin_inset Separator latexpar
@@ -5780,17 +5955,13 @@ Why does this happen?
 
 \end_deeper
 \begin_layout Itemize
-How well does the HO model hold in the data?
+How well do the predictions in the HO model hold in the real world?
 \end_layout
 
 \end_deeper
 \end_deeper
-\begin_layout Frame
-
-\end_layout
-
 \begin_layout Standard
-\begin_inset Separator parbreak
+\begin_inset Separator plain
 \end_inset
 
 
