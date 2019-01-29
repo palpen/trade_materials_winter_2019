@@ -2150,6 +2150,18 @@ These rays from the origins are also called the Output Expansion Path (introduce
 d in the Lerner diagram in lecture 3)
 \end_layout
 
+\begin_layout Itemize
+In the numeric example above, we derived these to be 
+\begin_inset Formula $\frac{w}{2r}$
+\end_inset
+
+ and 
+\begin_inset Formula $\frac{2w}{r}$
+\end_inset
+
+ for textiles and cloth, respectively
+\end_layout
+
 \end_deeper
 \begin_layout Itemize
 By our assumption that the computer industry is more capital intensive than
@@ -2390,6 +2402,53 @@ includegraphics[scale=.125]{"figures/l4/eb 9"}
 
 \begin_layout Standard
 \begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Equilibrium at Cross Point
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Note that the point where the output expansion path (the two blue lines)
+ cross determines the equilbrium
+\end_layout
+
+\begin_layout Itemize
+This is because it is only at this point where the FOC from the profit maximizat
+ion problem and the market clearing conditions are satisfied
+\end_layout
+
+\begin_layout Itemize
+In the numeric example, the FOCs were
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{aligned}\frac{w}{r}=2\frac{K_{T}}{L_{T}} &  & \frac{w}{r}=\frac{1}{2}\frac{K_{C}}{L_{C}}\end{aligned}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
 \end_inset
 
 
