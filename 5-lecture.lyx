@@ -554,13 +554,13 @@ We assumed that factors cannot move across countries
 
 \end_deeper
 \begin_layout Itemize
-The goods that countries trade embody the input factors used in producing
- those goods
+Trade of goods can be interpreted as embodying trade in the factors used
+ to produce those goods
 \end_layout
 
 \begin_layout Itemize
-Because of this, trade in final goods is similar to trade in the factors
- used in the production of those goods
+More concretely, when textiles manufactured in China are imported into Canada,
+ the textiles embody the labour and capital used to produce the textiles
 \end_layout
 
 \end_deeper
@@ -590,16 +590,18 @@ FPE
 
 \begin_deeper
 \begin_layout Itemize
-For example, a capital abundant country exports capital-intensive goods
- and imports labour intensive goods
+In terms of the results we derived in the HO model, a capital abundant country
+ exports capital-intensive goods and imports labour intensive goods
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
-One could interpret this as exporting capital and importing labour
+This can be interpreted as exporting capital and importing labour
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
-Lets look at some of the empirical evidence for this
+Let's look at some of the empirical evidence for this
 \end_layout
 
 \end_deeper
@@ -633,6 +635,9 @@ Factor Content Studies
 
 \begin_deeper
 \begin_layout Itemize
+
+\series bold
+\emph on
 How much trade in factors is implied by trade in goods?
 \end_layout
 
@@ -641,8 +646,8 @@ Start with the volume of exports and imports
 \end_layout
 
 \begin_layout Itemize
-Using unit labour requirements, calculate how much labour does net (net)
- imports embody
+Using unit labour requirements, calculate how much labour does net imports
+ embody
 \end_layout
 
 \begin_layout Itemize
@@ -655,9 +660,8 @@ For now, focus on just two factors: skilled and unskilled labour
 
 \begin_deeper
 \begin_layout Itemize
-Researchers in practice include as many measurable factors as possible in
- their study (e.g.
- physical and investment capital, land, etc.)
+Other measurable factors may include physical and investment capital, land,
+ etc.
 \end_layout
 
 \end_deeper
@@ -715,6 +719,11 @@ Define the following notations:
 
 \begin_deeper
 \begin_layout Itemize
+Final goods:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
 \begin_inset Formula $X_{C}^{N}$
 \end_inset
 
@@ -728,6 +737,12 @@ Define the following notations:
 : Southern exports of textiles to the North
 \end_layout
 
+\end_deeper
+\begin_layout Itemize
+Input factors:
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 \begin_inset Formula $S_{i}^{j}$
 \end_inset
@@ -758,6 +773,7 @@ Define the following notations:
 
 \end_layout
 
+\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Standard
@@ -825,66 +841,8 @@ Q_{C}^{N}=\frac{1}{a_{U,C}^{N}}U_{C}^{N}\implies a_{U,C}^{N}=\frac{U_{C}^{N}}{Q_
 
 \end_layout
 
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Unit Labour Requirements
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
-\begin_inset Formula $a_{S,T}^{S}$
-\end_inset
-
-: unit skilled labour requirement for textiles in the South
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $a_{U,T}^{S}$
-\end_inset
-
-: unit unskilled labour requirement for textiles in the South
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-Q_{T}^{S}=\frac{1}{a_{S,T}^{S}}S_{T}^{S}\implies a_{S,T}^{S}=\frac{S_{T}^{S}}{Q_{T}^{S}}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-Q_{T}^{S}=\frac{1}{a_{U,T}^{S}}U_{T}^{S}\implies a_{U,T}^{S}=\frac{U_{T}^{S}}{Q_{T}^{S}}
-\]
-
-\end_inset
-
-
+Similar formulation for South
 \end_layout
 
 \end_deeper
@@ -915,9 +873,15 @@ Unit Labour Requirements
 \begin_deeper
 \begin_layout Itemize
 Notice that the right hand side of these unit labour requirements are variables
- that we can observe from the data
+ that we can observe
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+We are just backing out the unit labour requirements from the data
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 A few more definitions and we're read to make some calculations
 \end_layout
@@ -965,8 +929,33 @@ Define
 
 \begin_inset Formula 
 \begin{alignat*}{2}
-S_{Trade}^{N}=a_{S,C}^{N}X_{C}^{N}+a_{S,T}^{N}X_{T}^{N} & \ \ \  & S_{Trade}^{S}=a_{S,C}^{S}X_{C}^{S}+a_{S,T}^{S}X_{T}^{S}
+S_{Trade}^{N}=a_{S,C}^{N}X_{C}^{N}+a_{S,T}^{N}X_{T}^{N} & \ ,\ \  & S_{Trade}^{S}=a_{S,C}^{S}X_{C}^{S}+a_{S,T}^{S}X_{T}^{S}
 \end{alignat*}
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+a is the ULR: amount of skilled labour used to produce one unit of computer.
+ 
+\end_layout
+
+\begin_layout Itemize
+X is the total amount of computer exported by North.
+ 
+\end_layout
+
+\begin_layout Itemize
+aX is the total amount of labour used in computers that was exported by
+ North.
+\end_layout
+
+\begin_layout Itemize
+S is the amount of skilled labour exported by North
+\end_layout
 
 \end_inset
 
@@ -981,7 +970,7 @@ S_{Trade}^{N}=a_{S,C}^{N}X_{C}^{N}+a_{S,T}^{N}X_{T}^{N} & \ \ \  & S_{Trade}^{S}
 \begin_layout Standard
 \begin_inset Formula 
 \begin{alignat*}{2}
-U_{Trade}^{N}=a_{U,C}^{N}X_{C}^{N}+a_{U,T}^{N}X_{T}^{N} & \ \ \  & U_{Trade}^{S}=a_{U,C}^{S}X_{C}^{S}+a_{U,T}^{S}X_{T}^{S}
+U_{Trade}^{N}=a_{U,C}^{N}X_{C}^{N}+a_{U,T}^{N}X_{T}^{N} & \ ,\ \  & U_{Trade}^{S}=a_{U,C}^{S}X_{C}^{S}+a_{U,T}^{S}X_{T}^{S}
 \end{alignat*}
 
 \end_inset
@@ -1097,7 +1086,7 @@ Example
 
 \begin_deeper
 \begin_layout Itemize
-Suppose 
+Suppose endowments were 
 \begin_inset Formula $S^{N}=200$
 \end_inset
 
@@ -1117,7 +1106,8 @@ Suppose
 \end_layout
 
 \begin_layout Itemize
-Suppose North exports 10 computers and South exports 10 units of textiles
+Under free trade, imagine that North exports 10 computers while South exports
+ 10 units of textiles
 \begin_inset Separator latexpar
 \end_inset
 
@@ -1126,7 +1116,7 @@ Suppose North exports 10 computers and South exports 10 units of textiles
 
 \begin_deeper
 \begin_layout Itemize
-All other trade are zero
+All other trades are zero
 \end_layout
 
 \end_deeper
@@ -1134,7 +1124,7 @@ All other trade are zero
 Assume that the unit labour requirements are
 \begin_inset Formula 
 \begin{alignat*}{2}
-a_{S,C}^{N}=1/5 & \ \ \  & a_{S,T}^{S}=1/10
+a_{S,C}^{N}=1/5 & \ ,\ \  & a_{S,T}^{S}=1/10
 \end{alignat*}
 
 \end_inset
@@ -1142,7 +1132,7 @@ a_{S,C}^{N}=1/5 & \ \ \  & a_{S,T}^{S}=1/10
 
 \begin_inset Formula 
 \begin{alignat*}{2}
-a_{U,C}^{N}=1/10 & \ \ \  & a_{U,T}^{S}=1/5
+a_{U,C}^{N}=1/10 & \ ,\ \  & a_{U,T}^{S}=1/5
 \end{alignat*}
 
 \end_inset
@@ -1177,8 +1167,8 @@ Example
 
 \begin_deeper
 \begin_layout Itemize
-Given these values North will end up importing 1 unit of unskilled labour
- and exporting one unit of skilled labour
+Plugging these values into our formula predicts North importing one unit
+ of unskilled labour and exporting one unit of skilled labour
 \begin_inset Separator latexpar
 \end_inset
 
@@ -1187,7 +1177,9 @@ Given these values North will end up importing 1 unit of unskilled labour
 
 \begin_deeper
 \begin_layout Itemize
-EXERCISE
+
+\series bold
+In-class exercise
 \end_layout
 
 \begin_layout Itemize
@@ -1216,6 +1208,13 @@ In other words, the net change in skilled and unskilled labour due to trade
 Unfortunately, the prediction of the theory does not fit the data well
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+But it doesn't mean it is useless! Computing these values are relatively
+ easy and can help establish baseline results
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -1248,12 +1247,8 @@ Factor Content Studies and Data
 \begin_deeper
 \begin_layout Itemize
 U.S.
- is one of the most advanced country in the world
-\end_layout
-
-\begin_layout Itemize
-This imply that more capital is being used per person in production compared
- to other countries
+ is one of the most advanced country in the world based on the amount of
+ capital being used per person in production compared to other countries
 \begin_inset Separator latexpar
 \end_inset
 
@@ -1262,7 +1257,8 @@ This imply that more capital is being used per person in production compared
 
 \begin_deeper
 \begin_layout Itemize
-One worker operating many machines to make a car
+E.g.
+ one worker operating many machines to make a car
 \end_layout
 
 \end_deeper
@@ -1644,54 +1640,20 @@ If the share of that factor is greater than the country's share of world
 \begin_deeper
 \begin_layout Itemize
 In 2008, China had 7% of world income but roughly 20% of the world's workers
-\end_layout
-
-\begin_layout Itemize
-By this measure, China is labour abundant
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-According to the HO model, the country should be an exporter of the factor
- for which the share of the global supply of that factor exceeds the country's
- share of world GDP
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
+ 
+\begin_inset Formula $\implies$
 \end_inset
 
-
+ China is labour abundant
 \end_layout
 
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Test on Global Data
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
-The country should be an importer of the factor for which their share of
- the global supply of that factor is less than their share of world GDP
+According to the HO model, China should be a net exporter of labour (as
+ embodied in final goods traded)
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
-e.g.
- China exports labour (embodied), import investment capital
+Conversely, they should be a net importer of investment capital
 \end_layout
 
 \end_deeper
@@ -1756,6 +1718,49 @@ includegraphics[scale=.55]{figures/l5/HO_1a}
 
 \begin_layout Standard
 \begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Test on Global Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The approach used by Bowen, Leamer, and Sveikauskas (1987) is to check whether
+ a country was a net exporter of an input factor for 27 countries
+\end_layout
+
+\begin_layout Itemize
+Success is recorded if a country is observed to be a net exporter of a factor
+ that they are relatively abundant in
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+They checked this for 12 input factors
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Tally success / failure of the sign test across the 27 countries for each
+ input factor
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
 \end_inset
 
 
@@ -1845,6 +1850,11 @@ Test on Global Data
 
 \begin_deeper
 \begin_layout Itemize
+Factor content of trade ran in the opposite direction of prediction in (on
+ average) 39% of the cases
+\end_layout
+
+\begin_layout Itemize
 According to the results, HO theory based on standard assumptions failed
 \end_layout
 
@@ -1926,6 +1936,26 @@ Effective Factor Endowment
 Effective Factor Endowment = Actual Factor Endowment x Factor Productivity
 \end_layout
 
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+If workers in the United States are much more efficient than the world average,
+ then the “effective” labor supply in the United States is correspondingly
+ larger—and hence the expected volume of imported labor services into the
+ United States is correspondingly lower
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+KOM, 5.3
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
