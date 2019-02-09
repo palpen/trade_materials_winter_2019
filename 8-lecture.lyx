@@ -133,20 +133,48 @@
 
 \begin_body
 
-\begin_layout Frame
+\begin_layout Title
+ECO364H1S: International Trade Theory
+\end_layout
+
+\begin_layout Subtitle
+Lecture 8
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
 
 \backslash
-titlepage
+footnotemark
 \end_layout
 
 \end_inset
 
- 
+
+\end_layout
+
+\begin_layout Institute
+University of Toronto, Department of Economics
+\end_layout
+
+\begin_layout Author
+Palermo Penano
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotetext[1]{
+\backslash
+tiny Revised slides by Scott Orr}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
