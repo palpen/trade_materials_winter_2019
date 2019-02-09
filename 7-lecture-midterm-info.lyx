@@ -135,7 +135,7 @@
 \begin_body
 
 \begin_layout Title
-ECO364: International Trade Theory
+ECO364H1S: International Trade Theory
 \end_layout
 
 \begin_layout Subtitle
@@ -150,33 +150,6 @@ University of Toronto, Department of Economics
 Palermo Penano
 \end_layout
 
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Outline for Today
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Midterm information
-\end_layout
-
-\begin_layout Itemize
-Work through a past midterm exam
-\end_layout
-
-\end_deeper
 \begin_layout Section
 Midterm
 \end_layout
@@ -200,71 +173,25 @@ Exam format, time, location
 
 \begin_deeper
 \begin_layout Itemize
-Two big questions with multiple parts; one short question
+Two long multi-part questions; one short question
 \end_layout
 
 \begin_layout Itemize
-Time: 2 hours (beginning at 2:10pm)
+Time: 2 hours 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+We will begin at 6:10pm and end at 8:10pm
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Location: In class
 \end_layout
 
 \begin_layout Itemize
-You're permitted to bring a non-programmable calculator
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-How to prepare for the midterm
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Understand everything in the lecture slides
-\end_layout
-
-\begin_layout Itemize
-Do the exercises in the lecture slides
-\end_layout
-
-\begin_layout Itemize
-Understand the solutions to both problem sets
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Solutions will be posted after the tutorial today
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Work through the additional practice questions
+You're permitted to bring a non-programmable calculator (no smartphones)
 \end_layout
 
 \end_deeper
@@ -315,6 +242,142 @@ Specific Factors Model
 \end_layout
 
 \end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ricardian Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+!!!
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Heckscher-Ohlin Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+!!!
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Specific Factors Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+!!!
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+How to prepare for the midterm
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Understand everything in the lecture slides
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Understand both mathematical derivation and economic intuition
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Do the exercises in the lecture slides
+\end_layout
+
+\begin_layout Itemize
+Understand the solutions to both problem sets
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Solutions will be posted after the tutorial today
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Go to office hours or post your questions on the Slack channel
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
