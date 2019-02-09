@@ -187,11 +187,11 @@ Outline
 
 \begin_deeper
 \begin_layout FrameTitle
-Section Outline
+ECO364H1S Part 2
 \end_layout
 
 \begin_layout Itemize
-Last Section: 
+Part 1: 
 \end_layout
 
 \begin_deeper
@@ -211,7 +211,7 @@ Comparative Advantage Based Trade
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-This Section: 
+Part 2: 
 \end_layout
 
 \begin_deeper
@@ -608,36 +608,34 @@ Why are many countries actively trying to cut tariffs?
 \begin_layout Itemize
 
 \series bold
+\strikeout on
 Trans-Pacific Partnership (TPP)
 \series default
 : Recently signed trade agreement between Australia, Brunei, Canada, Chile,
  Japan, Malaysia, Mexico, New Zealand, Peru, Singapore, the United States,
- and Vietnam.
- 
+ and Vietnam
+\end_layout
+
+\begin_layout Itemize
+United States–Mexico–Canada Agreement (previously, 
+\series bold
+NAFTA
+\series default
+)
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Deal would reduce approximately 18,000 tariffs! (
-\begin_inset Quotes eld
-\end_inset
-
-Small Businesses With a Big Stake in the Pacific Trade Deal
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
+NAFTA significantly reduced tariffs on Mexico-USA exports
 \end_layout
 
-\end_inset
+\begin_layout Itemize
+Removal of other non-tariff barriers (e.g.
+ quotas)
+\end_layout
 
- 
-\emph on
-Wall Street Journal
-\emph default
-) 
+\begin_layout Itemize
+Expansion of copyrights protection
 \end_layout
 
 \end_deeper
@@ -648,8 +646,7 @@ Is it beneficial for tariffs to fall?
 
 \begin_deeper
 \begin_layout Itemize
-Most trade agreements, TPP included, are met with protest.
- 
+Most trade agreements are met with protest
 \end_layout
 
 \begin_layout Itemize
@@ -657,8 +654,7 @@ In general, there are
 \emph on
 winners and losers
 \emph default
- following trade agreements.
- 
+ following trade agreements
 \end_layout
 
 \end_deeper
@@ -740,17 +736,15 @@ Benefits of partial equilibrium
 
 \begin_deeper
 \begin_layout Itemize
-Simplifies analysis a great deal.
- 
+Simplifies analysis a great deal
 \end_layout
 
 \begin_layout Itemize
-We will be able to solve for the optimal tariff in closed form! 
+We will be able to solve for the optimal tariff in closed form!
 \end_layout
 
 \begin_layout Itemize
-Much of the intuition carries over to the general equilibrium case.
- 
+Much of the intuition carries over to the general equilibrium case
 \end_layout
 
 \end_deeper
@@ -765,8 +759,7 @@ We will have to ignore some secondary effects of the a tariff
 
 \begin_deeper
 \begin_layout Itemize
-Impact on the price of Home country's export good.
- 
+Impact on the price of Home country's export good
 \end_layout
 
 \begin_layout Itemize
@@ -777,20 +770,17 @@ Income Effects
 \end_deeper
 \begin_layout Itemize
 See extra reading (Bagwell and Staiger 2010) for analysis of tariffs in
- general equilibrium.
- 
+ general equilibrium
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Bit advanced for this course, but a good introduction for students who want
- to learn a bit more.
- 
+ to learn a bit more
 \end_layout
 
 \begin_layout Itemize
-Focus on terms of trade incentives to unilaterally introduce trade barriers.
- 
+Focus on terms of trade incentives to unilaterally introduce trade barriers
 \end_layout
 
 \end_deeper
@@ -828,8 +818,7 @@ Equilibrium corresponds to the
 \emph on
 autarky
 \emph default
- price and quantity.
- 
+ price and quantity 
 \end_layout
 
 \end_deeper
@@ -863,8 +852,7 @@ Welfare In Partial Equilibrium: Consumers Surplus
 \begin_layout Frame
 
 \size footnotesize
-Consumer Surplus: Area under demand curve but above equilibrium price.
- 
+Consumer Surplus: Area under demand curve but above equilibrium price
 \end_layout
 
 \begin_deeper
@@ -872,8 +860,7 @@ Consumer Surplus: Area under demand curve but above equilibrium price.
 
 \size footnotesize
 Difference between willingness to pay for each marginal unit, versus what
- they actually pay.
- 
+ they actually pay
 \end_layout
 
 \end_deeper
@@ -908,28 +895,21 @@ Welfare In Partial Equilibrium: Producer Surplus
 \begin_layout Itemize
 
 \size scriptsize
-Producer Surplus: Area above supply curve but above equilibrium price.
- 
+Producer Surplus: Area above supply curve but above equilibrium price
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Itemize
 
 \size scriptsize
-Recall that supply curve is the marginal cost curve with perfect competition.
- 
+Recall that supply curve is the marginal cost curve with perfect competition
 \end_layout
 
 \begin_layout Itemize
 
 \size scriptsize
 Measures difference between the price earned per unit, versus the marginal
- cost for that particular unit.
- 
+ cost for that particular unit
 \end_layout
 
 \end_deeper
@@ -968,8 +948,7 @@ Total Surplus: Add up consumer and producer surplus
 
 \begin_deeper
 \begin_layout Itemize
-Issue: Ignores distributional issues.
- 
+Issue: Ignores distributional issues
 \end_layout
 
 \end_deeper
@@ -993,8 +972,7 @@ Small Open Economy
 
 \begin_deeper
 \begin_layout Itemize
-Takes world prices as given (exogenous).
- 
+Takes world prices as given (exogenous)
 \end_layout
 
 \begin_layout Itemize
@@ -1007,15 +985,8 @@ Consider a single small open economy called
 \begin_inset Quotes eld
 \end_inset
 
-Home.
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+Home
+\begin_inset Quotes erd
 \end_inset
 
  
@@ -1023,13 +994,12 @@ status collapsed
 
 \begin_deeper
 \begin_layout Itemize
-Assume that world prices such that Home imports the good.
- 
+Assume that world prices such that Home imports the good
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Clearly will only be the case if 
+This will only be the case if 
 \begin_inset Formula $p_{W}^{*}<p_{H}^{A}$
 \end_inset
 
@@ -1083,14 +1053,12 @@ Import Demand
 \end_layout
 
 \begin_layout Itemize
-Note that imports will increase as the world price falls.
- 
+Note that imports will increase as the world price falls
 \end_layout
 
 \begin_layout Itemize
 Take distance between demand and supply for each world price to obtain import
- demand curve.
- 
+ demand curve
 \end_layout
 
 \end_deeper
@@ -1153,8 +1121,7 @@ For simplicity, we just consider specific tariffs,
 \begin_inset Formula $t$
 \end_inset
 
-.
- 
+
 \end_layout
 
 \begin_layout Itemize
@@ -1172,8 +1139,7 @@ Specific tariff generates a wedge between the equilibrium world price
 \begin_deeper
 \begin_layout Itemize
 Suppliers on the world market only willing to ship to this market if they
- receive enough to compensate them for the tariff.
- 
+ receive enough to compensate them for the tariff
 \end_layout
 
 \begin_deeper
@@ -1223,8 +1189,7 @@ item
 
 \end_inset
 
-Can show that this leads to a fall in imports, as well as welfare.
- 
+Can show that this leads to a fall in imports, as well as welfare
 \end_layout
 
 \begin_layout Standard
@@ -1364,8 +1329,7 @@ Terms of trade considerations!
 \begin_deeper
 \begin_layout Itemize
 Tariff barriers can drive down the world price of the import good, benefiting
- consumers.
- 
+ consumers
 \end_layout
 
 \begin_layout Itemize
@@ -1391,8 +1355,7 @@ status collapsed
 \end_deeper
 \begin_layout Itemize
 We now turn to a large country model to understand the potential benefits
- of tariff barriers.
- 
+ of tariff barriers
 \end_layout
 
 \end_deeper
@@ -1430,8 +1393,7 @@ Equilibrium free-trade price,
 \end_inset
 
 , is the price such that import demand from one country is equal to the
- export supply of the other country.
- 
+ export supply of the other country
 \end_layout
 
 \begin_layout Itemize
@@ -1521,8 +1483,7 @@ Solving for Free Trade Prices and Quantities
 \end_layout
 
 \begin_layout Itemize
-Need to know who will export and who will import.
- 
+Need to know who will export and who will import
 \end_layout
 
 \begin_deeper
@@ -1532,8 +1493,7 @@ Solve for equilibrium prices
 in autarky
 \emph default
 .
- The country with the lowest price will be the exporter.
- 
+ The country with the lowest price will be the exporter
 \end_layout
 
 \begin_deeper
@@ -1551,19 +1511,16 @@ Solve for Import Demand
 \begin_inset Formula $S_{j}-D_{j}$
 \end_inset
 
- curves.
- 
+ curves
 \end_layout
 
 \begin_layout Itemize
-Set Import Demand equal to Export Supply, solve for prices.
- 
+Set Import Demand equal to Export Supply, solve for prices
 \end_layout
 
 \begin_layout Itemize
 Substitute prices back in to Import Demand (or Export Supply) to get trade
- levels.
- 
+ levels
 \end_layout
 
 \begin_layout Standard
@@ -1619,8 +1576,7 @@ Home
 \begin_deeper
 \begin_layout Itemize
 If we have two countries with two different prices, not clear what the world
- price is.
- 
+ price is
 \end_layout
 
 \begin_layout Itemize
@@ -1628,8 +1584,7 @@ Instead of one endogenous world price, we have two endogenous
 \emph on
 local
 \emph default
- prices.
- 
+ prices
 \end_layout
 
 \end_deeper
@@ -1640,8 +1595,7 @@ Equilibrium condition
 \begin_deeper
 \begin_layout Itemize
 Exporters (Foreign Suppliers) still need to be compensated for the extra
- cost associated with selling in the Home market.
- 
+ cost associated with selling in the Home market
 \end_layout
 
 \begin_deeper
@@ -1687,8 +1641,7 @@ Since
 \begin_inset Formula $p_{F}$
 \end_inset
 
-.
- 
+
 \end_layout
 
 \begin_deeper
@@ -1726,8 +1679,7 @@ Mathematically: Instead of taking
 \begin_inset Formula $p_{F}+t$
 \end_inset
 
- as given, and re-derive import demand curve.
- 
+ as given, and re-derive import demand curve
 \end_layout
 
 \begin_deeper
@@ -1752,8 +1704,7 @@ Side Note: Could instead treat
 \begin_inset Formula $p_{H}$
 \end_inset
 
- as the world price, in which case the export supply curve shifts.
- 
+ as the world price, in which case the export supply curve shifts
 \end_layout
 
 \end_deeper
@@ -1846,8 +1797,7 @@ Trade flows obtained by substituting
 
 \begin_layout Itemize
 Quantities demand and supplied obtained by plugging the appropriate price
- into the demand and supply functions.
- 
+ into the demand and supply functions
 \end_layout
 
 \end_deeper
@@ -1868,17 +1818,13 @@ Effect of Tariff for Large Open Economy
 \end_layout
 
 \begin_layout Itemize
-Imports fall, as in the open economy case.
- 
+Imports fall, as in the open economy case
 \end_layout
 
 \begin_layout Itemize
 However, the foreign price of the good 
 \emph on
 falls
-\emph default
-.
- 
 \end_layout
 
 \begin_layout Itemize
@@ -1891,21 +1837,18 @@ terms-of-trade gain
 
 \begin_deeper
 \begin_layout Itemize
-Fall in foreign price means imports are cheaper for the country.
- 
+Fall in foreign price means imports are cheaper for the country
 \end_layout
 
 \begin_layout Itemize
 While the price consumers pay domestically is actually higher, the gains
- from cheaper imports show up in the tariff revenue.
- 
+ from cheaper imports show up in the tariff revenue 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Government revenue can be transferred to consumers, so acts as a wealth
- effect.
- 
+ effect
 \end_layout
 
 \end_deeper
@@ -2044,15 +1987,13 @@ optimal tariff
 
 \begin_deeper
 \begin_layout Itemize
-Straightforward to do when demand and supply are linear.
- 
+Straightforward to do when demand and supply are linear
 \end_layout
 
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-Reference: Appendix to Chapter 10 in KOM.
- 
+Reference: Appendix to Chapter 10 in KOM
 \end_layout
 
 \end_deeper
@@ -2459,14 +2400,12 @@ While introducing a tariff barrier increases the welfare of Home, it
 \emph on
 hurts
 \emph default
- Foreign.
- 
+ Foreign
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-You are asked to show this in assignment 3.
- 
+You are asked to show this in assignment 3
 \end_layout
 
 \end_deeper
@@ -2475,15 +2414,13 @@ Introducing tariffs problematic for
 \emph on
 world
 \emph default
- welfare.
- 
+ welfare
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Governments trying to maximize the welfare of their own citizens do not
- account for the welfare cost on foreign citizens.
- 
+ account for the welfare cost on foreign citizens
 \end_layout
 
 \end_deeper
@@ -2629,8 +2566,7 @@ Export Subsidies
 
 \begin_deeper
 \begin_layout Itemize
-Essentially the opposite of a tariff.
- 
+Essentially the opposite of a tariff
 \end_layout
 
 \begin_layout Itemize
@@ -2639,8 +2575,7 @@ Again, we only consider the impact of specific export subsidies, rather
 \emph on
 ad-valorem
 \emph default
- subsidies.
- 
+ subsidies
 \end_layout
 
 \begin_deeper
@@ -2671,14 +2606,12 @@ status collapsed
 
 \end_inset
 
-).
- 
+)
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Subsidy introduces a wedge between foreign and home price.
- 
+Subsidy introduces a wedge between foreign and home price
 \end_layout
 
 \begin_deeper
@@ -2847,8 +2780,7 @@ Export Subsidies: Summary
 \end_layout
 
 \begin_layout Itemize
-Foreign exports and Home imports rise.
- 
+Foreign exports and Home imports rise
 \end_layout
 
 \begin_layout Itemize
@@ -2856,38 +2788,32 @@ Export subsidies cost the Foreign government money
 \emph on
 and decrease
 \emph default
- Foreign's terms of trade.
- 
+ Foreign's terms of trade
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-The Foreign price of the good rises, while the Home price falls.
- 
+The Foreign price of the good rises, while the Home price falls
 \end_layout
 
 \begin_layout Itemize
-Leads to an extra welfare cost for the Foreign country.
- 
+Leads to an extra welfare cost for the Foreign country
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-In general export subsidies do not benefit the exporting country.
- 
+In general export subsidies do not benefit the exporting country
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-May be used to achieve distributional goals.
- 
+May be used to achieve distributional goals
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Eg.
- European Common Agricultural Policy.
- 
+ European Common Agricultural Policy
 \end_layout
 
 \end_deeper
@@ -2913,27 +2839,23 @@ Quotas
 Import Quotas
 \series default
 : A government imposed restriction on the quantity of some good that may
- imported.
- 
+ imported
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Usually enforced issuing import licenses to some limited number of firms.
- 
+Usually enforced issuing import licenses to some limited number of firms
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-License allows them to import at most some limited quantity of a good.
- 
+License allows them to import at most some limited quantity of a good
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 Common misconception: Since we are only limiting the quantity of imports,
- no impact on prices.
- 
+ no impact on prices
 \end_layout
 
 \begin_deeper
@@ -3316,8 +3238,7 @@ Voluntary Export Restraints (VERs)
 
 \begin_deeper
 \begin_layout Itemize
-A quota imposed by a foreign country.
- 
+A quota imposed by a foreign country
 \end_layout
 
 \end_deeper
