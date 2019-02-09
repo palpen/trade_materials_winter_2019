@@ -1,0 +1,5757 @@
+#LyX file created by tex2lyx 2.3
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /Users/palermospenano/Desktop/git_proj/trade_materials_winter_2019/scott-lectures/
+\textclass beamer
+\begin_preamble
+\usetheme{Darmstadt}
+\usecolortheme{default}
+\usepackage{draftcopy}
+\usepackage{enumerate}
+\usepackage{verbatim}
+\beamertemplatenavigationsymbolsempty
+
+
+%This script was pulled from pdflatex codes
+
+%\MyLogo{ECO364 (International Trade) Summer 2016}
+%\leftheader{Using CVS in Autominder}
+%\rightheader{Using CVS in Autominder\quad\textsf{\tiny[\thepage]}}
+%\rightheader{\quad\textsf{\tiny[\thepage]}}
+%\rightfooter{\quad\textsf{\thepage}}
+
+% Set the default page color and style.
+%\pagecolor{white}
+%\vpagecolor[lightblue]{green}
+%\vpagecolor{bgblue}
+%
+%\hpagecolor[cyan]{white}
+
+
+\title{ECO364 (International Trade) Summer 2016}
+\date{June 9, 2016}
+\author[Scott Orr]{Scott Orr}
+\institute{University of Toronto}
+
+\AtBeginSection[]
+{
+	\begin{frame}
+		\frametitle{Outline}
+		\tableofcontents[currentsection]
+	\end{frame}
+}
+
+
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Frame
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+titlepage
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Section
+Outline
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Outline
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\align center
+
+\series bold
+Part 1: Other Trade Policy Instruments (KOM Ch. 9)
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Export Subsidies 
+\end_layout
+
+\begin_layout Itemize
+Quotas 
+\end_layout
+
+\begin_layout Itemize
+Voluntary Export Restraints (VERs) 
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\align center
+
+\series bold
+Part 2: Political Economy of Trade Policy (KOM Ch. 10)
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Trade and the distribution of income 
+\end_layout
+
+\begin_layout Itemize
+Trade and the political process 
+\end_layout
+
+\begin_layout Itemize
+Trade institutions (e.g. WTO). 
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\align center
+
+\series bold
+Part 3: Firms in the Global Economy (KOM Ch. 8)
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Monopoly 
+\end_layout
+
+\begin_layout Itemize
+Monopolistic competition 
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Other Trade Policy Instruments
+\end_layout
+
+\begin_layout Subsection
+Export Subsidies
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Export Subsidies
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\series bold
+Export Subsidies
+\series default
+: A payment to firms for shipping a good abroad 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Essentially the opposite of a tariff. 
+\end_layout
+
+\begin_layout Itemize
+Again, we only consider the impact of specific export subsidies, rather than 
+\emph on
+ad-valorem
+\emph default
+ subsidies. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Revenue per exported good: 
+\begin_inset Formula $(p+s)q$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+Suppose Foreign introduces an export subsidy (Where both Home and Foreign are 
+\begin_inset Quotes eld
+\end_inset
+
+large
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+). 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Subsidy introduces a wedge between foreign and home price. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\begin_inset Formula $p_F=p_H+s$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Export Subsidies
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL_23.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Export Subsidies and Foreign Welfare: Surplus pre-subsidy
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL_24.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Export Subsidies and Foreign Welfare: Surplus post-subsidy
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL_25.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+...However, recall that the subsidy must be paid by someone!
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Export Subsidies and Foreign Welfare: Cost of subsidy
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL_26.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Export Subsidies and Foreign Welfare: Change in surplus
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL_27.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Export Subsidies: Summary
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Foreign exports and Home imports rise. 
+\end_layout
+
+\begin_layout Itemize
+Export subsidies cost the Foreign government money 
+\emph on
+and decrease
+\emph default
+ Foreign's terms of trade. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The Foreign price of the good rises, while the Home price falls. 
+\end_layout
+
+\begin_layout Itemize
+Leads to an extra welfare cost for the Foreign country. 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+In general export subsidies do not benefit the exporting country. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+May be used to achieve distributional goals. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Eg. European Common Agricultural Policy. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Quotas
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Quotas
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\series bold
+Import Quotas
+\series default
+: A government imposed restriction on the quantity of some good that may imported. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Usually enforced issuing import licenses to some limited number of firms. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+License allows them to import at most some limited quantity of a good. 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Common misconception: Since we are only limiting the quantity of imports, no impact on prices. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+A (binding) import quota always raises the domestic price of the imported good
+\emph default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If import quota binding, then Demand 
+\begin_inset Formula $>$
+\end_inset
+
+ Supply, domestic prices will be bid up! 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Quotas: Small Open Economy
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL_16.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Quotas: Small Open Economy
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL_17.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Quotas: Small Open Economy
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL_18.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Quotas: Small Open Economy
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL_19.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Quotas and Welfare for SOE: Surplus Pre-Quota
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL_20.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Quotas and Welfare for SOE: Surplus Post-Quota
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL_21.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Quotas and Welfare for SOE: Change in Surplus
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL_22.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Summary: Effect of Quotas on SOE
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Imports Fall 
+\end_layout
+
+\begin_layout Itemize
+Domestic Prices Rise 
+\end_layout
+
+\begin_layout Itemize
+Welfare Falls 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Welfare falls by less if import licenses given to domestic firms, rather than foreign firms. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+\align center
+What would happen if this was a large open economy? 
+\end_layout
+
+\begin_layout Subsection
+VERs
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Voluntary Export Restraints (VERs)
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Essentially a quota imposed on the side of exporting country. 
+\end_layout
+
+\begin_layout Itemize
+The impact on Home is identical to the quota considered before. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Except foreign country gets the quota (VER) rents. 
+\end_layout
+
+\begin_layout Itemize
+Rather than implement a quota, convince exporter to voluntarily restrict trade by giving them some of the rents. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Less likely to lead to trade war? 
+\end_layout
+
+\begin_layout Itemize
+Japanese exports of cars to U.S. in 1980s. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Summary
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Tariffs 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Theory: Small country 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tariffs tend to hurt small open economies 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Theory: Large country 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+An optimally chosen tariff will benefit a large country 
+\end_layout
+
+\begin_layout Itemize
+... But will hurt other countries (Problem Set 3) 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Other Instruments 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Export subsidies 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Hurt large open exporters! 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Quotas 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tends to increase domestic prices, hurts small open economies 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Voluntary Export Restraints (VERs) 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A quota imposed by a foreign country. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Section
+Politics and Trade
+\end_layout
+
+\begin_layout Subsection
+Trade and the Distribution of Income
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Small open economies and tariffs
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+We have seen that tariffs and quotas will tend to 
+\emph on
+hurt
+\emph default
+ small open economies. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In practice many small open economies still use tariffs. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Canada is (arguably) small, still uses tariffs. 
+\end_layout
+
+\begin_layout Itemize
+More extreme example: Saint Kitts and Nevis (population of around 50 000) has an average tariff rate of 12.46 %. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Trade and the Distribution of Income
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Why would countries who are unlikely to affect world prices use tariffs? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Some potential explanations (infant industry) require analytical tools we will develop later. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We will circle back and discuss trade and welfare in these more complex environments at the end of the course. 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+One simple explanation: aggregate gains from free trade still involve 
+\emph on
+winners and losers
+\emph default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Trade barriers may be used to achieve 
+\emph on
+distributional
+\emph default
+ goals. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Trade and the Distribution of Income
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+For thinking about distributional concerns, useful to reconsider some results from the first half of the course: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Stopler-Samuelson Theorem:
+\series default
+ A rise in the relative price of a good will lead to a rise in the real returns earned by the factor used most intensively in the production of that good. There will also be a fall in the real returns to the other factor. 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Specific Factors Model
+\series default
+: A rise in the relative price of a good will increase the real returns of the factor specific to that industry. The real return to the specific factor in the other industry will fall. 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Trade and the Distribution of Income
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Generally, moving to free trade hurts factors of production that are important to the non-comparative advantage industry. 
+\end_layout
+
+\begin_layout Itemize
+Tariffs can be used to keep the prices of the non-comparative advantage higher than the world price, keeping the real returns of these factors from falling. 
+\end_layout
+
+\begin_layout Itemize
+Incentive for individuals to lobby against free trade. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Manufacturing in the U.S. ? 
+\end_layout
+
+\begin_layout Itemize
+Dairy in Canada ? 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Trade and the Distribution of Income
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Important note: Hecksher-Ohlin and Specific Factors Models still imply 
+\emph on
+aggregate
+\emph default
+ gains from trade. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In principle, a (lump-sum) tax and transfer system can be used to compensate people whose real returns fall due to trade. 
+\end_layout
+
+\begin_layout Itemize
+Aggregate gains from trade imply that nobody would made worse off, and many better off, by this arrangement. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Difficult to achieve in practice? 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+As a result, many economists skeptical of distributional arguments against free trade. 
+\end_layout
+
+\begin_layout Itemize
+However, distributional concerns matter a great deal in practice since actual protection level are decided by 
+\emph on
+politics
+\emph default
+. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How do we model the political process? 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Trade and the political process
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Median Voter Model
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Classic model policy choice in democracies given by Downs (1957)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Two politicians choose policies to maximize their chances of getting elected. 
+\end_layout
+
+\begin_layout Enumerate
+Citizens vote for the politician with the policies that benefit them the most. 
+\end_layout
+
+\begin_layout Enumerate
+The policy space is a one-dimensional variable, such as a tariff rate. 
+\end_layout
+
+\begin_layout Enumerate
+Each citizen only has a single preferred tariff rate, and will vote for the politician who chooses the policy closest to their preferred rate. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\begin_inset Quotes eld
+\end_inset
+
+Single peaked preference
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_deeper
+\begin_layout Block
+
+\begin_inset Argument 2
+status collapsed
+
+
+\begin_layout Standard
+Median Voter Theorem
+\end_layout
+
+\end_inset
+
+In a model where conditions 1-4 hold, both politicians choose the policy preferred by the median voter. 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Understanding the Median Voter Theorem
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Why does the Median Voter Theorem Hold? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Suppose your opponent chooses a tariff rate above the median voter's preferred tariff 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Guaranteed to be elected if you choose a tariff slightly below this! 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If instead your opponent chooses a tariff below the median voter's preferred tariff, choose a slightly higher tariff! 
+\end_layout
+
+\begin_layout Itemize
+If your opponent chooses the median voter's preferred tariff, you can only lose by choosing anything else. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+The Median Voter Thereom and Trade Policy
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Does the median voter theorem helps us understand why many countries choose to implement tariffs? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Dutt and Mitra (2002): 
+\emph on
+Levels
+\emph default
+ of trade protection inconsistent with median voter Hecksher-Ohlin (small open economy) models. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Since capital is usually concentrated in the hands of a small number of individuals, median voter models imply that politicians should always choose trade policies that benefit labour relative to capital. 
+\end_layout
+
+\begin_layout Itemize
+Problem for capital scarce countries: they should subsidize imports- which is pretty much never observed! 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Dhingra (2014): Accounting for terms-of-trade concerns may help explain protection levels (Are all economies 
+\begin_inset Quotes eld
+\end_inset
+
+large
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+?) 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Biggest challenge to median voter models: many trade restrictions only benefit a small number of people. 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Example: Sugar in United States
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Over past 25 years, US average price of sugar has been two times larger than the world price of sugar. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Partly due to tariff-rate quotas on sugar imports 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A 2000 study by United States General Accounting Office found that costs to consumers of sugar protection amounted to 1.9 billion dollars in 1998 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Estimated benefits to sugar producers in 1998 of around 1 billion. 
+\end_layout
+
+\begin_layout Itemize
+Net loss of 900 million dollars! 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Example: Sugar in the United States
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Unlikely most consumers would wish to keep this sugar import restrictions in place. 
+\end_layout
+
+\begin_layout Itemize
+How do we make sense of this? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Note that the costs of sugar tariffs are very small at the individual level- just under $7 per person in 1998. 
+\end_layout
+
+\begin_layout Itemize
+However, individual benefits to sugar producers very large 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Seventeen sugar farms generate more than half the profits for the whole sugar can industry. (KOM) 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Sugar producers are also well organized in trade organization. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+American Sugar Alliance spent nearly $3 million in lobbying expenses in 2013 (KOM) 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Actual policy making involves 
+\emph on
+collective action problems
+\emph default
+, which may lead to inefficient policy choices. 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Collective action problems and policy choices
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Olson (1965): Political activity is public good 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Free-riding 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If political activity is costly (e.g. lobbying), individuals will under provide political effort since the full benefits of any particular policy are not fully internalized by each member. 
+\end_layout
+
+\begin_layout Itemize
+Larger interest groups face larger free-riding problems since individual benefits are small 
+\end_layout
+
+\begin_layout Itemize
+Small interest groups have better incentives to provide political effort. 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Small groups are more likely to be able to overcome collective action problems, and therefore are more likely to be heard by policy makers. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+May explain why some small groups manage to convince policy makers to implement policies that only benefit a small group, while hurting the majority of citizens. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Collective Action Problems: A simple 
+\begin_inset Quotes eld
+\end_inset
+
+lobbying
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ model
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Suppose politicians are more likely to implement a policy (e.g. removing/implementing a tariff) the more they hear about it. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consider an interest group of size 
+\begin_inset Formula $N$
+\end_inset
+
+, all of whom want politicians to choose policy 
+\begin_inset Formula $A$
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Itemize
+Total benefit to group is given by 
+\begin_inset Formula $B$
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Itemize
+For simplicity, suppose total benefits of the policy are split evenly among the group. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Private benefit: 
+\begin_inset Formula $\frac{B}{N}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Let 
+\begin_inset Formula $x_i$
+\end_inset
+
+ denote 
+\begin_inset Quotes eld
+\end_inset
+
+lobbying
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ effort by groups member 
+\begin_inset Formula $i=1,2,....,N$
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Itemize
+Probability that the policy is implemented 
+\begin_inset Formula $(P_A)$
+\end_inset
+
+ depends on total lobbying effort of the group 
+\begin_inset Formula $X\equiv \sum^N_{i=1}x_i$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Suppose 
+\begin_inset Formula $P_A(X)=\frac{X}{\alpha + X}=\frac{\sum^N_{i=1}x_i}{\alpha + \sum^N_{i=1}x_i}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Each unit of 
+\begin_inset Quotes eld
+\end_inset
+
+lobbying
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ has a constant marginal cost of 
+\begin_inset Formula $c$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Private Provision of Lobbying
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\size footnotesize
+
+\end_layout
+
+\begin_deeper
+\begin_deeper
+\begin_layout Standard
+
+\size footnotesize
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\size footnotesize
+Each member 
+\begin_inset Formula $i$
+\end_inset
+
+ chooses 
+\begin_inset Formula $x_i$
+\end_inset
+
+ to maximize the expected return to lobbying 
+\begin_inset Formula $EU(x_i)=\frac{\sum^N_{i=1}x_i}{\alpha + \sum^N_{i=1}x_i}\times \frac{B}{N}-cx_i$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_deeper
+\begin_layout Standard
+
+\size footnotesize
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\size footnotesize
+FOC: 
+\begin_inset Formula \begin{equation}
+				\frac{\alpha}{\left(\alpha+\sum^N_{i=1}x_i\right)^2}\frac{B}{N}=c \rightarrow 				\frac{\alpha}{\left(\alpha+X\right)^2}\frac{B}{N}=c\nonumber
+				\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Solve for total lobbying effort: 
+\begin_inset Formula \begin{equation}
+								X^*=\left(\frac{\alpha B}{Nc}\right)^{1/2} - \alpha \nonumber
+								\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Larger groups (larger 
+\begin_inset Formula $N$
+\end_inset
+
+) put in less lobbying effort overall since individual benefits become smaller! 
+\end_layout
+
+\begin_deeper
+\begin_deeper
+\begin_layout Standard
+
+\size footnotesize
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\size footnotesize
+Since lobbying a public good, overall effort depends on 
+\begin_inset Formula $\frac{B}{N}$
+\end_inset
+
+, rather than the overall benefits 
+\begin_inset Formula $B$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+A policy generating small aggregate benefit to a small group (
+\begin_inset Formula $N=5$
+\end_inset
+
+, 
+\begin_inset Formula $B=5000$
+\end_inset
+
+) more likely to be implemented than policy with large aggregate benefits for a large group (
+\begin_inset Formula $N=500,000, B=500,000$
+\end_inset
+
+) 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Lobbying and Trade Policy
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Baldwin and Magee (2000) investigate whether campaign contributions affected the likelihood that a particular politician will vote for NAFTA or GATT. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Business and labour contributions appears to strongly affect voting patterns. 
+\end_layout
+
+\begin_layout Itemize
+Estimated model allows them as look at counterfactual worlds without contributions 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Note: 214 votes needed to pass bill. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Frame
+\align center
+
+\begin_inset Tabular 
+<lyxtabular version="3" rows="6" columns="3">
+<features rotate="0" tabularvalignment="middle" tabularwidth="0pt">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+Vote for NAFTA 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+Vote for GATT 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+Actual 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+229 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+283 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+Model 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+229 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+290 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+No labour contributions 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+291 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+346 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+No business contributions 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+195 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+257 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+No contributions 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+256 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+323 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Trade Institutions
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Tariffs and large open economies
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+So far, we have considered why a small open economies may choose to implement trade barriers 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Distributional concerns 
+\end_layout
+
+\begin_layout Itemize
+Political incentives 
+\end_layout
+
+\begin_layout Itemize
+Collective action problems 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+As discussed last lecture, large open economies have stronger incentives to use implement trade barriers due to terms of trade concerns. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Is appropriate to treat most countries as large? 
+\end_layout
+
+\begin_layout Itemize
+Are tariff rates across countries consistent with terms of trade incentives? 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Do terms of trade incentives matter empirically?
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Broda, Limao, and Weinstein (2008): Roughly- two questions: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Do most countries have enough market power for their trade policy to affect world prices? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Answer: Yes, as measured by their foreign export supply elasticities. 
+\end_layout
+
+\begin_layout Itemize
+Includes some countries that we might, 
+\emph on
+ex-ante
+\emph default
+ ,consider small 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+E.g. Paraguay, Latvia, each of which has about 1/20th of a percent of world GDP. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Is trade policy consistent with terms of trade manipulation? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Answer: Yes, their empirical estimates indicate that tariffs tend to be higher on goods for which the country has greater market power. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Market power effects on tariff setting are approximately 1.6 times larger than 
+\begin_inset Quotes eld
+\end_inset
+
+political economy
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ variables (e.g. lobbying) 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Terms of trade manipulation and welfare
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+If terms of trade considerations matter, unilaterally setting tariffs to maximize own-country welfare problematic for world welfare. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each country has an incentive to manipulate terms of trade, which hurts other countries. 
+\end_layout
+
+\begin_layout Itemize
+Can lead to trade wars, which may actually lead to lower welfare in 
+\emph on
+both
+\emph default
+ countries 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Relative to a world where tariffs are set co-operatively. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Tariff setting with large open economies may resemble a 
+\emph on
+prisoner's dilemma
+\emph default
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Prisoner's Dilemmas and Trade Wars
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+\align center
+
+\begin_inset Graphics 
+	filename slide120
+	scale 35
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Terms of Trade Externalities and Trade Institutions
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Since unilateral policy-setting may lead to suboptimal outcome 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ role for trade institutions 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Bagwell and Staiger (2010) argue that the GATT and WTO have institutional structures that solve the terms of trade inventive problems. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+E.g. Principal of reciprocity: Accepted norm within GATT/WTO negotiations where two countries aim to obtain a 
+\begin_inset Quotes eld
+\end_inset
+
+balance of concessions.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ (Roughly: 
+\begin_inset Formula $\uparrow$
+\end_inset
+
+ Imports = 
+\begin_inset Formula $\uparrow $
+\end_inset
+
+ Exports) 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Bargaining over tariffs with balance of concessions as a constraint creates an incentive for countries to cut tariffs, since bilateral tariff cuts with balance of concessions keeps world prices constant 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ no terms of trade loses 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+How did the WTO emerge? 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Brief History of Trade Instutitions
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Substantial liberalization until the Great Depression which 
+\begin_inset Quotes eld
+\end_inset
+
+started
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ in 1929. 
+\end_layout
+
+\begin_layout Itemize
+Many countries increased protection in an effort to 
+\begin_inset Quotes eld
+\end_inset
+
+save domestic jobs.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Substantial retaliatory tariffs then killed off international demand and further deepened the depression. 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Brief History of Trade Instutitions
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+The Smoot-Hawley Tariffs in the United States raised tariifs on 20,000 goods. 
+\end_layout
+
+\begin_layout Itemize
+Canada was greatly harmed by this and it raised tariffs in retaliation. 
+\end_layout
+
+\begin_layout Itemize
+After the Great Depression WWII, many countries pursuing policies of tariff reduction. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Negotiations tended to occur bilaterally 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Brief History of Trade Instutitions
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+1947: General Agreement on Tariffs and Trade introduced.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Goal: Create a large, multilateral trade agreement for many countries. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Was supposed to be done through an institution call the International Trade Organization (ITO), but this body never materialized due to political opposition 
+\end_layout
+
+\begin_layout Itemize
+Instead, a group of 23 countries reached a provisional agreement to lower various tariffs (the 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+GATT
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Itemize
+Various new rounds of GATT agreements negotiated from 1947-1986 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+World Trade Organization (WTO) created in 1995 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Brief History of Trade Instutitions
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+WTO: Structure:
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Allows for dispute resolution and establishes 
+\begin_inset Quotes eld
+\end_inset
+
+rules.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Tariff cuts must be 
+\begin_inset Quotes eld
+\end_inset
+
+binding
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Quotes eld
+\end_inset
+
+Non-discrimination
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+: countries cannot be treated differently
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Preferential trade agreements are generally illegal between sets of two countries...
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+...but free trade areas and customs unions are allowed
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Free Trade Areas and Customs Unions
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Free trade areas are where countries largely remove all tariffs on trade within borders.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+e.g. North American Free Trade Agreement (NAFTA).
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Countries do not harmonize/equalize external tariffs (against outside countries).
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+In a customs union, there is free trade within the union and all external tariffs are harmonized/equalized.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+e.g. European Union 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Politics and Trade: Key Ideas
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Trade barriers may be implemented because of: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Distributional concerns 
+\end_layout
+
+\begin_layout Itemize
+Political considerations (Median Voter Model) 
+\end_layout
+
+\begin_layout Itemize
+Collective action problems 
+\end_layout
+
+\begin_layout Itemize
+Terms of trade considerations 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+Firms in the Global Economy
+\end_layout
+
+\begin_layout Subsection
+Introduction
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Introduction: Firms and International Trade
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+So far we have focused on comparative advantage based models of international trade. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Models of 
+\begin_inset Quotes eld
+\end_inset
+
+inter-industry
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ trade 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+In practice, a lot of trade is 
+\begin_inset Quotes eld
+\end_inset
+
+intra-industry
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ (within-industry) 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Many countries import and export the same 
+\begin_inset Quotes eld
+\end_inset
+
+product
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ at the same time. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+E.g. The United States exported approximately $226 million worth of golf clubs in 2009, while also importing approximately $ 284 million in golf clubs. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Hard to explain with comparative advantage based models. 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+How common is intra-industry trade?
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\size footnotesize
+
+\end_layout
+
+\begin_layout Frame
+\align center
+
+\size footnotesize
+Intra-industry trade index = 
+\begin_inset Formula $\frac{\text{Min}\{EX,IM\}}{\frac{1}{2}\left(EX + IM\right)}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Frame
+\align center
+
+\size footnotesize
+
+\begin_inset Tabular 
+<lyxtabular version="3" rows="14" columns="2">
+<features rotate="0" tabularvalignment="middle" tabularwidth="0pt">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+Industry 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+Index 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+Metalworking Machinery 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+0.97 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+Inorganic Chemicals 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+0.97 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+Power-Generating Machines 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+0.86 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+Medical and Pharmaceutical Products 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+0.85 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+Scientific Materials 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+0.84 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+Organic Chemicals 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+0.79 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+Iron and Steel 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+0.76 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+Road Vehicles 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+0.70 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+Office Machines 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+0.58 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+Telecommunications Equipment 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+0.46 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+Furniture 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+0.30 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+Clothing and Apparel 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+0.11 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+Footwear 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size footnotesize
+0.10 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Source: KOM Ch. 8
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Further chalenges for comparative advantage based models
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Comparative advantage based models predict that countries with very different technologies or endowments should trade with each other the most. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Not always true in practice: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+E.g. The U.S. is Canada's biggest trading partner, but also quite similar in terms of technology and factor endowments 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Why do countries trade?
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+How do we account for intra-industry trade and 
+\begin_inset Quotes eld
+\end_inset
+
+similar-country
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ trade? 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Product Variety 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Individual items, such as golf clubs, are not identical. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Different qualities 
+\end_layout
+
+\begin_layout Itemize
+Different styles that appeal to some consumers, but not others. 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Two-way trade due to the fact that golf clubs produced in different countries not 
+\begin_inset Quotes eld
+\end_inset
+
+exactly
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ the same product. 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Increasing Returns to Scale 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If average costs rise with production levels, may make sense to export more goods to other countries to lower costs. 
+\end_layout
+
+\begin_layout Itemize
+Does not rely on factor-endowment differences 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Aside: Forms of Economies of Scale
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\noindent
+
+\series bold
+Internal economies of scale
+\series default
+: Average costs fall as the output of 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{the firm}
+\end_layout
+
+\end_inset
+
+ increases
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\begin_inset VSpace 8mm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\noindent
+
+\series bold
+External economies of scale
+\series default
+: Average costs fall as the output of 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{the industry}
+\end_layout
+
+\end_inset
+
+ increases.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We will look at these economies of scale in a later part of the course. 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Variety, Returns to Scale, and Perfect Competition
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Accounting for product variety and and increasing returns to scale at the firm level very difficult in a world where all producers are 
+\begin_inset Quotes eld
+\end_inset
+
+price-takers
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If every variety of a product is 
+\begin_inset Quotes eld
+\end_inset
+
+different
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, how can its price be taken as given? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If you are the sole producer of a product, surely you choose its price. 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Increasing returns to scale at the firm level leads to contradictions when combined with price taking 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If average costs fall with output, while your price remains constant, you will always earn larger profits by increasing the scale of production 
+\end_layout
+
+\begin_layout Itemize
+All firms should produce infinite output! 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Market Power and Imperfect Competition
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Turns out that we can handle increasing returns and product variety by allowing firms to have 
+\emph on
+market power
+\emph default
+, or the ability to influence their own price. 
+\end_layout
+
+\begin_layout Itemize
+Models where firms have market power are called models of 
+\emph on
+imperfect competition
+\emph default
+ 
+\end_layout
+
+\begin_layout Itemize
+There are several different models of imperfect competition: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Monopoly
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Oligopoly
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Monopolistic competition
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Monopsony
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Oligopsony
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+We will cover a few of these models, and show how they can be used to think about issues in international trade. 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Market Power and Imperfect Competition
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Turns out that we can handle increasing returns and product variety by allowing firms to have 
+\emph on
+market power
+\emph default
+, or the ability to influence their own price. 
+\end_layout
+
+\begin_layout Itemize
+Models where firms have market power are called models of 
+\emph on
+imperfect competition
+\emph default
+ 
+\end_layout
+
+\begin_layout Itemize
+There are several different models of imperfect competition: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Monopoly
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Oligopoly
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Monopolistic competition
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Monopsony
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Oligopsony
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+We will cover a few of these models, and show how they can be used to think about issues in international trade. 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Monopoly
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Introduction to Monopoly: Some Terminology
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Suppose a monopolist faces demand function 
+\begin_inset Formula $Q(P)=A-B\times P$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+Inverse Demand
+\emph default
+ 
+\begin_inset Formula $\equiv P(Q)$
+\end_inset
+
+: What price leads to exactly 
+\begin_inset Formula $Q$
+\end_inset
+
+ sales? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\begin_inset Formula $P(Q) =\frac{A}{B}-\frac{Q}{B}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\emph on
+Revenue
+\emph default
+ 
+\begin_inset Formula $\equiv R(Q) = P(Q)\times Q$
+\end_inset
+
+: Inverse demand times quantity 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\begin_inset Formula $R(Q)=\frac{A}{B} Q-\frac{Q^2}{B}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\emph on
+Marginal Revenue
+\emph default
+ 
+\begin_inset Formula $\equiv MR(Q)=\frac{\partial}{\partial Q}\left(P(Q)\times Q\right)$
+\end_inset
+
+: Revenue generated by selling an additional unit. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\begin_inset Formula $MR(Q)=\frac{A}{B}-\frac{2Q}{B}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+In general: 
+\begin_inset Formula $MR(Q)=P(Q) + \frac{\partial P}{\partial Q}Q$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Marginal Revenue and Demand
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL2_1.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Notes: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+MR has double the slope of demand for linear demand curves 
+\end_layout
+
+\begin_layout Itemize
+MR always lies below demand (Why?) 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+More Monopoly Terms
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+Fixed Costs
+\emph default
+ 
+\begin_inset Formula $\equiv F$
+\end_inset
+
+: A cost that does not depend on the level of output. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Example: Rent 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Need to pay this for all 
+\begin_inset Formula $Q$
+\end_inset
+
+ (even zero!) 
+\end_layout
+
+\begin_layout Itemize
+Fixed costs 
+\begin_inset Formula $\neq$
+\end_inset
+
+ Sunk costs. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+
+\emph on
+Variable Costs
+\emph default
+ 
+\begin_inset Formula $\equiv V(Q)$
+\end_inset
+
+: Costs that depend on how much is produced 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Example: Labour costs. 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\emph on
+Total Cost
+\emph default
+ 
+\begin_inset Formula $\equiv TC(Q)$
+\end_inset
+
+: How much must be spent to produce 
+\begin_inset Formula $Q$
+\end_inset
+
+ units. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\begin_inset Formula $TC(Q)=V(Q)+F$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\emph on
+Average cost
+\emph default
+ 
+\begin_inset Formula $\equiv AC(Q)=\frac{TC(Q)}{Q}$
+\end_inset
+
+: Total cost faced by the firm divided by the quantity produced 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Marginal cost
+\emph default
+ 
+\begin_inset Formula $\equiv MC(Q)= (\frac{\partial TC}{\partial Q})$
+\end_inset
+
+: Extra cost generated by producing an extra unit.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Average and marginal cost
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Example: 
+\begin_inset Formula $TC(Q)=cQ+F$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\begin_inset Formula $ V(Q) =cQ$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL2_2.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Note: Declining 
+\begin_inset Formula $AC\rightarrow$
+\end_inset
+
+ Increasing returns to scale!
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+FOCs for Monopolist
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\noindent
+In general, the profit maximizing condition for a monopolist is:
+\end_layout
+
+\begin_layout Frame
+
+\begin_inset Formula \begin{equation}
+MR(Q^*)=MC(Q*) \nonumber
+\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If 
+\begin_inset Formula $MR>MC$
+\end_inset
+
+, monopolist earns greater profits by increasing production. 
+\end_layout
+
+\begin_layout Itemize
+If 
+\begin_inset Formula $MR<MC$
+\end_inset
+
+, monopolist loses profits by increasing production. 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Profit maximization by the monopolist: Price
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL2_3.pdf
+	scale 30
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Profit maximization by the monopolist: Profits
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL2_4.pdf
+	scale 30
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Basic Monopoly Results
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Enumerate
+Profit is maximized when marginal cost is equal to marginal revenue. 
+\end_layout
+
+\begin_layout Enumerate
+Monopolists usually earn profits. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Chose quantity so that 
+\begin_inset Formula $P>MC$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Profits whenever 
+\begin_inset Formula $P>AC$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Will hold as long as 
+\begin_inset Formula $F$
+\end_inset
+
+ sufficiently small 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Frame
+Let's now use the insights from our simple monopoly model to consider an environment with multiple firms. 
+\end_layout
+
+\begin_layout Subsection
+Monopolistic Competition
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Monopolistic Competition: Basic Setup
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Basically a model of oligopoly that works a lot like the monopoly model discussed before. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Key Assumptions: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Firms differentiate their products 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+An increase in price will lower sales but not eliminate them. (Overcomes the Bertrand paradox) 
+\end_layout
+
+\begin_layout Itemize
+It is as if a firm is a monopolist for their own 
+\emph on
+variety
+\emph default
+ of a product. 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Rival firm prices affect the demand function faced by each firm. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Competitive environment matters! 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Firms perceive their price as affecting own sales, but not rivals' price. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Firms will take 
+\emph on
+average prices
+\emph default
+ as given. 
+\end_layout
+
+\begin_layout Itemize
+More general oligopoly models relax this assumption. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Firm-level Demand
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Properties of the demand system: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Firm 
+\begin_inset Formula $j$
+\end_inset
+
+ sells more: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The larger the size (
+\begin_inset Formula $S$
+\end_inset
+
+) of the market. 
+\end_layout
+
+\begin_layout Itemize
+The smaller the number of firms in the market (
+\begin_inset Formula $n$
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Itemize
+The lower its price (
+\begin_inset Formula $p_j$
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Itemize
+The higher the average price charged on the market (
+\begin_inset Formula $\bar{p}\equiv\frac{1}{n}\sum^n_{k=1}p_k$
+\end_inset
+
+) 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+Example of a demand function satisfying these properties: 
+\begin_inset Formula \[ q_j(p_j) = S \left[ \frac{1}{n} - b \left( p_j - \bar{p} \right) \right] \]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Firm-level Costs
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Assume a linear total cost function as in the monopoly case: 
+\begin_inset Formula \[ TC(q) = F + c q \]
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Variable costs 
+\begin_inset Formula $V(q)=cq$
+\end_inset
+
+
+\begin_inset VSpace 2mm
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Constant marginal costs 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\begin_inset Formula $MC(q) = \frac{\partial TC(q)}{\partial q} = c$
+\end_inset
+
+ 
+\begin_inset VSpace 3mm
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The fixed costs 
+\begin_inset Formula $F$
+\end_inset
+
+ generate increasing returns to scale, i.e. falling average costs: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\begin_inset Formula $AC(q) = \frac{TC(q)}{q} = c + \frac{F}{q}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+ Market equilibrium
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Note: we have assume that 
+\emph on
+each
+\emph default
+ firms faces the same cost and demand function 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We will relax this assumption later. 
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Consider a 
+\emph on
+symmetric
+\emph default
+ equilibrium, i.e. 
+\begin_inset Formula $p_j=p \quad \forall j$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+While each firm 
+\emph on
+could
+\emph default
+ set a different price, each firm will set the same price in an equilibrium because there are no differences between firms in efficiency nor how consumers value their output. 
+\end_layout
+
+\begin_layout Itemize
+Implies 
+\begin_inset Formula $q_j=q$
+\end_inset
+
+ and 
+\begin_inset Formula $AC(q_j)=AC\quad \forall j$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Recipe for solving the monopolistic competition model
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Determine equilibrium using 3 equations to pin down 3 unknowns: 
+\begin_inset Formula $\{n,p,AC\}$
+\end_inset
+
+: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\begin_inset Quotes eld
+\end_inset
+
+Average Cost Curve
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+: Relationship between number of firms 
+\begin_inset Formula $(n)$
+\end_inset
+
+ and average cost for each firm 
+\begin_inset Formula $(AC)$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Enumerate
+
+\begin_inset Quotes eld
+\end_inset
+
+Price Curve
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+: Relationship between number of firms 
+\begin_inset Formula $(n)$
+\end_inset
+
+ and price charged by each firm 
+\begin_inset Formula $(p)$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Enumerate
+Close the model by assuming free entry and exit. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Firms make zero profits, which means price 
+\begin_inset Formula $(p)$
+\end_inset
+
+ must equal average cost 
+\begin_inset Formula $(AC)$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Deriving the average cost curve
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+When all firms charge the same price, 
+\begin_inset Formula $p = \bar{p} $
+\end_inset
+
+, so: 
+\begin_inset Formula \begin{equation}
+		q_j(p)=S \left[ \frac{1}{n} - b \left( p - \bar{p} \right) \right]=S \left[ \frac{1}{n} - 0 \right] = \frac{S}{n} = q \nonumber
+		\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Substitute into average cost equation: 
+\begin_inset Formula \[ AC =   c + \frac{F}{q} = c + n \, \frac{F}{S} \]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Equilibrium average cost increases with number of firms. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+With more firms for a given 
+\begin_inset Formula $S$
+\end_inset
+
+, each firms sells a smaller quantity (
+\begin_inset Formula $q$
+\end_inset
+
+) and cannot exploit economies of scale as much. 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Equilibrium average costs fall as the size of the market increases. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If the market size increases for a given 
+\begin_inset Formula $n$
+\end_inset
+
+, each firm sells a larger quantity (
+\begin_inset Formula $q$
+\end_inset
+
+) and can better exploit economies of scale. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Average cost curve
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\size footnotesize
+
+\begin_inset Formula \[ AC =   c + n \, \frac{F}{S} \]
+\end_inset
+
+
+\begin_inset Graphics 
+	filename SL2_5.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Deriving the price curve: Key condition
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Firms behave like a monopolist for the pricing of their particular variety. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Profit maximization leads to the same first order condition: 
+\begin_inset Formula \begin{equation}
+			MR_j=MC_j \nonumber
+			\end{equation}
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+We know marginal cost (
+\begin_inset Formula $MC_j=c \quad \forall j$
+\end_inset
+
+), so let's derive marginal revenue for a given firm:
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Deriving the price curve: Firm-level marginal review
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\size footnotesize
+
+\end_layout
+
+\begin_layout Frame
+
+\size footnotesize
+Recall from monopoly: Revenue 
+\begin_inset Formula $=R(q_j)=p(q_j)\times q_j$
+\end_inset
+
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\size footnotesize
+
+\begin_inset Formula \begin{equation}
+MR\equiv \frac{\partial R(q_j)}{\partial q_j}=p_j + \frac{\partial p(q_j)}{\partial q_j}\times q_j \nonumber
+\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_deeper
+\begin_layout Standard
+
+\size footnotesize
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\size footnotesize
+Solve for the inverse demand function 
+\begin_inset Formula $p_j=p(q_j)$
+\end_inset
+
+ using demand function 
+\begin_inset Formula $q_j=\left(\frac{S}{n} +Sb\bar{p} \right) -Sbp_j$
+\end_inset
+
+: 
+\begin_inset Formula \begin{equation}
+	p_j=p(q_j)=\left(\frac{1}{nb} + \bar{p} \right) -\frac{q_j}{Sb} \nonumber
+	\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Partially differentiate inverse demand to obtain 
+\begin_inset Formula $\frac{\partial p(q_j)}{\partial q_j}$
+\end_inset
+
+ (Holding 
+\begin_inset Formula $\bar{p}$
+\end_inset
+
+ fixed!) 
+\begin_inset Formula \begin{equation}
+	\frac{\partial p(q_j)}{\partial q_j}= \frac{-1}{Sb} \nonumber
+	\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Marginal revenue given by: 
+\begin_inset Formula \begin{equation}
+	MR_j=p_j-\frac{q_j}{Sb} \nonumber
+	\end{equation}
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Deriving the price curve
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Rearrange profit maximizing condition 
+\begin_inset Formula $MR_j=MC_j$
+\end_inset
+
+ 
+\begin_inset Formula \begin{equation}
+p_j-\frac{q_j}{Sb}=c \nonumber
+\end{equation}
+\end_inset
+
+
+\begin_inset Formula \begin{equation}
+p_j=c + \frac{q_j}{Sb} \nonumber
+\end{equation}
+\end_inset
+
+Recall that we are considering a symmetric equilibrium, so 
+\begin_inset Formula $q_j=q=\frac{S}{n}$
+\end_inset
+
+ and 
+\begin_inset Formula $p_j = p \quad \forall j$
+\end_inset
+
+ 
+\begin_inset Formula \begin{equation}
+p=c + \frac{1}{bn} \nonumber
+\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Note: DO NOT impose symmetry before deriving firm level marginal revenue (Why?) 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\size footnotesize
+
+\begin_inset Formula \begin{equation}
+p=c + \frac{1}{bn} \nonumber
+\end{equation}
+\end_inset
+
+
+\size default
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Price curve
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\align center
+
+\size footnotesize
+
+\begin_inset Graphics 
+	filename SL2_6.pdf
+	scale 25
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_deeper
+\begin_layout Standard
+
+\size footnotesize
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\size footnotesize
+
+\begin_inset Formula $p>MC$
+\end_inset
+
+ due to the 
+\emph on
+markup
+\emph default
+ 
+\begin_inset Formula $\equiv \mu = \frac{1}{bn}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Markups fall as more firms enter (more competition 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ less market power), and as price sensitivity rises 
+\begin_inset Formula $b$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Closing the model
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+We assume free entry and exit. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+With identical firms, this means that firms enter (exit) until everyone earns zero profits 
+\begin_inset Formula \begin{equation}
+		p = AC \nonumber
+		\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+From our derivation of the average cost and price curves, we also know that in equilibrium: 
+\begin_inset Formula \[AC=c+n\frac{F}{S}\]
+\end_inset
+
+
+\begin_inset Formula \[p=c+\frac{1}{bn}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Intersection of average cost and price curves (where 
+\begin_inset Formula $p=AC$
+\end_inset
+
+) determines the equilibrium number of firms 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Equilibrium
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL2_7.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\size scriptsize
+Or analytically: 
+\begin_inset Formula \begin{equation}
+	n^* =\left(\frac{S}{Fb}\right)^{1/2} \nonumber
+	p^*=c + \left(\frac{F}{bS}\right)^{1/2}
+	\end{equation}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Monopolistic Competition and Trade
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Trade can be seen as an increase in market size (Krugman 1979) 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\begin_inset Formula $\uparrow S$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Recall: 
+\begin_inset Formula \[AC=c+n\frac{F}{S}\]
+\end_inset
+
+
+\begin_inset Formula \[p=c+\frac{1}{bn}\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Average cost curve 
+\emph on
+rotates
+\emph default
+ downwards, price curve remains constant 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Monopolistic Competition and Trade
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\begin_inset Graphics 
+	filename SL2_8.pdf
+	scale 32
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Gains from trade with monopolistic competition
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+When two countries open up to trade, the integrated market sustains more varieties of goods than each of the two markets did alone. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\begin_inset Formula $\uparrow n$
+\end_inset
+
+: Consumers gain from more varieties/firms. 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Because under free trade each firm produces at a larger scale, it can exploit economies of scale further, cutting costs. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Recall 
+\begin_inset Formula $q=\frac{S}{n}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+While both 
+\begin_inset Formula $S$
+\end_inset
+
+ and 
+\begin_inset Formula $n$
+\end_inset
+
+ rise, can show that 
+\begin_inset Formula $\uparrow S > \uparrow n$
+\end_inset
+
+ (Problem Set 4) 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Consumer gain from lower prices. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Recall that markups are given by: 
+\begin_inset Formula $\mu=\frac{1}{bn}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Formula $\uparrow n$
+\end_inset
+
+, increased competition, firms decrease their markups, and prices fall. 
+\end_layout
+
+\begin_layout Itemize
+So called 
+\begin_inset Quotes eld
+\end_inset
+
+Pro-competitive
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ gains from trade. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Market size, trade integration, and competition
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+We have just considered opening up to trade as an increase in market size, and showed that this increases the number of firms selling to a 
+\emph on
+particular country
+\emph default
+ in equilibrium. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Note that there will generally be more firms operating 
+\emph on
+across
+\emph default
+ the two countries before integration. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+While varieties available to each consumer increases, increased competition causes some firms to exit the market. 
+\end_layout
+
+\begin_layout Itemize
+We tend to see effects of this sort in practice: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Following NAFTA, General Motors cut in half the number of car models produced in Canada. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Exit-Effects Following Trade LIberalization
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Consider two completely identical countries: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Autarky number of firms in each country: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\begin_inset Formula $n^A=\left(\frac{S}{Fb}\right)^{1/2}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Overall number of firms 
+\begin_inset Formula $2n^A=2n^A=\left(\frac{S}{Fb}\right)^{1/2}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Total number of firms in the free-trade 
+\emph on
+integrated
+\emph default
+ equilibrium 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\begin_inset Formula $n^T=\left(\frac{2S}{Fb}\right)^{1/2}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Note that since 
+\begin_inset Formula $\sqrt{2}<2$
+\end_inset
+
+ 
+\size scriptsize
+
+\begin_inset Formula \begin{equation}
+			n^T = \left(\frac{2S}{Fb}\right)^{1/2} = \sqrt{2}\left(\frac{S}{Fb}\right)^{1/2} < 2\left(\frac{S}{Fb}\right)^{1/2}  = 2n^A \nonumber
+			\end{equation}
+\end_inset
+
+
+\size normal
+
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+Clearly some firms will have to exit the market following trade-liberalization! 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size normal
+However, since 
+\begin_inset Formula $n^A<n^T$
+\end_inset
+
+, still gains from trade, 
+\emph on
+even though countries are identical
+\emph default
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Exit-Effects Following Trade Liberalization
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+While some firms will exit the market following trade integration, model makes no predictions as to 
+\emph on
+who
+\emph default
+ will exit the market. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Empirical literature has generally found that 
+\emph on
+less productive
+\emph default
+ firms are most likely to exit the market following trade liberalization (E.g. Pavcnik 2002). 
+\end_layout
+
+\begin_layout Itemize
+To make sense of these facts, we need a model that accounts for 
+\emph on
+firm heterogeneity
+\emph default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Next class! 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+What have we learned today?
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Itemize
+Other Trade Policy Instruments: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Export subsidies hurt large and small open economies. Quotas and VERs hurt small open economies. 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Politics: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Trade barriers may be due to distributional concerns, politically motivated concerns, collective action problems, or terms of trade considerations 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Firms and the Global Economy 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Models of trade with increasing returns to scale and market power needed to understand 
+\begin_inset Quotes eld
+\end_inset
+
+intra-industry
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ trade. 
+\end_layout
+
+\begin_layout Itemize
+Pro-competitive gains from trade and gains from variety. 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\begin_inset Separator plain
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Extra References
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\size scriptsize
+Baldwin, Robert and Christopher Magee (2000) 
+\begin_inset Quotes eld
+\end_inset
+
+Is trade policy for sale? Congressional voting on recent trade bills.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ 
+\emph on
+Public Choice
+\emph default
+ 105: 79-101. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset VSpace 2mm
+\end_inset
+
+ Broda, Christian, Nuno Limao and David Weinstein (2008) 
+\begin_inset Quotes eld
+\end_inset
+
+Optimal Tariffs and Market Power.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ 
+\emph on
+American Economic Review
+\emph default
+ 98: 2032-2065. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset VSpace 2mm
+\end_inset
+
+ Dhingra, Swati (2014) 
+\begin_inset Quotes eld
+\end_inset
+
+Reconciling observed tariffs and the median voter model.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ 
+\emph on
+Working paper
+\emph default
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset VSpace 2mm
+\end_inset
+
+ Downs, Anthony (1957) 
+\emph on
+An Economic Theory of Democracy
+\emph default
+ (Washington, D.C.: Brookings Institution) 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset VSpace 2mm
+\end_inset
+
+ Dutt, Pushan, and Devashish Mitra (2002) 
+\begin_inset Quotes eld
+\end_inset
+
+Endogenous trade policy through majority voting: an empirical investigation.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ 
+\emph on
+Journal of International Economics
+\emph default
+, 58: 107-133. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset VSpace 2mm
+\end_inset
+
+ Olson, Mancur (1965) 
+\emph on
+The Logic of Collective Action
+\emph default
+ (Cambridge: Harvard University Press) 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset VSpace 2mm
+\end_inset
+
+ Pavcnik, Nina (2002) 
+\begin_inset Quotes eld
+\end_inset
+
+Trade Liberalization, Exit, and Productivity Improvements: Evidence from Chilean Plants
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ 
+\emph on
+Review of Economic Studies
+\emph default
+ 69: 245-276. 
+\end_layout
+
+\end_body
+\end_document
