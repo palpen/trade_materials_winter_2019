@@ -233,14 +233,40 @@ All the materials we have covered
 Ricardian Model
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+How does differences in productivity determine specialization?
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Heckscher-Ohlin Model
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+How does differences in the abundance of factors (capital, labour, etc.)
+ determine specialization?
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Specific Factors Model
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+How does differences in the abundance of factors determine specialization
+ in cases where some factors are immobile?
+\end_layout
+
+\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Standard
@@ -255,7 +281,7 @@ Specific Factors Model
 status open
 
 \begin_layout Plain Layout
-Ricardian Model
+General Equilibrium Trade Models: Basic Formula
 \end_layout
 
 \end_inset
@@ -265,9 +291,67 @@ Ricardian Model
 
 \begin_deeper
 \begin_layout Itemize
-!!!
+Supply-side
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Production functions 
+\begin_inset Formula $\implies$
+\end_inset
+
+ PPF
+\end_layout
+
+\begin_layout Itemize
+PPF + Isovalue line 
+\begin_inset Formula $\implies$
+\end_inset
+
+ Supply curve
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Demand-side
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Utility functions 
+\begin_inset Formula $\implies$
+\end_inset
+
+ Indifference curves
+\end_layout
+
+\begin_layout Itemize
+Indifference curves + budget constraint 
+\begin_inset Formula $\implies$
+\end_inset
+
+ Demand curve
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Equilibrium prices
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Autarky 
+\end_layout
+
+\begin_layout Itemize
+Free trade
+\end_layout
+
+\begin_layout Itemize
+In both scenario, analyze gains from trade
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -281,7 +365,8 @@ Ricardian Model
 status open
 
 \begin_layout Plain Layout
-Heckscher-Ohlin Model
+Ricardian v.s.
+ Heckscher-Ohlin Model
 \end_layout
 
 \end_inset
@@ -291,35 +376,47 @@ Heckscher-Ohlin Model
 
 \begin_deeper
 \begin_layout Itemize
-!!!
+Ricardian Model: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Source of comparative advantage arises from differences in production productivi
+ty
+\end_layout
+
+\begin_layout Itemize
+Countries have different unit labour requirements, a parameter in the production
+ function driving productivity
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Specific Factors Model
-\end_layout
-
-\end_inset
-
-
+\begin_layout Itemize
+Heckscher-Ohlin Model:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-!!!
+Source of comparative advantage arises from differences in resource endowment
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+A country must have a comparative advantage in good 
+\series bold
+A
+\series default
+ if it produces more of it than good 
+\series bold
+B
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Cobb-Douglass production function + resource endowment
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
