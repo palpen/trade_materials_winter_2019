@@ -178,7 +178,25 @@ Last Class
 
 \begin_deeper
 \begin_layout Itemize
-Why does FPE happen in free trade?
+Why does Factor Price Equalization (FPE) happen in free trade?
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+To Add in the future:
+\end_layout
+
+\begin_layout Itemize
+FPE and the cone of diversification
+\end_layout
+
+\begin_layout Itemize
+When does FPE not hold? If resource endowments are too different
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -191,10 +209,6 @@ Today
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-Under what conditions does FPE take place?
-\end_layout
-
 \begin_layout Itemize
 Specific Factors Model
 \end_layout
@@ -323,12 +337,12 @@ The HO model is more suitable for studying the long-run effects of trade
 \begin_deeper
 \begin_layout Itemize
 We assumed each factor can costlessly transfer across industries within
- a country where the decision to move is based on factor returns
+ a country where real returns are highest
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-In the short run, factors could be stuck in their industry
+In the short run, factors may find it difficult to move
 \begin_inset Separator latexpar
 \end_inset
 
@@ -348,8 +362,7 @@ Large factories and heavy machinery are difficult to move or convert for
 
 \begin_layout Itemize
 Geographic constraints: very high transportation or migration costs could
- make it difficult for factors to move in locations with industries experiencing
- growth
+ make it difficult for factors to move to locations where industries booming
 \end_layout
 
 \end_deeper
@@ -1277,7 +1290,7 @@ Demand for Labour
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -1492,6 +1505,10 @@ Demand for Labour
 \end_layout
 
 \begin_layout Frame
+Equilibrium wage and labour allocation
+\end_layout
+
+\begin_layout Frame
 \begin_inset Float figure
 wide false
 sideways false
@@ -1512,7 +1529,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.092]{"figures/l6/sd 3"}
+includegraphics[scale=.085]{"figures/l6/sd 3"}
 \end_layout
 
 \end_inset
@@ -1548,7 +1565,7 @@ Demand for Labour
 \begin_layout Frame
 Suppose wages is higher than the point where the two demand curves cross...
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 study minimum wage implications?
@@ -1563,7 +1580,7 @@ study minimum wage implications?
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -1580,7 +1597,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.08]{"figures/l6/sd 4"}
+includegraphics[scale=.085]{"figures/l6/sd 4"}
 \end_layout
 
 \end_inset
@@ -1644,7 +1661,7 @@ This takes us back to our PPF, since
 \end_inset
 
  is just the slope of the PPF at the production output corresponding to
- the inputs 
+ the input values of 
 \begin_inset Formula $T$
 \end_inset
 
@@ -1856,7 +1873,7 @@ What happens to output in each sector?
 \end_layout
 
 \begin_layout Itemize
-What happens to labour is allocation across sectors?
+What happens to labour allocation across sectors?
 \end_layout
 
 \begin_layout Itemize
@@ -2488,8 +2505,8 @@ Equal-Proportion Price Increase: Summary
 
 \begin_deeper
 \begin_layout Itemize
-General principle: if the price of all goods in the economy were to increase
- by the same percentage point, things will be just like before
+In general, if the price of all goods in the economy were to increase by
+ the same percentage point, things will be just like before
 \begin_inset Separator latexpar
 \end_inset
 
@@ -2498,7 +2515,7 @@ General principle: if the price of all goods in the economy were to increase
 
 \begin_deeper
 \begin_layout Itemize
-In the long run, this is probably true
+This true in the long run
 \end_layout
 
 \begin_layout Itemize
@@ -2507,8 +2524,8 @@ In the real world, there may be institutional frictions that prevents changes
 \end_layout
 
 \begin_layout Itemize
-Different market structures also have implications (we have assumed perfect
- competition)
+Different market structures will also have a different outcome (we have
+ assumed perfect competition)
 \end_layout
 
 \end_deeper
@@ -2539,7 +2556,7 @@ Change in Relative Prices
 
 \begin_deeper
 \begin_layout Itemize
-Real change is caused by a disproportionate change in prices across goods
+Real change is caused by disproportionate changes in prices across goods
 \begin_inset Separator latexpar
 \end_inset
 
@@ -2922,6 +2939,17 @@ Although
 \begin_layout Itemize
 If it were to increase by the same amount, it would be in 
 \begin_inset Formula $w^{2'}$
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+WHY ??? because this would be the wage outcome when all prices change by
+ the same proportion, which resulted in no change in real returns
+\end_layout
+
 \end_inset
 
 
@@ -4790,7 +4818,7 @@ The specific factors model allows us to study some of the short-run implications
 \begin_deeper
 \begin_layout Itemize
 We do this by introducing factors that are specific to an industry—due to
- prohibitively expensive adjustments in the shortrun
+ prohibitively expensive adjustments in the short run
 \end_layout
 
 \end_deeper
