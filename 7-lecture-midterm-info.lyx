@@ -139,7 +139,7 @@ ECO364H1S: International Trade Theory
 \end_layout
 
 \begin_layout Subtitle
-Lecture 7 - Midterm Information
+Midterm Information
 \end_layout
 
 \begin_layout Institute
@@ -159,7 +159,7 @@ Midterm
 status open
 
 \begin_layout Plain Layout
-Exam format, time, location
+Midterm Information
 \end_layout
 
 \end_inset
@@ -173,23 +173,39 @@ Exam format, time, location
 
 \begin_deeper
 \begin_layout Itemize
-Two long multi-part questions; one short question
-\end_layout
-
-\begin_layout Itemize
-Time: 2 hours 
+When
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-We will begin at 6:10pm and end at 8:10pm
+February 26, 2019
+\end_layout
+
+\begin_layout Itemize
+Start/End: 6:10pm to 8:10pm
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Location: In class
+Format
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Two long multi-part questions; one short question
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Location
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In class
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 You're permitted to bring a non-programmable calculator (no smartphones)
 \end_layout
@@ -221,14 +237,13 @@ What will be on the exam
 
 \begin_deeper
 \begin_layout Itemize
-All the materials we have covered
+All the materials we have covered so far
 \begin_inset Separator latexpar
 \end_inset
 
 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Ricardian Model
 \end_layout
@@ -267,6 +282,101 @@ How does differences in the abundance of factors determine specialization
 \end_layout
 
 \end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ricardian v.s.
+ Heckscher-Ohlin Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Ricardian Model: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Source of comparative advantage arises from differences in production productivi
+ty
+\end_layout
+
+\begin_layout Itemize
+Countries have different relative unit labour requirements, a parameter
+ in the production function driving productivity
+\end_layout
+
+\begin_layout Itemize
+No welfare losses in free trade
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Heckscher-Ohlin Model:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Source of comparative advantage arises from differences in resource endowment
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A country must have a comparative advantage in good 
+\series bold
+A
+\series default
+ if it produces more of it than good 
+\series bold
+B
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Cobb-Douglass production function + resource endowment determine shape of
+ PPF 
+\begin_inset Formula $\implies$
+\end_inset
+
+ comparative advantage
+\end_layout
+
+\begin_layout Itemize
+Some factors may experience welfare loses under free trade
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Specific Factors Model
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Short-run version of the Heckscher-Ohlin model
+\end_layout
+
 \end_deeper
 \end_deeper
 \begin_layout Standard
@@ -365,71 +475,6 @@ In both scenario, analyze gains from trade
 status open
 
 \begin_layout Plain Layout
-Ricardian v.s.
- Heckscher-Ohlin Model
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Ricardian Model: 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Source of comparative advantage arises from differences in production productivi
-ty
-\end_layout
-
-\begin_layout Itemize
-Countries have different unit labour requirements, a parameter in the production
- function driving productivity
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Heckscher-Ohlin Model:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Source of comparative advantage arises from differences in resource endowment
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-A country must have a comparative advantage in good 
-\series bold
-A
-\series default
- if it produces more of it than good 
-\series bold
-B
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Cobb-Douglass production function + resource endowment
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
 How to prepare for the midterm
 \end_layout
 
@@ -449,7 +494,7 @@ Understand everything in the lecture slides
 
 \begin_deeper
 \begin_layout Itemize
-Understand both mathematical derivation and economic intuition
+Both mathematical derivation and economic intuition
 \end_layout
 
 \end_deeper
