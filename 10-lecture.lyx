@@ -1,0 +1,2856 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+%Beamer theme and color theme
+\usetheme{default}
+\usecolortheme{default}
+
+\setbeamercolor{normal text}{bg=MyGreen}
+\definecolor{MyGreen}{RGB}{230, 242, 230}
+
+\setbeamertemplate{mini frames}{}
+
+% set color of elements (e.g. bullet points, theorems, definitions, etc)
+%\setbeamercolor{structure}{fg=red!60!white}
+
+% header showing only current section and subsection
+% \useoutertheme{infolines}
+
+\usepackage{amsmath,amssymb}
+
+%Expectation symbol
+\DeclareMathOperator{\E}{\mathbb{E}}
+
+\usepackage{booktabs,caption,fixltx2e}
+\usepackage[flushleft]{threeparttable}
+\usepackage{indentfirst}
+\usepackage{amsfonts}
+\usepackage{changepage}
+
+%Set slide number
+\setbeamertemplate{footline}[frame number]
+
+%remove navigation
+\beamertemplatenavigationsymbolsempty
+
+% Bullets and items
+\setbeamertemplate{itemize item}{\tiny\raise1.50pt\hbox{$\blacktriangleright$}}
+\setbeamertemplate{itemize subitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
+\setbeamertemplate{itemize subsubitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
+
+
+\definecolor{blue}{RGB}{0,0,120}
+
+\usepackage{hyperref}
+\hypersetup{urlcolor=magenta, colorlinks=true}
+
+\usepackage{array}
+
+\usepackage[section]{placeins}
+
+\usepackage{graphicx}
+
+\date{}
+
+% Fix undefined control sequence bug at \@@magyar@captionfix (see log)
+% Reference: https://tex.stackexchange.com/questions/426088/texlive-pretest-2018-beamer-and-subfig-collide
+\let\@@magyar@captionfix\relax
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+ECO364H1S: International Trade Theory
+\end_layout
+
+\begin_layout Subtitle
+Lecture 10
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotemark
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Institute
+University of Toronto, Department of Economics
+\end_layout
+
+\begin_layout Author
+Palermo Penano
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotetext[1]{
+\backslash
+tiny Revised slides by Scott Orr}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Outline
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Outline for Today
+\end_layout
+
+\begin_layout Itemize
+Finish monopolistic competition model with homogeneous firms 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Implications of the model with trade.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Pro-competitive
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ gains from trade.
+ 
+\end_layout
+
+\begin_layout Itemize
+Gains from variety.
+ 
+\end_layout
+
+\begin_layout Itemize
+Efficiency gains.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Monopolistic competition with heterogeneous firms 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+New result: Allocative gains from trade.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Trade integration tends to force less productive firms out the market.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Section
+Monopolistic Competition with Homogeneous Firms
+\end_layout
+
+\begin_layout Subsection
+Set up
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Review of last class
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Last class we walked through the solving the monopolistic competition model.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Model has three 
+\begin_inset Quotes eld
+\end_inset
+
+key
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ unknowns: 
+\begin_inset Formula $(n,p,AC)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Pin down the endogenous variables with three equations: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The 
+\begin_inset Quotes eld
+\end_inset
+
+average cost curve
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+: 
+\begin_inset Formula $AC=c+n\frac{F}{S}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+The 
+\begin_inset Quotes eld
+\end_inset
+
+price curve
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $p=c+\frac{1}{bn}$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Itemize
+Free entry and exit (zero profit condition): 
+\begin_inset Formula $p=AC$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+Intersection of average cost curve and price curve determines equilibrium
+ 
+\begin_inset Formula $n^{*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Equilibrium
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Graphics
+	filename scott-lectures/SL2_7.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\size scriptsize
+Or analytically: 
+\begin_inset Formula 
+\[
+n^{*}=\left(\frac{S}{Fb}\right)^{1/2},\qquad p^{*}=c+\left(\frac{F}{bS}\right)^{1/2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Monopolistic Competition and Trade
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Monopolistic Competition and Trade
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Trade can be seen as an increase in market size (Krugman 1979) 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Suppose 
+\begin_inset Formula $S_{1}$
+\end_inset
+
+ people live in country 1 and 
+\begin_inset Formula $S_{2}$
+\end_inset
+
+ live in country 2.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Total market size for free trade equilibrium = 
+\begin_inset Formula $S_{1}+S_{2}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Essentially the same equilibrium except 
+\begin_inset Formula $S\uparrow$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Recall: 
+\begin_inset Formula 
+\[
+AC=c+n\frac{F}{S}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p=c+\frac{1}{bn}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Average cost curve 
+\emph on
+rotates
+\emph default
+ downwards, price curve remains constant 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Monopolistic Competition and Trade
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Graphics
+	filename scott-lectures/SL2_8.pdf
+	scale 32
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Gains from trade with monopolistic competition
+\end_layout
+
+\begin_layout Itemize
+When two countries open up to trade, consumers now get to purchase more
+ varieties than in the autarky equilibrium.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\uparrow n$
+\end_inset
+
+: Consumers gain from more varieties/firms.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Because under free trade each firm produces at a larger scale, it can exploit
+ economies of scale further, cutting costs.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Recall 
+\begin_inset Formula $q=\frac{S}{n}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+While both 
+\begin_inset Formula $S$
+\end_inset
+
+ and 
+\begin_inset Formula $n$
+\end_inset
+
+ rise, can show that 
+\begin_inset Formula $\uparrow S>\uparrow n$
+\end_inset
+
+ (Problem Set 4) 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Consumer gain from lower prices.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Recall that markups are given by: 
+\begin_inset Formula $\mu=\frac{1}{bn}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\uparrow n$
+\end_inset
+
+, increased competition, firms decrease their markups, and prices fall.
+ 
+\end_layout
+
+\begin_layout Itemize
+So called 
+\begin_inset Quotes eld
+\end_inset
+
+Pro-competitive
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ gains from trade.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Market size, trade integration, and competition
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+We have just considered opening up to trade as an increase in market size,
+ and showed that this increases the number of firms selling to a 
+\emph on
+particular country
+\emph default
+ in equilibrium.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Note that there will generally be more firms operating 
+\emph on
+across
+\emph default
+ the two countries before integration.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+While varieties available to each consumer increases, increased competition
+ causes some firms to exit the market.
+ 
+\end_layout
+
+\begin_layout Itemize
+We tend to see effects of this sort in practice: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Following NAFTA, General Motors cut in half the number of car models produced
+ in Canada.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Exit-Effects Following Trade LIberalization
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Consider two completely identical countries: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Autarky number of firms in each country: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $n^{A}=\left(\frac{S}{Fb}\right)^{1/2}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Overall number of firms 
+\begin_inset Formula $2n^{A}=2n^{A}=2\left(\frac{S}{Fb}\right)^{1/2}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Total number of firms in the free-trade 
+\emph on
+integrated
+\emph default
+ equilibrium 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $n^{T}=\left(\frac{2S}{Fb}\right)^{1/2}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Note that since 
+\begin_inset Formula $\sqrt{2}<2$
+\end_inset
+
+ 
+\size scriptsize
+
+\begin_inset Formula 
+\[
+n^{T}=\left(\frac{2S}{Fb}\right)^{1/2}=\sqrt{2}\left(\frac{S}{Fb}\right)^{1/2}<2\left(\frac{S}{Fb}\right)^{1/2}=2n^{A}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+Clearly some firms will have to exit the market following trade-liberalization!
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size normal
+However, since 
+\begin_inset Formula $n^{A}<n^{T}$
+\end_inset
+
+, there are still variety gains from trade, 
+\emph on
+even though countries are identical
+\emph default
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Example: Gains from variety vs.
+ world loses in variety
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+In Autarky: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+U.S.
+ produces: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Ford Pintos 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Chevrolet Suburbans 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\size footnotesize
+Germany produces: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Volkswagen Rabbits 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+BMWs 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+
+\size footnotesize
+With Trade: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+U.S.
+ produces: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Chevrolet Suburbans 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\size footnotesize
+Germany produces: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Volkswagen Rabbits 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+BMWs 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\size footnotesize
+Both the U.S.
+ and Germany enjoy gains from variety (
+\begin_inset Formula $2\rightarrow3$
+\end_inset
+
+ car varieties), even though world variety falls (
+\begin_inset Formula $4\rightarrow3$
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Exit-Effects Following Trade Liberalization
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+While some firms will exit the market following trade integration, model
+ makes no predictions as to 
+\emph on
+who
+\emph default
+ will exit the market.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Empirical literature has generally found that 
+\emph on
+less productive
+\emph default
+ firms are most likely to exit the market following trade liberalization
+ (E.g.
+ Pavcnik 2002).
+ 
+\end_layout
+
+\begin_layout Itemize
+To make sense of these facts, we need a model that accounts for 
+\emph on
+firm heterogeneity
+\emph default
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Monopolistic Competition With Firm Heterogeneity
+\end_layout
+
+\begin_layout Subsection
+Set up
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Monopolistic Competition with Heterogeneous Firms: Set-up
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+The demand system for firm 
+\begin_inset Formula $j$
+\end_inset
+
+ is the heterogeneous firm model is identical to the homogeneous firm model:
+\end_layout
+
+\begin_layout Frame
+\begin_inset Formula 
+\[
+q_{j}(p_{j})=S\left[\frac{1}{n}-b\left(p_{j}-\bar{p}\right)\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+The only difference is the total cost function, which now differs from firm-to-f
+irm
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To simplify for now, assume that there are no fixed costs of production
+ (constant returns to scale) 
+\begin_inset Formula 
+\[
+TC_{j}=c_{j}q_{j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\emph on
+Marginal costs
+\emph default
+ differ across firms
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Firm-level pricing
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Since different firms have different costs, cannot assume symmetric pricing.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each firm still prices according to the first-order condition: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $MR_{j}=MC_{j}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Given the demand function described in the last slide, this becomes: 
+\begin_inset Formula 
+\[
+p_{j}-\frac{q_{j}}{bS}=c_{j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This first order condition written in this way is not very informative,
+ since both 
+\begin_inset Formula $q_{j}$
+\end_inset
+
+ and 
+\begin_inset Formula $p_{j}$
+\end_inset
+
+ are endogenous.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Substitute in 
+\begin_inset Formula $q_{j}(p_{j})$
+\end_inset
+
+ and solve for 
+\begin_inset Formula $p_{j}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p_{j}^{*}=p^{*}(c_{j})=\frac{1}{2}\left(\frac{1}{bn}+\bar{p}+c_{j}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Firms with higher costs charge higher prices! 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Pricing, Quantity, and Profits by Costs
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Graphics
+	filename scott-lectures/SL3_1.pdf
+	scale 32
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Choke Prices, Profits and Marginal Cost
+\end_layout
+
+\begin_layout Itemize
+Note that if a producer charges any price above the inverse demand intercept
+ (
+\begin_inset Formula $\frac{1}{bn}+\bar{p}$
+\end_inset
+
+), 
+\emph on
+no consumers will buy the product
+\emph default
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This price is called the 
+\begin_inset Quotes eld
+\end_inset
+
+choke price
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Due to choke price, impossible for producers with 
+\begin_inset Formula $c>\frac{1}{bn}+\bar{p}$
+\end_inset
+
+ to make profits.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+These sellers will exit the market.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+In general, profits will be decreasing in marginal costs.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\pi(c_{j})=(p^{*}(c_{j})-c_{j})q^{*}(c_{j})$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Using the fact that 
+\begin_inset Formula $p^{*}(c_{j})=\frac{1}{2}\left(\frac{1}{bn}+\bar{p}+c_{j}\right)$
+\end_inset
+
+, easy to show: 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+\begin_inset Formula 
+\[
+\pi(c_{j})=\frac{Sb}{4}\left(\frac{1}{bn}+\bar{p}-c_{j}\right)^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Notice that profits are increasing with market size, but fall as competition
+ rises (
+\begin_inset Formula $\uparrow n$
+\end_inset
+
+ and 
+\begin_inset Formula $\downarrow\bar{p}$
+\end_inset
+
+) 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Monopolistic Competition and Trade
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Impact of Trade: Larger market with more competition
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+To gain some intuition, let's think of trade integration as an increase
+ in market size 
+\begin_inset Formula $S$
+\end_inset
+
+ as well as an increase in 
+\begin_inset Formula $n$
+\end_inset
+
+ (similar to homogeneous firm model) 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Think of this as a 
+\begin_inset Quotes eld
+\end_inset
+
+really
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ short-run model, where firms are not allowed to exit yet, so 
+\begin_inset Formula $n$
+\end_inset
+
+ has to increase because home consumers can buy foreign varieties of a product
+ as well.
+ 
+\end_layout
+
+\begin_layout Itemize
+We shall show in a moment that trade integration (
+\begin_inset Formula $\uparrow S$
+\end_inset
+
+) will actually imply that 
+\begin_inset Formula $\frac{1}{bn}+\bar{p}$
+\end_inset
+
+ has to fall.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Requires that we pin down the endogenous variables 
+\begin_inset Formula $\{n,\bar{p}\}$
+\end_inset
+
+ using an 
+\emph on
+expected
+\emph default
+ zero profit condition.
+ 
+\end_layout
+
+\begin_layout Itemize
+A bit complicated to show this result formally, so let's first focus understandi
+ng the 
+\emph on
+intuition
+\emph default
+ for what trade integration does to the Home economy.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+The impact of trade on heterogeneous firms
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Broadly speaking, there are two opposing forces at work here: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\uparrow S$
+\end_inset
+
+: Now firms can sell to more people, 
+\begin_inset Formula $\uparrow\pi$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\uparrow n$
+\end_inset
+
+ competition: More firms charging lower prices, 
+\begin_inset Formula $\downarrow\pi$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+The interaction between these forces creates 
+\emph on
+winners and losers
+\emph default
+ due to trade integration.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Really productive firms (low 
+\begin_inset Formula $c$
+\end_inset
+
+) benefit more from increased market size than low productivity firms (high
+ 
+\begin_inset Formula $c$
+\end_inset
+
+) 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Larger Market and More Competition: Winners and Losers
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Graphics
+	filename scott-lectures/SL3_2.pdf
+	scale 32
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Winners and Losers with Trade: Intuition
+\end_layout
+
+\begin_layout Itemize
+Net effect of increased competition and increased market size 
+\emph on
+rotates
+\emph default
+ demand.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Roughly, firms selling small quantities primarily experience a demand 
+\emph on
+contraction
+\emph default
+ 
+\end_layout
+
+\begin_layout Itemize
+Firms selling large quantities (the efficient firms) experience a demand
+ 
+\emph on
+expansion
+\emph default
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Inefficient firms are forced out of the market, but efficient firms gain
+ more market share 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Trade can increase average productivity! 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+More formal demonstrations of these ideas (in general equilibrium) can be
+ found in Melitz (2003) and Melitz and Ottaviano (2008) 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Does trade increase comeptition in the heterogeneous firm model?
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+If trade integration is simply an increase in 
+\begin_inset Formula $S$
+\end_inset
+
+, does competition have to increase? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In the homogeneous firm model, we showed that 
+\begin_inset Formula $\uparrow S$
+\end_inset
+
+ implies that 
+\begin_inset Formula $\uparrow n$
+\end_inset
+
+ and 
+\begin_inset Formula $\downarrow\bar{p}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Somewhat difficult to show what happens to these variables separately, but
+ we can show what happens to 
+\begin_inset Quotes eld
+\end_inset
+
+competition
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+, or 
+\begin_inset Formula $\frac{1}{bn}+\bar{p}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+However, to do this, we need an extra condition to pin down these endogenous
+ variables.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+With homogeneous firms, we invoked symmetry and free-entry.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Not possible to invoke symmetry now, since firms clearly behave differently!
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+We need a new type of free-entry condition to solve the model.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Closing the heterogeneous firm model: Free-Entry
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Solution: Model entry as a two-stage process, and set 
+\emph on
+expected
+\emph default
+ profits equal to zero.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Stage 1: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+All (potential) firms are identical 
+\emph on
+ex-ante
+\emph default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Potential firms decide whether they want to enter the market or not.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+If they choose to enter they must pay a 
+\emph on
+sunk
+\emph default
+ entry cost 
+\begin_inset Formula $K$
+\end_inset
+
+ on research and development.
+ Otherwise they get a payoff of zero.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+After paying the entry cost, each firm makes a 
+\emph on
+marginal cost draw
+\emph default
+ from the same known distribution (e.g.
+ a normal distribution) 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Stage 2: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+All cost draws are realized.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Firms who draw 
+\begin_inset Formula $c_{j}>\frac{1}{bn}+\bar{p}$
+\end_inset
+
+ exit.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+\begin_inset Formula $c_{j}\leq\frac{1}{bn}+\bar{p}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Expected Free Entry Equilibrium
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+We assume that firms enter the market until 
+\emph on
+expected
+\emph default
+ profits are zero.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+While all the firms who 
+\emph on
+remain
+\emph default
+ in the market in stage 2 earn positive profits, some firms will earn negative
+ profits 
+\emph on
+from the perspective of stage 1
+\emph default
+ ! 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Firms who draw 
+\begin_inset Formula $c>\frac{1}{bn}+\bar{p}$
+\end_inset
+
+ and exit earn 
+\begin_inset Formula $-K$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Since some firms 
+\begin_inset Quotes eld
+\end_inset
+
+win
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ and some firms 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+lose
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ we are looking for the value of 
+\begin_inset Quotes eld
+\end_inset
+
+competition
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ that makes the expected benefit of this gamble exactly equal to zero.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Expected stage 2 profits (operating profits) must equal 
+\begin_inset Formula $K$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+label=cost
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Cost Cutoffs and Expected Profits
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Define the 
+\begin_inset Quotes eld
+\end_inset
+
+cut-off
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ marginal cost, 
+\begin_inset Formula $c^{*}$
+\end_inset
+
+ as the marginal cost draw where a firm is just indifferent between staying
+ and exiting the market.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We know from our earlier calculations that is must be that 
+\begin_inset Formula $c^{*}=\frac{1}{bn}+\bar{p}$
+\end_inset
+
+ (Recall the 
+\begin_inset Quotes eld
+\end_inset
+
+choke price
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If we can solve for the cut-off marginal cost, we will now know level of
+ competition prevails in the market (i.e.
+ we know the intercept of the demand curve).
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+It is straightforward to show that expected profits are 
+\emph on
+increasing
+\emph default
+ in the cut-off marginal cost.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperlink{Formal}{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+beamerbutton
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Formal Demonstration
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For any active firm, operating profits increase with 
+\begin_inset Formula $c^{*}$
+\end_inset
+
+ since 
+\begin_inset Formula $\pi(c_{j})=\frac{Sb}{4}\left(\frac{1}{bn}+\bar{p}-c_{j}\right)^{2}=\frac{Sb}{4}\left(c^{*}-c_{j}\right)^{2}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Increasing 
+\begin_inset Formula $c^{*}$
+\end_inset
+
+ turns 
+\begin_inset Quotes eld
+\end_inset
+
+exiters
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ into 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+stayers
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+, which strictly increases their profit as well.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Expected profits rise as less productive firms survive
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Graphics
+	filename scott-lectures/SL3_3.pdf
+	scale 32
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+To try and obtain these profits, need to pay K
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Graphics
+	filename scott-lectures/SL3_4.pdf
+	scale 32
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+In equilibrium, expected profits = K
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Graphics
+	filename scott-lectures/SL3_5.pdf
+	scale 32
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+label=cost2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Trade and Competition
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Zero expected profit condition pins down 
+\begin_inset Formula $c^{*}=\frac{1}{bn}+\bar{p}$
+\end_inset
+
+, which pins down the level of competition.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What does trade integration (
+\begin_inset Formula $\uparrow S$
+\end_inset
+
+) do to 
+\begin_inset Formula $c^{*}$
+\end_inset
+
+? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Increased market size rotates the expected profit curve upwards 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperlink{Formal2}{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+beamerbutton
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Formal Demonstration
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Increased market size increases profits for all potential levels of 
+\begin_inset Formula $c^{*}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+...except 
+\begin_inset Formula $c^{*}=0$
+\end_inset
+
+ (Since nobody will stay in the market in this case!) 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+End result: 
+\begin_inset Formula $c^{*}$
+\end_inset
+
+ has to fall.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Impact of trade on cost cutoffs
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Graphics
+	filename scott-lectures/SL3_6.pdf
+	scale 32
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Overall impact of trade on competition and productivity
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+We have shown that trade integration will decrease the marginal cost cutoff
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ less productive firms will definitely exit the market.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Moreover, since 
+\begin_inset Formula $c^{*}=\frac{1}{bn}+\bar{p}$
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+competition
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ (as measured by the inverse demand intercept) needs to increase.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Either 
+\begin_inset Formula $n\uparrow$
+\end_inset
+
+ or 
+\begin_inset Formula $\bar{p}\downarrow$
+\end_inset
+
+ (or both!) 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+...Although it is somewhat difficult to pin down what will happen to each endogenou
+s variable separately.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Key point: Model with endogenous entry still generates the demand rotation,
+ generating winners are losers due to trade.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Generates some exit, just like the homogeneous firm model, but now we see
+ that it is only the 
+\emph on
+least productive firms
+\emph default
+ that exit the market.
+ 
+\end_layout
+
+\begin_layout Itemize
+Generates 
+\emph on
+allocative efficiency gains
+\emph default
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Summary
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Today we covered: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Monopolistic competition with homogeneous firms 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+New gains from trade: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Gains from variety 
+\begin_inset Formula $n\uparrow$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Pro-competitive gains 
+\begin_inset Formula $\mu\downarrow$
+\end_inset
+
+ and 
+\begin_inset Formula $p\downarrow$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Efficiency gains: 
+\begin_inset Formula $AC\downarrow$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Monopolistic competition with heterogeneous firms 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+New gains from trade: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Allocative productivity gains 
+\begin_inset Formula $c^{*}\downarrow$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Frame
+Next Class: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Allow for increasing returns in heterogeneous firm models.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Exporter Selection
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Some empirics related to new trade theories 
+\end_layout
+
+\begin_layout Itemize
+External economies of scale 
+\end_layout
+
+\begin_layout Itemize
+Trade policy with market power (monopoly) 
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Optional Appendix
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+label=Formal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Expected Profits increase with 
+\begin_inset Formula $c^{*}$
+\end_inset
+
+ (Optional)
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Key Condition: 
+\begin_inset Formula 
+\[
+\mathbb{E}\left[\pi\right]=\int_{0}^{c^{*}}\pi(c)f(c)dc=K
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Substitute the cost-cutoff equation into our profit equation 
+\begin_inset Formula 
+\[
+\pi(c_{j})=\frac{S}{4}\left(\frac{1}{bn}+\bar{p}-c_{j}\right)^{2}=\frac{S}{4}\left(c^{*}-c_{j}\right)^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Substitute profits into zero expected profit condition.
+ 
+\begin_inset Formula 
+\[
+\mathbb{E}\left[\pi\right]=\frac{S}{4}\int_{0}^{c^{*}}\left(c^{*}-c_{j}\right)^{2}f(c)dc=K
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+LHS is clearly increasing with 
+\begin_inset Formula $c^{*}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperlink{cost}{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+beamerbutton
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Back
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+label=Formal2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Expected Profits increase with 
+\begin_inset Formula $c^{*}$
+\end_inset
+
+ (Optional)
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Key Condition: 
+\begin_inset Formula 
+\[
+\mathbb{E}\left[\pi\right]=\int_{0}^{c^{*}}\pi(c)f(c)dc=K
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Substitute the cost-cutoff equation into our profit equation 
+\begin_inset Formula 
+\[
+\pi(c_{j})=\frac{S}{4}\left(\frac{1}{bn}+\bar{p}-c_{j}\right)^{2}=\frac{S}{4}\left(c^{*}-c_{j}\right)^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Substitute profits into zero expected profit condition.
+ 
+\begin_inset Formula 
+\[
+\mathbb{E}\left[\pi\right]=\frac{S}{4}\int_{0}^{c^{*}}\left(c^{*}-c_{j}\right)^{2}f(c)dc=K
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+LHS is clearly increasing with 
+\begin_inset Formula $c^{*}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+LHS rotates upwards from the origin if 
+\begin_inset Formula $S\uparrow$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperlink{cost2}{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+beamerbutton
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Back
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_body
+\end_document
