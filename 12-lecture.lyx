@@ -1,0 +1,527 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+%Beamer theme and color theme
+\usetheme{default}
+\usecolortheme{default}
+
+\setbeamercolor{normal text}{bg=MyGreen}
+\definecolor{MyGreen}{RGB}{230, 242, 230}
+
+\setbeamertemplate{mini frames}{}
+
+% set color of elements (e.g. bullet points, theorems, definitions, etc)
+%\setbeamercolor{structure}{fg=red!60!white}
+
+% header showing only current section and subsection
+% \useoutertheme{infolines}
+
+\usepackage{amsmath,amssymb}
+
+%Expectation symbol
+\DeclareMathOperator{\E}{\mathbb{E}}
+
+\usepackage{booktabs,caption,fixltx2e}
+\usepackage[flushleft]{threeparttable}
+\usepackage{indentfirst}
+\usepackage{amsfonts}
+\usepackage{changepage}
+
+%Set slide number
+\setbeamertemplate{footline}[frame number]
+
+%remove navigation
+\beamertemplatenavigationsymbolsempty
+
+% Bullets and items
+\setbeamertemplate{itemize item}{\tiny\raise1.50pt\hbox{$\blacktriangleright$}}
+\setbeamertemplate{itemize subitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
+\setbeamertemplate{itemize subsubitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
+
+
+\definecolor{blue}{RGB}{0,0,120}
+
+\usepackage{hyperref}
+\hypersetup{urlcolor=magenta, colorlinks=true}
+
+\usepackage{array}
+
+\usepackage[section]{placeins}
+
+\usepackage{graphicx}
+
+\date{}
+
+% Fix undefined control sequence bug at \@@magyar@captionfix (see log)
+% Reference: https://tex.stackexchange.com/questions/426088/texlive-pretest-2018-beamer-and-subfig-collide
+\let\@@magyar@captionfix\relax
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+ECO364H1S: International Trade Theory
+\end_layout
+
+\begin_layout Subtitle
+Lecture 12
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotemark
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Institute
+University of Toronto, Department of Economics
+\end_layout
+
+\begin_layout Author
+Palermo Penano
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotetext[1]{
+\backslash
+tiny Revised slides by Scott Orr}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Outstanding Issues
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Please hand in problem set 4 
+\end_layout
+
+\begin_layout Itemize
+Problem set answers will be posted today.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Except problem set 4.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Final exam coverage.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Everything covered in class/problem sets.
+ 
+\end_layout
+
+\begin_layout Itemize
+Cumulative, but weighted more towards second half.
+ 
+\end_layout
+
+\begin_layout Itemize
+4 short answer (20%), 2 medium answer (30%), 2 long answer (50%) 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Outstanding Issues
+\end_layout
+
+\begin_layout Itemize
+Extra Office Hours: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Leandro: Monday 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Time and location TBA on blackboard 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Scott: Tuesday and Wednesday 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tuesday: 11-12 GE 313 
+\end_layout
+
+\begin_layout Itemize
+Wednesday: 10-12 GE 313 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Short Review of Second Half of Course
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Two Main Topics: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Politics and Trade Policy 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Instruments of trade policy 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tariffs, quotas, VERs, export subsidies.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Politics: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why implement trade barriers? 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Increasing Returns, Imperfect Competition, and Trade 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Monopoly 
+\end_layout
+
+\begin_layout Itemize
+Monopolistic Competition 
+\end_layout
+
+\begin_layout Itemize
+Monopolistic Competition with Heterogeneous firms 
+\end_layout
+
+\begin_layout Itemize
+External Economies of Scale 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Trade Policy
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Trade policy and welfare 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tariffs, quotas, VERs and export subsidies hurt small open economies.
+ 
+\end_layout
+
+\begin_layout Itemize
+Tariffs can benefit large open economies through a terms of trade effect.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Trade policy and politics 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why implement trade barriers? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Distributional concerns, political incentives, collective action problems,
+ terms of trade effects, infant industry effects.
+ 
+\end_layout
+
+\begin_layout Itemize
+Unilateral incentives to introduce tariffs due to a terms-of-trade effect
+ problematic for world welfare 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Creates a role for trade institutions 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Increasing Returns, Imperfect Competition, and Trade
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+New gains from trade 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Gains from variety 
+\end_layout
+
+\begin_layout Itemize
+Pro-competitive gains 
+\end_layout
+
+\begin_layout Itemize
+Efficiency gains 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Due to increasing returns to scale 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Allocative gains from trade.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Due to exit fo low-productivity firms and expanded output of high productivity
+ firms.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+Trade Inefficiencies? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Technological Lock-in
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Rest of Class:
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+Practice Problems 
+\end_layout
+
+\end_body
+\end_document
