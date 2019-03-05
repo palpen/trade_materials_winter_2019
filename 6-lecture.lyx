@@ -178,6 +178,11 @@ Last Class
 
 \begin_deeper
 \begin_layout Itemize
+Wrap up standard Heckscher-Ohlin model
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
 Why does Factor Price Equalization (FPE) happen in free trade?
 \begin_inset Note Note
 status collapsed
@@ -203,6 +208,7 @@ When does FPE not hold? If resource endowments are too different
 Factor Content Studies
 \end_layout
 
+\end_deeper
 \end_deeper
 \begin_layout Itemize
 Today
@@ -257,7 +263,7 @@ The Specific Factors Model
 \begin_deeper
 \begin_layout Itemize
 In the Ricardian model, we were not able to say anything about the income
- distribution (why?)
+ distribution
 \end_layout
 
 \begin_layout Itemize
@@ -356,13 +362,12 @@ Occupation-specific skills: it takes significant effort, time and resources
 \end_layout
 
 \begin_layout Itemize
-Large factories and heavy machinery are difficult to move or convert for
- other uses
+Difficult to repurpose large factories and heavy machinery for other uses
 \end_layout
 
 \begin_layout Itemize
-Geographic constraints: very high transportation or migration costs could
- make it difficult for factors to move to locations where industries booming
+Geographic constraints: very high transportation or migration costs makes
+ it difficult for factors to move to locations with better opportunities
 \end_layout
 
 \end_deeper
@@ -1563,9 +1568,10 @@ Demand for Labour
 \end_layout
 
 \begin_layout Frame
-Suppose wages is higher than the point where the two demand curves cross...
+Suppose wages is higher than the point where the two demand curves cross...(real
+ world scenario where this might happen?)
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 study minimum wage implications?
@@ -1719,7 +1725,11 @@ V=Q_{F}P_{F}+Q_{C}P_{C}
 \end_layout
 
 \begin_layout Itemize
-This is at the point where the line described by equation 
+Optimization is subject to resource constraint (PPF)
+\end_layout
+
+\begin_layout Itemize
+Optimal point is where the line described by equation 
 \begin_inset Formula $V$
 \end_inset
 
@@ -1811,8 +1821,7 @@ Changes in Prices
 
 \begin_deeper
 \begin_layout Itemize
-Now that the main elements of the model is complete, we can conduct some
- thought experiments
+With this model set up, change parameters and study changes in new equilibrium
 \end_layout
 
 \begin_layout Itemize
@@ -1860,7 +1869,7 @@ Changes in Prices
 
 \begin_deeper
 \begin_layout Itemize
-For each type of price change, our goal is to answer the following questions
+For each type of price change, we will answer the following questions
 \begin_inset Separator latexpar
 \end_inset
 
@@ -1949,6 +1958,12 @@ Q_{F}=V-\frac{P_{C}}{P_{F}}Q_{C}
 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Same tangency in isovalue line / PPF diagram
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -2406,18 +2421,6 @@ Because,
 \end_layout
 
 \begin_layout Itemize
-This means 
-\begin_inset Formula $r/P_{F}$
-\end_inset
-
- also did not change (since 
-\begin_inset Formula $P_{F}$
-\end_inset
-
- increased by 10%)
-\end_layout
-
-\begin_layout Itemize
 Similar argument can be applied to show that the real return to land owners
  did not change (EXERCISE)
 \end_layout
@@ -2506,7 +2509,7 @@ Equal-Proportion Price Increase: Summary
 \begin_deeper
 \begin_layout Itemize
 In general, if the price of all goods in the economy were to increase by
- the same percentage point, things will be just like before
+ the same proportion, there will be no real economic changes
 \begin_inset Separator latexpar
 \end_inset
 
@@ -2515,17 +2518,17 @@ In general, if the price of all goods in the economy were to increase by
 
 \begin_deeper
 \begin_layout Itemize
-This true in the long run
+True in the long run
 \end_layout
 
 \begin_layout Itemize
-In the real world, there may be institutional frictions that prevents changes
- in prices to be perfectly passed on to worker wages and capital/land returns
+However, institutional frictions may exist preventing perfect pass-through
+ of price changes to wages and capital/land returns
 \end_layout
 
 \begin_layout Itemize
-Different market structures will also have a different outcome (we have
- assumed perfect competition)
+Market structures other than perfect competition (monopolies, oligopolies,
+ etc.) will also result in a different outcome
 \end_layout
 
 \end_deeper
@@ -3246,11 +3249,12 @@ Q_{C}=K^{2/3}L_{C}^{1/3}
 \end_layout
 
 \begin_layout Itemize
-Intuitively, a machine with 2, 3, or 4 workers on it cannot be less productive
- than a machine with just 1 worker—assuming the depreciation of the machine
- is constant for any number of workers
+MP of machine decreases as you add more machines (limited powersupply and
+ workers), but for a given # of machines, MPK increases when addtional workers
+ are added to supplement them
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 For a fixed value of 
 \begin_inset Formula $K$
@@ -3263,6 +3267,7 @@ For a fixed value of
  increases
 \end_layout
 
+\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Standard
@@ -3473,17 +3478,43 @@ Autarky Equilibrium
 \end_inset
 
 
-\begin_inset Separator latexpar
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+So far, we assumed some exogenous price change
+\end_layout
+
+\begin_layout Itemize
+Let's tie price changes to international trade
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
 \end_inset
 
 
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-We will now study the source of the price changes in our model
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Autarky Equilibrium
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 Just like the Ricardian and Heckscher-Ohlin models, prices come from the
  intersection of the relative demand (RD) and relative supply (RS) curve
@@ -4774,6 +4805,16 @@ Rybczynski theorem
 \begin_layout Itemize
 In the specific factors model, an increase in labour endowment increases
  the output in both industries
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Why?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
