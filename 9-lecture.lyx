@@ -182,17 +182,20 @@ Outline
 \end_layout
 
 \begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Outline
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
 \begin_deeper
-\begin_layout FrameTitle
-Outline
-\end_layout
-
-\end_deeper
-\begin_layout Frame
-\align center
+\begin_layout Standard
 
 \series bold
 Part 1: Other Trade Policy Instruments (KOM Ch.
@@ -201,7 +204,6 @@ Part 1: Other Trade Policy Instruments (KOM Ch.
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Export Subsidies 
 \end_layout
@@ -214,18 +216,13 @@ Quotas
 Voluntary Export Restraints (VERs) 
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-\align center
+\begin_layout Standard
 
 \series bold
 Part 2: Political Economy of Trade Policy (KOM Ch.
  10)
-\series default
- 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Trade and the distribution of income 
 \end_layout
@@ -240,9 +237,7 @@ Trade institutions (e.g.
  
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-\align center
+\begin_layout Standard
 
 \series bold
 Part 3: Firms in the Global Economy (KOM Ch.
@@ -251,7 +246,6 @@ Part 3: Firms in the Global Economy (KOM Ch.
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Monopoly 
 \end_layout
@@ -261,6 +255,13 @@ Monopolistic competition
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Other Trade Policy Instruments
 \end_layout
