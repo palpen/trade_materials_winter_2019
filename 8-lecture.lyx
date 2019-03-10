@@ -2885,16 +2885,20 @@ Quotas
 \end_layout
 
 \begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Quotas
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
 \begin_deeper
-\begin_layout FrameTitle
-Quotas
-\end_layout
-
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 
 \series bold
 Import Quotas
@@ -2904,6 +2908,12 @@ Import Quotas
 \end_layout
 
 \begin_deeper
+\begin_layout Itemize
+U.S.A quota on imports of foreign cheese (only select firms can import some
+ maximum amount each year)
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Usually enforced issuing import licenses to some limited number of firms
 \end_layout
