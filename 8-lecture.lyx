@@ -205,7 +205,7 @@ Perfect Competition
 \end_layout
 
 \begin_layout Itemize
-Comparative Advantage Based Trade 
+Trade Based on Comparative Advantage
 \end_layout
 
 \end_deeper
@@ -979,6 +979,12 @@ Takes world prices as given (exogenous)
 Price does not have to clear Home market! 
 \end_layout
 
+\begin_layout Itemize
+Vatican City v.s.
+ U.S.A.
+ with tariffs on cassocks
+\end_layout
+
 \end_deeper
 \begin_layout Itemize
 Consider a single small open economy called 
@@ -1376,7 +1382,11 @@ Free-Trade Equilibrium with a Large Open Economy
 \end_layout
 
 \begin_layout Itemize
-For simplicity, we suppose there are two large economies: Home (
+For simplicity, we suppose there are two 
+\series bold
+large
+\series default
+ economies: Home (
 \begin_inset Formula $H$
 \end_inset
 
@@ -1392,8 +1402,8 @@ Equilibrium free-trade price,
 \begin_inset Formula $p_{W}$
 \end_inset
 
-, is the price such that import demand from one country is equal to the
- export supply of the other country
+, is the price such that import demand of one country is equal to the export
+ supply of the other country
 \end_layout
 
 \begin_layout Itemize
@@ -1406,12 +1416,12 @@ Equilibrium given by the following conditions:
 
 \begin_deeper
 \begin_layout Enumerate
-Exports = Imports 
+Imports = Exports 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Formula $D_{H}(p_{w})-S_{H}(p_{w})=S_{F}(p_{w})-D_{H}(p_{w})$
+\begin_inset Formula $D_{H}(p_{w})-S_{H}(p_{w})=S_{F}(p_{w})-D_{F}(p_{w})$
 \end_inset
 
  
@@ -1809,6 +1819,55 @@ Quantities demand and supplied obtained by plugging the appropriate price
 \end_layout
 
 \begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Aside: Terms-of-Trade Gain
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Definition:
+\series default
+ Welfare gains arising from lower price of foreign good due to tariff
+\end_layout
+
+\begin_layout Itemize
+Terms-of-trade = Price of exports / Price of imports
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How much import a country can buy with its export income
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Similar idea to real wages
+\end_layout
+
+\begin_layout Itemize
+If you can sell a good to the international market at a high price but imports
+ are very expensive, then your terms-of-trade is low
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
 
 \end_layout
 
@@ -1841,14 +1900,16 @@ Fall in foreign price means imports are cheaper for the country
 \end_layout
 
 \begin_layout Itemize
-While the price consumers pay domestically is actually higher, the gains
- from cheaper imports show up in the tariff revenue 
+Home consumers actually pay a higher price because of the tariff 
+\end_layout
+
+\begin_layout Itemize
+Gains from cheaper imports show up in the tariff revenue 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Government revenue can be transferred to consumers, so acts as a wealth
- effect
+Government revenue can be transferred to consumers
 \end_layout
 
 \end_deeper
