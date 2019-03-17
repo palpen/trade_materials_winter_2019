@@ -996,14 +996,7 @@ Collective Action Problems: A simple
 \end_inset
 
 lobbying
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  model
@@ -1015,7 +1008,6 @@ Suppose politicians are more likely to implement a policy (e.g.
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Consider an interest group of size 
 \begin_inset Formula $N$
@@ -1044,7 +1036,6 @@ For simplicity, suppose total benefits of the policy are split evenly among
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Private benefit: 
 \begin_inset Formula $\frac{B}{N}$
@@ -1054,9 +1045,57 @@ Private benefit:
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Collective Action Problems: A simple 
+\begin_inset Quotes eld
+\end_inset
+
+lobbying
+\begin_inset Quotes erd
+\end_inset
+
+ model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $N$
+\end_inset
+
+: group size, 
+\begin_inset Formula $A$
+\end_inset
+
+: desired policy, 
+\begin_inset Formula $B$
+\end_inset
+
+: total benefit, 
+\begin_inset Formula $B/N$
+\end_inset
+
+ : private benefit
+\end_layout
+
 \begin_layout Itemize
 Let 
-\begin_inset Formula $x_{i}$
+\begin_inset Formula $x_{i}\in\mathbb{R}$
 \end_inset
 
  denote 
@@ -1064,21 +1103,13 @@ Let
 \end_inset
 
 lobbying
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
- effort by groups member 
+ effort by group member 
 \begin_inset Formula $i=1,2,....,N$
 \end_inset
 
-.
  
 \end_layout
 
@@ -1110,24 +1141,16 @@ Each unit of
 \end_inset
 
 lobbying
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  has a constant marginal cost of 
 \begin_inset Formula $c$
 \end_inset
 
- 
+
 \end_layout
 
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -1145,19 +1168,7 @@ status collapsed
 Private Provision of Lobbying
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Itemize
-
-\size footnotesize
 Each member 
 \begin_inset Formula $i$
 \end_inset
@@ -1166,22 +1177,19 @@ Each member
 \begin_inset Formula $x_{i}$
 \end_inset
 
- to maximize the expected return to lobbying 
-\begin_inset Formula $EU(x_{i})=\frac{\sum_{i=1}^{N}x_{i}}{\alpha+\sum_{i=1}^{N}x_{i}}\times\frac{B}{N}-cx_{i}$
+ to maximize the expected return to lobbying
+\begin_inset Formula 
+\[
+EU(x_{i})=\frac{\sum_{i=1}^{N}x_{i}}{\alpha+\sum_{i=1}^{N}x_{i}}\frac{B}{N}-cx_{i}
+\]
+
 \end_inset
 
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
-FOC: 
+FOC:
 \begin_inset Formula 
 \[
 \frac{\alpha}{\left(\alpha+\sum_{i=1}^{N}x_{i}\right)^{2}}\frac{B}{N}=c\rightarrow\frac{\alpha}{\left(\alpha+X\right)^{2}}\frac{B}{N}=c
@@ -1193,9 +1201,45 @@ FOC:
 \end_layout
 
 \begin_layout Itemize
+Solving for total lobbying effort, 
+\begin_inset Formula $X^{*}$
+\end_inset
 
-\size footnotesize
-Solve for total lobbying effort: 
+
+\begin_inset Formula 
+\[
+X^{*}=\left(\frac{\alpha B}{Nc}\right)^{1/2}-\alpha
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Private Provision of Lobbying
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Total lobbying effort:
 \begin_inset Formula 
 \[
 X^{*}=\left(\frac{\alpha B}{Nc}\right)^{1/2}-\alpha
@@ -1207,56 +1251,28 @@ X^{*}=\left(\frac{\alpha B}{Nc}\right)^{1/2}-\alpha
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
-Larger groups (larger 
-\begin_inset Formula $N$
-\end_inset
-
-) put in less lobbying effort overall since individual benefits become smaller!
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-
+Larger groups (larger N) put in less lobbying effort overall since individual
+ benefits become smaller! 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Since lobbying a public good, overall effort depends on 
 \begin_inset Formula $\frac{B}{N}$
 \end_inset
 
-, rather than the overall benefits 
-\begin_inset Formula $B$
-\end_inset
-
- 
+, rather than the overall benefits B 
 \end_layout
 
 \begin_layout Itemize
 
-\size footnotesize
-A policy generating small aggregate benefit to a small group (
-\begin_inset Formula $N=5$
-\end_inset
-
-, 
-\begin_inset Formula $B=5000$
-\end_inset
-
-) more likely to be implemented than policy with large aggregate benefits
- for a large group (
-\begin_inset Formula $N=500,000,B=500,000$
-\end_inset
-
-) 
+\series bold
+Conclusion
+\series default
+: A policy generating small aggregate benefit to a small group (N=5, B=5000)
+ more likely to be implemented than policy with large aggregate benefits
+ for a large group (N=500,000,B=500,000) 
 \end_layout
 
-\end_deeper
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -1276,31 +1292,27 @@ Lobbying and Trade Policy
 
 \begin_layout Itemize
 Baldwin and Magee (2000) investigate whether campaign contributions affected
- the likelihood that a particular politician will vote for NAFTA or GATT.
- 
+ the likelihood that a particular politician will vote for NAFTA or GATT
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Business and labour contributions appears to strongly affect voting patterns.
- 
+Business and labour contributions appears to strongly affect voting patterns
 \end_layout
 
 \begin_layout Itemize
-Estimated model allows them as look at counterfactual worlds without contributio
+Estimated model allows them to look at counterfactual worlds without contributio
 ns 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Note: 214 votes needed to pass bill.
- 
+Note: 214 votes needed to pass bill
 \end_layout
 
 \end_deeper
 \end_deeper
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="3">
@@ -1489,6 +1501,7 @@ No contributions
 
 \end_layout
 
+\end_deeper
 \begin_layout Subsection
 Trade Institutions
 \end_layout
@@ -1499,7 +1512,7 @@ Trade Institutions
 
 \begin_deeper
 \begin_layout FrameTitle
-Tariffs and large open economies
+Tariffs and Large Open Economies
 \end_layout
 
 \begin_layout Itemize
@@ -1521,22 +1534,59 @@ Collective action problems
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-As discussed last lecture, large open economies have stronger incentives
- to use implement trade barriers due to terms of trade concerns.
- 
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tariff and Large Open Economies
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Is appropriate to treat most countries as large? 
+As discussed last lecture, large open economies have stronger incentives
+ to use implement trade barriers due to terms of trade concerns
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
-Are tariff rates across countries consistent with terms of trade incentives?
- 
+From previous lecture, we saw that large economies can gain from tariffs
 \end_layout
 
+\end_deeper
+\begin_layout Itemize
+Two questions:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Is it appropriate to treat most countries as large? 
+\end_layout
+
+\begin_layout Enumerate
+Are tariff rates across countries consistent with terms of trade incentives?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+i.e.
+ can tariffs be explained by incentives to improve terms of trades?
+\end_layout
+
+\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Standard
@@ -1555,50 +1605,50 @@ Are tariff rates across countries consistent with terms of trade incentives?
 Do terms of trade incentives matter empirically?
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-Broda, Limao, and Weinstein (2008): Roughly- two questions: 
+\begin_layout Standard
+Broda, Limao, and Weinstein (2008): Roughly two questions: 
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 Do most countries have enough market power for their trade policy to affect
  world prices? 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Answer: Yes, as measured by their foreign export supply elasticities.
- 
+
+\series bold
+Answer
+\series default
+: Yes, as measured by their foreign export supply elasticities (lecture
+ 8)
 \end_layout
 
 \begin_layout Itemize
-Includes some countries that we might, 
-\emph on
-ex-ante
-\emph default
- ,consider small 
+Includes some countries that we might consider small 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 E.g.
  Paraguay, Latvia, each of which has about 1/20th of a percent of world
- GDP.
- 
+ GDP
 \end_layout
 
 \end_deeper
 \end_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 Is trade policy consistent with terms of trade manipulation? 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Answer: Yes, their empirical estimates indicate that tariffs tend to be
- higher on goods for which the country has greater market power.
- 
+
+\series bold
+Answer
+\series default
+: Yes, their empirical estimates indicate that tariffs tend to be higher
+ on goods for which the country has greater market power
 \end_layout
 
 \begin_deeper
@@ -1609,18 +1659,11 @@ Market power effects on tariff setting are approximately 1.6 times larger
 \end_inset
 
 political economy
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  variables (e.g.
- lobbying) 
+ lobbying)
 \end_layout
 
 \end_deeper
@@ -1644,15 +1687,13 @@ Terms of trade manipulation and welfare
 
 \begin_layout Itemize
 If terms of trade considerations matter, unilaterally setting tariffs to
- maximize own-country welfare problematic for world welfare.
- 
+ maximize own-country welfare can be problematic for world welfare
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Each country has an incentive to manipulate terms of trade, which hurts
- other countries.
- 
+ other countries
 \end_layout
 
 \begin_layout Itemize
@@ -1660,16 +1701,9 @@ Can lead to trade wars, which may actually lead to lower welfare in
 \emph on
 both
 \emph default
- countries 
+ countries compared to an outcome where countries cooperate
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Relative to a world where tariffs are set co-operatively.
- 
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Itemize
 Tariff setting with large open economies may resemble a 
@@ -1816,48 +1850,17 @@ Brief History of Trade Instutitions
 \end_layout
 
 \begin_layout Itemize
-Substantial liberalization until the Great Depression which 
-\begin_inset Quotes eld
-\end_inset
-
-started
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
- in 1929.
- 
+Substantial liberalization until the Great Depression which started around
+ 1929
 \end_layout
 
 \begin_layout Itemize
-Many countries increased protection in an effort to 
-\begin_inset Quotes eld
-\end_inset
-
-save domestic jobs.
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
- 
+Many countries increased trade protection hoping to save domestic jobs
 \end_layout
 
 \begin_layout Itemize
 Substantial retaliatory tariffs then killed off international demand and
- further deepened the depression.
- 
+ further deepened the depression
 \end_layout
 
 \end_deeper
@@ -1878,19 +1881,16 @@ Brief History of Trade Instutitions
 \end_layout
 
 \begin_layout Itemize
-The Smoot-Hawley Tariffs in the United States raised tariifs on 20,000 goods.
- 
+The Smoot-Hawley Tariffs in the United States raised tariifs on 20,000 goods
 \end_layout
 
 \begin_layout Itemize
-Canada was greatly harmed by this and it raised tariffs in retaliation.
- 
+Canada was greatly harmed by this and, in retaliation, raised its own tariffs
 \end_layout
 
 \begin_layout Itemize
-After the Great Depression WWII, many countries pursuing policies of tariff
- reduction.
- 
+After the Great Depression and WWII, many countries pursued policies of
+ tariff reduction
 \end_layout
 
 \begin_deeper
@@ -1940,25 +1940,11 @@ n
 \begin_layout Itemize
 Instead, a group of 23 countries reached a provisional agreement to lower
  various tariffs (the 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes eld
 \end_inset
 
 GATT
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
 ) 
@@ -1992,11 +1978,7 @@ Brief History of Trade Instutitions
 \end_layout
 
 \begin_layout Itemize
-WTO: Structure:
-\begin_inset Newline newline
-\end_inset
-
- 
+WTO Structure:
 \end_layout
 
 \begin_deeper
@@ -2005,22 +1987,11 @@ Allows for dispute resolution and establishes
 \begin_inset Quotes eld
 \end_inset
 
-rules.
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+rules
+\begin_inset Quotes erd
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
-
- 
 \end_layout
 
 \begin_layout Itemize
@@ -2029,21 +2000,10 @@ Tariff cuts must be
 \end_inset
 
 binding
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
-
- 
 \end_layout
 
 \begin_layout Itemize
@@ -2051,31 +2011,16 @@ status collapsed
 \end_inset
 
 Non-discrimination
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
 : countries cannot be treated differently
-\begin_inset Newline newline
-\end_inset
-
- 
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 Preferential trade agreements are generally illegal between sets of two
  countries...
-\begin_inset Newline newline
-\end_inset
-
- 
 \end_layout
 
 \begin_deeper
@@ -2107,39 +2052,23 @@ Free Trade Areas and Customs Unions
 
 \begin_layout Itemize
 Free trade areas are where countries largely remove all tariffs on trade
- within borders.
-\begin_inset Newline newline
-\end_inset
-
- 
+ within borders
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 e.g.
  North American Free Trade Agreement (NAFTA).
-\begin_inset Newline newline
-\end_inset
-
- 
 \end_layout
 
 \begin_layout Itemize
-Countries do not harmonize/equalize external tariffs (against outside countries).
-\begin_inset Newline newline
-\end_inset
-
- 
+Countries do not harmonize/equalize external tariffs (against outside countries)
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 In a customs union, there is free trade within the union and all external
- tariffs are harmonized/equalized.
-\begin_inset Newline newline
-\end_inset
-
- 
+ tariffs are harmonized/equalized
 \end_layout
 
 \begin_deeper
@@ -2189,12 +2118,66 @@ Terms of trade considerations
 
 \end_deeper
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Firms in the Global Economy
 \end_layout
 
 \begin_layout Subsection
 Introduction
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+LARGE 
+\backslash
+textbf{Firms in the Global Economy}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -2277,7 +2260,7 @@ status collapsed
 \begin_layout Itemize
 E.g.
  The United States exported approximately $226 million worth of golf clubs
- in 2009, while also importing approximately $ 284 million in golf clubs.
+ in 2009, while also importing approximately $284 million in golf clubs.
  
 \end_layout
 
