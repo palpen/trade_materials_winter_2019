@@ -186,7 +186,7 @@ Outline
 status open
 
 \begin_layout Plain Layout
-Itenerary for Today
+Outline
 \end_layout
 
 \end_inset
@@ -196,9 +196,63 @@ Itenerary for Today
 
 \begin_deeper
 \begin_layout Itemize
-SEE PREVIOUS LECTURE
+Previous Lecture
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Tariffs, Export Subsidies, Quotas, VERs
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Today
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Political Economy of Trade Policy
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Trade and the distribution of income
+\end_layout
+
+\begin_layout Itemize
+Trade and the political process
+\end_layout
+
+\begin_layout Itemize
+Trade and Institutions
+\end_layout
+
+\begin_layout Itemize
+KOM, Ch.
+ 10
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Firms in the Global Economy
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Monopoly
+\end_layout
+
+\begin_layout Itemize
+Monopolistic Competition
+\end_layout
+
+\begin_layout Itemize
+KOM, Ch.
+ 8
+\end_layout
+
+\end_deeper
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -216,40 +270,103 @@ Trade and the Distribution of Income
 \end_layout
 
 \begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Why are trade barriers implemented?
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
 \begin_deeper
-\begin_layout FrameTitle
-Small open economies and tariffs
+\begin_layout Itemize
+Distrbution concerns
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use tariffs to protect industries hurt by free trade (type of redistribution)
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+Political considerations
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Trade policy as a tool for political gains
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Collective action problems
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Small groups (industry trade unions) organize better than large ones
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Terms of trade considerations
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Large countries can be made better off (through increase in terms-of-trade)
+ by implementing tariffs (lecture 8)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Small Open Economies and Tariffs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
 We have seen that tariffs and quotas will tend to 
 \emph on
 hurt
 \emph default
- small open economies.
+ small open economies
+\end_layout
+
+\begin_layout Itemize
+In practice, many small open economies still use tariffs.
  
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-In practice many small open economies still use tariffs.
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Canada is (arguably) small, still uses tariffs.
- 
+Canada is (arguably) small, still uses tariffs
 \end_layout
 
 \begin_layout Itemize
 More extreme example: Saint Kitts and Nevis (population of around 50 000)
- has an average tariff rate of 12.46 %.
- 
+ has an average tariff rate of 12.46 %
 \end_layout
 
 \end_deeper
@@ -275,18 +392,15 @@ Why would countries who are unlikely to affect world prices use tariffs?
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Some potential explanations (infant industry) require analytical tools we
- will develop later.
- 
+ will develop later
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 We will circle back and discuss trade and welfare in these more complex
- environments at the end of the course.
- 
+ environments at the end of the course
 \end_layout
 
 \end_deeper
@@ -304,11 +418,9 @@ Trade barriers may be used to achieve
 \emph on
 distributional
 \emph default
- goals.
- 
+ goals
 \end_layout
 
-\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Standard
@@ -327,8 +439,7 @@ distributional
 Trade and the Distribution of Income
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 For thinking about distributional concerns, useful to reconsider some results
  from the first half of the course: 
 \end_layout
@@ -342,8 +453,7 @@ Stopler-Samuelson Theorem:
  A rise in the relative price of a good will lead to a rise in the real
  returns earned by the factor used most intensively in the production of
  that good.
- There will also be a fall in the real returns to the other factor.
- 
+ There will also be a fall in the real returns to the other factor
 \end_layout
 
 \begin_layout Itemize
@@ -353,10 +463,10 @@ Specific Factors Model
 \series default
 : A rise in the relative price of a good will increase the real returns
  of the factor specific to that industry.
- The real return to the specific factor in the other industry will fall.
- 
+ The real return to the specific factor in the other industry will fall
 \end_layout
 
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -376,30 +486,26 @@ Trade and the Distribution of Income
 
 \begin_layout Itemize
 Generally, moving to free trade hurts factors of production that are important
- to the non-comparative advantage industry.
- 
+ to the non-comparative advantage industry
 \end_layout
 
 \begin_layout Itemize
 Tariffs can be used to keep the prices of the non-comparative advantage
  higher than the world price, keeping the real returns of these factors
- from falling.
- 
+ from falling
 \end_layout
 
 \begin_layout Itemize
-Incentive for individuals to lobby against free trade.
- 
+Incentive for individuals to lobby against free trade
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Manufacturing in the U.S.
- ? 
+Manufacturing in the U.S.? 
 \end_layout
 
 \begin_layout Itemize
-Dairy in Canada ? 
+Dairy in Canada? 
 \end_layout
 
 \end_deeper
@@ -432,14 +538,12 @@ aggregate
 \begin_deeper
 \begin_layout Itemize
 In principle, a (lump-sum) tax and transfer system can be used to compensate
- people whose real returns fall due to trade.
- 
+ people whose real returns fall due to trade
 \end_layout
 
 \begin_layout Itemize
 Aggregate gains from trade imply that nobody would made worse off, and many
- better off, by this arrangement.
- 
+ better off, by this arrangement
 \end_layout
 
 \begin_deeper
@@ -451,27 +555,52 @@ Difficult to achieve in practice?
 \end_deeper
 \begin_layout Itemize
 As a result, many economists skeptical of distributional arguments against
- free trade.
- 
+ free trade
 \end_layout
 
-\begin_layout Itemize
-However, distributional concerns matter a great deal in practice since actual
- protection level are decided by 
-\emph on
-politics
-\emph default
-.
- 
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+So are distributional concerns important?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-How do we model the political process? 
+Yes, because politics plays an important role in free trade
+\end_layout
+
+\begin_layout Itemize
+In particular, politics drive trade policy and protection levels, which
+ in turn have implications for distribution of aggregate welfare
+\end_layout
+
+\begin_layout Itemize
+But how do we model the political process?
 \end_layout
 
 \end_deeper
-\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Trade and the political process
 \end_layout
@@ -485,51 +614,39 @@ Trade and the political process
 Median Voter Model
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 Classic model policy choice in democracies given by Downs (1957)
 \end_layout
 
-\begin_deeper
 \begin_layout Enumerate
-Two politicians choose policies to maximize their chances of getting elected.
- 
+Two politicians choose policies to maximize their chances of getting elected
 \end_layout
 
 \begin_layout Enumerate
 Citizens vote for the politician with the policies that benefit them the
- most.
- 
+ most
 \end_layout
 
 \begin_layout Enumerate
-The policy space is a one-dimensional variable, such as a tariff rate.
- 
+The policy space is a one-dimensional variable, such as a tariff rate
 \end_layout
 
 \begin_layout Enumerate
 Each citizen only has a single preferred tariff rate, and will vote for
- the politician who chooses the policy closest to their preferred rate.
- 
+ the politician who chooses the policy closest to their preferred rate
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Quotes eld
-\end_inset
-
-Single peaked preference
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
+\begin_inset CommandInset href
+LatexCommand href
+name "Single peaked preference"
+target "https://en.wikipedia.org/wiki/Single_peaked_preferences"
+literal "false"
 
 \end_inset
 
- 
+
 \end_layout
 
 \end_deeper
@@ -544,8 +661,7 @@ Median Voter Theorem
 \end_inset
 
 In a model where conditions 1-4 hold, both politicians choose the policy
- preferred by the median voter.
- 
+ preferred by the median voter
 \end_layout
 
 \end_deeper
@@ -569,7 +685,6 @@ Understanding the Median Voter Theorem
 Why does the Median Voter Theorem Hold? 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Suppose your opponent chooses a tariff rate above the median voter's preferred
  tariff 
@@ -593,7 +708,6 @@ If your opponent chooses the median voter's preferred tariff, you can only
 \end_layout
 
 \end_deeper
-\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -615,31 +729,59 @@ Does the median voter theorem helps us understand why many countries choose
  to implement tariffs? 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Dutt and Mitra (2002): 
 \emph on
 Levels
 \emph default
  of trade protection inconsistent with median voter Hecksher-Ohlin (small
- open economy) models.
- 
+ open economy) models
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Since capital is usually concentrated in the hands of a small number of
- individuals, median voter models imply that politicians should always choose
- trade policies that benefit labour relative to capital.
- 
+Capital is typically concentrated in hands of small number of people.
+ Therefore, MV model imply politicians should choose trade policies that
+ benefit labour over capital
 \end_layout
 
 \begin_layout Itemize
-Problem for capital scarce countries: they should subsidize imports- which
- is pretty much never observed! 
+For MV model to be consistent, capital scarce countries (where distribution
+ of capital and labour is more similar) should be in favour of trade
+\end_layout
+
+\begin_layout Itemize
+More inequality –> greater trade barriers
+\end_layout
+
+\begin_layout Itemize
+However, in the real world we almost always see trade policies against free
+ trade
 \end_layout
 
 \end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The Median Voter Thereom and Trade Policy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 Dhingra (2014): Accounting for terms-of-trade concerns may help explain
  protection levels (Are all economies 
@@ -647,24 +789,19 @@ Dhingra (2014): Accounting for terms-of-trade concerns may help explain
 \end_inset
 
 large
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
 ?) 
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
 Biggest challenge to median voter models: many trade restrictions only benefit
- a small number of people.
- 
+ a small number of people
+\end_layout
+
+\begin_layout Itemize
+Example: Sugar industry in the United States
 \end_layout
 
 \end_deeper
