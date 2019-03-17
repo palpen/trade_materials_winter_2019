@@ -2191,8 +2191,7 @@ Introduction: Firms and International Trade
 
 \begin_layout Itemize
 So far we have focused on comparative advantage based models of international
- trade.
- 
+ trade
 \end_layout
 
 \begin_deeper
@@ -2202,14 +2201,7 @@ Models of
 \end_inset
 
 inter-industry
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  trade 
@@ -2222,14 +2214,7 @@ In practice, a lot of trade is
 \end_inset
 
 intra-industry
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  (within-industry) 
@@ -2242,18 +2227,10 @@ Many countries import and export the same
 \end_inset
 
 product
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
- at the same time.
- 
+ at the same time
 \end_layout
 
 \begin_deeper
@@ -2267,8 +2244,7 @@ E.g.
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-Hard to explain with comparative advantage based models.
- 
+Hard to explain with comparative advantage based models
 \end_layout
 
 \end_deeper
@@ -2288,12 +2264,7 @@ Hard to explain with comparative advantage based models.
 How common is intra-industry trade?
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Frame
+\begin_layout Standard
 \align center
 
 \size footnotesize
@@ -2304,7 +2275,7 @@ Intra-industry trade index =
  
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 \align center
 
 \size footnotesize
@@ -2661,6 +2632,7 @@ Footwear
  8
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -2679,8 +2651,7 @@ Further chalenges for comparative advantage based models
 
 \begin_layout Itemize
 Comparative advantage based models predict that countries with very different
- technologies or endowments should trade with each other the most.
- 
+ technologies or endowments should trade with each other the most
 \end_layout
 
 \begin_deeper
@@ -2712,48 +2683,38 @@ E.g.
 
 \begin_deeper
 \begin_layout FrameTitle
-Why do countries trade?
+Why do similar countries trade?
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 How do we account for intra-industry trade and 
 \begin_inset Quotes eld
 \end_inset
 
 similar-country
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  trade? 
 \end_layout
 
-\begin_deeper
 \begin_layout Enumerate
 Product Variety 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Individual items, such as golf clubs, are not identical.
- 
+Individual items, such as golf clubs, are not identical
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Different qualities 
+Different qualities for similar types
 \end_layout
 
 \begin_layout Itemize
-Different styles that appeal to some consumers, but not others.
- 
+Different styles that appeal to some consumers, but not others (luxury vs
+ regular goods)
 \end_layout
 
 \end_deeper
@@ -2764,18 +2725,11 @@ Two-way trade due to the fact that golf clubs produced in different countries
 \end_inset
 
 exactly
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
- the same product.
- 
+ the same product (e.g.
+ automotives)
 \end_layout
 
 \end_deeper
@@ -2785,9 +2739,8 @@ Increasing Returns to Scale
 
 \begin_deeper
 \begin_layout Itemize
-If average costs rise with production levels, may make sense to export more
- goods to other countries to lower costs.
- 
+If average costs decreases with production levels, may make sense to export
+ more goods to other countries to lower costs
 \end_layout
 
 \begin_layout Itemize
@@ -2812,8 +2765,7 @@ Does not rely on factor-endowment differences
 Aside: Forms of Economies of Scale
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 \noindent
 
 \series bold
@@ -2833,20 +2785,16 @@ underline{the firm}
 \end_inset
 
  increases
-\begin_inset Newline newline
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 4mm
 \end_inset
 
 
 \end_layout
 
-\begin_layout Frame
-\begin_inset VSpace 8mm
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
+\begin_layout Itemize
 \noindent
 
 \series bold
@@ -2854,7 +2802,7 @@ External economies of scale
 \series default
 : Average costs fall as the output of 
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -2865,14 +2813,13 @@ underline{the industry}
 
 \end_inset
 
- increases.
-\begin_inset Newline newline
+ increases
+\begin_inset VSpace 4mm
 \end_inset
 
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 We will look at these economies of scale in a later part of the course.
  
@@ -2895,42 +2842,26 @@ We will look at these economies of scale in a later part of the course.
 Variety, Returns to Scale, and Perfect Competition
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 Accounting for product variety and and increasing returns to scale at the
- firm level very difficult in a world where all producers are 
+ firm level very difficult in a model where all producers are 
 \begin_inset Quotes eld
 \end_inset
 
 price-takers
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
- 
+
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 If every variety of a product is 
 \begin_inset Quotes eld
 \end_inset
 
 different
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
 , how can its price be taken as given? 
@@ -2938,8 +2869,7 @@ status collapsed
 
 \begin_deeper
 \begin_layout Itemize
-If you are the sole producer of a product, surely you choose its price.
- 
+If you are the sole producer of a product, surely you choose its price
 \end_layout
 
 \end_deeper
@@ -2977,8 +2907,8 @@ Market Power and Imperfect Competition
 \end_layout
 
 \begin_layout Itemize
-Turns out that we can handle increasing returns and product variety by allowing
- firms to have 
+We can handle increasing returns and product variety by allowing firms to
+ have 
 \emph on
 market power
 \emph default
@@ -2991,58 +2921,6 @@ Models where firms have market power are called models of
 \emph on
 imperfect competition
 \emph default
- 
-\end_layout
-
-\begin_layout Itemize
-There are several different models of imperfect competition: 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Monopoly
-\begin_inset Newline newline
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Itemize
-Oligopoly
-\begin_inset Newline newline
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Itemize
-Monopolistic competition
-\begin_inset Newline newline
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Itemize
-Monopsony
-\begin_inset Newline newline
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Itemize
-Oligopsony
-\begin_inset Newline newline
-\end_inset
-
- 
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-We will cover a few of these models, and show how they can be used to think
- about issues in international trade.
  
 \end_layout
 
@@ -3055,93 +2933,152 @@ We will cover a few of these models, and show how they can be used to think
 \end_layout
 
 \begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Market Power and Imperfect Competition
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
 \begin_deeper
-\begin_layout FrameTitle
-Market Power and Imperfect Competition
-\end_layout
-
-\begin_layout Itemize
-Turns out that we can handle increasing returns and product variety by allowing
- firms to have 
-\emph on
-market power
-\emph default
-, or the ability to influence their own price.
- 
-\end_layout
-
-\begin_layout Itemize
-Models where firms have market power are called models of 
-\emph on
-imperfect competition
-\emph default
- 
-\end_layout
-
 \begin_layout Itemize
 There are several different models of imperfect competition: 
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
+\begin_inset VSpace 5mm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+sellers << buyers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+sellers 
+\begin_inset Formula $\sim$
+\end_inset
+
+ buyers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+sellers >> buyers
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \series bold
 Monopoly
-\series default
-
-\begin_inset Newline newline
-\end_inset
-
- 
 \end_layout
 
-\begin_layout Itemize
-Oligopoly
-\begin_inset Newline newline
 \end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
 
- 
-\end_layout
-
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \series bold
-Monopolistic competition
-\series default
-
-\begin_inset Newline newline
-\end_inset
-
- 
+Monopolistic Competition
 \end_layout
 
-\begin_layout Itemize
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Monopsony
-\begin_inset Newline newline
-\end_inset
-
- 
 \end_layout
 
-\begin_layout Itemize
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Oligopoly
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Oligopsony
-\begin_inset Newline newline
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
 \end_inset
 
- 
+
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
-We will cover a few of these models, and show how they can be used to think
- about issues in international trade.
- 
+We will focus on monopolies and monopolistic competition and use them to
+ think about issues in international trade
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Monopoly
 \end_layout
@@ -3308,8 +3245,7 @@ Fixed Costs
 \begin_inset Formula $\equiv F$
 \end_inset
 
-: A cost that does not depend on the level of output.
- 
+: A cost that does not depend on the level of output
 \end_layout
 
 \begin_deeper
@@ -3331,8 +3267,7 @@ Fixed costs
 \begin_inset Formula $\neq$
 \end_inset
 
- Sunk costs.
- 
+ Sunk costs
 \end_layout
 
 \end_deeper
@@ -3351,8 +3286,7 @@ Variable Costs
 
 \begin_deeper
 \begin_layout Itemize
-Example: Labour costs.
- 
+Example: Labour costs
 \end_layout
 
 \end_deeper
@@ -3365,12 +3299,11 @@ Total Cost
 \begin_inset Formula $\equiv TC(Q)$
 \end_inset
 
-: How much must be spent to produce 
+: Total cost to produce 
 \begin_inset Formula $Q$
 \end_inset
 
- units.
- 
+ units
 \end_layout
 
 \begin_deeper
@@ -3391,20 +3324,7 @@ Average cost
 \begin_inset Formula $\equiv AC(Q)=\frac{TC(Q)}{Q}$
 \end_inset
 
-: Total cost faced by the firm divided by the quantity produced 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-
-\end_layout
-
-\end_inset
-
- 
+: Total cost faced by the firm divided by the quantity produced
 \end_layout
 
 \begin_layout Itemize
@@ -3416,7 +3336,7 @@ Marginal cost
 \begin_inset Formula $\equiv MC(Q)=(\frac{\partial TC}{\partial Q})$
 \end_inset
 
-: Extra cost generated by producing an extra unit.
+: Extra cost generated by producing an extra unit
 \end_layout
 
 \end_deeper
@@ -3596,13 +3516,11 @@ Basic Monopoly Results
 \end_layout
 
 \begin_layout Enumerate
-Profit is maximized when marginal cost is equal to marginal revenue.
- 
+Profit is maximized when marginal cost is equal to marginal revenue
 \end_layout
 
 \begin_layout Enumerate
-Monopolists usually earn profits.
- 
+Monopolists usually earn profits
 \end_layout
 
 \begin_deeper
@@ -3611,7 +3529,7 @@ Chose quantity so that
 \begin_inset Formula $P>MC$
 \end_inset
 
- 
+
 \end_layout
 
 \begin_deeper
@@ -3620,7 +3538,7 @@ Profits whenever
 \begin_inset Formula $P>AC$
 \end_inset
 
- 
+
 \end_layout
 
 \begin_layout Itemize
@@ -3633,11 +3551,17 @@ Will hold as long as
 
 \end_deeper
 \end_deeper
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 Let's now use the insights from our simple monopoly model to consider an
- environment with multiple firms.
- 
+ environment with multiple firms
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
