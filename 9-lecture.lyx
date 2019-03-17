@@ -3517,7 +3517,8 @@ Profit is maximized when marginal cost is equal to marginal revenue
 \end_layout
 
 \begin_layout Enumerate
-Monopolists usually earn profits
+Monopolists usually earn profits (whereas in perfect competition, all firms
+ profits = 0)
 \end_layout
 
 \begin_deeper
@@ -3548,7 +3549,7 @@ Will hold as long as
 
 \end_deeper
 \end_deeper
-\begin_layout Standard
+\begin_layout Itemize
 Let's now use the insights from our simple monopoly model to consider an
  environment with multiple firms
 \end_layout
@@ -3574,7 +3575,7 @@ Monopolistic Competition
 Monopolistic Competition: Basic Setup
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Basically a model of oligopoly that works a lot like the monopoly model
  discussed before
 \end_layout
@@ -3590,16 +3591,12 @@ Firms differentiate their products
 
 \begin_deeper
 \begin_layout Itemize
-An increase in price will lower sales but not eliminate them (overcomes
- the Bertrand paradox) 
-\end_layout
-
-\begin_layout Itemize
 It is as if a firm is a monopolist for their own 
 \emph on
 variety
 \emph default
- of a product
+ of a product (e.g.
+ dry cleaners, coffee shops, grocery stores)
 \end_layout
 
 \end_deeper
@@ -3609,7 +3606,11 @@ Rival firm prices affect the demand function faced by each firm
 
 \begin_deeper
 \begin_layout Itemize
-Competitive environment matters! 
+Competitive environment matters!
+\end_layout
+
+\begin_layout Itemize
+They enter as a parameter that can shift an individual firms demand function
 \end_layout
 
 \end_deeper
@@ -3627,7 +3628,7 @@ average prices
 \end_layout
 
 \begin_layout Itemize
-More general oligopoly models relax this assumption
+In perfect competition, firms take own price as given
 \end_layout
 
 \end_deeper
@@ -3646,11 +3647,7 @@ More general oligopoly models relax this assumption
 
 \begin_deeper
 \begin_layout FrameTitle
-Firm-level Demand
-\end_layout
-
-\begin_layout Standard
-Properties of the demand system: 
+Firm-Level Demand
 \end_layout
 
 \begin_layout Itemize
@@ -3695,7 +3692,7 @@ The higher the average price charged on the market (
 \end_layout
 
 \end_deeper
-\begin_layout Standard
+\begin_layout Itemize
 Example of a demand function satisfying these properties: 
 \begin_inset Formula 
 \[
@@ -3707,6 +3704,19 @@ q_{j}(p_{j})=S\left[\frac{1}{n}-b\left(p_{j}-\bar{p}\right)\right]
 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Monopolistic competition with outside good
+\begin_inset Quotes erd
+\end_inset
+
+, Salop (1979)
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -3721,7 +3731,7 @@ q_{j}(p_{j})=S\left[\frac{1}{n}-b\left(p_{j}-\bar{p}\right)\right]
 
 \begin_deeper
 \begin_layout FrameTitle
-Firm-level Costs
+Firm-Level Costs
 \end_layout
 
 \begin_layout Standard
@@ -3800,43 +3810,32 @@ The fixed costs
  Market equilibrium
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-Note: we have assume that 
+\begin_layout Itemize
+Assuming 
 \emph on
 each
 \emph default
- firms faces the same cost and demand function 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-We will relax this assumption later
-\end_layout
-
-\end_deeper
-\begin_layout Frame
-Consider a 
+ firms faces the same cost and demand function the resulting equilibrium
+ will be 
 \emph on
 symmetric
-\emph default
- equilibrium, i.e.
- 
+\end_layout
+
+\begin_layout Itemize
+In other words, all firms will offer the same price: 
 \begin_inset Formula $p_{j}=p\quad\forall j$
 \end_inset
 
- 
+
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 While each firm 
 \emph on
 could
 \emph default
- set a different price, each firm will set the same price in an equilibrium
- because there are no differences between firms in efficiency nor how consumers
- value their output
+ set a different price, there are no differences between firms in efficiency
+ nor how consumers value their output
 \end_layout
 
 \begin_layout Itemize
