@@ -3867,8 +3867,7 @@ Implies
 Recipe for solving the monopolistic competition model
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 Determine equilibrium using 3 equations to pin down 3 unknowns: 
 \begin_inset Formula $\{n,p,AC\}$
 \end_inset
@@ -3876,20 +3875,12 @@ Determine equilibrium using 3 equations to pin down 3 unknowns:
 : 
 \end_layout
 
-\begin_deeper
 \begin_layout Enumerate
 \begin_inset Quotes eld
 \end_inset
 
 Average Cost Curve
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
 : Relationship between number of firms 
@@ -3908,14 +3899,7 @@ status collapsed
 \end_inset
 
 Price Curve
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
 : Relationship between number of firms 
@@ -3961,7 +3945,7 @@ Firms make zero profits, which means price
 
 \begin_deeper
 \begin_layout FrameTitle
-Deriving the average cost curve
+Deriving the Average Cost Curve
 \end_layout
 
 \begin_layout Itemize
@@ -3972,7 +3956,7 @@ When all firms charge the same price,
 , so: 
 \begin_inset Formula 
 \[
-q_{j}(p)=S\left[\frac{1}{n}-b\left(p-\bar{p}\right)\right]=S\left[\frac{1}{n}-0\right]=\frac{S}{n}=q
+q_{j}(p)=S\left[\frac{1}{n}-b\left(p-\bar{p}\right)\right]=S\left[\frac{1}{n}-0\right]=\frac{S}{n}
 \]
 
 \end_inset
@@ -4006,7 +3990,7 @@ With more firms for a given
 \begin_inset Formula $q$
 \end_inset
 
-) and cannot exploit economies of scale as much
+) and lose ability to exploit economies of scale
 \end_layout
 
 \end_deeper
@@ -4123,23 +4107,12 @@ We know marginal cost (
 Deriving the price curve: Firm-level marginal review
 \end_layout
 
-\begin_layout Standard
-
-\size footnotesize
-Recall from monopoly: Revenue 
-\begin_inset Formula $=R(q_{j})=p(q_{j})\times q_{j}$
-\end_inset
-
- 
-\begin_inset Formula $\rightarrow$
+\begin_layout Itemize
+Recall marginal revenue derivations from the monopoly model: 
+\begin_inset Formula $R(q_{j})=p(q_{j})\times q_{j}\rightarrow$
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-
-\size footnotesize
 \begin_inset Formula 
 \[
 MR\equiv\frac{\partial R(q_{j})}{\partial q_{j}}=p_{j}+\frac{\partial p(q_{j})}{\partial q_{j}}\times q_{j}
@@ -4150,21 +4123,21 @@ MR\equiv\frac{\partial R(q_{j})}{\partial q_{j}}=p_{j}+\frac{\partial p(q_{j})}{
 
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
+Applies the product rule
+\end_layout
 
-\size footnotesize
-Solve for the inverse demand function 
+\end_deeper
+\begin_layout Itemize
+Invert the demand function to get 
 \begin_inset Formula $p_{j}=p(q_{j})$
 \end_inset
 
- using demand function 
-\begin_inset Formula $q_{j}=\left(\frac{S}{n}+Sb\bar{p}\right)-Sbp_{j}$
-\end_inset
-
-: 
+:
 \begin_inset Formula 
 \[
-p_{j}=p(q_{j})=\left(\frac{1}{nb}+\bar{p}\right)-\frac{q_{j}}{Sb}
+q_{j}=\left(\frac{S}{n}+Sb\bar{p}\right)-Sbp_{j}:p_{j}=p(q_{j})=\left(\frac{1}{nb}+\bar{p}\right)-\frac{q_{j}}{Sb}
 \]
 
 \end_inset
@@ -4173,8 +4146,6 @@ p_{j}=p(q_{j})=\left(\frac{1}{nb}+\bar{p}\right)-\frac{q_{j}}{Sb}
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Partially differentiate inverse demand to obtain 
 \begin_inset Formula $\frac{\partial p(q_{j})}{\partial q_{j}}$
 \end_inset
@@ -4183,7 +4154,10 @@ Partially differentiate inverse demand to obtain
 \begin_inset Formula $\bar{p}$
 \end_inset
 
- fixed!) 
+ fixed!)
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula 
 \[
 \frac{\partial p(q_{j})}{\partial q_{j}}=\frac{-1}{Sb}
@@ -4195,14 +4169,8 @@ Partially differentiate inverse demand to obtain
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
-Marginal revenue given by: 
-\begin_inset Formula 
-\[
-MR_{j}=p_{j}-\frac{q_{j}}{Sb}
-\]
-
+Substituting in to marginal revenue yields: 
+\begin_inset Formula $MR_{j}=p_{j}-\frac{q_{j}}{Sb}$
 \end_inset
 
 
@@ -4222,7 +4190,7 @@ MR_{j}=p_{j}-\frac{q_{j}}{Sb}
 
 \begin_deeper
 \begin_layout FrameTitle
-Deriving the price curve
+Deriving the Price Curve
 \end_layout
 
 \begin_layout Itemize
@@ -4270,10 +4238,24 @@ p=c+\frac{1}{bn}
 \end_layout
 
 \begin_layout Itemize
-Note: DO NOT impose symmetry before deriving firm level marginal revenue
- (Why?) 
+Things to note: 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+DO NOT impose symmetry before deriving firm level marginal revenue (Why?)
+ 
+\end_layout
+
+\begin_layout Itemize
+What happens when 
+\begin_inset Formula $n$
+\end_inset
+
+, number of firms, goes to infinity?
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -4315,10 +4297,6 @@ p=c+\frac{1}{bn}
 \end_inset
 
  
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Itemize
@@ -4442,10 +4420,8 @@ Equilibrium
 
 \end_layout
 
-\begin_layout Standard
-
-\size scriptsize
-Or analytically: 
+\begin_layout Itemize
+Analytically
 \begin_inset Formula 
 \[
 n^{*}=\left(\frac{S}{Fb}\right)^{1/2}p^{*}=c+\left(\frac{F}{bS}\right)^{1/2}
@@ -4457,6 +4433,10 @@ n^{*}=\left(\frac{S}{Fb}\right)^{1/2}p^{*}=c+\left(\frac{F}{bS}\right)^{1/2}
 \end_layout
 
 \end_deeper
+\begin_layout Frame
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -4474,10 +4454,7 @@ Monopolistic Competition and Trade
 \end_layout
 
 \begin_layout Itemize
-Trade can be seen as an increase in market size (Krugman 1979) 
-\end_layout
-
-\begin_layout Itemize
+Trade can be seen as an increase in market size (Krugman 1979): 
 \begin_inset Formula $\uparrow S$
 \end_inset
 
@@ -4584,7 +4561,6 @@ Recall
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 While both 
 \begin_inset Formula $S$
@@ -4601,7 +4577,6 @@ While both
  (Problem Set 4)
 \end_layout
 
-\end_deeper
 \end_deeper
 \begin_layout Itemize
 Consumer gain from lower prices
@@ -4620,11 +4595,7 @@ Recall that markups are given by:
 \begin_inset Formula $\uparrow n$
 \end_inset
 
-, increased competition, firms decrease their markups, and prices fall
-\end_layout
-
-\begin_layout Itemize
-So called 
+, increased competition, firms decrease their markups, and prices fall (
 \begin_inset Quotes eld
 \end_inset
 
@@ -4632,7 +4603,7 @@ Pro-competitive
 \begin_inset Quotes erd
 \end_inset
 
- gains from trade
+ gains from trade)
 \end_layout
 
 \end_deeper
@@ -4680,13 +4651,11 @@ While varieties available to each consumer increases, increased competition
 We tend to see effects of this sort in practice: 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Following NAFTA, General Motors cut in half the number of car models produced
  in Canada
 \end_layout
 
-\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Standard
@@ -4702,15 +4671,12 @@ Following NAFTA, General Motors cut in half the number of car models produced
 
 \begin_deeper
 \begin_layout FrameTitle
-Exit-Effects Following Trade LIberalization
-\end_layout
-
-\begin_layout Standard
-Consider two completely identical countries: 
+Exit-Effects Following Trade Liberalization
 \end_layout
 
 \begin_layout Itemize
-Autarky number of firms in each country: 
+Consider two completely identical countries, where the autarky number of
+ firms in each country: 
 \end_layout
 
 \begin_deeper
@@ -4723,7 +4689,7 @@ Autarky number of firms in each country:
 
 \begin_layout Itemize
 Overall number of firms 
-\begin_inset Formula $2n^{A}=2n^{A}=\left(\frac{S}{Fb}\right)^{1/2}$
+\begin_inset Formula $2n^{A}=\left(\frac{S}{Fb}\right)^{1/2}$
 \end_inset
 
  
@@ -4768,23 +4734,21 @@ n^{T}=\left(\frac{2S}{Fb}\right)^{1/2}=\sqrt{2}\left(\frac{S}{Fb}\right)^{1/2}<2
 \begin_layout Itemize
 
 \size normal
-Clearly some firms will have to exit the market following trade-liberalization!
- 
+Model predict that firms will exit the market following trade-liberalization!
+\end_layout
+
+\begin_layout Itemize
+Despite this, there are still more varieties available to consumers after
+ free trade since 
+\begin_inset Formula $n^{A}<n^{T}$
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-
-\size normal
-However, since 
-\begin_inset Formula $n^{A}<n^{T}$
-\end_inset
-
-, still gains from trade, 
-\emph on
-even though countries are identical
-\emph default
- 
+Can interpret this as gains from trade
 \end_layout
 
 \end_deeper
@@ -4821,7 +4785,7 @@ less productive
 \emph default
  firms are most likely to exit the market following trade liberalization
  (E.g.
- Pavcnik 2002)
+ Pavcnik 2002)—sounds reasonable
 \end_layout
 
 \begin_layout Itemize
@@ -4833,6 +4797,10 @@ firm heterogeneity
 \end_layout
 
 \begin_deeper
+\begin_layout Itemize
+In our simple model, firms are symmetric (same demand and cost functions)
+\end_layout
+
 \begin_layout Itemize
 Next class! 
 \end_layout
