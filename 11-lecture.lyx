@@ -191,8 +191,7 @@ Outline for Today
 \end_layout
 
 \begin_layout Itemize
-Allow for increasing returns in heterogeneous firm models.
- 
+Allow for increasing returns to scale in heterogeneous firm models
 \end_layout
 
 \begin_deeper
@@ -210,8 +209,7 @@ Heterogeneous Firms with Exporting Costs
 
 \end_deeper
 \begin_layout Itemize
-Some empirics.
- 
+Empirical results
 \end_layout
 
 \begin_deeper
@@ -221,36 +219,20 @@ Impact of trade liberalization on productivity
 
 \end_deeper
 \begin_layout Itemize
-External economies of scale.
- 
+External economies of scale
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Introduction 
-\end_layout
-
-\begin_layout Itemize
-Model 
-\end_layout
-
-\begin_layout Itemize
+Introduction, Model, 
 \begin_inset Quotes eld
 \end_inset
 
 Infant Industry
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
- argument.
- 
+, argument
 \end_layout
 
 \end_deeper
@@ -278,17 +260,10 @@ Exporters tend to be
 \end_inset
 
 better
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
- in a number of dimensions, compared to non-exporters.
+ in a number of dimensions compared to non-exporters.
  (Bernard and Jensen 1999) 
 \end_layout
 
@@ -300,29 +275,25 @@ Relative to plants that only produce for the domestic market, exporters
 
 \begin_deeper
 \begin_layout Itemize
-More capital intensive.
- 
+More capital intensive
 \end_layout
 
 \begin_layout Itemize
-More technology intensive.
- 
+More technology intensive
 \end_layout
 
 \begin_layout Itemize
-Pay higher wages.
- 
+Pay higher wages
 \end_layout
 
 \begin_layout Itemize
-Are more productive.
- 
+Are more productive
 \end_layout
 
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-Why is this?
+Why is this the case?
 \end_layout
 
 \end_deeper
@@ -342,24 +313,40 @@ Why is this?
 Labour Productivity Of Canadian Manufacturers
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-\begin_inset Graphics
-	filename figures/scott-figures/SL4_productivity.PNG
-	scale 48
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
+\begin_inset Graphics
+	filename figures/scott-figures/SL4_productivity.PNG
+	scale 46
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \align center
 
 \size scriptsize
 Source: Melitz and Trefler (2012) 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -377,9 +364,13 @@ Exporting, Productivity, and Selection
 \end_layout
 
 \begin_layout Itemize
-Popular explanation: Highly productive exporters may be due to 
+Why are exporting firm more productive?
+\end_layout
+
+\begin_layout Itemize
+Self-selection explanation: Highly productive exporters may be due to 
 \emph on
-selection
+self-selection
 \emph default
  
 \end_layout
@@ -390,30 +381,19 @@ Since exporting is costly, it may be that only the most productive firms
  can afford to enter export markets 
 \end_layout
 
+\begin_layout Itemize
+Terminologies: selection, self-selection, positive selection
+\end_layout
+
 \end_deeper
 \begin_layout Itemize
-Note: causality may run in the other direction! 
+Learning explanation: Exporting may cause firms to become more productive
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Exporters may 
-\begin_inset Quotes eld
-\end_inset
-
-learn
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
- to be more productive through exporting.
- 
+By entering the export market, firms learn from competitors thereby increasing
+ their productivity
 \end_layout
 
 \end_deeper
@@ -440,18 +420,11 @@ Whether the exporter
 \end_inset
 
 productivity premium
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
- is due to selection or learning is an empirical question.
- 
+ is due to self-selection or learning is an empirical question (though both
+ effects could be happening)
 \end_layout
 
 \begin_layout Itemize
@@ -466,14 +439,7 @@ How does this export market
 \end_inset
 
 selection effect
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  interact with the market entry selection effects we discussed last class?
@@ -481,8 +447,7 @@ status collapsed
 \end_layout
 
 \begin_layout Itemize
-To do this, we need to add fixed costs to the heterogeneous firm model.
- 
+To do this, we need to add fixed costs to the heterogeneous firm model
 \end_layout
 
 \end_deeper
@@ -500,12 +465,10 @@ Heterogeneous Firms with Fixed Costs
 Monopolistic competition with heterogeneous firms
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-Quick recap of heterogeneous firm model: 
+\begin_layout Itemize
+Quick recap of heterogeneous firm model
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Each firm 
 \begin_inset Formula $j$
@@ -538,8 +501,25 @@ TC_{j}=c_{j}q_{j}
 
 \end_layout
 
-\begin_layout Itemize
-We showed last class that: 
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Monopolistic competition with heterogeneous firms
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -555,6 +535,7 @@ In equilibrium there is a cutoff marginal cost,
  exits the market 
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 Trade integration increases 
 \begin_inset Formula $c^{*}$
@@ -575,14 +556,6 @@ TC_{j}=c_{j}q_{j}+F
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $F$
-\end_inset
-
- is not sunk (i.e.
- rent)!
 \end_layout
 
 \end_deeper
@@ -616,13 +589,11 @@ Each firm still prices according to the first-order condition:
 
 \end_deeper
 \begin_layout Itemize
-Note that by definition fixed costs do not affect marginal costs.
- 
+Note that by definition fixed costs do not affect marginal costs
 \end_layout
 
 \begin_layout Itemize
-Pricing rules for firms is exactly the same.
- 
+Pricing rules for firms is exactly the same 
 \begin_inset Formula 
 \[
 p_{j}^{*}=p^{*}(c_{j})=\frac{1}{2}\left(\frac{1}{bn}+\bar{p}+c_{j}\right)
@@ -638,8 +609,9 @@ The addition of fixed costs makes the cutoff marginal cost,
 \begin_inset Formula $c^{*}$
 \end_inset
 
-, lower.
- 
+, lower 
+\series bold
+(!!! WHY NOT)
 \end_layout
 
 \begin_deeper
@@ -649,20 +621,63 @@ No longer equal to the
 \end_inset
 
 choke price
-\begin_inset ERT
-status collapsed
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
 
 \begin_layout Plain Layout
-
-"
+New Cost Cut-Off ???
 \end_layout
 
 \end_inset
 
- 
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Previously, without fixed costs, the cost cut-off was the intercept of the
+ demand curve (
+\begin_inset Formula $c^{*}=\frac{1}{bn}+\bar{p}$
+\end_inset
+
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Any firm with marginal cost above this will have to exit since entering
+ gives them negative profit
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+The new cut-off 
+\begin_inset Formula $c^{*}$
+\end_inset
+
+ with fixed cost can be derived by setting profits to zero
+\end_layout
+
+\begin_layout Itemize
+WHY IS IT TANGENT WITH DEMAND CURVE???
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -677,15 +692,10 @@ status collapsed
 
 \begin_deeper
 \begin_layout FrameTitle
-Cutoff marginal cost with increasing returns to scale
-\end_layout
-
-\begin_layout FrameTitle
 Pricing, Quantity, and Profits by Costs
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_1.pdf
 	scale 32
@@ -695,6 +705,7 @@ Pricing, Quantity, and Profits by Costs
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -708,11 +719,33 @@ Pricing, Quantity, and Profits by Costs
 
 \begin_deeper
 \begin_layout FrameTitle
-Costs, productivity, and profits
+Costs, Productivity, and Profits
 \end_layout
 
 \begin_layout Itemize
-Since pricing rule has not changed, operating profits simply given by: 
+Recall profits is just 
+\begin_inset Formula $\pi(c_{j})=(p^{*}(c_{j})-c_{j})q^{*}(c_{j})$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Adding fixed costs: 
+\begin_inset Formula $\pi(c_{j})=(p^{*}(c_{j})-c_{j})q^{*}(c_{j})-F$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Substituting the pricing rule derived from 
+\begin_inset Formula $MR_{j}=MC_{j}$
+\end_inset
+
+ 
 \begin_inset Formula 
 \[
 \pi(c_{j})=\frac{Sb}{4}\left(\frac{1}{bn}+\bar{p}-c_{j}\right)^{2}-F
@@ -723,18 +756,50 @@ Since pricing rule has not changed, operating profits simply given by:
 
 \end_layout
 
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Costs, Productivity, and Profits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\pi(c_{j})=\frac{Sb}{4}\left(\frac{1}{bn}+\bar{p}-c_{j}\right)^{2}-F
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
 Lower cost firms still earn higher profits.
  
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 \begin_inset Formula $\pi(c^{*})=0$
 \end_inset
 
- defines the cutoff cost.
- 
+ defines the cutoff cost
 \end_layout
 
 \begin_deeper
@@ -783,19 +848,36 @@ Firms with
 
 \begin_deeper
 \begin_layout FrameTitle
-Productivity cutoffs
+Profits for Different Costs
 \end_layout
 
-\begin_layout FrameTitle
-Profits for different costs
-\end_layout
-
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_7.pdf
 	scale 32
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Between 
+\begin_inset Formula $c^{*}$
+\end_inset
+
+ and 
+\begin_inset Formula $\frac{1}{bn}+\bar{p}$
+\end_inset
+
+, negative profits due to fixed cost.
+ If there were no fixed cost, these marginal cost would have earned positive
+ profits
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
 \end_inset
 
 
@@ -806,74 +888,92 @@ Heterogeneous Firms with Exporting Costs
 \end_layout
 
 \begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Adding Exporting Fixed Cost
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
 \begin_deeper
-\begin_layout FrameTitle
-Export market selection
+\begin_layout Itemize
+We have added fixed cost to production
+\end_layout
+
+\begin_layout Itemize
+We will add another fixed cost to our model to understand implications on
+ selection into exporting
+\end_layout
+
+\begin_layout Itemize
+In particular, assume that if a firm wants to export, they must bear an
+ additonal fixed cost 
+\begin_inset Formula $F_{X}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Exporting is costly
+\end_layout
+
+\begin_layout Itemize
+E.g.
+ Setting up a shipping route
 \end_layout
 
 \end_deeper
-\begin_layout Frame
-Now suppose that home (
-\begin_inset Formula $h$
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
 \end_inset
 
-) firms can choose to export to an identical foreign country.
- 
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Adding Exporting Fixed Cost
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Key assumption: Exporting is costly (E.g.
- Setting up a shipping route) 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Suppose each firm must pay 
 \begin_inset Formula $F_{x}$
 \end_inset
 
- per period to access export market.
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-In 
-\emph on
-addition
-\emph default
- to the operating fixed costs 
-\begin_inset Formula $F$
-\end_inset
-
-.
- 
+ is paid per period to access export market
 \end_layout
 
 \begin_layout Itemize
 This guarantees that if a firm exports, they will also serve the domestic
- market.
- 
+ market
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
-We will just consider fixed costs to exporting.
- 
+We will just consider fixed costs to exporting
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 We could add variable shipping costs to the model as well, but the qualitative
- results would not change.
- 
+ results would not change
 \end_layout
 
-\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Standard
@@ -889,11 +989,11 @@ We could add variable shipping costs to the model as well, but the qualitative
 
 \begin_deeper
 \begin_layout FrameTitle
-Who exports?
+Who Exports?
 \end_layout
 
 \begin_layout Itemize
-Key trade-off: 
+Trade-off to exporting: 
 \end_layout
 
 \begin_deeper
@@ -919,8 +1019,8 @@ But have to pay
 
 \end_deeper
 \begin_layout Itemize
-Only larger, productive firms benefit from increased market size enough
- to justify paying the export costs: 
+Result: Only large, productive firms benefit from increased market size
+ to justify paying the export costs
 \end_layout
 
 \end_deeper
@@ -937,7 +1037,7 @@ Only larger, productive firms benefit from increased market size enough
 
 \begin_deeper
 \begin_layout FrameTitle
-Export Versus Dometisc Profits
+Export Versus Domestic Profits
 \end_layout
 
 \end_deeper
@@ -964,7 +1064,7 @@ Export Versus Dometisc Profits
 
 \begin_deeper
 \begin_layout FrameTitle
-Export Versus Dometisc Profits
+Export Versus Domestic Profits
 \end_layout
 
 \end_deeper
@@ -991,7 +1091,7 @@ Export Versus Dometisc Profits
 
 \begin_deeper
 \begin_layout FrameTitle
-Export Versus Dometisc Profits
+Export Versus Domestic Profits
 \end_layout
 
 \end_deeper
@@ -1021,20 +1121,13 @@ Export Versus Dometisc Profits
 Export market selection
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-With costly export markets: 
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
-Only highly productive (low cost) firms earn higher profits by exporting
- 
+With costly export markets, only highly productive (low cost) firms earn
+ higher profits by exporting 
 \begin_inset Formula $\rightarrow$
 \end_inset
 
- positive selection into export markets.
- 
+ positive selection into export markets
 \end_layout
 
 \begin_deeper
@@ -1062,8 +1155,7 @@ Firms with
 
 \end_deeper
 \begin_layout Itemize
-Low productivity firms exit.
- 
+Low productivity firms exit
 \end_layout
 
 \begin_deeper
@@ -1093,12 +1185,10 @@ Firms with
 Trade liberalization with export costs
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 What does trade liberalization do? 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Convenient to think of this as a fall in 
 \begin_inset Formula $F_{x}$
@@ -1117,33 +1207,29 @@ We shall assume that
 \emph on
 and
 \emph default
- home country.
- 
+ home country
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 Could also think of this as a fall in variable trade costs, but qualitative
- results are about the same.
- 
+ results are similar
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 We shall consider falling trade costs in two steps: 
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-Direct effect: Increased access to foreign markets.
- 
+Direct effect: Increased access to foreign markets
 \end_layout
 
 \begin_layout Enumerate
-Indirect effect: Increased competition.
- 
+Indirect effect: Increased competition
 \end_layout
 
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -1163,8 +1249,7 @@ Direct effect of falling export costs
 
 \begin_layout Itemize
 If it becomes cheaper to enter export markets, we should see more export
- market entry.
- 
+ market entry
 \end_layout
 
 \begin_deeper
@@ -1181,8 +1266,7 @@ fall
 \end_layout
 
 \begin_layout Itemize
-More firms enter export markets, but these firms are marginally less productive.
- 
+More firms enter export markets, but these firms are marginally less productive
 \end_layout
 
 \end_deeper
@@ -1203,8 +1287,7 @@ More firms enter export markets, but these firms are marginally less productive.
 Falling Export Costs: Direct Effect
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_11.pdf
 	scale 32
@@ -1214,6 +1297,12 @@ Falling Export Costs: Direct Effect
 
 \end_layout
 
+\begin_layout Itemize
+Falling export fixed cost due to trade allows marignally less productive
+ firms (higher marginal cost) to enter
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -1230,21 +1319,17 @@ Falling Export Costs: Direct Effect
 Indirect effect of falling export costs: Increased competition
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 Recall that we are assuming that 
 \begin_inset Formula $F_{x}$
 \end_inset
 
- is falling in both the home and foreign market.
- 
+ is falling in both the home and foreign market
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Since more home firms enter the export (foreign) market, more foreign firms
- should enter the home market as well.
- 
+ should enter the home market as well
 \end_layout
 
 \begin_layout Itemize
@@ -1256,8 +1341,8 @@ Number of firms has to rise
 \end_layout
 
 \begin_layout Itemize
-Extra competition drives down the profits that be earned domestically and
- by exporting 
+Extra competition drives down the profits that can be earned domestically
+ and by exporting
 \end_layout
 
 \end_deeper
@@ -1277,8 +1362,7 @@ Extra competition drives down the profits that be earned domestically and
 Falling Export Costs: Competition Effect
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_12.pdf
 	scale 32
@@ -1288,6 +1372,17 @@ Falling Export Costs: Competition Effect
 
 \end_layout
 
+\begin_layout Itemize
+Trade also results in foreign firms to entering domestic market, domestic
+ market profits decreases across all firms
+\end_layout
+
+\begin_layout Itemize
+Additionally, export markets become more competitive, offsetting profits
+ gained from reduced exporting fixed cost
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -1304,8 +1399,7 @@ Falling Export Costs: Competition Effect
 Falling Export Costs: Overall Effect
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_13.pdf
 	scale 32
@@ -1315,6 +1409,7 @@ Falling Export Costs: Overall Effect
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -1331,8 +1426,7 @@ Falling Export Costs: Overall Effect
 Falling Export Costs: Initial Cost Cutoffs
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_27.pdf
 	scale 32
@@ -1342,6 +1436,7 @@ Falling Export Costs: Initial Cost Cutoffs
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -1358,8 +1453,7 @@ Falling Export Costs: Initial Cost Cutoffs
 Falling Export Costs: Change in Cost Cutoffs
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_28.pdf
 	scale 32
@@ -1369,6 +1463,7 @@ Falling Export Costs: Change in Cost Cutoffs
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -1385,8 +1480,7 @@ Falling Export Costs: Change in Cost Cutoffs
 Falling Export Costs: Entry and Exit
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_29.pdf
 	scale 32
@@ -1396,6 +1490,7 @@ Falling Export Costs: Entry and Exit
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -1412,8 +1507,7 @@ Falling Export Costs: Entry and Exit
 Falling Export Costs: Final Cost Cutoffs
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_30.pdf
 	scale 32
@@ -1423,6 +1517,7 @@ Falling Export Costs: Final Cost Cutoffs
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -1440,19 +1535,16 @@ Trade liberalization with heterogeneous firms and fixed export costs: Conclusion
 \end_layout
 
 \begin_layout Itemize
-Highest cost firms are forced out of the market.
- 
+High cost firms are forced out of the market
 \end_layout
 
 \begin_layout Itemize
-More firms select into exporting.
- 
+More firms select into exporting
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-At the margin, these are less productive (higher cost) firms.
- 
+At the margin, these are less productive (higher cost) firms
 \end_layout
 
 \end_deeper
@@ -1465,16 +1557,70 @@ Consumers still enjoy variety gains (
 \end_layout
 
 \begin_layout Itemize
-Allocative gains from trade due to exit of highest cost firms.
+Allocative gains from trade due to exit of highest cost firms
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Empirics
 \end_layout
 
 \begin_layout Subsection
 Trefler 2004
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+LARGE 
+\backslash
+textbf{Empirical Studies on Trade and Productivity}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -1546,14 +1692,12 @@ Short-run labour adjustment costs due to trade liberalization
 
 \begin_deeper
 \begin_layout Itemize
-However, within ten years, employment rates had recovered.
- 
+However, within ten years, employment rates had recovered
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Gains are generally a long-run phenomenon.
- 
+Gains are generally a long-run phenomenon
 \end_layout
 
 \end_deeper
@@ -1577,26 +1721,19 @@ Main findings of Trefler (2004):
 
 \begin_layout Itemize
 The least productive firms in the contracted/suffered in Canadian sectors
- that benefited from tariff cuts.
- 
-\begin_inset Newline newline
-\end_inset
-
- 
+ that benefited from tariff cuts
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Explicitly predicted by the above model as the most productive firms enhance
- their productive scale.
- 
+ their productive scale
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 In formerly sheltered industries, labour productivity (value added per worker)
- grew by 15%.
- 
+ grew by 15%
 \end_layout
 
 \begin_deeper
@@ -1606,13 +1743,11 @@ Approximately half came from reallocation across firms and the remainder
 \emph on
 within
 \emph default
- firm improvements.
- 
+ firm improvements
 \end_layout
 
 \begin_layout Itemize
-Firm heterogeneity model explains the first half.
- 
+Firm heterogeneity model explains the first half
 \end_layout
 
 \begin_deeper
@@ -1623,8 +1758,7 @@ What explains within-firm improvements?
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-Tradeoff: Employment fell in these industries by 12%.
- 
+Tradeoff: Employment fell in these industries by 12%
 \end_layout
 
 \begin_deeper
@@ -1634,6 +1768,13 @@ Do the long-run productivity benefits outweigh the short-run costs?
 
 \end_deeper
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Lileeva and Trefler 2010
 \end_layout
@@ -1654,45 +1795,23 @@ Further examination of the
 \end_inset
 
 within-firm
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
- productivity improvements surrounding the FTA.
- 
+ productivity improvements surrounding the FTA
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes eld
 \end_inset
 
 Improved Access to Foreign Markets Raises Plant Level Productivity...
  For Some Plants.
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
- 
+
 \end_layout
 
 \begin_layout Itemize
@@ -1700,14 +1819,12 @@ Examines whether access to foreign markets encourages firms to
 \emph on
 invest
 \emph default
- in productivity improvements.
- 
+ in productivity improvements
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Use plants specific tariff cuts to disentangle this effect.
- 
+Use plant-specific tariff cuts to disentangle this effect
 \end_layout
 
 \end_deeper
@@ -1764,58 +1881,28 @@ Within-firm productivity improvements increased average productivity by
 Lileeva and Trefler (2010): Evidence on Mechanisms
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-Provide further evidence on the within-firm productivity improvements.
- 
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
-Theory: 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-If productivity improvements driven by incentives to invest, lower productivity
- firms that begin exporting for the first time will have the highest incentives
- to invest in productivity improvements.
- 
+Provide further evidence on the within-firm productivity improvements
 \end_layout
 
 \begin_layout Itemize
-Roughly, these firms need to 
-\begin_inset Quotes eld
-\end_inset
-
-catch up
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
- the most if they want to compete in world markets! 
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-We see the largest productivity gains for the least productive firms that
- entered the export market.
- 
+Finds the largest productivity gains for the least productive firms that
+ entered the export market
 \end_layout
 
 \begin_layout Itemize
 Using survey data, also find that least productive, new exporters, were
- the most likely to adopt new technologies.
- 
+ the most likely to adopt new technologies
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 External Economies of Scale (KOM Ch.
  7)
@@ -1834,12 +1921,10 @@ Introduction
 Motivation: Industrial Clusters
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 Many industries tend to concentrate in a single location: 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Some well-known examples: 
 \end_layout
