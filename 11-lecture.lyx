@@ -382,7 +382,7 @@ Since exporting is costly, it may be that only the most productive firms
 \end_layout
 
 \begin_layout Itemize
-Terminologies: selection, self-selection, positive selection
+Terminology: selection, self-selection, positive selection
 \end_layout
 
 \end_deeper
@@ -912,7 +912,7 @@ We will add another fixed cost to our model to understand implications on
 
 \begin_layout Itemize
 In particular, assume that if a firm wants to export, they must bear an
- additonal fixed cost 
+ additional fixed cost 
 \begin_inset Formula $F_{X}$
 \end_inset
 
@@ -1298,7 +1298,7 @@ Falling Export Costs: Direct Effect
 \end_layout
 
 \begin_layout Itemize
-Falling export fixed cost due to trade allows marignally less productive
+Falling export fixed cost due to trade allows marginally less productive
  firms (higher marginal cost) to enter
 \end_layout
 
@@ -2002,15 +2002,8 @@ Basic Idea: If being located near other firms generates
 \begin_inset Quotes eld
 \end_inset
 
-positive spillovers,
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+positive spillovers
+\begin_inset Quotes erd
 \end_inset
 
  average cost may fall as more and more firms enter the same area.
@@ -2047,7 +2040,7 @@ exogenous
 
 \begin_deeper
 \begin_layout FrameTitle
-Sources of Extrernal Economies of Scale
+Sources of External Economies of Scale
 \end_layout
 
 \begin_layout Standard
@@ -2106,7 +2099,7 @@ Many industries require require inputs that are highly specialized inputs.
 \begin_deeper
 \begin_layout Itemize
 E.g.
- semiconducters and computer chips.
+ semiconductors and computer chips.
  
 \end_layout
 
