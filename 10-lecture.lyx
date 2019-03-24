@@ -1614,8 +1614,7 @@ Net effect of increased competition and increased market size
 \emph on
 rotates
 \emph default
- demand.
- 
+ demand
 \end_layout
 
 \begin_deeper
@@ -1647,13 +1646,11 @@ Inefficient firms are forced out of the market, but efficient firms gain
 Trade can increase average productivity! 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 More formal demonstrations of these ideas (in general equilibrium) can be
  found in Melitz (2003) and Melitz and Ottaviano (2008) 
 \end_layout
 
-\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Standard
@@ -1669,19 +1666,21 @@ More formal demonstrations of these ideas (in general equilibrium) can be
 
 \begin_deeper
 \begin_layout FrameTitle
-Does trade increase comeptition in the heterogeneous firm model?
+Closing the Heterogeneous Firm Model
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 If trade integration is simply an increase in 
 \begin_inset Formula $S$
 \end_inset
 
-, does competition have to increase? 
+, does competition 
+\emph on
+have
+\emph default
+ to increase? 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 In the homogeneous firm model, we showed that 
 \begin_inset Formula $\uparrow S$
@@ -1695,26 +1694,18 @@ In the homogeneous firm model, we showed that
 \begin_inset Formula $\downarrow\bar{p}$
 \end_inset
 
-.
- 
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Somewhat difficult to show what happens to these variables separately, but
- we can show what happens to 
+Difficult to show what happens to these variables separately, but we can
+ show what happens to 
 \begin_inset Quotes eld
 \end_inset
 
 competition
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
 , or 
@@ -1725,27 +1716,23 @@ status collapsed
 \end_layout
 
 \begin_layout Itemize
-However, to do this, we need an extra condition to pin down these endogenous
- variables.
- 
+To do this, we need an extra condition to pin down these endogenous variables
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-With homogeneous firms, we invoked symmetry and free-entry.
- 
+With homogeneous firms, we assumed symmetry and free-entry
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Not possible to invoke symmetry now, since firms clearly behave differently!
+Not possible to invoke symmetry now, since firms are no longer symmetric!
  
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-We need a new type of free-entry condition to solve the model.
- 
+We need a new type of free-entry condition to solve the model
 \end_layout
 
 \end_deeper
@@ -1762,44 +1749,36 @@ We need a new type of free-entry condition to solve the model.
 
 \begin_deeper
 \begin_layout FrameTitle
-Closing the heterogeneous firm model: Free-Entry
+Closing the Heterogeneous Firm Model: Free-Entry
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 Solution: Model entry as a two-stage process, and set 
 \emph on
 expected
 \emph default
- profits equal to zero.
- 
+ profits equal to zero:
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Stage 1: 
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Itemize
 
 \size footnotesize
-All (potential) firms are identical 
+All (potential) firms are 
 \emph on
-ex-ante
+ex ante
 \emph default
- 
+ identical 
 \end_layout
 
 \begin_layout Itemize
 
 \size footnotesize
-Potential firms decide whether they want to enter the market or not.
- 
+Potential firms decide whether they want to enter the market or not 
 \end_layout
 
 \begin_layout Itemize
@@ -1814,8 +1793,7 @@ sunk
 \end_inset
 
  on research and development.
- Otherwise they get a payoff of zero.
- 
+ Otherwise they get a payoff of zero
 \end_layout
 
 \begin_layout Itemize
@@ -1826,7 +1804,7 @@ After paying the entry cost, each firm makes a
 marginal cost draw
 \emph default
  from the same known distribution (e.g.
- a normal distribution) 
+ a normal distribution)
 \end_layout
 
 \end_deeper
@@ -1835,15 +1813,10 @@ Stage 2:
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Itemize
 
 \size footnotesize
-All cost draws are realized.
- 
+All cost draws are realized
 \end_layout
 
 \begin_layout Itemize
@@ -1853,13 +1826,13 @@ Firms who draw
 \begin_inset Formula $c_{j}>\frac{1}{bn}+\bar{p}$
 \end_inset
 
- exit.
- 
+ exit
 \end_layout
 
 \begin_layout Itemize
 
 \size footnotesize
+Therefore, 
 \begin_inset Formula $c_{j}\leq\frac{1}{bn}+\bar{p}$
 \end_inset
 
@@ -1884,28 +1857,21 @@ Firms who draw
 Expected Free Entry Equilibrium
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-We assume that firms enter the market until 
+\begin_layout Itemize
+Firms enter the market until 
 \emph on
 expected
 \emph default
- profits are zero.
- 
+ profits are zero
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 While all the firms who 
 \emph on
 remain
 \emph default
- in the market in stage 2 earn positive profits, some firms will earn negative
- profits 
-\emph on
-from the perspective of stage 1
-\emph default
- ! 
+ in the market in Stage 2 earn positive profits, some firms will earn negative
+ profits
 \end_layout
 
 \begin_deeper
@@ -1929,36 +1895,15 @@ Since some firms
 \end_inset
 
 win
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  and some firms 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes eld
 \end_inset
 
 lose
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  we are looking for the value of 
@@ -1966,14 +1911,7 @@ status collapsed
 \end_inset
 
 competition
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  that makes the expected benefit of this gamble exactly equal to zero.
@@ -2016,72 +1954,36 @@ label=cost
 Cost Cutoffs and Expected Profits
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-Define the 
-\begin_inset Quotes eld
-\end_inset
-
-cut-off
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
- marginal cost, 
+\begin_layout Itemize
+Define 
 \begin_inset Formula $c^{*}$
 \end_inset
 
- as the marginal cost draw where a firm is just indifferent between staying
- and exiting the market.
- 
+ as the marginal cost draw (cut-off) where firm is indifferent between staying
+ and exiting
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
-We know from our earlier calculations that is must be that 
+From earlier calculations, 
 \begin_inset Formula $c^{*}=\frac{1}{bn}+\bar{p}$
 \end_inset
 
- (Recall the 
-\begin_inset Quotes eld
-\end_inset
-
-choke price
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
-) 
+ (the choke price) 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-If we can solve for the cut-off marginal cost, we will now know level of
- competition prevails in the market (i.e.
- we know the intercept of the demand curve).
- 
+If we can solve for this, we will now know level of competition prevails
+ in the market
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-It is straightforward to show that expected profits are 
+It can be shown that expected profits are 
 \emph on
 increasing
 \emph default
- in the cut-off marginal cost.
- 
+ in the cut-off marginal cost 
 \begin_inset ERT
 status collapsed
 
@@ -2145,7 +2047,7 @@ status collapsed
 
 \begin_deeper
 \begin_layout Itemize
-For any active firm, operating profits increase with 
+For an active firm, operating profits increase with 
 \begin_inset Formula $c^{*}$
 \end_inset
 
@@ -2166,40 +2068,18 @@ Increasing
 \end_inset
 
 exiters
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  into 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes eld
 \end_inset
 
 stayers
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
-, which strictly increases their profit as well.
- 
+, which strictly increases their profit as well
 \end_layout
 
 \end_deeper
@@ -2217,20 +2097,27 @@ status collapsed
 
 \begin_deeper
 \begin_layout FrameTitle
-Expected profits rise as less productive firms survive
+Expected profits as a function of cut-off marginal cost
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL3_3.pdf
 	scale 32
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $c^{*}=\frac{1}{bn}+\bar{p}$
+\end_inset
+
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -2244,11 +2131,10 @@ Expected profits rise as less productive firms survive
 
 \begin_deeper
 \begin_layout FrameTitle
-To try and obtain these profits, need to pay K
+To enter, firms must pay K
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL3_4.pdf
 	scale 32
@@ -2258,6 +2144,7 @@ To try and obtain these profits, need to pay K
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -2274,8 +2161,7 @@ To try and obtain these profits, need to pay K
 In equilibrium, expected profits = K
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL3_5.pdf
 	scale 32
@@ -2285,6 +2171,7 @@ In equilibrium, expected profits = K
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -2310,17 +2197,14 @@ label=cost2
 Trade and Competition
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-Zero expected profit condition pins down 
+\begin_layout Itemize
+Zero expected profit give us the equilibrium cut-off marginal cost 
 \begin_inset Formula $c^{*}=\frac{1}{bn}+\bar{p}$
 \end_inset
 
-, which pins down the level of competition.
- 
+, giving us a measure of the level of competition in the model
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 What does trade integration (
 \begin_inset Formula $\uparrow S$
@@ -2397,7 +2281,6 @@ status collapsed
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Increased market size increases profits for all potential levels of 
 \begin_inset Formula $c^{*}$
@@ -2415,14 +2298,16 @@ Increased market size increases profits for all potential levels of
 \end_layout
 
 \end_deeper
-\end_deeper
 \begin_layout Itemize
-End result: 
+Therefore, trade, as interpreted by an increase in market size 
+\begin_inset Formula $\uparrow S$
+\end_inset
+
+, causes 
 \begin_inset Formula $c^{*}$
 \end_inset
 
- has to fall.
- 
+ has to fall
 \end_layout
 
 \end_deeper
@@ -2442,8 +2327,7 @@ End result:
 Impact of trade on cost cutoffs
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL3_6.pdf
 	scale 32
@@ -2453,6 +2337,7 @@ Impact of trade on cost cutoffs
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -2469,18 +2354,15 @@ Impact of trade on cost cutoffs
 Overall impact of trade on competition and productivity
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 We have shown that trade integration will decrease the marginal cost cutoff
  
 \begin_inset Formula $\rightarrow$
 \end_inset
 
- less productive firms will definitely exit the market.
- 
+ less productive firms will exit the market
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Moreover, since 
 \begin_inset Formula $c^{*}=\frac{1}{bn}+\bar{p}$
@@ -2491,18 +2373,10 @@ Moreover, since
 \end_inset
 
 competition
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
- (as measured by the inverse demand intercept) needs to increase.
- 
+ needs to decrease
 \end_layout
 
 \begin_deeper
@@ -2515,41 +2389,28 @@ Either
 \begin_inset Formula $\bar{p}\downarrow$
 \end_inset
 
- (or both!) 
+ or both
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-...Although it is somewhat difficult to pin down what will happen to each endogenou
-s variable separately.
- 
+Difficult to pin down what will happen to each variable separately
 \end_layout
 
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-Key point: Model with endogenous entry still generates the demand rotation,
- generating winners are losers due to trade.
- 
+We have explicitly modeled which firms exit under free trade, which we were
+ not able to do in the homogenous firms model
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Generates some exit, just like the homogeneous firm model, but now we see
- that it is only the 
-\emph on
-least productive firms
-\emph default
- that exit the market.
- 
-\end_layout
-
-\begin_layout Itemize
-Generates 
+In trade literature, this is referred to as the 
 \emph on
 allocative efficiency gains
 \emph default
- 
+ of trade
 \end_layout
 
 \end_deeper
@@ -2570,14 +2431,12 @@ allocative efficiency gains
 Summary
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 Today we covered: 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
-Monopolistic competition with homogeneous firms 
+Review of monopolistic competition with homogeneous firms 
 \end_layout
 
 \begin_deeper
@@ -2636,15 +2495,12 @@ Allocative productivity gains
 
 \end_deeper
 \end_deeper
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 Next Class: 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
-Allow for increasing returns in heterogeneous firm models.
- 
+Allow for increasing returns in heterogeneous firm models
 \end_layout
 
 \begin_deeper
@@ -2653,17 +2509,10 @@ Allow for increasing returns in heterogeneous firm models.
 \end_inset
 
 Exporter Selection
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
- 
+
 \end_layout
 
 \end_deeper
@@ -2680,8 +2529,62 @@ Trade policy with market power (monopoly)
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Optional Appendix
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+LARGE 
+\backslash
+textbf{Appendix}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -2699,15 +2602,14 @@ label=Formal
 
 \begin_deeper
 \begin_layout FrameTitle
-Expected Profits increase with 
+Expected profits increase with 
 \begin_inset Formula $c^{*}$
 \end_inset
 
  (Optional)
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 Key Condition: 
 \begin_inset Formula 
 \[
@@ -2719,7 +2621,6 @@ Key Condition:
 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Substitute the cost-cutoff equation into our profit equation 
 \begin_inset Formula 
@@ -2753,8 +2654,7 @@ LHS is clearly increasing with
 
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset ERT
 status collapsed
 
@@ -2816,6 +2716,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -2838,15 +2739,14 @@ label=Formal2
 
 \begin_deeper
 \begin_layout FrameTitle
-Expected Profits increase with 
+Expected profits increase with 
 \begin_inset Formula $c^{*}$
 \end_inset
 
  (Optional)
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 Key Condition: 
 \begin_inset Formula 
 \[
@@ -2858,7 +2758,6 @@ Key Condition:
 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Substitute the cost-cutoff equation into our profit equation 
 \begin_inset Formula 
@@ -2902,8 +2801,7 @@ LHS rotates upwards from the origin if
 \end_layout
 
 \end_deeper
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset ERT
 status collapsed
 
@@ -2963,6 +2861,14 @@ status collapsed
 \end_inset
 
  
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \end_body
