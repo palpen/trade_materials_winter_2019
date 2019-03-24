@@ -345,7 +345,7 @@ Labour Productivity Of Canadian Manufacturers
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_productivity.PNG
+	filename figures/scott-figures/SL4_productivity.PNG
 	scale 48
 
 \end_inset
@@ -687,7 +687,7 @@ Pricing, Quantity, and Profits by Costs
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_1.pdf
+	filename figures/scott-figures/SL4_1.pdf
 	scale 32
 
 \end_inset
@@ -793,7 +793,7 @@ Profits for different costs
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_7.pdf
+	filename figures/scott-figures/SL4_7.pdf
 	scale 32
 
 \end_inset
@@ -943,7 +943,7 @@ Export Versus Dometisc Profits
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_8.pdf
+	filename figures/scott-figures/SL4_8.pdf
 	scale 32
 
 \end_inset
@@ -970,7 +970,7 @@ Export Versus Dometisc Profits
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_9.pdf
+	filename figures/scott-figures/SL4_9.pdf
 	scale 32
 
 \end_inset
@@ -997,7 +997,7 @@ Export Versus Dometisc Profits
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_10.pdf
+	filename figures/scott-figures/SL4_10.pdf
 	scale 32
 
 \end_inset
@@ -1206,7 +1206,7 @@ Falling Export Costs: Direct Effect
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_11.pdf
+	filename figures/scott-figures/SL4_11.pdf
 	scale 32
 
 \end_inset
@@ -1280,7 +1280,7 @@ Falling Export Costs: Competition Effect
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_12.pdf
+	filename figures/scott-figures/SL4_12.pdf
 	scale 32
 
 \end_inset
@@ -1307,7 +1307,7 @@ Falling Export Costs: Overall Effect
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_13.pdf
+	filename figures/scott-figures/SL4_13.pdf
 	scale 32
 
 \end_inset
@@ -1334,7 +1334,7 @@ Falling Export Costs: Initial Cost Cutoffs
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_27.pdf
+	filename figures/scott-figures/SL4_27.pdf
 	scale 32
 
 \end_inset
@@ -1361,7 +1361,7 @@ Falling Export Costs: Change in Cost Cutoffs
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_28.pdf
+	filename figures/scott-figures/SL4_28.pdf
 	scale 32
 
 \end_inset
@@ -1388,7 +1388,7 @@ Falling Export Costs: Entry and Exit
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_29.pdf
+	filename figures/scott-figures/SL4_29.pdf
 	scale 32
 
 \end_inset
@@ -1415,7 +1415,7 @@ Falling Export Costs: Final Cost Cutoffs
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_30.pdf
+	filename figures/scott-figures/SL4_30.pdf
 	scale 32
 
 \end_inset
@@ -2615,7 +2615,7 @@ External Economies of Scale Equilibrium
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_17.pdf
+	filename figures/scott-figures/SL4_17.pdf
 	scale 32
 
 \end_inset
@@ -2719,7 +2719,7 @@ Autarky Equilibria
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_18.pdf
+	filename figures/scott-figures/SL4_18.pdf
 	scale 32
 
 \end_inset
@@ -2798,7 +2798,7 @@ Free Trade Equilibrium
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_19.pdf
+	filename figures/scott-figures/SL4_19.pdf
 	scale 32
 
 \end_inset
@@ -2930,7 +2930,7 @@ Autarky: Small Japanese market, large US market
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_20.pdf
+	filename figures/scott-figures/SL4_20.pdf
 	scale 32
 
 \end_inset
@@ -2957,7 +2957,7 @@ Trade: Small Japanese market, large US market
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_21.pdf
+	filename figures/scott-figures/SL4_21.pdf
 	scale 32
 
 \end_inset
@@ -2984,7 +2984,7 @@ Trade: Small Japanese market, large US market
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_22.pdf
+	filename figures/scott-figures/SL4_22.pdf
 	scale 32
 
 \end_inset
@@ -3011,7 +3011,7 @@ Trade: Small Japanese market, large US market
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_23.pdf
+	filename figures/scott-figures/SL4_23.pdf
 	scale 32
 
 \end_inset
@@ -3236,7 +3236,7 @@ status collapsed
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_24.pdf
+	filename figures/scott-figures/SL4_24.pdf
 	scale 32
 
 \end_inset
@@ -3313,7 +3313,7 @@ Gains from autarky?
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_25.pdf
+	filename figures/scott-figures/SL4_25.pdf
 	scale 32
 
 \end_inset
@@ -3380,7 +3380,7 @@ Eventual gains from trade
 \end_deeper
 \begin_layout Frame
 \begin_inset Graphics
-	filename scott-lectures/SL4_26.pdf
+	filename figures/scott-figures/SL4_26.pdf
 	scale 32
 
 \end_inset
