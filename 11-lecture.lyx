@@ -1964,8 +1964,7 @@ Why does this happen?
 External Economies of Scale
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 Alfred Marshall argued that industrial clusters tend to occur in industries
  characterized by 
 \emph on
@@ -1975,7 +1974,6 @@ external
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 
 \series bold
@@ -2052,8 +2050,7 @@ exogenous
 Sources of Extrernal Economies of Scale
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 What generates external economies of scale? 
 \begin_inset VSpace 3mm
 \end_inset
@@ -2061,7 +2058,6 @@ What generates external economies of scale?
  
 \end_layout
 
-\begin_deeper
 \begin_layout Enumerate
 Specialized suppliers 
 \end_layout
@@ -2074,8 +2070,7 @@ Labour market pooling
 Knowledge spillovers 
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset VSpace 5mm
 \end_inset
 
@@ -2086,6 +2081,7 @@ Knowledge spillovers
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -2133,14 +2129,7 @@ Solution: If many
 \end_inset
 
 downstream
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  firms locate in the same area, generates a large enough market size for
@@ -2149,14 +2138,7 @@ status collapsed
 \end_inset
 
 upstream
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  firms).
@@ -2170,17 +2152,10 @@ Note gains due to specialized suppliers will tend to generate
 \end_inset
 
 path dependence.
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
- 
+
 \end_layout
 
 \begin_deeper
@@ -2191,11 +2166,6 @@ Once some input suppliers start to locate in the same area (which could
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-.
- 
-\end_layout
-
 \end_deeper
 \end_deeper
 \begin_layout Standard
@@ -2214,8 +2184,7 @@ Once some input suppliers start to locate in the same area (which could
 Specialized Suppliers
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 
 \emph on
 \begin_inset Quotes eld
@@ -2231,21 +2200,13 @@ red capitals goods such as diffusion ovens, step-and-repeat cameras, and
 nt.
  It also reinforced the tendency towards industrial localization, as most
  the specialized inputs were not available elsewhere in the country.
- 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
 
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset VSpace 3mm
 \end_inset
 
@@ -2253,6 +2214,7 @@ status collapsed
  7)
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -2269,8 +2231,7 @@ status collapsed
 Labor Market Pooling
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 Similar to specialized suppliers, except applied to a particular factor,
  
 \emph on
@@ -2280,7 +2241,6 @@ labour
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Some jobs require highly specialized skills.
  
@@ -2339,13 +2299,11 @@ These gains are very important when demand is highly uncertain.
 Labor Market Pooling: Example
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 Consider a world with two film studios and 200 animators.
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Both studios face 
 \emph on
@@ -2354,12 +2312,12 @@ idiosyncratic
  demand uncertainty: 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 If studio-level demand is high, will want hire 150 workers.
  
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 If demand is low, will only want to hire 50 workers.
  
@@ -2388,16 +2346,12 @@ Let's consider what happens if the studios locate in different cities, and
 Labour Market Pooling: Example
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-Suppose both studios locate in different cities.
- 
+\begin_layout Standard
+Suppose both studios locate in different cities
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
-Suppose 100 animators go to each city.
- 
+Suppose 100 animators go to each city
 \end_layout
 
 \begin_layout Itemize
@@ -2408,11 +2362,11 @@ If demand is high for either firm, there is a labour shortage!
 If demand is low for either firm, some animators are unemployed! 
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 At least one side of the market is hurt no matter what! 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -2429,13 +2383,11 @@ At least one side of the market is hurt no matter what!
 Labour Market Pooling: Example
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 Suppose both studios locate in the same cities.
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 All animators are now located in the same place as well.
  
@@ -2460,11 +2412,11 @@ Whenever one firm has high demand, and the other has low demand, the market
  
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 This environment is much less risky.
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -2481,8 +2433,7 @@ This environment is much less risky.
 Labour Market Pooling: Silicon Valley
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 
 \emph on
 \begin_inset Quotes eld
@@ -2492,14 +2443,7 @@ Labour Market Pooling: Silicon Valley
  job on Monday...
  You didn't necessarily have to tell your wife.
  You just drove off in another direction on Monday morning.
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
 
@@ -2507,6 +2451,7 @@ status collapsed
  (Silicon Valley engineer)
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -2523,28 +2468,19 @@ status collapsed
 Knowledge Spillovers
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 To remain competitive highly innovative industries, it is crucial that one
  remain near the 
 \begin_inset Quotes eld
 \end_inset
 
 technology frontier.
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
- 
+
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 People like to talk about what they do.
  
@@ -2558,8 +2494,7 @@ Informal exchange of ideas by employees after-hours may help keep one's
 \end_layout
 
 \end_deeper
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 
 \emph on
 \begin_inset Quotes eld
@@ -2572,19 +2507,20 @@ Every year there was some place, the Wagon Wheel, Chez Yvonne, Rickey's,
  bubble memories, pulse trains, bounceless contracts, burst modes, leapfrog
  tests, p-n junctions, sleeping sickness modes, slow-death episodes, RAMs,
  NAKs, MOSes, PCMs, PROM blowers, PROM blasters, and teramagnitudes...
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
 
 \emph default
  (Tom Wolfe on early Silicon Valley)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -2600,24 +2536,20 @@ Model
 External Economies of Scale: Model
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 We are going to consider a perfectly competitive model of external economies
  of scale.
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Partly for historical reasons 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 External economies were first developed in this context 
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
 Partly for simplicity 
 \end_layout
@@ -2629,14 +2561,7 @@ One
 \end_inset
 
 type
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  of good, one price 
@@ -2647,12 +2572,10 @@ status collapsed
 \end_layout
 
 \end_deeper
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 Basic environment: 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Large number of perfectly competitive and identical firms, each of whom
  supplies a negligible portion of industry output.
@@ -2697,8 +2620,7 @@ The economy is in a long-run equilibrium, so
 External Economies of Scale Equilibrium
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_17.pdf
 	scale 32
@@ -2708,6 +2630,7 @@ External Economies of Scale Equilibrium
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -2724,12 +2647,10 @@ External Economies of Scale Equilibrium
 Trade and External Economies of Scale
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 What happens in an environment with external economies and trade? 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Suppose Japan (JPN) and the United States (US) have the 
 \emph on
@@ -2739,7 +2660,6 @@ exact same
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Let's suppose JPN has a cost advantage in microchip production 
 \begin_inset Formula $(AC_{JPN}<AC_{US})$
@@ -2748,7 +2668,6 @@ Let's suppose JPN has a cost advantage in microchip production
  
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
 External returns to scale are 
 \begin_inset Quotes eld
@@ -2801,8 +2720,7 @@ vice versa
 Autarky Equilibria
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_18.pdf
 	scale 32
@@ -2812,6 +2730,7 @@ Autarky Equilibria
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -2880,8 +2799,7 @@ Different prediction from standard comparative advantage models developed
 Free Trade Equilibrium
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_19.pdf
 	scale 32
@@ -2891,6 +2809,7 @@ Free Trade Equilibrium
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -2932,11 +2851,11 @@ Price of microchips has fallen in both countries!
 \end_layout
 
 \end_deeper
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 Gains from trade look pretty good here! 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -2953,12 +2872,10 @@ Gains from trade look pretty good here!
 Gains from trade with external economies
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 ...However 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Models with external economies of scale 
 \emph on
@@ -3012,8 +2929,7 @@ To see this, suppose that the US had a much larger microchip market than
 Autarky: Small Japanese market, large US market
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_20.pdf
 	scale 32
@@ -3023,6 +2939,7 @@ Autarky: Small Japanese market, large US market
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -3039,8 +2956,7 @@ Autarky: Small Japanese market, large US market
 Trade: Small Japanese market, large US market
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_21.pdf
 	scale 32
@@ -3050,6 +2966,7 @@ Trade: Small Japanese market, large US market
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -3066,8 +2983,7 @@ Trade: Small Japanese market, large US market
 Trade: Small Japanese market, large US market
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_22.pdf
 	scale 32
@@ -3077,6 +2993,7 @@ Trade: Small Japanese market, large US market
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -3093,8 +3010,7 @@ Trade: Small Japanese market, large US market
 Trade: Small Japanese market, large US market
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_23.pdf
 	scale 32
@@ -3104,6 +3020,7 @@ Trade: Small Japanese market, large US market
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -3120,15 +3037,8 @@ Trade: Small Japanese market, large US market
 \begin_inset Quotes eld
 \end_inset
 
-Lock in
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+Lock In
+\begin_inset Quotes erd
 \end_inset
 
  and the gains from trade
@@ -3166,14 +3076,7 @@ Industry output in Japan goes to zero, even though they
 \end_inset
 
 should
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  take over the entire market! 
@@ -3186,14 +3089,7 @@ We have smaller gains from trade then we
 \end_inset
 
 could
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  have.
@@ -3202,13 +3098,19 @@ status collapsed
 
 \begin_deeper
 \begin_layout Itemize
-Although there are still gains from trade.
- 
+Although there are still gains from trade
 \end_layout
 
 \end_deeper
 \end_deeper
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Infant Industry Argument
 \end_layout
@@ -3223,41 +3125,25 @@ Infant Industry Argument
 \end_inset
 
 Infant industry
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  argument: A case for trade protection?
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 Arguments based on the inefficiency of 
 \begin_inset Quotes eld
 \end_inset
 
 lock-in
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  are sometimes be used to justify limiting free trade.
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Trade protection may be warranted if: 
 \end_layout
@@ -3305,21 +3191,13 @@ Trade equilibrium with Japan as a
 \end_inset
 
 new entrant
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
 
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_24.pdf
 	scale 32
@@ -3329,6 +3207,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -3346,14 +3225,7 @@ status collapsed
 \end_inset
 
 Lock-in
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  and new entrants
@@ -3395,8 +3267,7 @@ Interestingly, Japan would be better of with autarky in this case.
 Gains from autarky?
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_25.pdf
 	scale 32
@@ -3406,6 +3277,7 @@ Gains from autarky?
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -3462,8 +3334,7 @@ This would allow them to move even further down their average cost curve.
 Eventual gains from trade
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL4_26.pdf
 	scale 32
@@ -3473,6 +3344,7 @@ Eventual gains from trade
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -3495,14 +3367,7 @@ The
 \end_inset
 
 infant industry
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  argument is a valid case for 
@@ -3521,17 +3386,10 @@ Greater gains both for home and the rest of world to trade liberalization
 \end_inset
 
 mature.
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
- 
+
 \end_layout
 
 \end_deeper
@@ -3570,12 +3428,10 @@ How do we know when an economy has a cost advantage?
 Conclusion
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 What have covered today: 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Increasing returns and firm heterogeneity 
 \end_layout
@@ -3621,14 +3477,7 @@ Generates efficiency gains from trade due to increasing returns to scale.
 \end_inset
 
 Lock-in
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  made lead to inefficiencies, which trade barriers may help alleviate.
@@ -3637,5 +3486,12 @@ status collapsed
 
 \end_deeper
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
