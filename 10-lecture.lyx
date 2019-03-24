@@ -191,13 +191,12 @@ Outline for Today
 \end_layout
 
 \begin_layout Itemize
-Finish monopolistic competition model with homogeneous firms 
+Review monopolistic competition model with homogeneous firms 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Implications of the model with trade.
- 
+Implications of the model with trade
 \end_layout
 
 \begin_deeper
@@ -206,28 +205,18 @@ Implications of the model with trade.
 \end_inset
 
 Pro-competitive
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
- gains from trade.
- 
+ gains from trade
 \end_layout
 
 \begin_layout Itemize
-Gains from variety.
- 
+Gains from variety
 \end_layout
 
 \begin_layout Itemize
-Efficiency gains.
- 
+Efficiency gains
 \end_layout
 
 \end_deeper
@@ -238,19 +227,24 @@ Monopolistic competition with heterogeneous firms
 
 \begin_deeper
 \begin_layout Itemize
-New result: Allocative gains from trade.
- 
+New result: Allocative gains from trade
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Trade integration tends to force less productive firms out the market.
- 
+Trade integration tends to force less productive firms out the market
 \end_layout
 
 \end_deeper
 \end_deeper
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Monopolistic Competition with Homogeneous Firms
 \end_layout
@@ -268,27 +262,17 @@ Set up
 Review of last class
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-Last class we walked through the solving the monopolistic competition model.
- 
+\begin_layout Itemize
+Last class we walked through the solving the monopolistic competition model
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Model has three 
 \begin_inset Quotes eld
 \end_inset
 
 key
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  unknowns: 
@@ -309,14 +293,7 @@ The
 \end_inset
 
 average cost curve
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
 : 
@@ -332,14 +309,7 @@ The
 \end_inset
 
 price curve
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  
@@ -358,8 +328,7 @@ Free entry and exit (zero profit condition):
 \end_layout
 
 \end_deeper
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 Intersection of average cost curve and price curve determines equilibrium
  
 \begin_inset Formula $n^{*}$
@@ -368,6 +337,7 @@ Intersection of average cost curve and price curve determines equilibrium
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -384,8 +354,7 @@ Intersection of average cost curve and price curve determines equilibrium
 Equilibrium
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL2_7.pdf
 	scale 30
@@ -395,7 +364,7 @@ Equilibrium
 
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 
 \size scriptsize
 Or analytically: 
@@ -404,6 +373,14 @@ Or analytically:
 n^{*}=\left(\frac{S}{Fb}\right)^{1/2},\qquad p^{*}=c+\left(\frac{F}{bS}\right)^{1/2}
 \]
 
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
 \end_inset
 
 
@@ -422,12 +399,10 @@ Monopolistic Competition and Trade
 Monopolistic Competition and Trade
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 Trade can be seen as an increase in market size (Krugman 1979) 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Suppose 
 \begin_inset Formula $S_{1}$
@@ -443,7 +418,7 @@ Suppose
 
 \begin_deeper
 \begin_layout Itemize
-Total market size for free trade equilibrium = 
+Total market size in a free trade equilibrium is 
 \begin_inset Formula $S_{1}+S_{2}$
 \end_inset
 
@@ -504,8 +479,7 @@ rotates
 Monopolistic Competition and Trade
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL2_8.pdf
 	scale 32
@@ -515,6 +489,7 @@ Monopolistic Competition and Trade
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -532,39 +507,31 @@ Gains from trade with monopolistic competition
 \end_layout
 
 \begin_layout Itemize
-When two countries open up to trade, consumers now get to purchase more
- varieties than in the autarky equilibrium.
- 
+The results under free trade are
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
+Consumers now get more varieties than in autarky equilibrium (
 \begin_inset Formula $\uparrow n$
 \end_inset
 
-: Consumers gain from more varieties/firms.
- 
+ )
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
-Because under free trade each firm produces at a larger scale, it can exploit
- economies of scale further, cutting costs.
- 
+Firms produces at a larger scale thereby further exploiting economies of
+ scale further
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Recall 
+With homogeneous firms, each firm produces 
 \begin_inset Formula $q=\frac{S}{n}$
 \end_inset
 
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-While both 
+ .
+ While both 
 \begin_inset Formula $S$
 \end_inset
 
@@ -580,15 +547,21 @@ While both
 \end_layout
 
 \end_deeper
-\end_deeper
 \begin_layout Itemize
-Consumer gain from lower prices.
- 
+Consumer gain from lower prices (
+\begin_inset Quotes eld
+\end_inset
+
+Pro-competitive
+\begin_inset Quotes erd
+\end_inset
+
+ gains from trade)
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Recall that markups are given by: 
+Markup (part of price above variable cost): 
 \begin_inset Formula $\mu=\frac{1}{bn}$
 \end_inset
 
@@ -603,26 +576,7 @@ Recall that markups are given by:
  
 \end_layout
 
-\begin_layout Itemize
-So called 
-\begin_inset Quotes eld
-\end_inset
-
-Pro-competitive
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
- gains from trade.
- 
-\end_layout
-
+\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Standard
@@ -641,47 +595,186 @@ status collapsed
 Market size, trade integration, and competition
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-We have just considered opening up to trade as an increase in market size,
- and showed that this increases the number of firms selling to a 
-\emph on
-particular country
-\emph default
- in equilibrium.
- 
+\begin_layout Itemize
+Are there really more goods available under free trade?
+\end_layout
+
+\begin_layout Itemize
+Under autarky, there were 
+\begin_inset Formula $2n^{A}$
+\end_inset
+
+ varieties
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Note that there will generally be more firms operating 
+\begin_inset Formula $n^{A}$
+\end_inset
+
+ is the number of varieties available in a single country
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Defining 
+\begin_inset Formula $n^{T}$
+\end_inset
+
+ as the number of varieties available under free trade, is 
+\begin_inset Formula $n^{T}>n^{A}$
+\end_inset
+
+?
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Market size, trade integration, and competition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Before integration, there will generally be more firms operating 
 \emph on
 across
 \emph default
- the two countries before integration.
- 
+ the two countries
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
+Inefficient firms protected from foreign competition (e.g.
+ North Korea's car manufacturers)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
 While varieties available to each consumer increases, increased competition
- causes some firms to exit the market.
- 
+ causes some firms to exit the market
 \end_layout
 
 \begin_layout Itemize
-We tend to see effects of this sort in practice: 
+We tend to see this effect in practice: 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Following NAFTA, General Motors cut in half the number of car models produced
- in Canada.
- 
+ in Canada
 \end_layout
 
 \end_deeper
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Example: Gains from variety vs.
+ world loses in variety
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In autarky, 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+U.S.
+ produces
+\series default
+: Ford Pintos, Chevrolet Suburbans 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Germany produces
+\series default
+: Volkswagen Rabbits, BMWs 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Under free trade,
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+U.S.
+ produces
+\series default
+: 
+\strikeout on
+Ford Pintos
+\strikeout default
+, Chevrolet Suburbans
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Germany produces
+\series default
+: Volkswagen Rabbits, BMWs 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Both the U.S.
+ and Germany enjoy gains from variety (
+\begin_inset Formula $2\rightarrow3$
+\end_inset
+
+ car varieties), even though world variety falls (
+\begin_inset Formula $4\rightarrow3$
+\end_inset
+
+).
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -699,12 +792,10 @@ Following NAFTA, General Motors cut in half the number of car models produced
 Exit-Effects Following Trade LIberalization
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-Consider two completely identical countries: 
+\begin_layout Itemize
+Consider two completely identical countries
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Autarky number of firms in each country: 
 \end_layout
@@ -764,8 +855,7 @@ n^{T}=\left(\frac{2S}{Fb}\right)^{1/2}=\sqrt{2}\left(\frac{S}{Fb}\right)^{1/2}<2
 \begin_layout Itemize
 
 \size normal
-Clearly some firms will have to exit the market following trade-liberalization!
- 
+Some firms have to exit the market following trade-liberalization! 
 \end_layout
 
 \begin_deeper
@@ -779,167 +869,6 @@ However, since
 , there are still variety gains from trade, 
 \emph on
 even though countries are identical
-\emph default
- 
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-
-\end_layout
-
-\begin_deeper
-\begin_layout FrameTitle
-Example: Gains from variety vs.
- world loses in variety
-\end_layout
-
-\end_deeper
-\begin_layout Frame
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Itemize
-
-\size footnotesize
-In Autarky: 
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Itemize
-
-\size footnotesize
-U.S.
- produces: 
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Itemize
-
-\size footnotesize
-Ford Pintos 
-\end_layout
-
-\begin_layout Itemize
-
-\size footnotesize
-Chevrolet Suburbans 
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-
-\size footnotesize
-Germany produces: 
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Itemize
-
-\size footnotesize
-Volkswagen Rabbits 
-\end_layout
-
-\begin_layout Itemize
-
-\size footnotesize
-BMWs 
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-
-\size footnotesize
-With Trade: 
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Itemize
-
-\size footnotesize
-U.S.
- produces: 
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Itemize
-
-\size footnotesize
-Chevrolet Suburbans 
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-
-\size footnotesize
-Germany produces: 
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Itemize
-
-\size footnotesize
-Volkswagen Rabbits 
-\end_layout
-
-\begin_layout Itemize
-
-\size footnotesize
-BMWs 
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-
-\size footnotesize
-Both the U.S.
- and Germany enjoy gains from variety (
-\begin_inset Formula $2\rightarrow3$
-\end_inset
-
- car varieties), even though world variety falls (
-\begin_inset Formula $4\rightarrow3$
-\end_inset
-
-).
 \end_layout
 
 \end_deeper
@@ -960,8 +889,7 @@ Both the U.S.
 Exit-Effects Following Trade Liberalization
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 While some firms will exit the market following trade integration, model
  makes no predictions as to 
 \emph on
@@ -971,7 +899,6 @@ who
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Empirical literature has generally found that 
 \emph on
@@ -992,6 +919,17 @@ firm heterogeneity
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
 \begin_layout Section
 Monopolistic Competition With Firm Heterogeneity
 \end_layout
