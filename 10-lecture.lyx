@@ -926,10 +926,6 @@ firm heterogeneity
 
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Section
 Monopolistic Competition With Firm Heterogeneity
 \end_layout
@@ -939,47 +935,38 @@ Set up
 \end_layout
 
 \begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 
 \end_layout
-
-\begin_deeper
-\begin_layout FrameTitle
-Monopolistic Competition with Heterogeneous Firms: Set-up
-\end_layout
-
-\end_deeper
-\begin_layout Frame
-The demand system for firm 
-\begin_inset Formula $j$
-\end_inset
-
- is the heterogeneous firm model is identical to the homogeneous firm model:
-\end_layout
-
-\begin_layout Frame
-\begin_inset Formula 
-\[
-q_{j}(p_{j})=S\left[\frac{1}{n}-b\left(p_{j}-\bar{p}\right)\right]
-\]
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Frame
-The only difference is the total cost function, which now differs from firm-to-f
-irm
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-To simplify for now, assume that there are no fixed costs of production
- (constant returns to scale) 
-\begin_inset Formula 
-\[
-TC_{j}=c_{j}q_{j}
-\]
+\begin_layout Plain Layout
+
+{
+\backslash
+LARGE 
+\backslash
+textbf{Monopolistic Competition with Firm Heterogeneity}}
+\end_layout
 
 \end_inset
 
@@ -987,14 +974,6 @@ TC_{j}=c_{j}q_{j}
 \end_layout
 
 \end_deeper
-\begin_layout Frame
-
-\emph on
-Marginal costs
-\emph default
- differ across firms
-\end_layout
-
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -1008,34 +987,135 @@ Marginal costs
 
 \begin_deeper
 \begin_layout FrameTitle
-Firm-level pricing
+Monopolistic Competition with Heterogeneous Firms: Set-up
+\end_layout
+
+\begin_layout Itemize
+The demand system for firm 
+\begin_inset Formula $j$
+\end_inset
+
+ is the heterogeneous firm model is identical to the homogeneous firm model:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+q_{j}(p_{j})=S\left[\frac{1}{n}-b\left(p_{j}-\bar{p}\right)\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The only difference is the total cost function, which now differs from firm-to-f
+irm
+\end_layout
+
+\begin_layout Itemize
+Assume—for now—that there are no fixed costs of production (scale economies?)
+ 
+\series bold
+
+\begin_inset Formula 
+\[
+\mathbf{TC_{j}=c_{j}q_{j}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Firms are different due to their marginal cost
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We will interpret this as firms being 
+\emph on
+more productive
+\emph default
+ if their 
+\emph on
+marginal costs are lower
 \end_layout
 
 \end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Frame
-Since different firms have different costs, cannot assume symmetric pricing.
- 
+
 \end_layout
 
 \begin_deeper
+\begin_layout FrameTitle
+Firm-Level Pricing
+\end_layout
+
+\begin_layout Itemize
+Since different firms have different costs, cannot assume symmetric pricing
+ (
+\begin_inset Formula $p_{j}=p$
+\end_inset
+
+ for all 
+\begin_inset Formula $j$
+\end_inset
+
+ no longer holds in equilibrium)
+\end_layout
+
 \begin_layout Itemize
 Each firm still prices according to the first-order condition: 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
 \begin_inset Formula $MR_{j}=MC_{j}$
 \end_inset
 
  
 \end_layout
 
-\end_deeper
+\begin_deeper
 \begin_layout Itemize
-Given the demand function described in the last slide, this becomes: 
+Pretty much a fundamental assumption across all economic models
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Firm-Level Pricing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Given the demand function described in the last slide:
 \begin_inset Formula 
 \[
-p_{j}-\frac{q_{j}}{bS}=c_{j}
+MR_{j}=MC_{j}\ \ \Longleftrightarrow\ \ p_{j}-\frac{q_{j}}{bS}=c_{j}
 \]
 
 \end_inset
@@ -1053,23 +1133,30 @@ This first order condition written in this way is not very informative,
 \begin_inset Formula $p_{j}$
 \end_inset
 
- are endogenous.
- 
+ are endogenous
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
-Substitute in 
+Substitute in the demand function, 
 \begin_inset Formula $q_{j}(p_{j})$
 \end_inset
 
- and solve for 
+ 
+\begin_inset Formula 
+\[
+q_{j}(p_{j})=S\left[\frac{1}{n}-b\left(p_{j}-\bar{p}\right)\right]
+\]
+
+\end_inset
+
+and solve in terms of 
 \begin_inset Formula $p_{j}$
 \end_inset
 
  
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 \begin_inset Formula 
 \[
@@ -1095,6 +1182,60 @@ Firms with higher costs charge higher prices!
 \end_layout
 
 \begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Firm-Level Pricing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p^{*}(c_{j})=\frac{1}{2}\left(\frac{1}{bn}+\bar{p}+c_{j}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+What is this?
+\end_layout
+
+\begin_layout Itemize
+The price a firm with marginal cost 
+\begin_inset Formula $c_{j}$
+\end_inset
+
+ will charge if they want to maximize profits (
+\begin_inset Formula $MR_{j}=MC_{j}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+Implication: some firms will be so inefficient that the best price they
+ can charge will be too high for consumers
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
 
 \end_layout
 
@@ -1103,17 +1244,30 @@ Firms with higher costs charge higher prices!
 Pricing, Quantity, and Profits by Costs
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename figures/scott-figures/SL3_1.pdf
-	scale 32
+	scale 34
 
 \end_inset
 
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Average cost in this case is just c, since there are no fixed cost
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -1131,34 +1285,22 @@ Choke Prices, Profits and Marginal Cost
 \end_layout
 
 \begin_layout Itemize
-Note that if a producer charges any price above the inverse demand intercept
- (
+If a producer charges any price above the inverse demand intercept (
 \begin_inset Formula $\frac{1}{bn}+\bar{p}$
 \end_inset
 
 ), 
 \emph on
-no consumers will buy the product
-\emph default
-.
- 
+no consumers will buy
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
-This price is called the 
+We'll call this price the 
 \begin_inset Quotes eld
 \end_inset
 
 choke price
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  
@@ -1169,25 +1311,41 @@ Due to choke price, impossible for producers with
 \begin_inset Formula $c>\frac{1}{bn}+\bar{p}$
 \end_inset
 
- to make profits.
- 
+ to make profits causing them to exit the market
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Choke Prices, Profits and Marginal Cost
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-These sellers will exit the market.
- 
+In general, profits will be decreasing in marginal costs
 \end_layout
 
-\end_deeper
-\end_deeper
 \begin_layout Itemize
-In general, profits will be decreasing in marginal costs.
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
+Profit: 
 \begin_inset Formula $\pi(c_{j})=(p^{*}(c_{j})-c_{j})q^{*}(c_{j})$
 \end_inset
 
@@ -1195,16 +1353,14 @@ In general, profits will be decreasing in marginal costs.
 \end_layout
 
 \begin_layout Itemize
-Using the fact that 
+Because 
 \begin_inset Formula $p^{*}(c_{j})=\frac{1}{2}\left(\frac{1}{bn}+\bar{p}+c_{j}\right)$
 \end_inset
 
-, easy to show: 
+ in firm profit maximization equilibrium, profit function is 
 \end_layout
 
-\end_deeper
-\end_deeper
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Formula 
 \[
 \pi(c_{j})=\frac{Sb}{4}\left(\frac{1}{bn}+\bar{p}-c_{j}\right)^{2}
@@ -1215,7 +1371,6 @@ Using the fact that
 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Notice that profits are increasing with market size, but fall as competition
  rises (
@@ -1230,6 +1385,13 @@ Notice that profits are increasing with market size, but fall as competition
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Monopolistic Competition and Trade
 \end_layout
@@ -1243,60 +1405,76 @@ Monopolistic Competition and Trade
 Impact of Trade: Larger market with more competition
 \end_layout
 
-\end_deeper
-\begin_layout Frame
-To gain some intuition, let's think of trade integration as an increase
- in market size 
+\begin_layout Itemize
+Let's now examine what happens in a free trade equilibrium
+\end_layout
+
+\begin_layout Itemize
+Think of trade integration as an increase in market size 
 \begin_inset Formula $S$
 \end_inset
 
- as well as an increase in 
+ and an increase in 
 \begin_inset Formula $n$
 \end_inset
 
  (similar to homogeneous firm model) 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Think of this as a 
 \begin_inset Quotes eld
 \end_inset
 
 really
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
- short-run model, where firms are not allowed to exit yet, so 
+ short-run model, where firms are not allowed to exit yet
+\end_layout
+
+\begin_layout Itemize
+Therefore, 
 \begin_inset Formula $n$
 \end_inset
 
- has to increase because home consumers can buy foreign varieties of a product
- as well.
- 
+ increases because home consumers can both domestic and foreign varieties
 \end_layout
 
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Impact of Trade: Larger market with more competition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 We shall show in a moment that trade integration (
 \begin_inset Formula $\uparrow S$
 \end_inset
 
-) will actually imply that 
+) will imply that 
 \begin_inset Formula $\frac{1}{bn}+\bar{p}$
 \end_inset
 
- has to fall.
- 
+ —the choke price—will fall
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Requires that we pin down the endogenous variables 
 \begin_inset Formula $\{n,\bar{p}\}$
@@ -1306,21 +1484,21 @@ Requires that we pin down the endogenous variables
 \emph on
 expected
 \emph default
- zero profit condition.
- 
+ zero profit condition
 \end_layout
 
 \begin_layout Itemize
-A bit complicated to show this result formally, so let's first focus understandi
-ng the 
+A bit complicated to show this result formally
+\end_layout
+
+\begin_layout Itemize
+Focus on understanding the 
 \emph on
 intuition
 \emph default
- for what trade integration does to the Home economy.
- 
+ for what trade integration does to the Home economy
 \end_layout
 
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -1338,8 +1516,7 @@ intuition
 The impact of trade on heterogeneous firms
 \end_layout
 
-\end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 Broadly speaking, there are two opposing forces at work here: 
 \end_layout
 
@@ -1367,16 +1544,14 @@ Broadly speaking, there are two opposing forces at work here:
 \end_layout
 
 \end_deeper
-\begin_layout Frame
+\begin_layout Itemize
 The interaction between these forces creates 
 \emph on
 winners and losers
 \emph default
- due to trade integration.
- 
+ due to trade integration
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Really productive firms (low 
 \begin_inset Formula $c$
@@ -1387,7 +1562,7 @@ Really productive firms (low
 \begin_inset Formula $c$
 \end_inset
 
-) 
+)
 \end_layout
 
 \end_deeper
