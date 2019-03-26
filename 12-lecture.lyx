@@ -1,0 +1,1826 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+%Beamer theme and color theme
+\usetheme{default}
+\usecolortheme{default}
+
+\setbeamercolor{normal text}{bg=MyGreen}
+\definecolor{MyGreen}{RGB}{230, 242, 230}
+
+\setbeamertemplate{mini frames}{}
+
+% set color of elements (e.g. bullet points, theorems, definitions, etc)
+%\setbeamercolor{structure}{fg=red!60!white}
+
+% header showing only current section and subsection
+% \useoutertheme{infolines}
+
+\usepackage{amsmath,amssymb}
+
+%Expectation symbol
+\DeclareMathOperator{\E}{\mathbb{E}}
+
+\usepackage{booktabs,caption,fixltx2e}
+\usepackage[flushleft]{threeparttable}
+\usepackage{indentfirst}
+\usepackage{amsfonts}
+\usepackage{changepage}
+
+%Set slide number
+\setbeamertemplate{footline}[frame number]
+
+%remove navigation
+\beamertemplatenavigationsymbolsempty
+
+% Bullets and items
+\setbeamertemplate{itemize item}{\tiny\raise1.50pt\hbox{$\blacktriangleright$}}
+\setbeamertemplate{itemize subitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
+\setbeamertemplate{itemize subsubitem}{\Huge\raise-2.4pt\hbox{\donotcoloroutermaths$\cdot$}}
+
+
+\definecolor{blue}{RGB}{0,0,120}
+
+\usepackage{hyperref}
+\hypersetup{urlcolor=magenta, colorlinks=true}
+
+\usepackage{array}
+
+\usepackage[section]{placeins}
+
+\usepackage{graphicx}
+
+\date{}
+
+% Fix undefined control sequence bug at \@@magyar@captionfix (see log)
+% Reference: https://tex.stackexchange.com/questions/426088/texlive-pretest-2018-beamer-and-subfig-collide
+\let\@@magyar@captionfix\relax
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+ECO364H1S: International Trade Theory
+\end_layout
+
+\begin_layout Subtitle
+Lecture 12
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotemark
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Institute
+University of Toronto, Department of Economics
+\end_layout
+
+\begin_layout Author
+Palermo Penano
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotetext[1]{
+\backslash
+tiny Revised slides by Scott Orr}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+External Economies of Scale (KOM Ch.
+ 7)
+\end_layout
+
+\begin_layout Subsection
+Introduction
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Outline for Today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Course evaluation
+\end_layout
+
+\begin_layout Itemize
+External economies of scale
+\end_layout
+
+\begin_layout Itemize
+Course wrap up
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Review of entire course
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Final exam information
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Day, Time, Location
+\end_layout
+
+\begin_layout Itemize
+Coverage
+\end_layout
+
+\begin_layout Itemize
+Format
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Motivation: Industrial Clusters
+\end_layout
+
+\begin_layout Itemize
+Many industries tend to concentrate in a single location: 
+\end_layout
+
+\begin_layout Itemize
+Some well-known examples: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Silicon Valley 
+\end_layout
+
+\begin_layout Itemize
+Hollywood 
+\end_layout
+
+\begin_layout Itemize
+Investment banking in New York 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Why does this happen? 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+External Economies of Scale
+\end_layout
+
+\begin_layout Itemize
+Alfred Marshall argued that industrial clusters tend to occur in industries
+ characterized by 
+\emph on
+external
+\emph default
+ economies of scale.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+External economies of scale
+\series default
+: Average costs fall as the output of 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+underline{the industry}
+\end_layout
+
+\end_inset
+
+ increases.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Basic Idea: If being located near other firms generates 
+\begin_inset Quotes eld
+\end_inset
+
+positive spillovers
+\begin_inset Quotes erd
+\end_inset
+
+ average cost may fall as more and more firms enter the same area.
+ 
+\end_layout
+
+\begin_layout Itemize
+Key difference relative to internal economies of scale: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each firm takes industry scale (or industry average costs) as 
+\emph on
+exogenous
+\emph default
+.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Sources of External Economies of Scale
+\end_layout
+
+\begin_layout Standard
+What generates external economies of scale? 
+\begin_inset VSpace 3mm
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+Specialized suppliers 
+\end_layout
+
+\begin_layout Enumerate
+Labour market pooling 
+\end_layout
+
+\begin_layout Enumerate
+Knowledge spillovers 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 5mm
+\end_inset
+
+ Let's consider each of these in turn.
+\begin_inset VSpace 3mm
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Specialized Suppliers
+\end_layout
+
+\begin_layout Itemize
+Many industries require require inputs that are highly specialized inputs.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+E.g.
+ semiconductors and computer chips.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Problem: Firms may not wish to specialize in producing highly specialized
+ inputs if market size is too small.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Could always produce inputs internally, but loss in efficiency 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Solution: If many 
+\begin_inset Quotes eld
+\end_inset
+
+downstream
+\begin_inset Quotes erd
+\end_inset
+
+ firms locate in the same area, generates a large enough market size for
+ independent input suppliers to be viable (the 
+\begin_inset Quotes eld
+\end_inset
+
+upstream
+\begin_inset Quotes erd
+\end_inset
+
+ firms).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Note gains due to specialized suppliers will tend to generate 
+\begin_inset Quotes eld
+\end_inset
+
+path dependence.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Once some input suppliers start to locate in the same area (which could
+ be anywhere!), very little incentive for downstream firms to locate anywhere
+ else! 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Specialized Suppliers
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+...engineers left established semiconductor companies to start firms that manufactu
+red capitals goods such as diffusion ovens, step-and-repeat cameras, and
+ testers, and materials and components such as photomasks, testing jigs,
+ and specialized chemicals....
+ This independent equipment sector promoted the continuing formation of
+ semiconductor firms by freeing individual producers from the expense of
+ developing capital equipment internally and by spreading the costs of developme
+nt.
+ It also reinforced the tendency towards industrial localization, as most
+ the specialized inputs were not available elsewhere in the country.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 3mm
+\end_inset
+
+(On specialized suppliers in Silicon Valley, quoted in KOM Ch.
+ 7)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Labor Market Pooling
+\end_layout
+
+\begin_layout Itemize
+Similar to specialized suppliers, except applied to a particular factor,
+ 
+\emph on
+labour
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Some jobs require highly specialized skills.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Film animation or special effects production.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Workers with highly specialized skills are going to want to locate in regions
+ with lots of potential employers.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Easier to find/change jobs.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Firms also want to locate in regions with lots of potential employees 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Less likely to have to deal with labour shortages.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+These gains are very important when demand is highly uncertain.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Labor Market Pooling: Example
+\end_layout
+
+\begin_layout Itemize
+Consider a world with two film studios and 200 animators.
+ 
+\end_layout
+
+\begin_layout Itemize
+Both studios face 
+\emph on
+idiosyncratic
+\emph default
+ demand uncertainty: 
+\end_layout
+
+\begin_layout Itemize
+If studio-level demand is high, will want hire 150 workers.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If demand is low, will only want to hire 50 workers.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Let's consider what happens if the studios locate in different cities, and
+ when they locate in the same city 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Labour Market Pooling: Example
+\end_layout
+
+\begin_layout Standard
+Suppose both studios locate in different cities
+\end_layout
+
+\begin_layout Itemize
+Suppose 100 animators go to each city
+\end_layout
+
+\begin_layout Itemize
+If demand is high for either firm, there is a labour shortage! 
+\end_layout
+
+\begin_layout Itemize
+If demand is low for either firm, some animators are unemployed! 
+\end_layout
+
+\begin_layout Standard
+At least one side of the market is hurt no matter what! 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Labour Market Pooling: Example
+\end_layout
+
+\begin_layout Standard
+Suppose both studios locate in the same cities.
+ 
+\end_layout
+
+\begin_layout Itemize
+All animators are now located in the same place as well.
+ 
+\end_layout
+
+\begin_layout Itemize
+There will only be labour shortage if demand is high for 
+\emph on
+both
+\emph default
+ firms! 
+\end_layout
+
+\begin_layout Itemize
+Similarly, there will only be unemployment if demand if low for both firms.
+ 
+\end_layout
+
+\begin_layout Itemize
+Whenever one firm has high demand, and the other has low demand, the market
+ clears.
+ 
+\end_layout
+
+\begin_layout Standard
+This environment is much less risky.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Labour Market Pooling: Silicon Valley
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+...it wasn't a big catastrophe if you quit your job on Friday and have another
+ job on Monday...
+ You didn't necessarily have to tell your wife.
+ You just drove off in another direction on Monday morning.
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ (Silicon Valley engineer)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Knowledge Spillovers
+\end_layout
+
+\begin_layout Standard
+To remain competitive highly innovative industries, it is crucial that one
+ remain near the 
+\begin_inset Quotes eld
+\end_inset
+
+technology frontier.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+People like to talk about what they do.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Informal exchange of ideas by employees after-hours may help keep one's
+ firm up to date.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Every year there was some place, the Wagon Wheel, Chez Yvonne, Rickey's,
+ the Roundhouse, where members of this esoteric fraternity, the young men
+ and women of the semiconductor industry, would head after work to have
+ a drink and gossip and trade war stories about phase-jitters, phantom circuits,
+ bubble memories, pulse trains, bounceless contracts, burst modes, leapfrog
+ tests, p-n junctions, sleeping sickness modes, slow-death episodes, RAMs,
+ NAKs, MOSes, PCMs, PROM blowers, PROM blasters, and teramagnitudes...
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ (Tom Wolfe on early Silicon Valley)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Model
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+External Economies of Scale: Model
+\end_layout
+
+\begin_layout Standard
+We are going to consider a perfectly competitive model of external economies
+ of scale.
+ 
+\end_layout
+
+\begin_layout Itemize
+Partly for historical reasons 
+\end_layout
+
+\begin_layout Itemize
+External economies were first developed in this context 
+\end_layout
+
+\begin_layout Itemize
+Partly for simplicity 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+One 
+\begin_inset Quotes eld
+\end_inset
+
+type
+\begin_inset Quotes erd
+\end_inset
+
+ of good, one price 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ much easier to solve 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Basic environment: 
+\end_layout
+
+\begin_layout Itemize
+Large number of perfectly competitive and identical firms, each of whom
+ supplies a negligible portion of industry output.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each firm takes industry output as given.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Average costs fall with industry output.
+ 
+\end_layout
+
+\begin_layout Itemize
+The economy is in a long-run equilibrium, so 
+\begin_inset Formula $P=AC$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+External Economies of Scale Equilibrium
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename figures/scott-figures/SL4_17.pdf
+	scale 32
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Trade and External Economies of Scale
+\end_layout
+
+\begin_layout Standard
+What happens in an environment with external economies and trade? 
+\end_layout
+
+\begin_layout Itemize
+Suppose Japan (JPN) and the United States (US) have the 
+\emph on
+exact same
+\emph default
+ inverse demand function for microchips, but different average cost curves.
+ 
+\end_layout
+
+\begin_layout Itemize
+Let's suppose JPN has a cost advantage in microchip production 
+\begin_inset Formula $(AC_{JPN}<AC_{US})$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+External returns to scale are 
+\begin_inset Quotes eld
+\end_inset
+
+local
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ in the sense that average costs fall with industry output 
+\emph on
+within a country.
+
+\emph default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Higher output in Japan does not help the US, and 
+\emph on
+vice versa
+\emph default
+.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Autarky Equilibria
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename figures/scott-figures/SL4_18.pdf
+	scale 32
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Opening up to trade with external economies of scale
+\end_layout
+
+\begin_layout Itemize
+Since 
+\begin_inset Formula $(P_{JPN}^{A}<P_{US}^{A})$
+\end_inset
+
+, we should expect Japan to export microchips with free trade.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+With external economies, Japan takes over the whole market.
+ 
+\end_layout
+
+\begin_layout Itemize
+Moreover, the new world price will lie 
+\emph on
+below
+\emph default
+ both Japan and the US autarky price! 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Different prediction from standard comparative advantage models developed
+ at the beginning of the course, where we would expect 
+\begin_inset Formula $P_{JPN}^{A}<P_{world}^{T}<P_{US}^{A}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Free Trade Equilibrium
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename figures/scott-figures/SL4_19.pdf
+	scale 32
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Gains from trade with external economies
+\end_layout
+
+\begin_layout Itemize
+Efficiency gains, 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Increased Market Size 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Cost savings due to (industry level) economies of scale.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Consumer gains 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Price of microchips has fallen in both countries! 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Gains from trade look pretty good here! 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Gains from trade with external economies
+\end_layout
+
+\begin_layout Standard
+...However 
+\end_layout
+
+\begin_layout Itemize
+Models with external economies of scale 
+\emph on
+do not
+\emph default
+ always imply that the right country will take over the industry! 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Due to the possibility of technological 
+\begin_inset Quotes eld
+\end_inset
+
+lock-in
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+, a non-comparative advantage country could take over the entire market!
+ 
+\end_layout
+
+\begin_layout Itemize
+To see this, suppose that the US had a much larger microchip market than
+ Japan in Autarky.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Autarky: Small Japanese market, large US market
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename figures/scott-figures/SL4_20.pdf
+	scale 32
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Trade: Small Japanese market, large US market
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename figures/scott-figures/SL4_21.pdf
+	scale 32
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Trade: Small Japanese market, large US market
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename figures/scott-figures/SL4_22.pdf
+	scale 32
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Trade: Small Japanese market, large US market
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename figures/scott-figures/SL4_23.pdf
+	scale 32
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+\begin_inset Quotes eld
+\end_inset
+
+Lock In
+\begin_inset Quotes erd
+\end_inset
+
+ and the gains from trade
+\end_layout
+
+\begin_layout Itemize
+Since U.S.
+ already had a larger microchip before opening up to trade, they take the
+ whole world market.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+U.S.
+ producers were able to price below Japanese producers average costs 
+\end_layout
+
+\begin_layout Itemize
+Japanese producers will not price that low since that will earn them negative
+ profits.
+ 
+\end_layout
+
+\begin_layout Itemize
+Nobody will buy from Japan if they price at their current (autarky) average
+ cost.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Industry output in Japan goes to zero, even though they 
+\begin_inset Quotes eld
+\end_inset
+
+should
+\begin_inset Quotes erd
+\end_inset
+
+ take over the entire market! 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+We have smaller gains from trade then we 
+\begin_inset Quotes eld
+\end_inset
+
+could
+\begin_inset Quotes erd
+\end_inset
+
+ have.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Although there are still gains from trade
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Infant Industry Argument
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+\begin_inset Quotes eld
+\end_inset
+
+Infant industry
+\begin_inset Quotes erd
+\end_inset
+
+ argument: A case for trade protection?
+\end_layout
+
+\begin_layout Itemize
+Arguments based on the inefficiency of 
+\begin_inset Quotes eld
+\end_inset
+
+lock-in
+\begin_inset Quotes erd
+\end_inset
+
+ are sometimes be used to justify limiting free trade.
+ 
+\end_layout
+
+\begin_layout Itemize
+Trade protection may be warranted if: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The low-cost country discovered the technology relatively late 
+\end_layout
+
+\begin_layout Itemize
+The low-cost country has sufficiently large demand for the industry.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Let's consider a world where the U.S.
+ discovered microchips first.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Japan has yet to build a microchip industry, but has a natural cost advantage.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Trade equilibrium with Japan as a 
+\begin_inset Quotes eld
+\end_inset
+
+new entrant
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename figures/scott-figures/SL4_24.pdf
+	scale 32
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+\begin_inset Quotes eld
+\end_inset
+
+Lock-in
+\begin_inset Quotes erd
+\end_inset
+
+ and new entrants
+\end_layout
+
+\begin_layout Itemize
+Since Japan currently does not have a developed microchip industry, their
+ US competitors can price below their (current) average costs.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If Japan can shelter this industry from foreign competition, this may allow
+ them to start moving down their average cost curve.
+ 
+\end_layout
+
+\begin_layout Itemize
+Interestingly, Japan would be better of with autarky in this case.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Gains from autarky?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename figures/scott-figures/SL4_25.pdf
+	scale 32
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Eventual gains from trade?
+\end_layout
+
+\begin_layout Itemize
+Japan is better of with autarky, compared to the free-trade equilibrium.
+ 
+\end_layout
+
+\begin_layout Itemize
+Note, however, that once they reached an autarky equilibrium, there are
+ now gains from trade! 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Japan would now be able to out compete U.S.
+ firms, and take over the entire market.
+ 
+\end_layout
+
+\begin_layout Itemize
+This would allow them to move even further down their average cost curve.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Eventual gains from trade
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename figures/scott-figures/SL4_26.pdf
+	scale 32
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Evaluating the Infant Industry Argument
+\end_layout
+
+\begin_layout Itemize
+The 
+\begin_inset Quotes eld
+\end_inset
+
+infant industry
+\begin_inset Quotes erd
+\end_inset
+
+ argument is a valid case for 
+\emph on
+temporary
+\emph default
+ trade protection.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Greater gains both for home and the rest of world to trade liberalization
+ once the industry is 
+\begin_inset Quotes eld
+\end_inset
+
+mature.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Larger issue is identifying when protection is actually appropriate.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+E.g.
+ Trade protection would not help Japan if the U.S.
+ had a much larger market.
+ 
+\end_layout
+
+\begin_layout Itemize
+How do we know when an economy has a cost advantage? 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameTitle
+Conclusion
+\end_layout
+
+\begin_layout Standard
+What have covered today: 
+\end_layout
+
+\begin_layout Itemize
+Increasing returns and firm heterogeneity 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+More productive firms with self-select into exporting if it is costly.
+ 
+\end_layout
+
+\begin_layout Itemize
+Decreased export costs lead to increased competition, creating allocative
+ gains from trade as high-cost firms exit the domestic market.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Empirics 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Both selection and within firm improvements matter for explaining trade
+ induced productivity growth.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+External returns to scale.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Generates efficiency gains from trade due to increasing returns to scale.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Lock-in
+\begin_inset Quotes erd
+\end_inset
+
+ made lead to inefficiencies, which trade barriers may help alleviate.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
