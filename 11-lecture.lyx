@@ -598,9 +598,7 @@ The addition of fixed costs makes the cutoff marginal cost,
 \begin_inset Formula $c^{*}$
 \end_inset
 
-, lower 
-\series bold
-(!!! WHY NOT)
+, lower
 \end_layout
 
 \begin_deeper
@@ -630,7 +628,7 @@ choke price
 status open
 
 \begin_layout Plain Layout
-New Cost Cut-Off ???
+New Cost Cut-Off
 \end_layout
 
 \end_inset
@@ -664,7 +662,8 @@ The new cut-off
 \end_layout
 
 \begin_layout Itemize
-WHY IS IT TANGENT WITH DEMAND CURVE???
+Tangency between demand curve and average cost curve is where profit it
+ z
 \end_layout
 
 \end_deeper
