@@ -15,8 +15,11 @@
 
 \setbeamertemplate{mini frames}{}
 
+% set color of elements (e.g. bullet points, theorems, definitions, etc)
+%\setbeamercolor{structure}{fg=red!60!white}
+
 % header showing only current section and subsection
-\useoutertheme{infolines}
+% \useoutertheme{infolines}
 
 \usepackage{amsmath,amssymb}
 
@@ -44,12 +47,15 @@
 \definecolor{blue}{RGB}{0,0,120}
 
 \usepackage{hyperref}
+\hypersetup{urlcolor=magenta, colorlinks=true}
 
 \usepackage{array}
 
 \usepackage[section]{placeins}
 
 \usepackage{graphicx}
+
+\date{}
 
 % Fix undefined control sequence bug at \@@magyar@captionfix (see log)
 % Reference: https://tex.stackexchange.com/questions/426088/texlive-pretest-2018-beamer-and-subfig-collide
@@ -133,7 +139,7 @@ ECO364H1S: International Trade Theory
 \end_layout
 
 \begin_layout Subtitle
-Course Summary & Final Exam
+Course Summary & Final Exam Information
 \end_layout
 
 \begin_layout Institute
@@ -169,22 +175,6 @@ status open
 
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Understand everything in the lecture slides
-\end_layout
-
-\begin_layout Itemize
-Make sure you
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-test
-\end_layout
-
-\end_deeper
-\end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
@@ -207,10 +197,6 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-asda
 \end_layout
 
 \begin_layout Standard
@@ -291,7 +277,7 @@ TA Office hours (see syllabus)
 \end_layout
 
 \begin_layout Itemize
-My (online) office hours
+My (online) office hours (Wednesday, 6pm, Slack or Video Conference)
 \end_layout
 
 \begin_layout Itemize
@@ -352,6 +338,65 @@ Most importantly, understand the economic intuition
 \begin_layout Itemize
 When you (eventually) forget the math, the economic intuition will serve
  you long after this course is over!
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Closing
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Closing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Keep in touch.
+ Happy to chat about:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Career (General)
+\end_layout
+
+\begin_layout Itemize
+Grad School
+\end_layout
+
+\begin_layout Itemize
+Data Science Profession
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Contact
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Email: TBA@gmail.com
+\end_layout
+
+\begin_layout Itemize
+LinkedIn: www.linkedin.com/in/pspenano
 \end_layout
 
 \end_deeper
