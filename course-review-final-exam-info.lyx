@@ -163,7 +163,7 @@ Comparative Advantage Models
 status open
 
 \begin_layout Plain Layout
-
+First Half of Course
 \end_layout
 
 \end_inset
@@ -175,6 +175,58 @@ status open
 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Comparative Advantage Models
+\end_layout
+
+\begin_layout Itemize
+Ricardian Model
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Countries differ by technology (unit labour requirements)
+\end_layout
+
+\begin_layout Itemize
+Gains from specialization (no losers)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Heckscher-Ohlin Model
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Countries differ by endowment (labour and capital)
+\end_layout
+
+\begin_layout Itemize
+Allows study of impact of trade on income distribution
+\end_layout
+
+\begin_layout Itemize
+Winners and losers from trade
+\end_layout
+
+\begin_layout Itemize
+Three theorems
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Specific Factors Model
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Same as HO model but some factors are fixed for some industries
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
@@ -191,7 +243,7 @@ Political Economy, Monopolistic Competition, and Scale Economies
 status open
 
 \begin_layout Plain Layout
-
+Second Half of Course
 \end_layout
 
 \end_inset
@@ -199,6 +251,172 @@ status open
 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Two main topics:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Politics and Trade Policy
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Instruments of trade policy (tariffs, quotas, VERs(!!!), export subsitidies)
+\end_layout
+
+\begin_layout Itemize
+Politics: Why implement trade barriers?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Increasing Returns, Imperfect Competition, and Trade
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Monopoly
+\end_layout
+
+\begin_layout Itemize
+Monopolistic Competition
+\end_layout
+
+\begin_layout Itemize
+Monopolistic Competition with Homo- and Heterogenous Firms
+\end_layout
+
+\begin_layout Itemize
+External Economies of Scale
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Politics and Trade Policy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Trade policy and welfare
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tariffs, quotas, VERs and export subsidies hurt small open economies
+\end_layout
+
+\begin_layout Itemize
+Tariffs can benefit large open economies through a terms of trade effect
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Trade policy and politics
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why implement trade barriers?
+\end_layout
+
+\begin_layout Itemize
+Distributional concerns, political incentives, collective action problems,
+ terms of trade incentives, infant industry effects
+\end_layout
+
+\begin_layout Itemize
+Unilateral incentives to introduce tariffs due to a terms-of-trade effect
+ problematic for world welfare
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Creates a role for trade institutions (e.g.
+ WTO)
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Increasing Returns, Imperfect Competition, and Trade
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Main difference from comparative advantage model: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Gains arises from increased scale of production not factor endowments or
+ technological advantage
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+New gains from trade:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Variety, pro-competitive gains, efficiency gains (due to increasing returns
+ to trade)
+\end_layout
+
+\begin_layout Itemize
+Allocative gains from trade (due to exit by low productivity firms and expanded
+ output of highly productive firms)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+External economies and trade inefficiencies
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Technological lock-in
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -351,57 +569,6 @@ When you (eventually) forget the math, the economic intuition will serve
 
 \begin_layout Section
 Closing
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Closing
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Keep in touch.
- Happy to chat about:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Career (General)
-\end_layout
-
-\begin_layout Itemize
-Grad School
-\end_layout
-
-\begin_layout Itemize
-Data Science Profession
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Contact
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Email: TBA@gmail.com
-\end_layout
-
-\begin_layout Itemize
-LinkedIn: www.linkedin.com/in/pspenano
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
 \begin_inset Separator plain
 \end_inset
 
@@ -423,9 +590,19 @@ Closing
 
 \begin_deeper
 \begin_layout Itemize
-Course Evaluation (Quercus)
+Course Evaluation 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Can be done on Quercus
+\end_layout
+
+\begin_layout Itemize
+Your feedback is invaluable to helping me improve the course :)
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Thank you—it has been a pleasure!
 \end_layout
