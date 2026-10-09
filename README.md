@@ -7,3 +7,7 @@ Some contents in the slides are based on course material created by Christian Di
 ## Bug fixes
 * To fix "undefined control sequence" problem due to `\@@magyar@captionfix`, add `\let\@@magyar@captionfix\relax` to LaTeX preamble in Document Settings
 	- Reference: https://tex.stackexchange.com/questions/426088/texlive-pretest-2018-beamer-and-subfig-collide
+
+## License
+
+Original contributions are available under the [MIT License](LICENSE), within the boundaries in [LICENSE_SCOPE.md](LICENSE_SCOPE.md). Third-party code, data, media, and course material retain their own rights; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
